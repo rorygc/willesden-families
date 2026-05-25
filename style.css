@@ -764,6 +764,7 @@ a:hover {
 
 .activity-group-image-wrap,
 .camp-group-icon-wrap {
+  position: relative;
   border-radius: var(--radius-xl);
   overflow: hidden;
   border: 1px solid var(--color-border);
@@ -835,6 +836,28 @@ a:hover {
   object-fit: cover;
 }
 
+.activity-group-icon-badge {
+  position: absolute;
+  top: var(--space-3);
+  left: var(--space-3);
+  z-index: 2;
+  width: 76px;
+  height: 76px;
+  border-radius: var(--radius-full);
+  background: linear-gradient(180deg, var(--color-surface) 0%, var(--color-primary-light) 100%);
+  border: 1px solid var(--color-border);
+  display: grid;
+  place-items: center;
+  box-shadow: var(--shadow-md);
+  color: var(--color-primary);
+  backdrop-filter: blur(8px);
+}
+
+.activity-group-icon-badge svg {
+  display: block;
+  width: 42px;
+  height: 42px;
+}
 #activities-grid,
 #camps-grid {
   display: flex;
@@ -907,6 +930,16 @@ a:hover {
 
   .activity-group-image {
     min-height: 180px;
+  }
+
+  .activity-group-icon-badge {
+    width: 66px;
+    height: 66px;
+  }
+
+  .activity-group-icon-badge svg {
+    width: 36px;
+    height: 36px;
   }
 
   .camp-group-icon {

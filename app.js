@@ -1218,6 +1218,17 @@ const ACTIVITY_TYPE_DESCRIPTIONS = {
   'leisure & sport': 'Bigger all-weather venues with sport, climbing, swimming, or mixed activity.',
   'cinema & theatre': 'Screen and stage outings for rainy days or older children.'
 };
+const ACTIVITY_TYPE_ICONS = {
+  'parks & outdoors': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l3 5h-2l3 4h-2l2 4H8l2-4H8l3-4H9z"/><path d="M12 17v4"/><path d="M5 21h14"/></svg>',
+  'playgroups & toddlers': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="9" width="7" height="7" rx="1.5"/><rect x="13" y="6" width="7" height="7" rx="1.5"/><circle cx="7.5" cy="12.5" r="1"/><circle cx="16.5" cy="9.5" r="1"/><path d="M8 16v2"/><path d="M17 13v3"/><path d="M5 21h14"/></svg>',
+  'swim & lessons': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8.5" cy="7" r="1.8"/><path d="M10 9.5c1.2 0 2.3.7 3.2 1.8l2.8 3.7"/><path d="M9.2 11.2l-2.1 2.2"/><path d="M6 17c1.3-1 2.7-1.5 4-1.5s2.7.5 4 1.5 2.7 1.5 4 1.5"/><path d="M4 20c1.3-1 2.7-1.5 4-1.5s2.7.5 4 1.5 2.7 1.5 4 1.5"/></svg>',
+  'classes & clubs': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="5" width="14" height="14" rx="3"/><path d="M8 9h8"/><path d="M8 13h8"/><path d="M8 17h5"/></svg>',
+  'nature & forest school': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3c2 2.5 3 4.4 3 6a3 3 0 11-6 0c0-1.6 1-3.5 3-6z"/><path d="M12 11v10"/><path d="M8 15c0 2.5 1.8 4 4 4s4-1.5 4-4"/></svg>',
+  'museums & culture': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-5 9 5"/><path d="M5 9v10"/><path d="M9 9v10"/><path d="M15 9v10"/><path d="M19 9v10"/><path d="M3 19h18"/></svg>',
+  libraries: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6c3-1.5 6-1.5 8 0v12c-2-1.5-5-1.5-8 0z"/><path d="M20 6c-3-1.5-6-1.5-8 0v12c2-1.5 5-1.5 8 0z"/><path d="M12 6v12"/><path d="M4 6h8"/><path d="M12 6h8"/></svg>',
+  'leisure & sport': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 13h16"/><path d="M6 13c0-4 2.7-7 6-7s6 3 6 7"/><circle cx="12" cy="13" r="2.3"/><path d="M7 20c1.2-2 2.9-3 5-3s3.8 1 5 3"/></svg>',
+  'cinema & theatre': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="6" width="16" height="12" rx="2"/><path d="M8 6l-2 4"/><path d="M12 6l-2 4"/><path d="M16 6l-2 4"/><path d="M8 18v-4"/><path d="M16 18v-4"/><path d="M4 10h16"/></svg>'
+};
 const CAMP_TYPE_ORDER = [
   'tennis & racket sports',
   'performing arts',
@@ -1441,6 +1452,10 @@ function activityImageForGroup(items) {
   return (specific && specific.promoImage) || ACTIVITY_DEFAULT_IMAGE;
 }
 
+function activityTypeIcon(type) {
+  return ACTIVITY_TYPE_ICONS[type] || '⭐';
+}
+
 function slugifyType(type) {
   return String(type || '')
     .toLowerCase()
@@ -1473,6 +1488,7 @@ function renderActivityGroups(items) {
             <p>${escapeHtml(activityTypeDescription(type))}</p>
           </div>
           <div class="activity-group-image-wrap">
+            <div class="activity-group-icon-badge" aria-hidden="true">${activityTypeIcon(type)}</div>
             <img class="activity-group-image" src="${escapeAttr(image)}" alt="${escapeAttr(activityTypeLabel(type))} image" loading="lazy">
           </div>
         </div>
