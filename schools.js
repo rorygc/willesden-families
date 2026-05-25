@@ -332,6 +332,32 @@ const schools = [
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/21/101498"
   },
   {
+    name: "Salusbury Primary School",
+    address: "Salusbury Road, Kilburn, London NW6 6RG",
+    postcode: "NW6 6RG",
+    type: "Community",
+    ageRange: "3–11",
+    level: "primary",
+    rating: "good",
+    ofstedDate: "November 2024",
+    summary: "A large Queen's Park / Kilburn community primary with a strong reading culture, high expectations, and a very local catchment for families in NW6.",
+    website: "https://www.salusbury.brent.sch.uk/",
+    ofstedUrl: "https://reports.ofsted.gov.uk/provider/21/101527"
+  },
+  {
+    name: "Our Lady of Lourdes Catholic Primary School & Nursery",
+    address: "Wesley Road, Harlesden, London NW10 8PP",
+    postcode: "NW10 8PP",
+    type: "Voluntary Aided",
+    ageRange: "2–11",
+    level: "primary",
+    rating: "good",
+    ofstedDate: "March 2025",
+    summary: "A Catholic primary and nursery on the Harlesden side of the Willesden area, with places from nursery through Year 6 and a strong local family profile.",
+    website: "https://www.lourdes.brent.sch.uk/",
+    ofstedUrl: "https://reports.ofsted.gov.uk/provider/21/101545"
+  },
+  {
     name: "Chalkhill Primary School",
     address: "Barnhill Road, Wembley, HA9 9YP",
     postcode: "HA9 9YP",
@@ -395,6 +421,32 @@ const schools = [
     summary: "A Brent community primary with a strong local catchment in Kingsbury.",
     website: "https://get-information-schools.service.gov.uk/Establishments/Establishment/Details/101503",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/21/101503"
+  },
+  {
+    name: "Mount Stewart Infant School",
+    address: "Carlisle Gardens, Mount Stewart Avenue, Kenton, Harrow HA3 0JX",
+    postcode: "HA3 0JX",
+    type: "Community",
+    ageRange: "4–7",
+    level: "primary",
+    rating: "good",
+    ofstedDate: "September 2024",
+    summary: "The infant half of the Mount Stewart federation on the Brent/Harrow edge, offering a local route into Reception and Key Stage 1.",
+    website: "https://www.mountstewartinfant.co.uk/",
+    ofstedUrl: "https://reports.ofsted.gov.uk/provider/21/101501"
+  },
+  {
+    name: "Mount Stewart Junior School",
+    address: "Carlisle Gardens, Mount Stewart Avenue, Kenton, Harrow HA3 0JX",
+    postcode: "HA3 0JX",
+    type: "Community",
+    ageRange: "7–11",
+    level: "primary",
+    rating: "good",
+    ofstedDate: "March 2024",
+    summary: "The junior half of the Mount Stewart federation, continuing pupils' primary journey on the Brent/Harrow border.",
+    website: "https://www.mountstewartjunior.co.uk/",
+    ofstedUrl: "https://reports.ofsted.gov.uk/provider/21/101500"
   },
   {
     name: "Lyon Park Primary School",
