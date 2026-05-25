@@ -1026,6 +1026,13 @@ a:hover {
   color: var(--color-text-muted);
 }
 
+.event-meta {
+  font-size: var(--text-xs);
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  color: var(--color-primary);
+}
+
 .parent-card-copy,
 .parent-card-reco {
   font-size: var(--text-sm);
