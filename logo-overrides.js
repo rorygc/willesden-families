@@ -1,19 +1,11 @@
 window.WF_CARD_IMAGES = {
-  "camp-gladstone-park-nta": "https://images.unsplash.com/photo-1542144582-1ba00456b5e3?auto=format&fit=crop&w=1400&q=80",
-  "camp-elmwood-lawn-tennis-club": "https://images.unsplash.com/photo-1542144582-1ba00456b5e3?auto=format&fit=crop&w=1400&q=80",
-  "camp-vale-tennis-coaching": "https://images.unsplash.com/photo-1542144582-1ba00456b5e3?auto=format&fit=crop&w=1400&q=80",
-  "camp-highgate-tennis": "https://images.unsplash.com/photo-1542144582-1ba00456b5e3?auto=format&fit=crop&w=1400&q=80",
-  "camp-cherry-tree-wood": "https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=1400&q=80",
-  "camp-northway-gardens": "https://images.unsplash.com/photo-1542144582-1ba00456b5e3?auto=format&fit=crop&w=1400&q=80",
-  "event-banner-making-family-craft-workshop": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=1400&q=80",
-  "event-magic-and-imagination": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1400&q=80",
-  "event-international-childrens-day": "https://images.unsplash.com/photo-1505236858219-8359eb29e329?auto=format&fit=crop&w=1400&q=80",
-  "act-roundwood": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Roundwood_Park%2C_London.jpg/1280px-Roundwood_Park%2C_London.jpg",
-  "act-gladstone": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Gladstone_Park%2C_London.jpg/1280px-Gladstone_Park%2C_London.jpg",
-  "act-mapesbury": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=1400&q=80",
-  "act-willesden-gallery": "https://images.unsplash.com/photo-1518998053901-5348d3961a04?auto=format&fit=crop&w=1400&q=80",
-  "act-brent-library-events": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1400&q=80",
-  "act-global-skills-centre": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=1400&q=80"
+  "camp-gladstone-park-nta": "https://clubspark.lta.org.uk/Library/NTAgladstone?command=Proxy&type=Images&currentFolder=%2F&hash=0c69cff0b530da2f249ff45ef8a6e2b2b6b91bdd&fileName=gladstone.jpg",
+  "camp-elmwood-lawn-tennis-club": "https://clubspark.lta.org.uk/Library/ElmwoodLawnTennisClub?command=Proxy&type=Images&currentFolder=%2F&hash=b43bf4f3071dfa34cd6de3dd4d10ddf2b3116b1c&fileName=elmwood.jpg",
+  "camp-cherry-tree-wood": "https://clubspark.lta.org.uk/Library/CherryTreeWood?command=Proxy&type=Images&currentFolder=%2F&hash=5ba3bfe70389ddfa16ef7eddb1d5f6d1f9b0fb44&fileName=CherryTreeWood.jpg",
+  "camp-northway-gardens": "https://clubspark.lta.org.uk/Library/FGNorthwayGardens?command=Proxy&type=Images&currentFolder=%2F&hash=59c8d39df4e9d6da629af42f17bd6d6dd7eb3537&fileName=NorthwayGardens.jpg",
+  "act-roundwood": "https://upload.wikimedia.org/wikipedia/commons/3/32/Roundwood_Park.jpg",
+  "act-gladstone": "https://gladstoneparkfriends.org/wp-content/uploads/2016/03/evening-light-on-trees.jpeg",
+  "act-mapesbury": "http://www.mapesbury-dell.org/s/cc_images/thumb_6487547.jpg"
 };
 
 window.WF_LOGOS = {
