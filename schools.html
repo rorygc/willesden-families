@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Local Schools — Willesden Families</title>
+<meta name="description" content="Primary and secondary schools within 3km of Willesden Green with Ofsted ratings and summaries. A guide for parents choosing schools in NW London.">
+
+<link href="https://api.fontshare.com/v2/css?f[]=chillax@400,500,600,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./base.css">
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./schools.css">
+</head>
+<body>
+
+<!-- Skip Link -->
+<a href="#main-content" class="sr-only" style="position:absolute;top:0;left:0;padding:8px 16px;background:var(--color-primary);color:white;z-index:999;">Skip to content</a>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="site-header">
+  <div class="header-inner">
+    <a href="./index.html" class="logo" aria-label="Willesden Families home">
+      <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="18" cy="18" r="16" fill="currentColor" opacity="0.1"/>
+        <path d="M18 6C14 6 11 8 10 11c-1 3 0 6 2 8l6 8 6-8c2-2 3-5 2-8-1-3-4-5-8-5z" fill="var(--color-primary)" opacity="0.8"/>
+        <circle cx="18" cy="15" r="3" fill="var(--color-surface)" opacity="0.9"/>
+        <path d="M12 28c2 1.5 4 2 6 2s4-.5 6-2" stroke="var(--color-primary)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+      </svg>
+      <div>
+        <div class="logo-text">Willesden Families</div>
+        <div class="logo-sub">NW London Community Guide</div>
+      </div>
+    </a>
+
+    <nav class="nav-desktop" aria-label="Main navigation">
+      <a href="./index.html#camps">Summer Camps</a>
+      <a href="./index.html#classes">Weekly Classes</a>
+      <a href="./index.html#parks">Parks &amp; Outdoors</a>
+      <a href="./schools.html" class="nav-active">Schools</a>
+      <a href="./index.html#about">About</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="theme-toggle" data-theme-toggle aria-label="Switch to dark mode">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="mobile-menu-btn" aria-label="Open menu" onclick="document.getElementById('mobile-nav').classList.add('open')">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile Nav -->
+<div class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+  <div class="mobile-nav-header">
+    <span class="logo-text" style="font-family:var(--font-display);font-weight:600;">Willesden Families</span>
+    <button aria-label="Close menu" onclick="document.getElementById('mobile-nav').classList.remove('open')">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+    </button>
+  </div>
+  <a href="./index.html#camps" onclick="document.getElementById('mobile-nav').classList.remove('open')">Summer Camps</a>
+  <a href="./index.html#classes" onclick="document.getElementById('mobile-nav').classList.remove('open')">Weekly Classes</a>
+  <a href="./index.html#parks" onclick="document.getElementById('mobile-nav').classList.remove('open')">Parks &amp; Outdoors</a>
+  <a href="./schools.html" onclick="document.getElementById('mobile-nav').classList.remove('open')">Schools</a>
+  <a href="./index.html#about" onclick="document.getElementById('mobile-nav').classList.remove('open')">About</a>
+</div>
+
+<!-- ============ SCHOOLS HERO ============ -->
+<section class="schools-hero" id="main-content">
+  <div class="container">
+    <a href="./index.html" class="back-link">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+      Back to Activities
+    </a>
+    <h1>Local Schools</h1>
+    <p class="schools-hero-sub">Primary and secondary schools within 3km of Willesden Green (NW10 1HS), with Ofsted inspection summaries to help you choose the right school for your child.</p>
+    <div class="schools-stats">
+      <div class="schools-stat">
+        <span class="stat-number" id="stat-total">27</span>
+        <span class="stat-label">Schools</span>
+      </div>
+      <div class="schools-stat">
+        <span class="stat-number" id="stat-outstanding">8</span>
+        <span class="stat-label">Outstanding</span>
+      </div>
+      <div class="schools-stat">
+        <span class="stat-number" id="stat-good">19</span>
+        <span class="stat-label">Good</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FILTER BAR ============ -->
+<div class="schools-filter-bar">
+  <div class="container">
+    <div class="schools-filters">
+      <div class="school-filter-group">
+        <button class="school-filter-pill active" data-school-filter="all">All Schools</button>
+        <button class="school-filter-pill" data-school-filter="primary">Primary</button>
+        <button class="school-filter-pill" data-school-filter="secondary">Secondary</button>
+        <button class="school-filter-pill" data-school-filter="special">Special</button>
+      </div>
+      <div class="school-filter-group">
+        <button class="school-filter-pill" data-rating-filter="outstanding">
+          <span class="rating-dot outstanding"></span> Outstanding
+        </button>
+        <button class="school-filter-pill" data-rating-filter="good">
+          <span class="rating-dot good"></span> Good
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ DISCLAIMER ============ -->
+<div class="container" style="padding-top:var(--space-4);">
+  <div class="disclaimer">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+    <span>Ofsted ratings and summaries are based on the most recent published inspection reports. Always check the school's own website and the <a href="https://reports.ofsted.gov.uk" target="_blank" rel="noopener noreferrer">Ofsted reports site</a> for the latest information.</span>
+  </div>
+</div>
+
+<!-- ============ OUTSTANDING PRIMARY SCHOOLS ============ -->
+<section class="section" id="outstanding-primary">
+  <div class="container">
+    <div class="section-header">
+      <div>
+        <h2>Outstanding Primary Schools</h2>
+        <p class="section-subtitle">The highest-rated primary schools near Willesden Green</p>
+      </div>
+      <span class="rating-badge outstanding-badge">Outstanding</span>
+    </div>
+    <div class="schools-grid" id="outstanding-primary-grid">
+      <!-- Populated by JS -->
+    </div>
+  </div>
+</section>
+
+<!-- ============ GOOD PRIMARY SCHOOLS ============ -->
+<section class="section" id="good-primary" style="background:var(--color-surface-2);">
+  <div class="container">
+    <div class="section-header">
+      <div>
+        <h2>Good Primary Schools</h2>
+        <p class="section-subtitle">Well-regarded primaries serving the local community</p>
+      </div>
+      <span class="rating-badge good-badge">Good</span>
+    </div>
+    <div class="schools-grid" id="good-primary-grid">
+      <!-- Populated by JS -->
+    </div>
+  </div>
+</section>
+
+<!-- ============ SECONDARY SCHOOLS ============ -->
+<section class="section" id="secondary">
+  <div class="container">
+    <div class="section-header">
+      <div>
+        <h2>Secondary Schools</h2>
+        <p class="section-subtitle">Local secondary schools for ages 11 and up</p>
+      </div>
+    </div>
+    <div class="schools-grid" id="secondary-grid">
+      <!-- Populated by JS -->
+    </div>
+  </div>
+</section>
+
+<!-- ============ SPECIAL SCHOOLS ============ -->
+<section class="section" id="special" style="background:var(--color-surface-2);">
+  <div class="container">
+    <div class="section-header">
+      <div>
+        <h2>Special Schools</h2>
+        <p class="section-subtitle">Specialist provision for children with additional needs</p>
+      </div>
+    </div>
+    <div class="schools-grid" id="special-grid">
+      <!-- Populated by JS -->
+    </div>
+  </div>
+</section>
+
+<!-- ============ NO RESULTS ============ -->
+<div class="container">
+  <div class="no-results hidden" id="no-results-schools">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+    <h3>No matching schools</h3>
+    <p>Try adjusting your filter to see more schools.</p>
+  </div>
+</div>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <div class="logo-text" style="font-family:var(--font-display);font-weight:600;">Willesden Families</div>
+        <p>A free community resource for parents with young children in Willesden Green and surrounding areas of NW London.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Sections</h4>
+        <ul role="list">
+          <li><a href="./index.html#camps">Summer Camps</a></li>
+          <li><a href="./index.html#classes">Weekly Classes</a></li>
+          <li><a href="./index.html#parks">Parks &amp; Outdoors</a></li>
+          <li><a href="./schools.html">Schools</a></li>
+          <li><a href="./index.html#resources">Resources</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <ul role="list">
+          <li><a href="https://www.instagram.com/newparentcompany" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+          <li><a href="https://linktr.ee/newparentcompany" target="_blank" rel="noopener noreferrer">Linktree</a></li>
+          <li><a href="mailto:adeline@newparentcompany.com">Email Adeline</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2025 Willesden Families. Free community guide — share freely.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="./logo-overrides.js"></script>
+<script src="./school-logo-overrides.js"></script>
+<script src="./schools.js"></script>
+</body>
+</html>

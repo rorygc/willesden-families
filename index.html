@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Willesden Families — Parents' guide to NW London</title>
+<meta name="description" content="A warm, searchable guide for parents with young children in Willesden Green, NW London: childcare, school-holiday camps, cafés, indoor ideas, SEND support, activities, shortlist, and a map view.">
+<meta property="og:title" content="Willesden Families">
+<meta property="og:description" content="Childcare, school-holiday camps, cafés, rainy-day ideas, SEND support, activities, shortlist, and a map view for parents in Willesden Green and NW London.">
+<link href="https://api.fontshare.com/v2/css?f[]=chillax@400,500,600,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./base.css">
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+</head>
+<body>
+<a href="#main-content" class="sr-only skip-link">Skip to content</a>
+
+<header class="site-header" id="site-header">
+  <div class="header-inner">
+    <a href="./index.html" class="logo" aria-label="Willesden Families home">
+      <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="18" cy="18" r="16" fill="currentColor" opacity="0.1"/>
+        <path d="M18 6C14 6 11 8 10 11c-1 3 0 6 2 8l6 8 6-8c2-2 3-5 2-8-1-3-4-5-8-5z" fill="var(--color-primary)" opacity="0.8"/>
+        <circle cx="18" cy="15" r="3" fill="var(--color-surface)" opacity="0.9"/>
+        <path d="M12 28c2 1.5 4 2 6 2s4-.5 6-2" stroke="var(--color-primary)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+      </svg>
+      <div>
+        <div class="logo-text">Willesden Families</div>
+        <div class="logo-sub">NW London parent guide</div>
+      </div>
+    </a>
+
+    <nav class="nav-desktop" aria-label="Main navigation">
+      <a href="#this-week">This week</a>
+      <a href="#camps">Camps</a>
+      <a href="#childcare">Childcare</a>
+      <a href="#cafes">Cafés</a>
+      <a href="#indoor">Indoor</a>
+      <a href="#send">SEND</a>
+      <a href="#activities">Activities</a>
+      <a href="#map">Map</a>
+      <a href="#shortlist">Shortlist</a>
+      <a href="./schools.html">Schools</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="theme-toggle" data-theme-toggle aria-label="Switch to dark mode">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="mobile-menu-btn" aria-label="Open menu" onclick="document.getElementById('mobile-nav').classList.add('open')">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+  <div class="mobile-nav-header">
+    <span class="logo-text" style="font-family:var(--font-display);font-weight:600;">Willesden Families</span>
+    <button aria-label="Close menu" onclick="document.getElementById('mobile-nav').classList.remove('open')">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+    </button>
+  </div>
+  <a href="#this-week" onclick="document.getElementById('mobile-nav').classList.remove('open')">This week</a>
+  <a href="#camps" onclick="document.getElementById('mobile-nav').classList.remove('open')">Camps</a>
+  <a href="#childcare" onclick="document.getElementById('mobile-nav').classList.remove('open')">Childcare</a>
+  <a href="#cafes" onclick="document.getElementById('mobile-nav').classList.remove('open')">Cafés</a>
+  <a href="#indoor" onclick="document.getElementById('mobile-nav').classList.remove('open')">Indoor</a>
+  <a href="#send" onclick="document.getElementById('mobile-nav').classList.remove('open')">SEND</a>
+  <a href="#activities" onclick="document.getElementById('mobile-nav').classList.remove('open')">Activities</a>
+  <a href="#map" onclick="document.getElementById('mobile-nav').classList.remove('open')">Map</a>
+  <a href="#shortlist" onclick="document.getElementById('mobile-nav').classList.remove('open')">Shortlist</a>
+  <a href="./schools.html" onclick="document.getElementById('mobile-nav').classList.remove('open')">Schools</a>
+</div>
+
+<main id="main-content">
+  <section class="hero">
+    <div class="hero-image">
+      <img src="./assets/hero.png" alt="Illustration of families enjoying a park in Willesden Green" width="1456" height="816" loading="eager">
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-kicker">Parents' guide for Willesden Green, Queen's Park, Kensal Rise, Harlesden, and nearby NW London</div>
+      <h1>Everything local parents actually need, in one place.</h1>
+      <p>Search childcare, school-holiday camps, cafés, rainy-day ideas, SEND support, clubs, parks, and what’s on this week. Save your favourites and export them to your calendar.</p>
+      <div class="hero-actions">
+        <a href="#this-week" class="cta-button">See this week</a>
+        <a href="#camps" class="cta-button secondary">See camps</a>
+        <a href="#childcare" class="cta-button secondary">Find childcare</a>
+        <a href="#map" class="cta-button secondary">Open map</a>
+      </div>
+      <div class="hero-stats" id="hero-stats">
+        <div class="stat-card"><strong id="stat-total">0</strong><span>places & picks</span></div>
+        <div class="stat-card"><strong id="stat-free">0</strong><span>free / low cost</span></div>
+        <div class="stat-card"><strong id="stat-shortlist">0</strong><span>saved</span></div>
+        <div class="stat-card"><strong id="stat-updated">—</strong><span>last refreshed</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="filter-section" aria-label="Search and filters">
+    <div class="container">
+      <div class="search-row">
+        <div class="search-bar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+          <input type="search" id="search-input" placeholder="Search by name, area, activity, age, or need..." aria-label="Search the site">
+        </div>
+        <button class="toggle-chip" data-shortlist-only aria-pressed="false">Shortlist only</button>
+      </div>
+      <div class="filter-columns">
+        <div>
+          <div class="filter-label">Section</div>
+          <div class="filter-pills" id="section-filters">
+            <button class="filter-pill active" data-section-filter="all">All</button>
+            <button class="filter-pill" data-section-filter="this-week">This week</button>
+            <button class="filter-pill" data-section-filter="camps">Camps</button>
+            <button class="filter-pill" data-section-filter="childcare">Childcare</button>
+            <button class="filter-pill" data-section-filter="cafes">Cafés</button>
+            <button class="filter-pill" data-section-filter="indoor">Indoor</button>
+            <button class="filter-pill" data-section-filter="send">SEND</button>
+            <button class="filter-pill" data-section-filter="activities">Activities</button>
+          </div>
+        </div>
+        <div>
+          <div class="filter-label">Age</div>
+          <div class="filter-pills" id="age-filters">
+            <button class="filter-pill active" data-age-filter="all">All ages</button>
+            <button class="filter-pill" data-age-filter="0-2">0–2</button>
+            <button class="filter-pill" data-age-filter="2-4">2–4</button>
+            <button class="filter-pill" data-age-filter="4-8">4–8</button>
+            <button class="filter-pill" data-age-filter="8+">8+</button>
+            <button class="filter-pill" data-age-filter="all-ages">All ages</button>
+          </div>
+        </div>
+        <div>
+          <div class="filter-label">Cost</div>
+          <div class="filter-pills" id="cost-filters">
+            <button class="filter-pill active" data-cost-filter="all">Any</button>
+            <button class="filter-pill" data-cost-filter="free">Free</button>
+            <button class="filter-pill" data-cost-filter="low">Low cost</button>
+            <button class="filter-pill" data-cost-filter="mid">Mid</button>
+            <button class="filter-pill" data-cost-filter="high">Higher</button>
+          </div>
+        </div>
+      </div>
+      <div class="live-update-banner" id="live-update-banner" hidden></div>
+    </div>
+  </section>
+
+  <section class="section" id="this-week">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <h2>This week</h2>
+          <p class="section-subtitle">A quick “what’s on” view refreshed from our latest searches</p>
+        </div>
+        <span class="section-count" id="count-this-week">0</span>
+      </div>
+      <div class="parent-grid" id="this-week-grid"></div>
+    </div>
+  </section>
+
+  <section class="section alt" id="camps">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <h2>School-holiday camps</h2>
+          <p class="section-subtitle">Structured holiday options, including a free HAF route where eligible</p>
+        </div>
+        <span class="section-count" id="count-camps">0</span>
+      </div>
+      <div class="parent-grid" id="camps-grid"></div>
+    </div>
+  </section>
+
+  <section class="section alt" id="childcare">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <h2>Childcare & nurseries</h2>
+          <p class="section-subtitle">Nurseries, pre-schools, and early-years options near Willesden Green</p>
+        </div>
+        <span class="section-count" id="count-childcare">0</span>
+      </div>
+      <div class="parent-grid" id="childcare-grid"></div>
+    </div>
+  </section>
+
+  <section class="section" id="cafes">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <h2>Family-friendly cafés & venues</h2>
+          <p class="section-subtitle">Places parents can actually sit, breathe, and have a hot drink</p>
+        </div>
+        <span class="section-count" id="count-cafes">0</span>
+      </div>
+      <div class="parent-grid" id="cafes-grid"></div>
+    </div>
+  </section>
+
+  <section class="section alt" id="indoor">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <h2>Rainy-day / indoor ideas</h2>
+          <p class="section-subtitle">Good when the weather is miserable or the kids need a change of scene</p>
+        </div>
+        <span class="section-count" id="count-indoor">0</span>
+      </div>
+      <div class="parent-grid" id="indoor-grid"></div>
+    </div>
+  </section>
+
+  <section class="section" id="send">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <h2>SEND-friendly support</h2>
+          <p class="section-subtitle">Local and national resources for families who need extra support</p>
+        </div>
+        <span class="section-count" id="count-send">0</span>
+      </div>
+      <div class="parent-grid" id="send-grid"></div>
+    </div>
+  </section>
+
+  <section class="section alt" id="activities">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <h2>Activities, clubs & parks</h2>
+          <p class="section-subtitle">Classes, clubs, parks, and family activities — range search up to about 5 miles from Willesden Green</p>
+        </div>
+        <span class="section-count" id="count-activities">0</span>
+      </div>
+      <div class="parent-grid" id="activities-grid"></div>
+    </div>
+  </section>
+
+  <section class="section" id="map">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <h2>Map view</h2>
+          <p class="section-subtitle">Choose a place and jump straight to maps or directions</p>
+        </div>
+        <span class="section-count" id="count-map">0</span>
+      </div>
+      <div class="map-layout">
+        <div class="map-shell">
+          <div id="map-frame" class="map-frame" aria-label="Map view"></div>
+          <div class="map-panel" id="map-panel"></div>
+        </div>
+        <div>
+          <div class="mini-heading">Nearby favourites</div>
+          <div class="map-list" id="map-list"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="shortlist">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <h2>Your shortlist</h2>
+          <p class="section-subtitle">Saved items stay in your browser, and can be exported to your calendar</p>
+        </div>
+        <div class="shortlist-actions">
+          <button class="cta-button secondary" id="export-calendar-btn">Export calendar</button>
+          <button class="cta-button secondary" id="clear-shortlist-btn">Clear shortlist</button>
+        </div>
+      </div>
+      <div class="shortlist-empty" id="shortlist-empty">
+        Save a few places and they’ll appear here.
+      </div>
+      <div class="shortlist-grid" id="shortlist-grid"></div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container">
+      <div class="about-section reveal">
+        <div class="about-grid">
+          <div>
+            <h2>About this guide</h2>
+            <p>Willesden Families started as a local parent resource and is now being expanded into a practical, searchable neighbourhood guide.</p>
+            <p>It includes childcare, cafés, indoor ideas, SEND support, weekly picks, shortlist tools, and a map view — with regular web searches to keep the content fresh.</p>
+            <p class="fineprint">Always double-check opening times, booking requirements, and safeguarding details with the venue or provider before you go.</p>
+          </div>
+          <div class="about-stack">
+            <div class="about-callout">
+              <strong>Latest check</strong>
+              <span id="latest-check">—</span>
+            </div>
+            <div class="about-callout">
+              <strong>Next search</strong>
+              <span id="next-check">—</span>
+            </div>
+            <div class="about-callout">
+              <strong>Schools</strong>
+              <a href="./schools.html">Open the local schools page</a>
+            </div>
+            <div class="about-callout">
+              <strong>Sources</strong>
+              <span>Brent, local directories, parent recommendations, and live web searches.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <div class="logo-text" style="font-family:var(--font-display);font-weight:600;">Willesden Families</div>
+        <p>A free community guide for parents with young children in Willesden Green and surrounding NW London.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Sections</h4>
+        <ul role="list">
+          <li><a href="#this-week">This week</a></li>
+          <li><a href="#childcare">Childcare</a></li>
+          <li><a href="#cafes">Cafés</a></li>
+          <li><a href="#indoor">Indoor</a></li>
+          <li><a href="#send">SEND</a></li>
+          <li><a href="#activities">Activities</a></li>
+          <li><a href="#map">Map</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>More</h4>
+        <ul role="list">
+          <li><a href="#shortlist">Shortlist</a></li>
+          <li><a href="./schools.html">Schools</a></li>
+          <li><a href="mailto:adeline@newparentcompany.com">Email Adeline</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Willesden Families.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="./data/updates.js"></script>
+<script src="./logo-overrides.js"></script>
+<script src="./map-coordinates.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="./app.js"></script>
+</body>
+</html>
