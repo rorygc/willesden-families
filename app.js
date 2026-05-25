@@ -2230,48 +2230,93 @@ const COST_ORDER = ['free', 'low', 'mid', 'high', 'varies'];
 const ACTIVITY_DEFAULT_IMAGE = './assets/hero.png';
 const CARD_IMAGE_DEFAULTS = {
   'this-week': {
-    default: './assets/hero.png',
-    workshop: './assets/hero.png',
-    craft: './assets/hero.png',
-    library: './assets/hero.png',
-    festival: './assets/hero.png',
-    music: './assets/hero.png'
+    default: 'https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1400&q=80',
+    workshop: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80',
+    craft: 'https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=1400&q=80',
+    library: 'https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1400&q=80',
+    festival: 'https://images.unsplash.com/photo-1505236858219-8359eb29e329?auto=format&fit=crop&w=1400&q=80',
+    music: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=1400&q=80'
   },
   camps: {
-    default: './assets/hero.png',
-    tennis: './assets/hero.png',
-    performing: './assets/hero.png',
-    dance: './assets/hero.png',
-    stem: './assets/hero.png',
-    forest: './assets/hero.png',
-    sport: './assets/hero.png',
-    earlyYears: './assets/hero.png'
+    default: 'https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=1400&q=80',
+    tennis: 'https://images.unsplash.com/photo-1542144582-1ba00456b5e3?auto=format&fit=crop&w=1400&q=80',
+    performing: 'https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=1400&q=80',
+    dance: 'https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1400&q=80',
+    stem: 'https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=1400&q=80',
+    forest: 'https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=1400&q=80',
+    sport: 'https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=1400&q=80',
+    earlyYears: 'https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=1400&q=80'
   },
   childcare: {
-    default: './assets/hero.png',
-    montessori: './assets/hero.png',
-    nursery: './assets/hero.png'
+    default: 'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=1400&q=80',
+    montessori: 'https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=1400&q=80',
+    nursery: 'https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1400&q=80'
   },
   cafes: {
-    default: './assets/hero.png'
+    default: 'https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1400&q=80'
   },
   indoor: {
-    default: './assets/hero.png'
+    default: 'https://images.unsplash.com/photo-1515169067868-5387ec356754?auto=format&fit=crop&w=1400&q=80'
   },
   send: {
-    default: './assets/hero.png'
+    default: 'https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1400&q=80'
   },
   activities: {
-    default: './assets/hero.png',
-    parks: './assets/hero.png',
-    libraries: './assets/hero.png',
-    swim: './assets/hero.png',
-    clubs: './assets/hero.png',
-    culture: './assets/hero.png',
-    theatre: './assets/hero.png',
-    sport: './assets/hero.png'
+    default: 'https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=1400&q=80',
+    parks: 'https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=1400&q=80',
+    libraries: 'https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1400&q=80',
+    swim: 'https://images.unsplash.com/photo-1519315901367-f34ff9154487?auto=format&fit=crop&w=1400&q=80',
+    clubs: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80',
+    culture: 'https://images.unsplash.com/photo-1518998053901-5348d3961a04?auto=format&fit=crop&w=1400&q=80',
+    theatre: 'https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=1400&q=80',
+    sport: 'https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=1400&q=80'
   }
 };
+const RANDOM_STOCK_BLOCKLIST = new Set([
+  'event-banner-making-family-craft-workshop',
+  'event-magic-and-imagination',
+  'event-family-craft-dance-clothes',
+  'event-international-childrens-day',
+  'act-brent-library-events',
+  'child-bright-horizons',
+  'child-monkey-puzzle',
+  'child-n-family',
+  'child-little-garden',
+  'child-richborough',
+  'child-mulberry-house',
+  'child-broadhurst',
+  'child-rainbow-montessori',
+  'child-treetops',
+  'child-happy-hands-willesden',
+  'child-dollis-hill',
+  'child-wetherby-kensal',
+  'child-brondesbury-nursery',
+  'child-kensal-house',
+  'child-college-green',
+  'child-anson-primary',
+  'child-busy-bees-harlesden',
+  'child-busy-bees-kilburn',
+  'child-wetherby-queens-park',
+  'child-snuggle-bunnies',
+  'child-bright-star-kilburn',
+  'send-local-offer',
+  'send-family-info',
+  'send-contact',
+  'send-ipsea',
+  'send-inclusive-activities',
+  'send-ask-parents'
+]);
+const SAFE_NEUTRAL_FALLBACKS = {
+  'this-week': './assets/hero.png',
+  childcare: './assets/hero.png',
+  send: './assets/hero.png'
+};
+const SAFE_NEUTRAL_HINT_FALLBACKS = {
+  library: './assets/hero.png',
+  craft: './assets/hero.png',
+  workshop: './assets/hero.png'
+};
+const STOCK_IMAGE_HOSTS = ['images.unsplash.com'];
 const GROUP_VISIBLE_LIMITS = {
   activities: 8,
   camps: 6
@@ -2602,12 +2647,26 @@ function imageHintForItem(item) {
   return 'default';
 }
 
+function isBlockedStockImage(url) {
+  if (!url) return false;
+  try {
+    const absolute = new URL(url, window.location.href);
+    return STOCK_IMAGE_HOSTS.includes(absolute.hostname);
+  } catch {
+    return false;
+  }
+}
+
 function cardImageForItem(item) {
   const explicit = item.cardImage || item.promoImage || (window.WF_CARD_IMAGES && (window.WF_CARD_IMAGES[item.id] || window.WF_CARD_IMAGES[item.name]));
   if (explicit) return explicit;
   const sectionDefaults = CARD_IMAGE_DEFAULTS[item.section] || {};
   const hint = imageHintForItem(item);
-  return sectionDefaults[hint] || sectionDefaults.default || ACTIVITY_DEFAULT_IMAGE;
+  const candidate = sectionDefaults[hint] || sectionDefaults.default || ACTIVITY_DEFAULT_IMAGE;
+  if (RANDOM_STOCK_BLOCKLIST.has(item.id) && isBlockedStockImage(candidate)) {
+    return SAFE_NEUTRAL_HINT_FALLBACKS[hint] || SAFE_NEUTRAL_FALLBACKS[item.section] || ACTIVITY_DEFAULT_IMAGE;
+  }
+  return candidate;
 }
 
 function shouldCollapseGroup(section, count) {
