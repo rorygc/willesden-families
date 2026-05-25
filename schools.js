@@ -839,6 +839,35 @@ function renderSchoolBrandMark(school) {
   `;
 }
 
+function summarySentences(summary) {
+  return String(summary || '')
+    .replace(/\s+/g, ' ')
+    .split(/(?<=[.!?])\s+/)
+    .map(sentence => sentence.trim().replace(/[.;:]+$/u, ''))
+    .filter(Boolean);
+}
+
+function schoolHighlights(school) {
+  if (Array.isArray(school.highlights) && school.highlights.length) {
+    return school.highlights.filter(Boolean).slice(0, 3);
+  }
+
+  const sentences = summarySentences(school.summary);
+  if (!sentences.length) return [];
+
+  const highlights = [];
+  const add = (text) => {
+    const clean = String(text || '').trim();
+    if (clean && !highlights.includes(clean)) highlights.push(clean);
+  };
+
+  add(sentences[0]);
+  if (sentences[1]) add(sentences[1]);
+  if (sentences.length > 2) add(sentences[sentences.length - 1]);
+
+  return highlights.slice(0, 3);
+}
+
 function buildSchoolCard(school) {
   const card = document.createElement('div');
   card.className = 'school-card';
@@ -863,6 +892,12 @@ function buildSchoolCard(school) {
       <span>${school.address}</span>
     </div>
     <p class="school-summary">${school.summary}</p>
+    <div class="school-highlights">
+      <p class="school-highlights-label">Ofsted highlights</p>
+      <ul class="school-highlights-list">
+        ${schoolHighlights(school).map(item => `<li>${item}</li>`).join('')}
+      </ul>
+    </div>
     <button class="school-expand-btn" onclick="this.closest('.school-card').classList.toggle('expanded'); this.textContent = this.closest('.school-card').classList.contains('expanded') ? 'Show less' : 'Read more';">Read more</button>
     <div class="school-footer">
       <a href="${school.website}" target="_blank" rel="noopener noreferrer" class="school-link">
