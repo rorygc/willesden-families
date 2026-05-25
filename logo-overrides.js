@@ -1,8 +1,15 @@
 window.WF_CARD_IMAGES = {
   "camp-gladstone-park-nta": "https://clubspark.lta.org.uk/Library/NTAgladstone?command=Proxy&type=Images&currentFolder=%2F&hash=0c69cff0b530da2f249ff45ef8a6e2b2b6b91bdd&fileName=gladstone.jpg",
   "camp-elmwood-lawn-tennis-club": "https://clubspark.lta.org.uk/Library/ElmwoodLawnTennisClub?command=Proxy&type=Images&currentFolder=%2F&hash=b43bf4f3071dfa34cd6de3dd4d10ddf2b3116b1c&fileName=elmwood.jpg",
+  "camp-childs-hill-park": "https://clubspark.lta.org.uk/Library/FGChildsHillPark?command=Proxy&type=Images&currentFolder=%2F&hash=9e45a3c5e9476ce454cbe7cfebb86f4c7f2875a2&fileName=ChildsHillPark.jpg",
+  "camp-lyttleton-playing-fields": "https://clubspark.lta.org.uk/Library/FGLyttletonPlayingFields?command=Proxy&type=Images&currentFolder=%2F&hash=de103d674b2a1cf0f67a9ab5a31a8af4ddb80d4a&fileName=LyttletonPlayingFields.jpg",
   "camp-cherry-tree-wood": "https://clubspark.lta.org.uk/Library/CherryTreeWood?command=Proxy&type=Images&currentFolder=%2F&hash=5ba3bfe70389ddfa16ef7eddb1d5f6d1f9b0fb44&fileName=CherryTreeWood.jpg",
   "camp-northway-gardens": "https://clubspark.lta.org.uk/Library/FGNorthwayGardens?command=Proxy&type=Images&currentFolder=%2F&hash=59c8d39df4e9d6da629af42f17bd6d6dd7eb3537&fileName=NorthwayGardens.jpg",
+  "camp-little-dance-queens-park": "./assets/hero.png",
+  "camp-dance-by-the-park": "./assets/hero.png",
+  "camp-petite-performers-west-hampstead": "./assets/hero.png",
+  "camp-serving-winners": "./assets/hero.png",
+  "camp-fresh-arts-queens-park": "./assets/hero.png",
   "act-roundwood": "https://upload.wikimedia.org/wikipedia/commons/3/32/Roundwood_Park.jpg",
   "act-gladstone": "https://gladstoneparkfriends.org/wp-content/uploads/2016/03/evening-light-on-trees.jpeg",
   "act-mapesbury": "http://www.mapesbury-dell.org/s/cc_images/thumb_6487547.jpg"
