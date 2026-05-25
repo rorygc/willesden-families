@@ -712,6 +712,210 @@ a:hover {
   object-fit: cover;
 }
 
+.activity-group,
+.camp-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  margin-bottom: var(--space-6);
+  padding-bottom: var(--space-6);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.activity-group:last-child,
+.camp-group:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.activity-group-header,
+.camp-group-header {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(240px, 0.95fr);
+  gap: var(--space-4);
+  align-items: stretch;
+}
+
+.activity-group-copy,
+.camp-group-copy {
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  padding: var(--space-4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--space-2);
+}
+
+.activity-group-copy h3,
+.camp-group-copy h3 {
+  font-family: var(--font-display);
+  font-size: clamp(1.1rem, 2vw, 1.5rem);
+  margin: 0;
+}
+
+.activity-group-copy p,
+.camp-group-copy p {
+  color: var(--color-text-muted);
+  max-width: 48ch;
+}
+
+.activity-group-image-wrap,
+.camp-group-icon-wrap {
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface-2);
+  min-height: 220px;
+}
+
+.camp-group-icon-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-3);
+  padding: var(--space-4);
+  text-align: center;
+}
+
+.camp-group-icon {
+  width: 92px;
+  height: 92px;
+  border-radius: var(--radius-full);
+  background: linear-gradient(180deg, var(--color-primary-light) 0%, var(--color-surface) 100%);
+  border: 1px solid var(--color-border);
+  display: grid;
+  place-items: center;
+  box-shadow: var(--shadow-sm);
+  color: var(--color-primary);
+}
+
+.camp-group-icon svg,
+.camp-type-chip-icon svg,
+.group-nav-icon svg {
+  display: block;
+  width: 1.55em;
+  height: 1.55em;
+}
+
+.camp-group-icon svg {
+  width: 58px;
+  height: 58px;
+}
+
+.camp-type-chip-icon,
+.group-nav-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  color: var(--color-primary);
+}
+
+.camp-type-chip-icon svg,
+.group-nav-icon svg {
+  width: 1.2em;
+  height: 1.2em;
+}
+
+.camp-group-count {
+  font-size: var(--text-sm);
+  font-weight: 800;
+  color: var(--color-text-muted);
+}
+
+.activity-group-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 220px;
+  object-fit: cover;
+}
+
+#activities-grid,
+#camps-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.activity-group-grid,
+.camp-group-grid {
+  gap: var(--space-4);
+}
+
+.camp-group-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-bottom: var(--space-2);
+}
+
+.group-nav-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.75rem;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface-2);
+  color: var(--color-text);
+  font-size: var(--text-xs);
+  font-weight: 800;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.group-nav-pill:hover {
+  background: var(--color-primary-light);
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.group-nav-pill:hover .group-nav-icon {
+  color: var(--color-primary);
+}
+
+.camp-type-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: var(--space-2);
+  width: fit-content;
+  padding: 0.35rem 0.6rem;
+  border-radius: var(--radius-full);
+  background: var(--color-primary-light);
+  border: 1px solid color-mix(in srgb, var(--color-primary) 20%, var(--color-border));
+  color: var(--color-primary);
+  font-size: var(--text-xs);
+  font-weight: 800;
+}
+
+@media (max-width: 840px) {
+  .activity-group-header,
+  .camp-group-header {
+    grid-template-columns: 1fr;
+  }
+
+  .activity-group-image-wrap,
+  .camp-group-icon-wrap {
+    min-height: 180px;
+  }
+
+  .activity-group-image {
+    min-height: 180px;
+  }
+
+  .camp-group-icon {
+    width: 76px;
+    height: 76px;
+    font-size: 2.2rem;
+  }
+}
+
 .item-brandmark-img {
   width: 78%;
   height: 78%;

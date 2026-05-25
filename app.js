@@ -969,7 +969,9 @@ const DATA = {
       tags: ['park', 'free', 'outdoors'],
       contact: 'https://www.brent.gov.uk/parks-leisure-and-healthy-living/parks-and-open-spaces/park-finder/roundwood-park',
       linkLabel: 'Open park page',
-      mapQuery: 'Roundwood Park, London'
+      mapQuery: 'Roundwood Park, London',
+      promoImage: 'https://upload.wikimedia.org/wikipedia/commons/3/32/Roundwood_Park.jpg',
+      promoAlt: 'Roundwood Park in London'
     },
     {
       id: 'act-gladstone',
@@ -983,7 +985,9 @@ const DATA = {
       tags: ['park', 'nature', 'free'],
       contact: 'https://www.brent.gov.uk/parks-leisure-and-healthy-living/parks-and-open-spaces/park-finder/gladstone-park',
       linkLabel: 'Open park page',
-      mapQuery: 'Gladstone Park, London'
+      mapQuery: 'Gladstone Park, London',
+      promoImage: 'https://gladstoneparkfriends.org/wp-content/uploads/2016/03/evening-light-on-trees.jpeg',
+      promoAlt: 'Gladstone Park at evening light'
     },
     {
       id: 'act-mapesbury',
@@ -997,7 +1001,9 @@ const DATA = {
       tags: ['garden', 'quiet', 'free'],
       contact: 'https://www.google.com/search?q=Mapesbury+Dell',
       linkLabel: 'Search details',
-      mapQuery: 'Mapesbury Dell, London'
+      mapQuery: 'Mapesbury Dell, London',
+      promoImage: 'http://www.mapesbury-dell.org/s/cc_images/thumb_6487547.jpg',
+      promoAlt: 'Mapesbury Dell garden and water feature'
     },
     {
       id: 'act-forest-school',
@@ -1011,7 +1017,9 @@ const DATA = {
       tags: ['forest school', 'outdoors', 'holiday'],
       contact: 'https://thefriendlyforestschool.com',
       linkLabel: 'Visit forest school',
-      mapQuery: 'Malorees School, Christchurch Avenue, London'
+      mapQuery: 'Malorees School, Christchurch Avenue, London',
+      promoImage: 'https://c-p.rmcdn.net/63a1a269dbce7700133e81ea/4856259/Screenshot-8a7d15b4-16f0-4919-a0cd-49a12605bb50_readyscr_1024.jpg',
+      promoAlt: 'The Friendly Forest School outdoors image'
     },
     {
       id: 'act-the-playmap',
@@ -1176,6 +1184,92 @@ const DATA = {
 const SECTIONS = ['this-week', 'camps', 'childcare', 'cafes', 'indoor', 'send', 'activities'];
 const AGE_ORDER = ['0-2', '2-4', '4-8', '8+', 'all-ages', 'all'];
 const COST_ORDER = ['free', 'low', 'mid', 'high', 'varies'];
+const ACTIVITY_DEFAULT_IMAGE = './assets/hero.png';
+const ACTIVITY_TYPE_ORDER = [
+  'parks & outdoors',
+  'playgroups & toddlers',
+  'swim & lessons',
+  'classes & clubs',
+  'nature & forest school',
+  'museums & culture',
+  'libraries',
+  'leisure & sport',
+  'cinema & theatre'
+];
+const ACTIVITY_TYPE_LABELS = {
+  'parks & outdoors': 'Parks & outdoors',
+  'playgroups & toddlers': 'Playgroups & toddlers',
+  'swim & lessons': 'Swim & lessons',
+  'classes & clubs': 'Classes & clubs',
+  'nature & forest school': 'Nature & forest school',
+  'museums & culture': 'Museums & culture',
+  libraries: 'Libraries',
+  'leisure & sport': 'Leisure & sport',
+  'cinema & theatre': 'Cinema & theatre'
+};
+const ACTIVITY_TYPE_DESCRIPTIONS = {
+  'parks & outdoors': 'Good for fresh air, movement, scooters, and low-cost reset days.',
+  'playgroups & toddlers': 'Gentle options for little ones, music, and parent-friendly routines.',
+  'swim & lessons': 'Useful when you want structured lessons or water-based energy burn.',
+  'classes & clubs': 'Weekly sessions with a regular rhythm and repeat visits.',
+  'nature & forest school': 'Outdoor, muddy, hands-on play with a stronger nature feel.',
+  'museums & culture': 'Calmer indoor ideas for a slower pace and a bit of learning.',
+  libraries: 'Free, quiet indoor stops with space to browse, read, or catch your breath.',
+  'leisure & sport': 'Bigger all-weather venues with sport, climbing, swimming, or mixed activity.',
+  'cinema & theatre': 'Screen and stage outings for rainy days or older children.'
+};
+const CAMP_TYPE_ORDER = [
+  'tennis & racket sports',
+  'performing arts',
+  'dance & movement',
+  'sports & active',
+  'gymnastics & circus',
+  'multi-activity',
+  'stem & science',
+  'forest school & outdoors',
+  'creative clubs',
+  'early years play schemes',
+  'funded & free places'
+];
+const CAMP_TYPE_LABELS = {
+  'tennis & racket sports': 'Tennis & racket sports',
+  'performing arts': 'Performing arts',
+  'dance & movement': 'Dance & movement',
+  'sports & active': 'Sports & active',
+  'gymnastics & circus': 'Gymnastics & circus',
+  'multi-activity': 'Multi-activity',
+  'stem & science': 'STEM & science',
+  'forest school & outdoors': 'Forest school & outdoors',
+  'creative clubs': 'Creative clubs',
+  'early years play schemes': 'Early years play schemes',
+  'funded & free places': 'Funded & free places'
+};
+const CAMP_TYPE_DESCRIPTIONS = {
+  'tennis & racket sports': 'Focused racket-sport camps for children who want coaching, drills, and a clear skill focus.',
+  'performing arts': 'Theatre, music, singing, and performance-led camps with a creative feel.',
+  'dance & movement': 'Dance-heavy camps with movement, routines, and expressive play.',
+  'sports & active': 'High-energy camps built around sport, games, and active childcare hours.',
+  'gymnastics & circus': 'Coaching-led sessions with gymnastics, circus skills, and plenty of movement.',
+  'multi-activity': 'Broad-appeal camps with a mix of games, sport, crafts, and group activities.',
+  'stem & science': 'Science, experiments, and hands-on learning for children who like to make and test things.',
+  'forest school & outdoors': 'Outdoor, nature-led camps with fresh air, mud, and hands-on exploring.',
+  'creative clubs': 'Smaller creative camps with art, making, building, and playful sessions.',
+  'early years play schemes': 'Gentler holiday care for younger children with shorter, playful days.',
+  'funded & free places': 'Free or subsidised holiday places for eligible families.'
+};
+const CAMP_TYPE_ICONS = {
+  'tennis & racket sports': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8.5 13.5l6-6"/><path d="M6.5 15.5l2-2"/><path d="M13.5 8.5l2-2"/><path d="M11 16c2.2-2.2 3.8-5 3.8-7.6 0-1.5-.5-2.8-1.4-3.8-1-1-2.3-1.4-3.8-1.4-2.6 0-5.4 1.6-7.6 3.8-2.2 2.2-3.8 5-3.8 7.6 0 1.5.5 2.8 1.4 3.8 1 1 2.3 1.4 3.8 1.4 2.6 0 5.4-1.6 7.6-3.8Z" transform="translate(4 4) scale(.8) translate(-4 -4)"/><circle cx="17.5" cy="17.5" r="1.8"/></svg>',
+  'performing arts': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6c3 0 5 2 5 5s-2 5-5 5"/><path d="M20 6c-3 0-5 2-5 5s2 5 5 5"/><path d="M9 11c1-1 2.2-1.5 3-1.5s2 .5 3 1.5"/><path d="M8 16c1.2 1.5 2.6 2 4 2s2.8-.5 4-2"/></svg>',
+  'dance & movement': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10" cy="5" r="2"/><path d="M10 7.5v4l-2.5 3.5"/><path d="M10 11l3 2.5"/><path d="M7.5 15l4.5 1"/><path d="M12 7.5l3 2"/><path d="M14 10l2.5-4"/><path d="M5 20c1.5-3 3.2-4.5 5-4.5S13.5 17 15 20"/></svg>',
+  'sports & active': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 13h16"/><path d="M6 13c0-4 2.7-7 6-7s6 3 6 7"/><circle cx="12" cy="13" r="2.3"/><path d="M7 20c1.2-2 2.9-3 5-3s3.8 1 5 3"/></svg>',
+  'gymnastics & circus': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="5" r="1.8"/><path d="M12 7v4"/><path d="M12 11l-4 5"/><path d="M12 11l4 5"/><path d="M8 16l-2 4"/><path d="M16 16l2 4"/><path d="M6 20h12"/><path d="M9 9c1.2 1 2.7 1.5 3 1.5s1.8-.5 3-1.5"/></svg>',
+  'multi-activity': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="6" height="6" rx="1.5"/><rect x="14" y="4" width="6" height="6" rx="1.5"/><rect x="4" y="14" width="6" height="6" rx="1.5"/><rect x="14" y="14" width="6" height="6" rx="1.5"/><path d="M10 7h4"/><path d="M7 10v4"/><path d="M14 10v4"/><path d="M10 17h4"/></svg>',
+  'stem & science': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6"/><path d="M10 3v5l-4.5 8A3 3 0 008.1 20h7.8a3 3 0 002.6-4.5L14 8V3"/><path d="M8.5 14h7"/><path d="M7.5 17h9"/><path d="M10.5 8h3"/></svg>',
+  'forest school & outdoors': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l3 5h-2l3 5h-2l3 5H7l3-5H8l3-5H9z"/><path d="M12 18v3"/><path d="M5 21h14"/></svg>',
+  'creative clubs': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 15c3.5-7 10-9.5 16-10"/><path d="M8 19c2.5 0 4-1.5 4-4 0-1.3-.6-2.3-1.5-3.2"/><path d="M12 12l5-5"/><path d="M16 7l1.5-1.5"/><path d="M7 17l3 3"/></svg>',
+  'early years play schemes': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 11a5 5 0 0110 0v5H7z"/><path d="M8 16v2"/><path d="M16 16v2"/><path d="M6 21h12"/><circle cx="9" cy="9" r="1"/><circle cx="15" cy="9" r="1"/></svg>',
+  'funded & free places': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9 9h6a2 2 0 010 4H11a2 2 0 000 4h6"/><path d="M12 7v10"/></svg>'
+};
 const STORAGE_KEY = 'willesden-shortlist-v1';
 const LS = {
   shortlist: new Set(JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]'))
@@ -1321,30 +1415,172 @@ function formatSectionLabel(section) {
   }[section] || section;
 }
 
+function activityTypeForItem(item) {
+  const text = [item.name, item.blurb, item.recommendation, ...(item.tags || [])].join(' ').toLowerCase();
+  if (/swim|swimming|lesson/.test(text)) return 'swim & lessons';
+  if (/museum|heritage|culture|freud/.test(text)) return 'museums & culture';
+  if (/library|books|reading/.test(text)) return 'libraries';
+  if (/cinema|theatre|film|screen/.test(text)) return 'cinema & theatre';
+  if (/class|club|weekly|capoeira|dance|gymnastics|football|arts and crafts|music/.test(text)) return 'classes & clubs';
+  if (/stay and play|playgroup|toddler|baby|rhym/.test(text)) return 'playgroups & toddlers';
+  if (/leisure centre|fitness|climb|sports centre/.test(text)) return 'leisure & sport';
+  if (/forest school|garden|outdoors|park|playground|dell|recreation ground/.test(text)) return 'parks & outdoors';
+  return 'classes & clubs';
+}
+
+function activityTypeLabel(type) {
+  return ACTIVITY_TYPE_LABELS[type] || type;
+}
+
+function activityTypeDescription(type) {
+  return ACTIVITY_TYPE_DESCRIPTIONS[type] || '';
+}
+
+function activityImageForGroup(items) {
+  const specific = items.find(item => item.promoImage && item.promoImage !== ACTIVITY_DEFAULT_IMAGE);
+  return (specific && specific.promoImage) || ACTIVITY_DEFAULT_IMAGE;
+}
+
+function slugifyType(type) {
+  return String(type || '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
+function renderActivityGroups(items) {
+  const grouped = new Map();
+  items.forEach(item => {
+    const type = activityTypeForItem(item);
+    if (!grouped.has(type)) grouped.set(type, []);
+    grouped.get(type).push(item);
+  });
+
+  const orderedTypes = [
+    ...ACTIVITY_TYPE_ORDER.filter(type => grouped.has(type)),
+    ...[...grouped.keys()].filter(type => !ACTIVITY_TYPE_ORDER.includes(type)).sort()
+  ];
+
+  return orderedTypes.map(type => {
+    const groupItems = grouped.get(type) || [];
+    const image = activityImageForGroup(groupItems);
+    return `
+      <section class="activity-group" data-activity-type="${escapeAttr(type)}">
+        <div class="activity-group-header">
+          <div class="activity-group-copy">
+            <div class="parent-card-kicker">Activity type</div>
+            <h3>${escapeHtml(activityTypeLabel(type))}</h3>
+            <p>${escapeHtml(activityTypeDescription(type))}</p>
+          </div>
+          <div class="activity-group-image-wrap">
+            <img class="activity-group-image" src="${escapeAttr(image)}" alt="${escapeAttr(activityTypeLabel(type))} image" loading="lazy">
+          </div>
+        </div>
+        <div class="parent-grid activity-group-grid">
+          ${groupItems.map(renderCard).join('')}
+        </div>
+      </section>
+    `;
+  }).join('');
+}
+
+function campTypeForItem(item) {
+  const text = [item.name, item.blurb, item.recommendation, ...(item.tags || [])].join(' ').toLowerCase();
+  if (/tennis|racket|racquet/.test(text)) return 'tennis & racket sports';
+  if (/dance|movement|ballet|showcase/.test(text)) return 'dance & movement';
+  if (/performing arts|theatre|theater|singing|music|drama|performance/.test(text) && !/multi-activity|multi activity|club excel|holiday hq|breezy club|apf|junior adventures group/.test(text)) return 'performing arts';
+  if (/gymnastics|circus/.test(text)) return 'gymnastics & circus';
+  if (/play scheme|early years|2½|2-|3–|3-/.test(text)) return 'early years play schemes';
+  if (/stem|steam|science|experiment|science camp/.test(text)) return 'stem & science';
+  if (/forest school|outdoors|outdoor|nature|mud|garden|dell|woodland/.test(text)) return 'forest school & outdoors';
+  if (/multi-activity|multi activity|club excel|holiday hq|breezy club|apf|junior adventures group/.test(text)) return 'multi-activity';
+  if (/sports centre|sport|football|basketball|archery|active play|active childcare|athletic|games/.test(text)) return 'sports & active';
+  if (/creative|arts and crafts|craft|making|art/.test(text)) return 'creative clubs';
+  if (/haf|free|eligible|subsidi/.test(text)) return 'funded & free places';
+  return 'multi-activity';
+}
+
+function campTypeLabel(type) {
+  return CAMP_TYPE_LABELS[type] || type;
+}
+
+function campTypeDescription(type) {
+  return CAMP_TYPE_DESCRIPTIONS[type] || '';
+}
+
+function campTypeIcon(type) {
+  return CAMP_TYPE_ICONS[type] || '⭐';
+}
+
+function renderCampGroups(items) {
+  const grouped = new Map();
+  items.forEach(item => {
+    const type = campTypeForItem(item);
+    if (!grouped.has(type)) grouped.set(type, []);
+    grouped.get(type).push(item);
+  });
+
+  const orderedTypes = [
+    ...CAMP_TYPE_ORDER.filter(type => grouped.has(type)),
+    ...[...grouped.keys()].filter(type => !CAMP_TYPE_ORDER.includes(type)).sort()
+  ];
+
+  const nav = orderedTypes.length > 1 ? `
+    <nav class="camp-group-nav" aria-label="Jump to camp types">
+      ${orderedTypes.map(type => `<a class="group-nav-pill" href="#camp-group-${slugifyType(type)}"><span class="group-nav-icon">${campTypeIcon(type)}</span><span>${escapeHtml(campTypeLabel(type))}</span></a>`).join('')}
+    </nav>
+  ` : '';
+
+  return `${nav}${orderedTypes.map(type => {
+    const groupItems = grouped.get(type) || [];
+    return `
+      <section class="camp-group" id="camp-group-${slugifyType(type)}" data-camp-type="${escapeAttr(type)}">
+        <div class="camp-group-header">
+          <div class="camp-group-copy">
+            <div class="parent-card-kicker">Camp type</div>
+            <h3>${escapeHtml(campTypeLabel(type))}</h3>
+            <p>${escapeHtml(campTypeDescription(type))}</p>
+          </div>
+          <div class="camp-group-icon-wrap" aria-hidden="true">
+            <div class="camp-group-icon">${campTypeIcon(type)}</div>
+            <div class="camp-group-count">${groupItems.length} camp${groupItems.length === 1 ? '' : 's'}</div>
+          </div>
+        </div>
+        <div class="parent-grid camp-group-grid">
+          ${groupItems.map(renderCard).join('')}
+        </div>
+      </section>
+    `;
+  }).join('')}`;
+}
+
 function renderCard(item) {
   const isSaved = LS.shortlist.has(item.id);
   const contactUrl = item.contact || item.link || '#';
   const hasLink = contactUrl && contactUrl !== '#';
   const bookLabel = /mail|tel:|book|visit|learn|open|browse|search|see|view/i.test(item.linkLabel || '') ? item.linkLabel : 'Open link';
   const mapQuery = item.mapQuery || item.name;
+  const promoImage = item.section === 'activities' ? (item.promoImage || ACTIVITY_DEFAULT_IMAGE) : item.promoImage;
+  const campType = item.section === 'camps' ? campTypeForItem(item) : '';
 
   const tags = (item.tags || []).slice(0, 4).map(tag => `<span class="mini-pill">${tag}</span>`).join('');
 
   return `
-    <article class="parent-card ${item.cardTone || ''}" data-item="${item.id}" data-section="${item.section}" data-age="${item.age}" data-cost="${item.cost}" data-search="${escapeHtml([item.name, item.area, item.blurb, item.recommendation, item.age, item.cost, ...(item.tags || [])].join(' ')).toLowerCase()}">
+    <article class="parent-card ${item.cardTone || ''}" data-item="${item.id}" data-section="${item.section}" data-age="${item.age}" data-cost="${item.cost}" data-search="${escapeHtml([item.name, item.area, item.blurb, item.recommendation, item.age, item.cost, ...(item.tags || [])].join(' ')).toLowerCase()}"${item.section === 'activities' ? ` data-activity-type="${escapeAttr(activityTypeForItem(item))}"` : ''}${item.section === 'camps' ? ` data-camp-type="${escapeAttr(campType)}"` : ''}>
       <div class="parent-card-top">
         <div class="parent-card-title-wrap">
           ${renderBrandMark(item)}
           <div class="parent-card-kicker">${formatSectionLabel(item.section)}</div>
           <h3>${escapeHtml(item.name)}</h3>
+          ${campType ? `<div class="camp-type-chip"><span class="camp-type-chip-icon">${campTypeIcon(campType)}</span><span>${escapeHtml(campTypeLabel(campType))}</span></div>` : ''}
         </div>
         <button class="save-btn ${isSaved ? 'saved' : ''}" data-action="save" data-id="${item.id}" aria-pressed="${isSaved ? 'true' : 'false'}" aria-label="${isSaved ? 'Remove from shortlist' : 'Save to shortlist'}">
           ${ICONS.save}
         </button>
       </div>
-      ${item.promoImage ? `
+      ${promoImage && item.section !== 'activities' ? `
       <a class="parent-card-promo" href="${escapeAttr(contactUrl)}" target="_blank" rel="noopener noreferrer" aria-label="${escapeAttr(item.promoAlt || item.name)}">
-        <img src="${escapeAttr(item.promoImage)}" alt="${escapeAttr(item.promoAlt || item.name)}" loading="lazy">
+        <img src="${escapeAttr(promoImage)}" alt="${escapeAttr(item.promoAlt || item.name)}" loading="lazy">
       </a>
       ` : ''}
       <div class="badge-row">
@@ -1385,7 +1621,13 @@ function renderSection(sectionId, items) {
   const grid = document.getElementById(`${sectionId}-grid`);
   const count = document.getElementById(`count-${sectionId}`);
   if (!grid) return;
-  grid.innerHTML = items.map(renderCard).join('');
+  if (sectionId === 'activities') {
+    grid.innerHTML = renderActivityGroups(items);
+  } else if (sectionId === 'camps') {
+    grid.innerHTML = renderCampGroups(items);
+  } else {
+    grid.innerHTML = items.map(renderCard).join('');
+  }
   if (count) count.textContent = items.length;
 }
 
