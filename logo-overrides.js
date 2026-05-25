@@ -1,3 +1,21 @@
+window.WF_CARD_IMAGES = {
+  "camp-gladstone-park-nta": "https://images.unsplash.com/photo-1542144582-1ba00456b5e3?auto=format&fit=crop&w=1400&q=80",
+  "camp-elmwood-lawn-tennis-club": "https://images.unsplash.com/photo-1542144582-1ba00456b5e3?auto=format&fit=crop&w=1400&q=80",
+  "camp-vale-tennis-coaching": "https://images.unsplash.com/photo-1542144582-1ba00456b5e3?auto=format&fit=crop&w=1400&q=80",
+  "camp-highgate-tennis": "https://images.unsplash.com/photo-1542144582-1ba00456b5e3?auto=format&fit=crop&w=1400&q=80",
+  "camp-cherry-tree-wood": "https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=1400&q=80",
+  "camp-northway-gardens": "https://images.unsplash.com/photo-1542144582-1ba00456b5e3?auto=format&fit=crop&w=1400&q=80",
+  "event-banner-making-family-craft-workshop": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=1400&q=80",
+  "event-magic-and-imagination": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1400&q=80",
+  "event-international-childrens-day": "https://images.unsplash.com/photo-1505236858219-8359eb29e329?auto=format&fit=crop&w=1400&q=80",
+  "act-roundwood": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Roundwood_Park%2C_London.jpg/1280px-Roundwood_Park%2C_London.jpg",
+  "act-gladstone": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Gladstone_Park%2C_London.jpg/1280px-Gladstone_Park%2C_London.jpg",
+  "act-mapesbury": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=1400&q=80",
+  "act-willesden-gallery": "https://images.unsplash.com/photo-1518998053901-5348d3961a04?auto=format&fit=crop&w=1400&q=80",
+  "act-brent-library-events": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1400&q=80",
+  "act-global-skills-centre": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=1400&q=80"
+};
+
 window.WF_LOGOS = {
   "act-brent-museum": "https://www.brent.gov.uk/Site/assets/favicon-16.ico",
   "act-canal-cafe-theatre": "https://canalcafetheatre.com/wp-content/uploads/2019/07/cropped-canal-cafe-theatre-logo.png",

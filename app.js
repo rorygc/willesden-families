@@ -680,7 +680,62 @@ const DATA = {
       linkLabel: 'Check camps',
       mapQuery: "Queen's Park Tennis Courts, London"
     },
-
+    {
+      id: 'camp-vale-tennis-coaching',
+      section: 'camps',
+      name: 'Vale Tennis Coaching Holiday Camps',
+      age: '7–16',
+      cost: 'mid',
+      area: 'Maida Vale / Little Venice',
+      blurb: 'Official three-day summer tennis camps at Littletons Tennis Club with coaching, pickleball, team activities, and clubhouse backup for wet weather.',
+      recommendation: 'Strong nearby racket-sports option if you want a well-structured summer camp just beyond Queen’s Park.',
+      tags: ['tennis', 'racket sports', 'holiday camp'],
+      contact: 'https://clubspark.lta.org.uk/ValeTennisCoaching/Coaching/Camps',
+      linkLabel: 'Open camp page',
+      mapQuery: 'Littletons Tennis Club, Maida Vale, London'
+    },
+    {
+      id: 'camp-highgate-tennis',
+      section: 'camps',
+      name: 'Highgate Tennis Camps',
+      age: '4–16',
+      cost: 'mid',
+      area: 'Highgate',
+      blurb: 'Official Highgate Tennis holiday camps with morning and full-day options, age-banded groups, and daily or week-long bookings.',
+      recommendation: 'Good further-out option if you want clearer pricing and longer full-day tennis cover.',
+      tags: ['tennis', 'racket sports', 'holiday camp'],
+      contact: 'https://highgate-tennis.co.uk/tennis-camps',
+      linkLabel: 'View camp details',
+      mapQuery: 'Highgate Cricket and Lawn Tennis Club, London'
+    },
+    {
+      id: 'camp-cherry-tree-wood',
+      section: 'camps',
+      name: 'Cherry Tree Wood Tennis & Multi-Sport Camps',
+      age: '6–14',
+      cost: 'mid',
+      area: 'East Finchley',
+      blurb: 'Official FG Tennis holiday camp mixing tennis with football, basketball, and athletics games in a structured Monday–Friday format.',
+      recommendation: 'Useful if you want a stronger multi-sport alternative to a pure tennis camp.',
+      tags: ['tennis', 'racket sports', 'holiday camp', 'multi-sport'],
+      contact: 'https://clubspark.lta.org.uk/CherryTreeWood/Coaching/Camps',
+      linkLabel: 'Open camp page',
+      mapQuery: 'Cherry Tree Wood, East Finchley, London'
+    },
+    {
+      id: 'camp-northway-gardens',
+      section: 'camps',
+      name: 'Northway Gardens Holiday Camps',
+      age: '5–16+',
+      cost: 'mid',
+      area: 'Hampstead Garden Suburb / NW11',
+      blurb: 'Official FG Tennis holiday camps for children grouped by age and ability, aimed at beginners through more advanced players.',
+      recommendation: 'Good overflow option if you want another official north-west London tennis venue beyond Childs Hill and Lyttleton.',
+      tags: ['tennis', 'racket sports', 'holiday camp'],
+      contact: 'https://clubspark.lta.org.uk/FGNorthwayGardens/Coaching/Camps',
+      linkLabel: 'Open camp page',
+      mapQuery: 'Northway Gardens, London NW11'
+    },
 
     {
       id: 'camp-msport-active',
@@ -2173,6 +2228,54 @@ function dataKeyForSection(sectionId) {
 const AGE_ORDER = ['0-2', '2-4', '4-8', '8+', 'all-ages', 'all'];
 const COST_ORDER = ['free', 'low', 'mid', 'high', 'varies'];
 const ACTIVITY_DEFAULT_IMAGE = './assets/hero.png';
+const CARD_IMAGE_DEFAULTS = {
+  'this-week': {
+    default: 'https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1400&q=80',
+    workshop: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80',
+    craft: 'https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=1400&q=80',
+    library: 'https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1400&q=80',
+    festival: 'https://images.unsplash.com/photo-1505236858219-8359eb29e329?auto=format&fit=crop&w=1400&q=80',
+    music: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=1400&q=80'
+  },
+  camps: {
+    default: 'https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=1400&q=80',
+    tennis: 'https://images.unsplash.com/photo-1542144582-1ba00456b5e3?auto=format&fit=crop&w=1400&q=80',
+    performing: 'https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=1400&q=80',
+    dance: 'https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1400&q=80',
+    stem: 'https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=1400&q=80',
+    forest: 'https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=1400&q=80',
+    sport: 'https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=1400&q=80',
+    earlyYears: 'https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=1400&q=80'
+  },
+  childcare: {
+    default: 'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=1400&q=80',
+    montessori: 'https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=1400&q=80',
+    nursery: 'https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1400&q=80'
+  },
+  cafes: {
+    default: 'https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1400&q=80'
+  },
+  indoor: {
+    default: 'https://images.unsplash.com/photo-1515169067868-5387ec356754?auto=format&fit=crop&w=1400&q=80'
+  },
+  send: {
+    default: 'https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1400&q=80'
+  },
+  activities: {
+    default: 'https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=1400&q=80',
+    parks: 'https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=1400&q=80',
+    libraries: 'https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1400&q=80',
+    swim: 'https://images.unsplash.com/photo-1519315901367-f34ff9154487?auto=format&fit=crop&w=1400&q=80',
+    clubs: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80',
+    culture: 'https://images.unsplash.com/photo-1518998053901-5348d3961a04?auto=format&fit=crop&w=1400&q=80',
+    theatre: 'https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=1400&q=80',
+    sport: 'https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=1400&q=80'
+  }
+};
+const GROUP_VISIBLE_LIMITS = {
+  activities: 8,
+  camps: 6
+};
 const ACTIVITY_TYPE_ORDER = [
   'parks & outdoors',
   'playgroups & toddlers',
@@ -2451,6 +2554,66 @@ function slugifyType(type) {
     .replace(/^-+|-+$/g, '');
 }
 
+function sourceLabelForItem(item) {
+  const source = String(item.contact || item.link || '').toLowerCase();
+  if (!source) return '';
+  if (source.includes('clubspark') || source.includes('lta.org.uk')) return 'Official venue';
+  if (source.includes('brent.gov.uk') || source.includes('camden.gov.uk') || source.includes('.gov.uk')) return 'Council source';
+  if (source.includes('classforkids') || source.includes('bookwhen') || source.includes('clubsolution')) return 'Booking page';
+  if (source.includes('google.com/search')) return 'Search result';
+  return 'Official site';
+}
+
+function imageHintForItem(item) {
+  const text = [item.name, item.blurb, item.recommendation, ...(item.tags || [])].join(' ').toLowerCase();
+  if (item.section === 'this-week') {
+    if (/festival|circus/.test(text)) return 'festival';
+    if (/music|talk|live/.test(text)) return 'music';
+    if (/library|writing|book/.test(text)) return 'library';
+    if (/craft/.test(text)) return 'craft';
+    if (/workshop/.test(text)) return 'workshop';
+    return 'default';
+  }
+  if (item.section === 'activities') {
+    const type = activityTypeForItem(item);
+    if (type === 'parks & outdoors') return 'parks';
+    if (type === 'libraries') return 'libraries';
+    if (type === 'swim & lessons') return 'swim';
+    if (type === 'museums & culture') return 'culture';
+    if (type === 'cinema & theatre') return 'theatre';
+    if (type === 'leisure & sport') return 'sport';
+    return 'clubs';
+  }
+  if (item.section === 'camps') {
+    const type = campTypeForItem(item);
+    if (type === 'tennis & racket sports') return 'tennis';
+    if (type === 'performing arts') return 'performing';
+    if (type === 'dance & movement') return 'dance';
+    if (type === 'stem & science') return 'stem';
+    if (type === 'forest school & outdoors') return 'forest';
+    if (type === 'sports & active') return 'sport';
+    if (type === 'early years play schemes') return 'earlyYears';
+    return 'default';
+  }
+  if (item.section === 'childcare') {
+    if (/montessori/.test(text)) return 'montessori';
+    return 'nursery';
+  }
+  return 'default';
+}
+
+function cardImageForItem(item) {
+  const explicit = item.cardImage || item.promoImage || (window.WF_CARD_IMAGES && (window.WF_CARD_IMAGES[item.id] || window.WF_CARD_IMAGES[item.name]));
+  if (explicit) return explicit;
+  const sectionDefaults = CARD_IMAGE_DEFAULTS[item.section] || {};
+  const hint = imageHintForItem(item);
+  return sectionDefaults[hint] || sectionDefaults.default || ACTIVITY_DEFAULT_IMAGE;
+}
+
+function shouldCollapseGroup(section, count) {
+  return count > (GROUP_VISIBLE_LIMITS[section] || Infinity);
+}
+
 function renderActivityGroups(items) {
   const grouped = new Map();
   items.forEach(item => {
@@ -2467,8 +2630,10 @@ function renderActivityGroups(items) {
   return orderedTypes.map(type => {
     const groupItems = grouped.get(type) || [];
     const image = activityImageForGroup(groupItems);
+    const collapsed = shouldCollapseGroup('activities', groupItems.length);
+    const visibleItems = collapsed ? groupItems.slice(0, GROUP_VISIBLE_LIMITS.activities) : groupItems;
     return `
-      <section class="activity-group" data-activity-type="${escapeAttr(type)}">
+      <section class="activity-group${collapsed ? ' collapsible-group' : ''}" data-activity-type="${escapeAttr(type)}">
         <div class="activity-group-header">
           <div class="activity-group-copy">
             <div class="parent-card-kicker">Activity type</div>
@@ -2480,8 +2645,13 @@ function renderActivityGroups(items) {
             <img class="activity-group-image" src="${escapeAttr(image)}" alt="${escapeAttr(activityTypeLabel(type))} image" loading="lazy">
           </div>
         </div>
-        <div class="parent-grid activity-group-grid">
-          ${groupItems.map(renderCard).join('')}
+        <div class="group-meta-row">
+          <span class="group-meta-pill">${groupItems.length} places</span>
+          ${collapsed ? `<button class="group-toggle-button" type="button" data-group-toggle="activities" data-group-target="${escapeAttr(slugifyType(type))}" aria-expanded="false">Show ${groupItems.length - GROUP_VISIBLE_LIMITS.activities} more</button>` : ''}
+        </div>
+        <div class="parent-grid activity-group-grid${collapsed ? ' is-collapsed' : ''}" data-group-grid="activities" data-group-key="${escapeAttr(slugifyType(type))}">
+          ${visibleItems.map(renderCard).join('')}
+          ${collapsed ? `<div class="group-hidden-items" hidden>${groupItems.slice(GROUP_VISIBLE_LIMITS.activities).map(renderCard).join('')}</div>` : ''}
         </div>
       </section>
     `;
@@ -2537,8 +2707,10 @@ function renderCampGroups(items) {
 
   return `${nav}${orderedTypes.map(type => {
     const groupItems = grouped.get(type) || [];
+    const collapsed = shouldCollapseGroup('camps', groupItems.length);
+    const visibleItems = collapsed ? groupItems.slice(0, GROUP_VISIBLE_LIMITS.camps) : groupItems;
     return `
-      <section class="camp-group" id="camp-group-${slugifyType(type)}" data-camp-type="${escapeAttr(type)}">
+      <section class="camp-group${collapsed ? ' collapsible-group' : ''}" id="camp-group-${slugifyType(type)}" data-camp-type="${escapeAttr(type)}">
         <div class="camp-group-header">
           <div class="camp-group-copy">
             <div class="parent-card-kicker">Camp type</div>
@@ -2550,8 +2722,13 @@ function renderCampGroups(items) {
             <div class="camp-group-count">${groupItems.length} camp${groupItems.length === 1 ? '' : 's'}</div>
           </div>
         </div>
-        <div class="parent-grid camp-group-grid">
-          ${groupItems.map(renderCard).join('')}
+        <div class="group-meta-row">
+          <span class="group-meta-pill">${groupItems.length} options</span>
+          ${collapsed ? `<button class="group-toggle-button" type="button" data-group-toggle="camps" data-group-target="${escapeAttr(slugifyType(type))}" aria-expanded="false">Show ${groupItems.length - GROUP_VISIBLE_LIMITS.camps} more</button>` : ''}
+        </div>
+        <div class="parent-grid camp-group-grid${collapsed ? ' is-collapsed' : ''}" data-group-grid="camps" data-group-key="${escapeAttr(slugifyType(type))}">
+          ${visibleItems.map(renderCard).join('')}
+          ${collapsed ? `<div class="group-hidden-items" hidden>${groupItems.slice(GROUP_VISIBLE_LIMITS.camps).map(renderCard).join('')}</div>` : ''}
         </div>
       </section>
     `;
@@ -2562,19 +2739,28 @@ function renderCard(item) {
   const isSaved = LS.shortlist.has(item.id);
   const contactUrl = item.contact || item.link || '#';
   const hasLink = contactUrl && contactUrl !== '#';
-  const bookLabel = /mail|tel:|book|visit|learn|open|browse|search|see|view/i.test(item.linkLabel || '') ? item.linkLabel : 'Open link';
   const mapQuery = item.mapQuery || item.name;
-  const promoImage = item.section === 'activities' ? (item.promoImage || ACTIVITY_DEFAULT_IMAGE) : item.promoImage;
+  const cardImage = cardImageForItem(item);
   const campType = item.section === 'camps' ? campTypeForItem(item) : '';
-
+  const sourceLabel = sourceLabelForItem(item);
   const tags = (item.tags || []).slice(0, 4).map(tag => `<span class="mini-pill">${tag}</span>`).join('');
 
   return `
     <article class="parent-card ${item.cardTone || ''}" data-item="${item.id}" data-section="${item.section}" data-age="${item.age}" data-cost="${item.cost}" data-search="${escapeHtml([item.name, item.area, item.blurb, item.recommendation, item.age, item.cost, ...(item.tags || [])].join(' ')).toLowerCase()}"${item.section === 'activities' ? ` data-activity-type="${escapeAttr(activityTypeForItem(item))}"` : ''}${item.section === 'camps' ? ` data-camp-type="${escapeAttr(campType)}"` : ''}>
+      <div class="parent-card-media-wrap">
+        ${hasLink ? `<a class="parent-card-promo" href="${escapeAttr(contactUrl)}" target="_blank" rel="noopener noreferrer" aria-label="${escapeAttr(item.promoAlt || item.name)}">` : '<div class="parent-card-promo" aria-hidden="true">'}
+          <img src="${escapeAttr(cardImage)}" alt="${escapeAttr(item.promoAlt || item.name)}" loading="lazy">
+          <div class="parent-card-media-overlay"></div>
+          <div class="parent-card-media-topline">
+            <span class="media-section-pill">${escapeHtml(formatSectionLabel(item.section))}</span>
+            ${sourceLabel ? `<span class="media-source-pill">${escapeHtml(sourceLabel)}</span>` : ''}
+          </div>
+        ${hasLink ? '</a>' : '</div>'}
+        <div class="parent-card-floating-brandmark">${renderBrandMark(item)}</div>
+      </div>
       <div class="parent-card-top">
         <div class="parent-card-title-wrap">
-          ${renderBrandMark(item)}
-          <div class="parent-card-kicker">${formatSectionLabel(item.section)}</div>
+          <div class="parent-card-kicker">${escapeHtml(item.area)}</div>
           <h3>${escapeHtml(item.name)}</h3>
           ${item.eventDate ? `<div class="event-meta">${escapeHtml(item.eventDate)}${item.eventTime ? ` · ${escapeHtml(item.eventTime)}` : ''}</div>` : ''}
           ${campType ? `<div class="camp-type-chip"><span class="camp-type-chip-icon">${campTypeIcon(campType)}</span><span>${escapeHtml(campTypeLabel(campType))}</span></div>` : ''}
@@ -2583,11 +2769,6 @@ function renderCard(item) {
           ${ICONS.save}
         </button>
       </div>
-      ${promoImage && item.section !== 'activities' ? `
-      <a class="parent-card-promo" href="${escapeAttr(contactUrl)}" target="_blank" rel="noopener noreferrer" aria-label="${escapeAttr(item.promoAlt || item.name)}">
-        <img src="${escapeAttr(promoImage)}" alt="${escapeAttr(item.promoAlt || item.name)}" loading="lazy">
-      </a>
-      ` : ''}
       <div class="badge-row">
         <span class="badge">${ICONS.users} ${escapeHtml(item.age)}</span>
         <span class="badge">${ICONS.pound} ${badgeForCost(item.cost)}</span>
@@ -2602,7 +2783,7 @@ function renderCard(item) {
         <button class="card-action" data-action="export" data-id="${item.id}">${ICONS.calendar} Export</button>
       </div>
       <div class="card-footnote">
-        <span>${item.featured ? 'Featured this week' : 'Saved locally if you want it'}</span>
+        <span>${item.featured ? 'Featured this week' : (sourceLabel || 'Saved locally if you want it')}</span>
         <button class="text-button" data-action="details" data-id="${item.id}">Open in shortlist</button>
       </div>
     </article>
@@ -2947,6 +3128,22 @@ function bindControls() {
   });
 
   document.body.addEventListener('click', (event) => {
+    const groupToggle = event.target.closest('[data-group-toggle]');
+    if (groupToggle) {
+      const groupType = groupToggle.dataset.groupToggle;
+      const groupTarget = groupToggle.dataset.groupTarget;
+      const grid = document.querySelector(`[data-group-grid="${groupType}"][data-group-key="${groupTarget}"]`);
+      if (!grid) return;
+      const hidden = grid.querySelector('.group-hidden-items');
+      const expanded = groupToggle.getAttribute('aria-expanded') === 'true';
+      if (!hidden) return;
+      hidden.hidden = expanded;
+      groupToggle.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+      groupToggle.textContent = expanded ? `Show ${hidden.querySelectorAll('article').length} more` : 'Show fewer';
+      grid.classList.toggle('is-expanded', !expanded);
+      return;
+    }
+
     const button = event.target.closest('[data-action]');
     if (!button) return;
     const id = button.dataset.id;
