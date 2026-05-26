@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 800" role="img" aria-labelledby="title desc">
+  <title id="title">Editorial illustration of a family culture outing</title>
+  <desc id="desc">Families visiting a museum or gallery with artworks, displays, and warm cultural atmosphere.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f0da"/>
+      <stop offset="100%" stop-color="#efd0aa"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="800" fill="url(#sky)"/>
+  <path d="M0 580 C180 540 320 620 460 590 C610 560 730 500 870 546 C1010 590 1140 620 1400 560 L1400 800 L0 800 Z" fill="#c9d8e3"/>
+  <circle cx="1120" cy="150" r="68" fill="#ffd86d"/>
+  <rect x="140" y="170" width="1120" height="410" rx="34" fill="#fff8f0" stroke="#dbc6ab" stroke-width="8"/>
+  <rect x="220" y="230" width="180" height="240" rx="20" fill="#d8ecf7" stroke="#90afbf" stroke-width="6"/>
+  <rect x="450" y="230" width="180" height="240" rx="20" fill="#f7e3d2" stroke="#c79d86" stroke-width="6"/>
+  <rect x="680" y="230" width="180" height="240" rx="20" fill="#e8f0cf" stroke="#b1bf87" stroke-width="6"/>
+  <rect x="910" y="230" width="180" height="240" rx="20" fill="#f3e1bb" stroke="#ccb07a" stroke-width="6"/>
+  <rect x="250" y="260" width="120" height="16" rx="8" fill="#7ea4c7"/>
+  <rect x="250" y="290" width="120" height="16" rx="8" fill="#7ea4c7"/>
+  <circle cx="540" cy="360" r="44" fill="#e9b989"/>
+  <circle cx="770" cy="360" r="44" fill="#f1cfb0"/>
+  <rect x="500" y="404" width="80" height="100" rx="30" fill="#7c9fc2"/>
+  <rect x="730" y="404" width="80" height="100" rx="30" fill="#d47e6a"/>
+  <rect x="420" y="500" width="560" height="34" rx="17" fill="#8b6a51"/>
+</svg>

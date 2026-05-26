@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 800" role="img" aria-labelledby="title desc">
+  <title id="title">Editorial illustration of a local park</title>
+  <desc id="desc">Families walking, trees, a playground and open green space in a friendly London park.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f6edd8"/>
+      <stop offset="100%" stop-color="#f3d5b3"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cee6b5"/>
+      <stop offset="100%" stop-color="#93c489"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="800" fill="url(#sky)"/>
+  <circle cx="1120" cy="150" r="68" fill="#ffd86d"/>
+  <path d="M0 558 C180 520 310 610 450 586 C600 560 720 500 870 542 C1020 584 1120 620 1400 560 L1400 800 L0 800 Z" fill="url(#grass)"/>
+  <g>
+    <circle cx="260" cy="450" r="78" fill="#6fae65"/>
+    <rect x="248" y="512" width="24" height="80" rx="12" fill="#7f5a42"/>
+  </g>
+  <g>
+    <circle cx="1110" cy="430" r="88" fill="#6aa35c"/>
+    <rect x="1096" y="500" width="28" height="92" rx="14" fill="#7d5740"/>
+  </g>
+  <rect x="470" y="380" width="380" height="180" rx="28" fill="#f1d68f" stroke="#caad60" stroke-width="6"/>
+  <rect x="520" y="440" width="54" height="120" rx="16" fill="#f0a46d"/>
+  <rect x="600" y="404" width="54" height="156" rx="16" fill="#6fb2d3"/>
+  <rect x="680" y="430" width="54" height="130" rx="16" fill="#f2ce5e"/>
+  <rect x="760" y="414" width="54" height="146" rx="16" fill="#7fb57a"/>
+  <path d="M0 680 C180 650 280 660 390 690 C520 720 640 724 780 696 C920 668 1080 650 1400 700 L1400 800 L0 800 Z" fill="#7fb06d" opacity="0.6"/>
+  <circle cx="360" cy="580" r="28" fill="#f5d2b1"/>
+  <rect x="342" y="606" width="36" height="60" rx="18" fill="#7ea4c7"/>
+  <circle cx="1040" cy="590" r="28" fill="#f4cfab"/>
+  <rect x="1022" y="616" width="36" height="60" rx="18" fill="#d68a68"/>
+</svg>

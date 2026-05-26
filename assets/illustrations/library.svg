@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 800" role="img" aria-labelledby="title desc">
+  <title id="title">Editorial illustration of a local library and museum</title>
+  <desc id="desc">Warm illustrated library building with books, windows, trees, and a calm family-friendly feel.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8efd9"/>
+      <stop offset="100%" stop-color="#f6d8ab"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bfe0b0"/>
+      <stop offset="100%" stop-color="#8ebc82"/>
+    </linearGradient>
+    <linearGradient id="building" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8f2e8"/>
+      <stop offset="100%" stop-color="#d9c7ad"/>
+    </linearGradient>
+    <linearGradient id="roof" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8f5d46"/>
+      <stop offset="100%" stop-color="#6d4234"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="800" fill="url(#sky)"/>
+  <circle cx="1130" cy="145" r="64" fill="#ffd26a" opacity="0.95"/>
+  <path d="M0 580 C160 540 220 610 360 582 C500 554 580 510 712 548 C840 584 930 620 1080 586 C1200 560 1290 520 1400 550 L1400 800 L0 800 Z" fill="url(#grass)"/>
+  <path d="M130 560 C160 500 212 470 258 470 C300 470 350 500 378 560 Z" fill="#789c68"/>
+  <path d="M175 560 V445 H282 V560 Z" fill="#7e553d"/>
+  <path d="M164 445 L229 390 L294 445 Z" fill="#5d7c4f"/>
+  <rect x="382" y="220" width="660" height="340" rx="20" fill="url(#building)" stroke="#b28f6d" stroke-width="8"/>
+  <path d="M360 250 L712 120 L1060 250 Z" fill="url(#roof)"/>
+  <rect x="445" y="280" width="96" height="108" rx="8" fill="#d9ecf5" stroke="#8fa5af" stroke-width="5"/>
+  <rect x="610" y="280" width="96" height="108" rx="8" fill="#d9ecf5" stroke="#8fa5af" stroke-width="5"/>
+  <rect x="775" y="280" width="96" height="108" rx="8" fill="#d9ecf5" stroke="#8fa5af" stroke-width="5"/>
+  <rect x="940" y="280" width="96" height="108" rx="8" fill="#d9ecf5" stroke="#8fa5af" stroke-width="5"/>
+  <rect x="585" y="400" width="250" height="160" rx="16" fill="#f0dfc8" stroke="#b28f6d" stroke-width="6"/>
+  <rect x="676" y="436" width="68" height="124" rx="8" fill="#7a5a43"/>
+  <circle cx="728" cy="498" r="8" fill="#f7e7c7"/>
+  <path d="M420 630 C470 600 520 598 580 630" fill="none" stroke="#5f8b58" stroke-width="14" stroke-linecap="round"/>
+  <path d="M835 630 C885 600 935 598 995 630" fill="none" stroke="#5f8b58" stroke-width="14" stroke-linecap="round"/>
+  <g opacity="0.95">
+    <rect x="178" y="630" width="94" height="18" rx="9" fill="#7d5f43"/>
+    <rect x="196" y="598" width="58" height="32" rx="10" fill="#be8e4d"/>
+    <rect x="200" y="610" width="50" height="14" rx="7" fill="#f4e4bc"/>
+  </g>
+  <g opacity="0.85">
+    <circle cx="1170" cy="650" r="26" fill="#8fd1a0"/>
+    <circle cx="1205" cy="630" r="36" fill="#71b77e"/>
+    <circle cx="1242" cy="654" r="24" fill="#7ebf8a"/>
+    <rect x="1201" y="655" width="16" height="54" rx="8" fill="#7d5b44"/>
+  </g>
+</svg>

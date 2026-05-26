@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 800" role="img" aria-labelledby="title desc">
+  <title id="title">Editorial illustration of SEND support</title>
+  <desc id="desc">A calm support scene with a parent, child and advisor looking at helpful resources together.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7efd8"/>
+      <stop offset="100%" stop-color="#efd0ad"/>
+    </linearGradient>
+    <linearGradient id="desk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0e5d4"/>
+      <stop offset="100%" stop-color="#d2b596"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="800" fill="url(#sky)"/>
+  <circle cx="1120" cy="150" r="68" fill="#ffd86d"/>
+  <path d="M0 590 C180 540 300 620 440 590 C590 560 720 508 860 548 C1000 588 1140 620 1400 560 L1400 800 L0 800 Z" fill="#bfd3bf"/>
+  <rect x="130" y="130" width="1140" height="450" rx="34" fill="#fff8f0" stroke="#dcc6aa" stroke-width="8"/>
+  <rect x="320" y="430" width="760" height="120" rx="28" fill="url(#desk)" stroke="#b38e68" stroke-width="6"/>
+  <rect x="380" y="250" width="110" height="110" rx="20" fill="#d9edf7" stroke="#94b3c5" stroke-width="6"/>
+  <rect x="520" y="250" width="110" height="110" rx="20" fill="#f8dfcf" stroke="#caa08b" stroke-width="6"/>
+  <rect x="660" y="250" width="110" height="110" rx="20" fill="#e7f0d0" stroke="#b2c28a" stroke-width="6"/>
+  <rect x="800" y="250" width="110" height="110" rx="20" fill="#f2e0be" stroke="#cbb07e" stroke-width="6"/>
+  <g>
+    <circle cx="470" cy="360" r="36" fill="#f5d3b2"/>
+    <rect x="440" y="394" width="60" height="90" rx="28" fill="#7ea4c7"/>
+  </g>
+  <g>
+    <circle cx="700" cy="360" r="36" fill="#f0c79e"/>
+    <rect x="670" y="394" width="60" height="90" rx="28" fill="#d68a68"/>
+  </g>
+  <g>
+    <circle cx="930" cy="360" r="36" fill="#f7ddc2"/>
+    <rect x="900" y="394" width="60" height="90" rx="28" fill="#7ea974"/>
+  </g>
+  <rect x="520" y="470" width="360" height="18" rx="9" fill="#8b6a51"/>
+  <rect x="560" y="500" width="100" height="16" rx="8" fill="#fff" opacity="0.7"/>
+  <rect x="680" y="500" width="100" height="16" rx="8" fill="#fff" opacity="0.7"/>
+  <rect x="800" y="500" width="100" height="16" rx="8" fill="#fff" opacity="0.7"/>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 800" role="img" aria-labelledby="title desc">
+  <title id="title">Editorial illustration of a rainy-day indoor family space</title>
+  <desc id="desc">A cosy indoor room with books, soft seating, a swimming pool card, and play equipment for wet-weather days.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eff4fb"/>
+      <stop offset="100%" stop-color="#c7d8ea"/>
+    </linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fffaf3"/>
+      <stop offset="100%" stop-color="#eadcc8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="800" fill="url(#sky)"/>
+  <path d="M0 578 C190 540 320 610 470 586 C630 560 760 506 900 546 C1040 586 1140 620 1400 562 L1400 800 L0 800 Z" fill="#aac4d8"/>
+  <rect x="110" y="120" width="1180" height="470" rx="34" fill="url(#wall)" stroke="#d3c0a7" stroke-width="8"/>
+  <rect x="170" y="210" width="270" height="180" rx="24" fill="#d9edf7" stroke="#90afbf" stroke-width="6"/>
+  <rect x="500" y="210" width="270" height="180" rx="24" fill="#eee6d1" stroke="#c5b186" stroke-width="6"/>
+  <rect x="830" y="210" width="270" height="180" rx="24" fill="#e5f0d0" stroke="#b4c18f" stroke-width="6"/>
+  <rect x="250" y="460" width="900" height="110" rx="30" fill="#f0c98d"/>
+  <rect x="320" y="436" width="130" height="84" rx="20" fill="#8fbad2"/>
+  <rect x="500" y="436" width="130" height="84" rx="20" fill="#d69a6f"/>
+  <rect x="680" y="436" width="130" height="84" rx="20" fill="#8bb67f"/>
+  <rect x="860" y="436" width="130" height="84" rx="20" fill="#d4ba7b"/>
+  <g>
+    <rect x="560" y="260" width="120" height="90" rx="18" fill="#fff" stroke="#b8a38a" stroke-width="6"/>
+    <circle cx="620" cy="305" r="26" fill="#7fb9d1"/>
+    <rect x="900" y="270" width="140" height="84" rx="18" fill="#ffffff" stroke="#b8a38a" stroke-width="6"/>
+    <path d="M930 316 C950 290 980 290 1000 316 C1020 340 1045 340 1065 316" fill="none" stroke="#7ea86c" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <g opacity="0.95">
+    <rect x="1200" y="470" width="70" height="100" rx="18" fill="#84a8bf"/>
+    <rect x="1160" y="510" width="34" height="60" rx="14" fill="#84a8bf"/>
+  </g>
+</svg>

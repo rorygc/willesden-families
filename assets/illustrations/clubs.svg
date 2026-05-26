@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 800" role="img" aria-labelledby="title desc">
+  <title id="title">Editorial illustration of children’s clubs and classes</title>
+  <desc id="desc">A bright class scene with dance, music, sports and creative activities for children.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8edd7"/>
+      <stop offset="100%" stop-color="#f0cda3"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="800" fill="url(#sky)"/>
+  <circle cx="1120" cy="150" r="68" fill="#ffd86d"/>
+  <path d="M0 575 C180 538 300 620 450 588 C600 556 730 500 870 546 C1010 590 1140 620 1400 560 L1400 800 L0 800 Z" fill="#c5dcb8"/>
+  <rect x="120" y="130" width="1160" height="450" rx="34" fill="#fff8f0" stroke="#dcc7ab" stroke-width="8"/>
+  <rect x="210" y="230" width="170" height="170" rx="24" fill="#d9ecf7" stroke="#96b6c8" stroke-width="6"/>
+  <rect x="430" y="230" width="170" height="170" rx="24" fill="#f7e1d0" stroke="#cfa791" stroke-width="6"/>
+  <rect x="650" y="230" width="170" height="170" rx="24" fill="#e8f0cf" stroke="#b5c18e" stroke-width="6"/>
+  <rect x="870" y="230" width="170" height="170" rx="24" fill="#f3e2bb" stroke="#cdb07d" stroke-width="6"/>
+  <rect x="1090" y="230" width="170" height="170" rx="24" fill="#e2dfef" stroke="#a7a2be" stroke-width="6"/>
+  <g>
+    <circle cx="295" cy="430" r="32" fill="#f4d1af"/>
+    <rect x="270" y="462" width="50" height="110" rx="25" fill="#6ea0c2"/>
+  </g>
+  <g>
+    <circle cx="515" cy="430" r="32" fill="#f0c697"/>
+    <rect x="490" y="462" width="50" height="110" rx="25" fill="#d97e67"/>
+  </g>
+  <g>
+    <circle cx="735" cy="430" r="32" fill="#f6d8ba"/>
+    <rect x="710" y="462" width="50" height="110" rx="25" fill="#7ca774"/>
+  </g>
+  <g>
+    <circle cx="955" cy="430" r="32" fill="#f4d1af"/>
+    <rect x="930" y="462" width="50" height="110" rx="25" fill="#f0b44e"/>
+  </g>
+  <g>
+    <circle cx="1175" cy="430" r="32" fill="#f6d8ba"/>
+    <rect x="1150" y="462" width="50" height="110" rx="25" fill="#8e7db6"/>
+  </g>
+</svg>

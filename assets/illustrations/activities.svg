@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 800" role="img" aria-labelledby="title desc">
+  <title id="title">Editorial illustration of family activities</title>
+  <desc id="desc">A collage of parks, swim, clubs, libraries and culture for the activities section.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7ecd6"/>
+      <stop offset="100%" stop-color="#efc99f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="800" fill="url(#sky)"/>
+  <circle cx="1120" cy="150" r="68" fill="#ffd86d"/>
+  <path d="M0 570 C180 530 320 620 460 590 C600 560 730 500 870 546 C1010 590 1140 620 1400 560 L1400 800 L0 800 Z" fill="#bfd8c0"/>
+  <rect x="120" y="150" width="250" height="210" rx="24" fill="#d6ebf6"/>
+  <rect x="430" y="150" width="250" height="210" rx="24" fill="#f6e0d0"/>
+  <rect x="740" y="150" width="250" height="210" rx="24" fill="#e8f0cf"/>
+  <rect x="1050" y="150" width="250" height="210" rx="24" fill="#f2e2bb"/>
+  <rect x="275" y="470" width="250" height="190" rx="26" fill="#fff2df" stroke="#d9c1a0" stroke-width="6"/>
+  <rect x="575" y="470" width="250" height="190" rx="26" fill="#dbeaf4" stroke="#98b7c9" stroke-width="6"/>
+  <rect x="875" y="470" width="250" height="190" rx="26" fill="#f6e8ce" stroke="#d1b988" stroke-width="6"/>
+  <circle cx="245" cy="220" r="36" fill="#f5d3b2"/>
+  <circle cx="555" cy="220" r="36" fill="#f0c79b"/>
+  <circle cx="865" cy="220" r="36" fill="#f7ddbf"/>
+  <circle cx="1175" cy="220" r="36" fill="#f4d2af"/>
+  <path d="M220 600 C320 540 400 540 490 600" fill="none" stroke="#7ea46c" stroke-width="18" stroke-linecap="round"/>
+  <path d="M620 590 C700 540 780 540 860 590" fill="none" stroke="#6ca8cc" stroke-width="18" stroke-linecap="round"/>
+  <path d="M930 600 C1010 545 1090 545 1170 600" fill="none" stroke="#c99f5d" stroke-width="18" stroke-linecap="round"/>
+</svg>

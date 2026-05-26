@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 800" role="img" aria-labelledby="title desc">
+  <title id="title">Editorial illustration of a quiet pocket garden</title>
+  <desc id="desc">A calm green garden with a small pond, trees, flowers, and a relaxed family-friendly path.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f6edd8"/>
+      <stop offset="100%" stop-color="#f4d6b4"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d2eab8"/>
+      <stop offset="100%" stop-color="#9ac68d"/>
+    </linearGradient>
+    <linearGradient id="pond" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9dd5ef"/>
+      <stop offset="100%" stop-color="#63a9cf"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="800" fill="url(#sky)"/>
+  <circle cx="1120" cy="160" r="68" fill="#ffd66e" opacity="0.95"/>
+  <path d="M0 560 C160 520 280 600 420 574 C560 548 650 500 790 538 C930 576 1030 620 1170 590 C1265 569 1325 540 1400 550 L1400 800 L0 800 Z" fill="url(#grass)"/>
+  <path d="M150 610 C220 560 300 540 390 560" fill="none" stroke="#bb9c6d" stroke-width="26" stroke-linecap="round"/>
+  <ellipse cx="720" cy="610" rx="150" ry="76" fill="url(#pond)" stroke="#4b8cae" stroke-width="8"/>
+  <ellipse cx="700" cy="590" rx="84" ry="34" fill="#e7f6fb" opacity="0.45"/>
+  <g>
+    <path d="M220 540 C220 470 255 415 300 415 C348 415 384 472 384 540 Z" fill="#5a8f54"/>
+    <rect x="286" y="540" width="22" height="86" rx="11" fill="#7f5a42"/>
+    <circle cx="296" cy="405" r="48" fill="#7fc47b"/>
+    <circle cx="258" cy="438" r="42" fill="#6aad67"/>
+    <circle cx="342" cy="438" r="42" fill="#6aad67"/>
+  </g>
+  <g>
+    <path d="M1040 548 C1040 470 1078 418 1125 418 C1170 418 1206 470 1206 548 Z" fill="#5b8c53"/>
+    <rect x="1112" y="548" width="22" height="90" rx="11" fill="#7e5840"/>
+    <circle cx="1122" cy="405" r="52" fill="#7fc47b"/>
+    <circle cx="1085" cy="438" r="40" fill="#6aad67"/>
+    <circle cx="1160" cy="438" r="40" fill="#6aad67"/>
+  </g>
+  <g opacity="0.95">
+    <circle cx="470" cy="510" r="10" fill="#e87784"/>
+    <circle cx="500" cy="525" r="10" fill="#f5c24d"/>
+    <circle cx="530" cy="508" r="10" fill="#ff9a8b"/>
+    <circle cx="560" cy="522" r="10" fill="#ffd66d"/>
+    <circle cx="590" cy="505" r="10" fill="#f5c24d"/>
+    <circle cx="875" cy="520" r="10" fill="#e87784"/>
+    <circle cx="905" cy="505" r="10" fill="#ffd66d"/>
+    <circle cx="935" cy="524" r="10" fill="#f5c24d"/>
+  </g>
+  <path d="M0 680 C160 650 260 655 380 682 C520 714 650 720 780 694 C930 664 1080 650 1400 700 L1400 800 L0 800 Z" fill="#7ca66f" opacity="0.55"/>
+</svg>

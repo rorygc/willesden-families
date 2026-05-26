@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 800" role="img" aria-labelledby="title desc">
+  <title id="title">Editorial illustration of a family swim lesson</title>
+  <desc id="desc">Children and parents in a warm indoor pool with a coach and bright lane colours.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eef7fb"/>
+      <stop offset="100%" stop-color="#c9e1f2"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8fd0ef"/>
+      <stop offset="100%" stop-color="#4d9ec8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="800" fill="url(#sky)"/>
+  <rect x="100" y="140" width="1200" height="450" rx="34" fill="#fffaf3" stroke="#d5c1ab" stroke-width="8"/>
+  <circle cx="1140" cy="150" r="66" fill="#ffd86d"/>
+  <rect x="160" y="250" width="1080" height="220" rx="34" fill="url(#water)" stroke="#327da8" stroke-width="8"/>
+  <path d="M190 300 C270 270 350 330 430 300 C510 270 590 330 670 300 C750 270 830 330 910 300 C990 270 1070 330 1150 300" fill="none" stroke="#dff5ff" stroke-width="12" stroke-linecap="round" opacity="0.9"/>
+  <path d="M190 360 C270 330 350 390 430 360 C510 330 590 390 670 360 C750 330 830 390 910 360 C990 330 1070 390 1150 360" fill="none" stroke="#dff5ff" stroke-width="12" stroke-linecap="round" opacity="0.9"/>
+  <g>
+    <circle cx="360" cy="370" r="34" fill="#f5d4b2"/>
+    <rect x="332" y="404" width="56" height="74" rx="28" fill="#79b7d8"/>
+  </g>
+  <g>
+    <circle cx="640" cy="340" r="34" fill="#f0c79a"/>
+    <rect x="612" y="374" width="56" height="104" rx="28" fill="#d87d67"/>
+  </g>
+  <g>
+    <circle cx="940" cy="362" r="34" fill="#f7ddbf"/>
+    <rect x="912" y="396" width="56" height="78" rx="28" fill="#7aa977"/>
+  </g>
+  <rect x="160" y="480" width="1080" height="22" rx="11" fill="#f2c14f"/>
+  <rect x="230" y="150" width="56" height="120" rx="20" fill="#f09c5a"/>
+  <rect x="310" y="150" width="56" height="120" rx="20" fill="#7cb8d8"/>
+  <rect x="390" y="150" width="56" height="120" rx="20" fill="#84bf7b"/>
+  <rect x="470" y="150" width="56" height="120" rx="20" fill="#e0c06a"/>
+</svg>

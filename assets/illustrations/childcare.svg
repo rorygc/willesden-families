@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 800" role="img" aria-labelledby="title desc">
+  <title id="title">Editorial illustration of a nursery classroom</title>
+  <desc id="desc">A calm nursery room with books, soft toys, warm light and children’s learning materials.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f6edd9"/>
+      <stop offset="100%" stop-color="#f3d2b0"/>
+    </linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff8f0"/>
+      <stop offset="100%" stop-color="#f0dfca"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c8ddc5"/>
+      <stop offset="100%" stop-color="#9ab68f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="800" fill="url(#sky)"/>
+  <circle cx="1140" cy="150" r="66" fill="#ffd86d"/>
+  <rect x="100" y="120" width="1200" height="470" rx="34" fill="url(#wall)" stroke="#dfc4a3" stroke-width="8"/>
+  <path d="M0 560 C180 520 320 620 460 592 C620 560 720 502 860 544 C1000 588 1100 622 1400 560 L1400 800 L0 800 Z" fill="url(#floor)"/>
+  <rect x="180" y="220" width="190" height="190" rx="22" fill="#e0f0f8" stroke="#95b3c8" stroke-width="6"/>
+  <rect x="430" y="220" width="190" height="190" rx="22" fill="#f8e1d5" stroke="#cfa791" stroke-width="6"/>
+  <rect x="680" y="220" width="190" height="190" rx="22" fill="#eef1d7" stroke="#bcc49a" stroke-width="6"/>
+  <rect x="930" y="220" width="190" height="190" rx="22" fill="#f4ead0" stroke="#d0ba95" stroke-width="6"/>
+  <rect x="240" y="500" width="920" height="120" rx="32" fill="#d5b48a" opacity="0.95"/>
+  <rect x="285" y="475" width="120" height="88" rx="18" fill="#f8d777"/>
+  <rect x="455" y="475" width="120" height="88" rx="18" fill="#93c7df"/>
+  <rect x="625" y="475" width="120" height="88" rx="18" fill="#e38c7b"/>
+  <rect x="795" y="475" width="120" height="88" rx="18" fill="#9acb87"/>
+  <rect x="965" y="475" width="120" height="88" rx="18" fill="#f2b96e"/>
+  <g>
+    <circle cx="330" cy="390" r="35" fill="#f5d2b1"/>
+    <circle cx="285" cy="380" r="30" fill="#7f5d46"/>
+    <circle cx="375" cy="380" r="30" fill="#7f5d46"/>
+    <rect x="300" y="420" width="60" height="96" rx="28" fill="#6f9ac2"/>
+  </g>
+  <g>
+    <circle cx="560" cy="390" r="35" fill="#f2c69c"/>
+    <circle cx="515" cy="380" r="30" fill="#7f5d46"/>
+    <circle cx="605" cy="380" r="30" fill="#7f5d46"/>
+    <rect x="530" y="420" width="60" height="96" rx="28" fill="#d99a63"/>
+  </g>
+  <g>
+    <circle cx="810" cy="390" r="35" fill="#f6d7bc"/>
+    <circle cx="765" cy="380" r="30" fill="#7f5d46"/>
+    <circle cx="855" cy="380" r="30" fill="#7f5d46"/>
+    <rect x="780" y="420" width="60" height="96" rx="28" fill="#84b883"/>
+  </g>
+  <g>
+    <circle cx="1060" cy="390" r="35" fill="#f5d3b3"/>
+    <circle cx="1015" cy="380" r="30" fill="#7f5d46"/>
+    <circle cx="1105" cy="380" r="30" fill="#7f5d46"/>
+    <rect x="1030" y="420" width="60" height="96" rx="28" fill="#cb7d74"/>
+  </g>
+</svg>
