@@ -330,26 +330,26 @@ const DATA = {
       age: '0–5',
       cost: 'mid',
       area: 'Kensal Green',
-      blurb: 'Local nursery on Harrow Road with an up-to-date Ofsted presence and a straightforward west-London commute.',
-      recommendation: 'Useful if you’re looking across Kensal Green as well as Willesden.',
-      tags: ['nursery', 'Kensal Green', 'full day'],
-      contact: 'https://www.google.com/search?q=Kensal+House+Nursery+London',
-      linkLabel: 'Search details',
-      mapQuery: 'Kensal House Nursery, London'
+      blurb: 'Light-filled Harrow Road nursery with a home-away-from-home feel and an Ofsted Good rating.',
+      recommendation: 'Useful if you want longer nursery hours and a calmer, nurturing setting west of Willesden.',
+      tags: ['nursery', 'Kensal Green', 'full day', 'Ofsted Good'],
+      contact: 'https://www.littlehousesnursery.com/kensal-house-nursery',
+      linkLabel: 'Visit nursery',
+      mapQuery: 'Kensal House Nursery, White Building, 555 Harrow Road, London W10 4RH'
     },
     {
       id: 'child-college-green',
       section: 'childcare',
-      name: 'College Nursery School & Services',
-      age: '2–5',
+      name: 'College Green Nursery School & Services',
+      age: '2–4',
       cost: 'free',
       area: 'Kensal Rise',
-      blurb: 'School-linked nursery provision at College Road, showing up strongly in local nursery listings.',
-      recommendation: 'Good free option if you’re happy with a school-linked setting.',
-      tags: ['nursery', 'free', 'school-linked'],
-      contact: 'https://www.google.com/search?q=College+Nursery+School+%26+Services+Kensal+Rise',
-      linkLabel: 'Search details',
-      mapQuery: 'College Nursery School & Services, Kensal Rise, London'
+      blurb: 'Maintained nursery school on College Road with dedicated neighbourhood nursery and pre-school provision.',
+      recommendation: 'Strong free option if you want an established Brent nursery school with clear admissions and funded-hours information.',
+      tags: ['nursery school', 'free', 'school-linked', 'maintained'],
+      contact: 'https://www.cgss.brent.sch.uk',
+      linkLabel: 'Visit nursery school',
+      mapQuery: 'College Green Nursery School & Services, 161 College Road, London NW10 3PH'
     },
     {
       id: 'child-anson-primary',
@@ -2611,6 +2611,7 @@ function sourceLabelForItem(item) {
   if (source.includes('clubspark') || source.includes('lta.org.uk')) return 'Official venue';
   if (source.includes('brent.gov.uk') || source.includes('camden.gov.uk') || source.includes('.gov.uk')) return 'Council source';
   if (source.includes('classforkids') || source.includes('bookwhen') || source.includes('clubsolution')) return 'Booking page';
+  if (source.includes('ofsted.gov.uk') || source.includes('reports.ofsted.gov.uk')) return 'Ofsted';
   if (source.includes('google.com/search')) return 'Search result';
   return 'Official site';
 }
