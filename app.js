@@ -2317,6 +2317,12 @@ const SAFE_NEUTRAL_HINT_FALLBACKS = {
   workshop: './assets/hero.png'
 };
 const STOCK_IMAGE_HOSTS = ['images.unsplash.com'];
+const BROKEN_REMOTE_IMAGE_PATTERNS = [
+  /clubspark\.lta\.org\.uk\/Library\//i,
+  /\.(ico)(?:[?#].*)?$/i,
+  /favicon/i,
+  /logo\*/i
+];
 const GROUP_VISIBLE_LIMITS = {
   activities: 8,
   camps: 6
@@ -2657,9 +2663,16 @@ function isBlockedStockImage(url) {
   }
 }
 
+function shouldAvoidCardImage(url) {
+  if (!url) return true;
+  return BROKEN_REMOTE_IMAGE_PATTERNS.some(pattern => pattern.test(String(url)));
+}
+
 function cardImageForItem(item) {
-  const explicit = item.cardImage || item.promoImage || (window.WF_CARD_IMAGES && (window.WF_CARD_IMAGES[item.id] || window.WF_CARD_IMAGES[item.name]));
-  if (explicit) return explicit;
+  const explicitPromo = item.cardImage || item.promoImage;
+  const overrideImage = window.WF_CARD_IMAGES && (window.WF_CARD_IMAGES[item.id] || window.WF_CARD_IMAGES[item.name]);
+  if (explicitPromo && !shouldAvoidCardImage(explicitPromo)) return explicitPromo;
+  if (overrideImage && !shouldAvoidCardImage(overrideImage)) return overrideImage;
   const sectionDefaults = CARD_IMAGE_DEFAULTS[item.section] || {};
   const hint = imageHintForItem(item);
   const candidate = sectionDefaults[hint] || sectionDefaults.default || ACTIVITY_DEFAULT_IMAGE;
