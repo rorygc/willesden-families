@@ -2235,7 +2235,8 @@ const CARD_IMAGE_DEFAULTS = {
     craft: './assets/illustrations/library.svg',
     library: './assets/illustrations/library.svg',
     festival: './assets/illustrations/activities.svg',
-    music: './assets/illustrations/theatre.svg'
+    music: './assets/illustrations/theatre.svg',
+    garden: './assets/illustrations/garden.svg'
   },
   camps: {
     default: './assets/illustrations/camps.svg',
@@ -2314,10 +2315,12 @@ const SAFE_NEUTRAL_FALLBACKS = {
 const SAFE_NEUTRAL_HINT_FALLBACKS = {
   library: './assets/hero.png',
   craft: './assets/hero.png',
-  workshop: './assets/hero.png'
+  workshop: './assets/hero.png',
+  garden: './assets/illustrations/garden.svg'
 };
 const STOCK_IMAGE_HOSTS = ['images.unsplash.com'];
 const BROKEN_REMOTE_IMAGE_PATTERNS = [
+  /^http:\/\//i,
   /clubspark\.lta\.org\.uk\/Library\//i,
   /\.(ico)(?:[?#].*)?$/i,
   /favicon/i,
@@ -2619,6 +2622,7 @@ function sourceLabelForItem(item) {
 function imageHintForItem(item) {
   const text = [item.name, item.blurb, item.recommendation, ...(item.tags || [])].join(' ').toLowerCase();
   if (item.section === 'this-week') {
+    if (/garden|dell/.test(text)) return 'garden';
     if (/festival|circus/.test(text)) return 'festival';
     if (/music|talk|live/.test(text)) return 'music';
     if (/library|writing|book/.test(text)) return 'library';
