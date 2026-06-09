@@ -806,6 +806,20 @@ const DATA = {
       contact: 'https://www.junioradventuresgroup.co.uk/find-us/salusbury-primary-school',
       linkLabel: 'See club page',
       mapQuery: 'Salusbury Primary School, Salusbury Road, London NW6 6RG'
+    },
+    {
+      id: 'camp-ett-sports',
+      section: 'camps',
+      name: 'ETT Sports Summer Camp',
+      age: '4–12',
+      cost: 'free',
+      area: 'Mora School, NW2',
+      blurb: 'Six-week summer camp run by Coach Earnest at Mora School (Jul 20 – Aug 28). FSM-funded: 16 free days (4 days/wk, weeks 1–4). Non-FSM options from £45/day. Trips include Houses of Parliament (confirmed 27 Jul), Tower of London, Kensington Palace. Weeks 5–6: ballet, dance, musical instruments, drama, multi-sports, robotics, bouncy castle, film workshops.',
+      recommendation: 'Best if you want a local school-based summer camp with FSM-funded free places, trips, and a wide range of activities including arts and sports.',
+      tags: ['summer', 'multi-activity', 'FSM', 'trips', 'sports', 'arts'],
+      contact: '',
+      linkLabel: 'Contact ETT Sports',
+      mapQuery: 'Mora School, Mora Road, London NW2'
     }
   ],
   cafes: [
