@@ -453,6 +453,71 @@ a:hover {
   color: var(--color-text);
 }
 
+.hero-highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-top: var(--space-6);
+  max-width: 760px;
+}
+
+.highlight-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-1) var(--space-3);
+  background: oklch(from var(--color-surface) l c h / 0.95);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  text-decoration: none;
+  font-size: var(--text-xs);
+  transition: transform var(--transition-interactive), border-color var(--transition-interactive);
+  white-space: nowrap;
+}
+
+.highlight-item:hover {
+  transform: translateY(-1px);
+  border-color: var(--color-primary);
+  text-decoration: none;
+}
+
+.highlight-date {
+  font-weight: 700;
+  color: var(--color-primary);
+  font-size: var(--text-xs);
+}
+
+.highlight-name {
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+.highlight-area {
+  color: var(--color-text-muted);
+  font-size: 0.6875rem;
+}
+
+.highlight-free {
+  font-size: 0.625rem;
+  font-weight: 700;
+  padding: 0.1rem 0.4rem;
+  border-radius: var(--radius-full);
+  background: var(--color-primary);
+  color: var(--color-text-inverse);
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+@media (max-width: 640px) {
+  .highlight-item {
+    white-space: normal;
+    border-radius: var(--radius-lg);
+    padding: var(--space-2) var(--space-3);
+    flex-wrap: wrap;
+  }
+}
+
 .hero-stats {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));

@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Local Schools — Willesden Families</title>
-<meta name="description" content="Primary and secondary schools within 3km of Willesden Green with Ofsted ratings and summaries. A guide for parents choosing schools in NW London.">
+<meta name="description" content="Compare primary, secondary, and special schools near Willesden Green with Ofsted summaries, school websites, and Brent admissions shortcuts.">
 
 <link href="https://api.fontshare.com/v2/css?f[]=chillax@400,500,600,700&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,12 +36,15 @@
       </div>
     </a>
 
-    <nav class="nav-desktop" aria-label="Main navigation">
-      <a href="./index.html#camps">Summer Camps</a>
-      <a href="./index.html#classes">Weekly Classes</a>
-      <a href="./index.html#parks">Parks &amp; Outdoors</a>
-      <a href="./schools.html" class="nav-active">Schools</a>
-      <a href="./index.html#about">About</a>
+    <nav class="nav-desktop" aria-label="School page navigation">
+      <a href="#overview">Overview</a>
+      <a href="#outstanding-primary">Top primary</a>
+      <a href="#good-primary">More primary</a>
+      <a href="#secondary">Secondary</a>
+      <a href="#special">Special</a>
+      <a href="https://www.brent.gov.uk/education-schools-and-learning/school-admissions" target="_blank" rel="noopener noreferrer">Admissions</a>
+      <a href="https://reports.ofsted.gov.uk" target="_blank" rel="noopener noreferrer">Ofsted</a>
+      <a href="./index.html">Home</a>
     </nav>
 
     <div class="header-actions">
@@ -63,36 +66,61 @@
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
     </button>
   </div>
-  <a href="./index.html#camps" onclick="document.getElementById('mobile-nav').classList.remove('open')">Summer Camps</a>
-  <a href="./index.html#classes" onclick="document.getElementById('mobile-nav').classList.remove('open')">Weekly Classes</a>
-  <a href="./index.html#parks" onclick="document.getElementById('mobile-nav').classList.remove('open')">Parks &amp; Outdoors</a>
-  <a href="./schools.html" onclick="document.getElementById('mobile-nav').classList.remove('open')">Schools</a>
-  <a href="./index.html#about" onclick="document.getElementById('mobile-nav').classList.remove('open')">About</a>
+  <a href="#overview" onclick="document.getElementById('mobile-nav').classList.remove('open')">Overview</a>
+  <a href="#outstanding-primary" onclick="document.getElementById('mobile-nav').classList.remove('open')">Top primary</a>
+  <a href="#good-primary" onclick="document.getElementById('mobile-nav').classList.remove('open')">More primary</a>
+  <a href="#secondary" onclick="document.getElementById('mobile-nav').classList.remove('open')">Secondary</a>
+  <a href="#special" onclick="document.getElementById('mobile-nav').classList.remove('open')">Special</a>
+  <a href="https://www.brent.gov.uk/education-schools-and-learning/school-admissions" target="_blank" rel="noopener noreferrer" onclick="document.getElementById('mobile-nav').classList.remove('open')">Admissions</a>
+  <a href="https://reports.ofsted.gov.uk" target="_blank" rel="noopener noreferrer" onclick="document.getElementById('mobile-nav').classList.remove('open')">Ofsted</a>
+  <a href="./index.html" onclick="document.getElementById('mobile-nav').classList.remove('open')">Home</a>
 </div>
 
 <!-- ============ SCHOOLS HERO ============ -->
-<section class="schools-hero" id="main-content">
+<section class="schools-hero" id="main-content" aria-labelledby="schools-overview-title">
   <div class="container">
     <a href="./index.html" class="back-link">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
-      Back to Activities
+      Back to Willesden Families
     </a>
-    <h1>Local Schools</h1>
-    <p class="schools-hero-sub">Primary and secondary schools within 3km of Willesden Green (NW10 1HS), with Ofsted inspection summaries to help you choose the right school for your child.</p>
+    <div class="schools-overview" id="overview">
+      <div>
+        <p class="schools-eyebrow">School finder for Willesden Green and nearby NW London</p>
+        <h1 id="schools-overview-title">Find the right school faster.</h1>
+        <p class="schools-hero-sub">Compare primary, secondary, and special schools near Willesden Green, then jump straight to each school's website, Ofsted report, and Brent admissions information.</p>
+        <div class="schools-quick-links" aria-label="School shortcuts">
+          <a class="schools-quick-link" href="#outstanding-primary">Top primary schools</a>
+          <a class="schools-quick-link" href="#good-primary">More primary schools</a>
+          <a class="schools-quick-link" href="#secondary">Secondary schools</a>
+          <a class="schools-quick-link" href="#special">Special schools</a>
+          <a class="schools-quick-link" href="https://www.brent.gov.uk/education-schools-and-learning/school-admissions" target="_blank" rel="noopener noreferrer">Brent admissions</a>
+          <a class="schools-quick-link" href="https://reports.ofsted.gov.uk" target="_blank" rel="noopener noreferrer">Ofsted search</a>
+        </div>
+      </div>
+      <aside class="schools-guide-card" aria-label="How to use this page">
+        <h2>How parents use this page</h2>
+        <ol>
+          <li>Use the phase and rating filters to narrow the list.</li>
+          <li>Open the school website and Ofsted report from each card.</li>
+          <li>Check Brent admissions deadlines before applying.</li>
+        </ol>
+      </aside>
+    </div>
     <div class="schools-stats">
       <div class="schools-stat">
-        <span class="stat-number" id="stat-total">27</span>
+        <span class="stat-number" id="stat-total">59</span>
         <span class="stat-label">Schools</span>
       </div>
       <div class="schools-stat">
-        <span class="stat-number" id="stat-outstanding">8</span>
+        <span class="stat-number" id="stat-outstanding">12</span>
         <span class="stat-label">Outstanding</span>
       </div>
       <div class="schools-stat">
-        <span class="stat-number" id="stat-good">19</span>
+        <span class="stat-number" id="stat-good">47</span>
         <span class="stat-label">Good</span>
       </div>
     </div>
+    <p class="schools-hero-note">Includes nursery-linked provision, primary, secondary, and special schools. Use the section links above to jump quickly.</p>
   </div>
 </section>
 

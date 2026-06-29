@@ -1,0 +1,772 @@
+[
+  {
+    "id": "event-banner-making-family-craft-workshop",
+    "section": "this-week",
+    "name": "Banner-making family craft workshop"
+  },
+  {
+    "id": "event-long-play-lloyd-bradley",
+    "section": "this-week",
+    "name": "The Long Play Sessions: Lloyd Bradley with Funk Is Its Own Reward"
+  },
+  {
+    "id": "event-magic-and-imagination",
+    "section": "this-week",
+    "name": "Magic and Imagination: children\u2019s creative writing fun!"
+  },
+  {
+    "id": "event-family-craft-dance-clothes",
+    "section": "this-week",
+    "name": "Family craft: Dance clothes in Brent"
+  },
+  {
+    "id": "event-international-childrens-day",
+    "section": "this-week",
+    "name": "International Children's Day event"
+  },
+  {
+    "id": "child-bright-horizons",
+    "section": "childcare",
+    "name": "Bright Horizons Queen's Park"
+  },
+  {
+    "id": "child-monkey-puzzle",
+    "section": "childcare",
+    "name": "Monkey Puzzle Kensal Rise"
+  },
+  {
+    "id": "child-n-family",
+    "section": "childcare",
+    "name": "N Family Club Queen's Park"
+  },
+  {
+    "id": "child-little-garden",
+    "section": "childcare",
+    "name": "Little Garden Day Nursery & Forest School"
+  },
+  {
+    "id": "child-richborough",
+    "section": "childcare",
+    "name": "Richborough Nursery & Pre-school"
+  },
+  {
+    "id": "child-mulberry-house",
+    "section": "childcare",
+    "name": "The Mulberry House School"
+  },
+  {
+    "id": "child-broadhurst",
+    "section": "childcare",
+    "name": "Broadhurst School"
+  },
+  {
+    "id": "child-rainbow-montessori",
+    "section": "childcare",
+    "name": "Rainbow Montessori"
+  },
+  {
+    "id": "child-malorees",
+    "section": "childcare",
+    "name": "Malorees Infant & Nursery School"
+  },
+  {
+    "id": "child-princess-frederica",
+    "section": "childcare",
+    "name": "Princess Frederica C of E Nursery School"
+  },
+  {
+    "id": "child-beckford-nursery",
+    "section": "childcare",
+    "name": "Beckford Primary Nursery"
+  },
+  {
+    "id": "child-treetops",
+    "section": "childcare",
+    "name": "Treetops Nursery School"
+  },
+  {
+    "id": "child-happy-hands-willesden",
+    "section": "childcare",
+    "name": "Happy Hands Montessori Nursery (Willesden)"
+  },
+  {
+    "id": "child-dollis-hill",
+    "section": "childcare",
+    "name": "N Family Club Dollis Hill"
+  },
+  {
+    "id": "child-wetherby-kensal",
+    "section": "childcare",
+    "name": "Wetherby House Montessori Kensal Rise"
+  },
+  {
+    "id": "child-brondesbury-nursery",
+    "section": "childcare",
+    "name": "Brondesbury Park Synagogue Nursery"
+  },
+  {
+    "id": "child-kensal-house",
+    "section": "childcare",
+    "name": "Kensal House Nursery"
+  },
+  {
+    "id": "child-college-green",
+    "section": "childcare",
+    "name": "College Nursery School & Services"
+  },
+  {
+    "id": "child-anson-primary",
+    "section": "childcare",
+    "name": "Anson Primary Nursery"
+  },
+  {
+    "id": "child-busy-bees-harlesden",
+    "section": "childcare",
+    "name": "Busy Bees Harlesden"
+  },
+  {
+    "id": "child-busy-bees-kilburn",
+    "section": "childcare",
+    "name": "Busy Bees Kilburn"
+  },
+  {
+    "id": "child-wetherby-queens-park",
+    "section": "childcare",
+    "name": "Wetherby House Montessori Queen\\'s Park"
+  },
+  {
+    "id": "child-snuggle-bunnies",
+    "section": "childcare",
+    "name": "Snuggle Bunnies Nursery"
+  },
+  {
+    "id": "child-bright-star-kilburn",
+    "section": "childcare",
+    "name": "Bright Star Day Nursery Kilburn"
+  },
+  {
+    "id": "camp-fresh-arts-queens-park",
+    "section": "camps",
+    "name": "Queens Park Holiday Camp (Fresh Arts)"
+  },
+  {
+    "id": "camp-seed-of-life-half-term",
+    "section": "camps",
+    "name": "The Seed of Life \u2014 May Half-Term Play Scheme"
+  },
+  {
+    "id": "camp-jag-willesden-sports-centre",
+    "section": "camps",
+    "name": "Willesden Sports Centre Holiday HQ"
+  },
+  {
+    "id": "camp-holiday-academy",
+    "section": "camps",
+    "name": "Holiday Academy London"
+  },
+  {
+    "id": "camp-nwga-queens-park",
+    "section": "camps",
+    "name": "Nile Wilson Gymnastics Academy"
+  },
+  {
+    "id": "camp-apf-brent",
+    "section": "camps",
+    "name": "APF Brent Holiday Camps"
+  },
+  {
+    "id": "camp-brent-haf",
+    "section": "camps",
+    "name": "Brent HAF holiday places"
+  },
+  {
+    "id": "camp-breezy-club",
+    "section": "camps",
+    "name": "The Breezy Club"
+  },
+  {
+    "id": "camp-little-dance-queens-park",
+    "section": "camps",
+    "name": "The Little Dance Academy \u2014 Queen\\'s Park"
+  },
+  {
+    "id": "camp-dance-by-the-park",
+    "section": "camps",
+    "name": "Dance by the Park"
+  },
+  {
+    "id": "camp-club-excel-qpcs",
+    "section": "camps",
+    "name": "Club Excel Multi Activity Camp \u2014 Queen\\'s Park Community School"
+  },
+  {
+    "id": "camp-serving-winners",
+    "section": "camps",
+    "name": "Serving Winners Holiday Camps"
+  },
+  {
+    "id": "camp-gladstone-park-nta",
+    "section": "camps",
+    "name": "Gladstone Park NTA Holiday Camps"
+  },
+  {
+    "id": "camp-elmwood-lawn-tennis-club",
+    "section": "camps",
+    "name": "Elmwood Lawn Tennis Club Holiday Camps"
+  },
+  {
+    "id": "camp-childs-hill-park",
+    "section": "camps",
+    "name": "Childs Hill Park Tennis Camps"
+  },
+  {
+    "id": "camp-lyttleton-playing-fields",
+    "section": "camps",
+    "name": "Lyttleton Playing Fields Holiday Camps"
+  },
+  {
+    "id": "camp-queens-park-tennis-courts",
+    "section": "camps",
+    "name": "Queen's Park Tennis Courts Holiday Camps"
+  },
+  {
+    "id": "camp-vale-tennis-coaching",
+    "section": "camps",
+    "name": "Vale Tennis Coaching Holiday Camps"
+  },
+  {
+    "id": "camp-highgate-tennis",
+    "section": "camps",
+    "name": "Highgate Tennis Camps"
+  },
+  {
+    "id": "camp-cherry-tree-wood",
+    "section": "camps",
+    "name": "Cherry Tree Wood Tennis & Multi-Sport Camps"
+  },
+  {
+    "id": "camp-northway-gardens",
+    "section": "camps",
+    "name": "Northway Gardens Holiday Camps"
+  },
+  {
+    "id": "camp-msport-active",
+    "section": "camps",
+    "name": "MSport Active Kidz Holiday Camp"
+  },
+  {
+    "id": "camp-petite-performers-west-hampstead",
+    "section": "camps",
+    "name": "Petite Performers \u2014 West Hampstead"
+  },
+  {
+    "id": "camp-rocket-club-kensal-rise",
+    "section": "camps",
+    "name": "Rocket Club \u2014 Kensal Rise"
+  },
+  {
+    "id": "camp-2-da-stage",
+    "section": "camps",
+    "name": "2 Da Stage Holiday Playscheme"
+  },
+  {
+    "id": "camp-jag-salusbury",
+    "section": "camps",
+    "name": "Junior Adventures Group \u2014 Salusbury Primary School"
+  },
+  {
+    "id": "cafe-hearth",
+    "section": "cafes",
+    "name": "The Hearth"
+  },
+  {
+    "id": "cafe-queens-park-books",
+    "section": "cafes",
+    "name": "Queens Park Books"
+  },
+  {
+    "id": "cafe-willesden-library",
+    "section": "cafes",
+    "name": "Willesden Green Library Centre caf\u00e9 area"
+  },
+  {
+    "id": "cafe-maqam",
+    "section": "cafes",
+    "name": "The Maqam Centre caf\u00e9"
+  },
+  {
+    "id": "cafe-local-park",
+    "section": "cafes",
+    "name": "Parks and caf\u00e9 stop combo"
+  },
+  {
+    "id": "cafe-respite",
+    "section": "cafes",
+    "name": "Buggy-friendly neighbourhood caf\u00e9 run"
+  },
+  {
+    "id": "indoor-library",
+    "section": "indoor",
+    "name": "Willesden Green Library Centre"
+  },
+  {
+    "id": "indoor-hearth",
+    "section": "indoor",
+    "name": "The Hearth"
+  },
+  {
+    "id": "indoor-books",
+    "section": "indoor",
+    "name": "Queens Park Books"
+  },
+  {
+    "id": "indoor-swim",
+    "section": "indoor",
+    "name": "Swimming Nature at The Maqam"
+  },
+  {
+    "id": "indoor-softplay",
+    "section": "indoor",
+    "name": "Soft-play style venue / playdate fallback"
+  },
+  {
+    "id": "indoor-home",
+    "section": "indoor",
+    "name": "At-home rainy-day ideas"
+  },
+  {
+    "id": "send-local-offer",
+    "section": "send",
+    "name": "Brent Local Offer"
+  },
+  {
+    "id": "send-family-info",
+    "section": "send",
+    "name": "Brent Family Information Service"
+  },
+  {
+    "id": "send-contact",
+    "section": "send",
+    "name": "Contact"
+  },
+  {
+    "id": "send-ipsea",
+    "section": "send",
+    "name": "IPSEA"
+  },
+  {
+    "id": "send-inclusive-activities",
+    "section": "send",
+    "name": "Inclusive activities with parent review"
+  },
+  {
+    "id": "send-ask-parents",
+    "section": "send",
+    "name": "Parent recommendation note"
+  },
+  {
+    "id": "act-baby-swim",
+    "section": "activities",
+    "name": "Swimming Nature (baby & child swim)"
+  },
+  {
+    "id": "act-busy-rascals",
+    "section": "activities",
+    "name": "Busy Rascals"
+  },
+  {
+    "id": "act-classes",
+    "section": "activities",
+    "name": "Local classes on ClassForKids"
+  },
+  {
+    "id": "act-parks",
+    "section": "activities",
+    "name": "Queen\u2019s Park"
+  },
+  {
+    "id": "act-roundwood",
+    "section": "activities",
+    "name": "Roundwood Park"
+  },
+  {
+    "id": "act-gladstone",
+    "section": "activities",
+    "name": "Gladstone Park"
+  },
+  {
+    "id": "act-mapesbury",
+    "section": "activities",
+    "name": "Mapesbury Dell"
+  },
+  {
+    "id": "act-forest-school",
+    "section": "activities",
+    "name": "The Friendly Forest School"
+  },
+  {
+    "id": "act-the-playmap",
+    "section": "activities",
+    "name": "Playgroups via The Play Map"
+  },
+  {
+    "id": "act-brent-museum",
+    "section": "activities",
+    "name": "Brent Museum"
+  },
+  {
+    "id": "act-lexi-cinema",
+    "section": "activities",
+    "name": "The Lexi Cinema"
+  },
+  {
+    "id": "act-freud-museum",
+    "section": "activities",
+    "name": "Freud Museum London"
+  },
+  {
+    "id": "act-willesden-green-library",
+    "section": "activities",
+    "name": "The Library at Willesden Green"
+  },
+  {
+    "id": "act-west-hampstead-library",
+    "section": "activities",
+    "name": "West Hampstead Library"
+  },
+  {
+    "id": "act-brent-library-events",
+    "section": "activities",
+    "name": "Brent library events"
+  },
+  {
+    "id": "act-willesden-sports-swim",
+    "section": "activities",
+    "name": "Willesden Sports Centre swimming lessons"
+  },
+  {
+    "id": "act-willesden-sports-baby-swim",
+    "section": "activities",
+    "name": "Willesden Sports Centre baby, toddler & preschool lessons"
+  },
+  {
+    "id": "act-willesden-sports-send-swim",
+    "section": "activities",
+    "name": "Willesden Sports Centre SEND swimming lessons"
+  },
+  {
+    "id": "act-cygnets-manor",
+    "section": "activities",
+    "name": "Cygnets Swim School at Manor School"
+  },
+  {
+    "id": "act-swimtank-willesden",
+    "section": "activities",
+    "name": "SWIMTANK Willesden"
+  },
+  {
+    "id": "act-swiss-cottage-leisure",
+    "section": "activities",
+    "name": "Swiss Cottage Leisure Centre"
+  },
+  {
+    "id": "act-natural-history-museum",
+    "section": "activities",
+    "name": "Natural History Museum"
+  },
+  {
+    "id": "act-science-museum",
+    "section": "activities",
+    "name": "Science Museum"
+  },
+  {
+    "id": "act-young-vanda",
+    "section": "activities",
+    "name": "Young V&A"
+  },
+  {
+    "id": "act-london-transport-museum",
+    "section": "activities",
+    "name": "London Transport Museum"
+  },
+  {
+    "id": "act-british-museum",
+    "section": "activities",
+    "name": "British Museum"
+  },
+  {
+    "id": "act-london-museum-docklands",
+    "section": "activities",
+    "name": "London Museum Docklands"
+  },
+  {
+    "id": "act-postal-museum",
+    "section": "activities",
+    "name": "The Postal Museum"
+  },
+  {
+    "id": "act-national-maritime-museum",
+    "section": "activities",
+    "name": "National Maritime Museum"
+  },
+  {
+    "id": "act-horniman-museum",
+    "section": "activities",
+    "name": "Horniman Museum and Gardens"
+  },
+  {
+    "id": "act-national-army-museum",
+    "section": "activities",
+    "name": "National Army Museum"
+  },
+  {
+    "id": "act-grace-poise",
+    "section": "activities",
+    "name": "Grace & Poise Academy CIC"
+  },
+  {
+    "id": "act-idea-design-hub",
+    "section": "activities",
+    "name": "IDEA Design Hub CIC"
+  },
+  {
+    "id": "act-jinga-jinga",
+    "section": "activities",
+    "name": "Jinga Jinga Kids"
+  },
+  {
+    "id": "act-flexi-athletics",
+    "section": "activities",
+    "name": "Flexi Athletics Gymnastics"
+  },
+  {
+    "id": "act-maida-vale-ballet",
+    "section": "activities",
+    "name": "Maida Vale Ballet School"
+  },
+  {
+    "id": "act-switch-sports",
+    "section": "activities",
+    "name": "Switch Sports CIC"
+  },
+  {
+    "id": "act-summit-club-kids",
+    "section": "activities",
+    "name": "Summit Club Kids"
+  },
+  {
+    "id": "act-more-than-sport",
+    "section": "activities",
+    "name": "More than sport London"
+  },
+  {
+    "id": "act-aurora-gymnastics",
+    "section": "activities",
+    "name": "Aurora Gymnastics West London"
+  },
+  {
+    "id": "act-paddington-rec-ground",
+    "section": "activities",
+    "name": "Paddington Recreation Ground"
+  },
+  {
+    "id": "act-vue-finchley-road",
+    "section": "activities",
+    "name": "Vue Finchley Road"
+  },
+  {
+    "id": "act-st-johns-wood-library",
+    "section": "activities",
+    "name": "St John\u2019s Wood Library"
+  },
+  {
+    "id": "act-canal-cafe-theatre",
+    "section": "activities",
+    "name": "Canal Cafe Theatre"
+  },
+  {
+    "id": "act-pentameters",
+    "section": "activities",
+    "name": "Pentameters Theatre"
+  },
+  {
+    "id": "act-brent-library-services",
+    "section": "activities",
+    "name": "Children's and Young People's Library Services"
+  },
+  {
+    "id": "act-willesden-gallery",
+    "section": "activities",
+    "name": "Willesden Gallery"
+  },
+  {
+    "id": "act-portraits-of-brent",
+    "section": "activities",
+    "name": "Portraits of Brent"
+  },
+  {
+    "id": "act-walking-for-health-roundwood",
+    "section": "activities",
+    "name": "Walking for Health \u2014 Roundwood Park"
+  },
+  {
+    "id": "act-walking-for-health-gladstone",
+    "section": "activities",
+    "name": "Walking for Health \u2014 Gladstone Park"
+  },
+  {
+    "id": "act-outdoor-gyms-brent",
+    "section": "activities",
+    "name": "Outdoor gyms in Brent"
+  },
+  {
+    "id": "act-barham-park",
+    "section": "activities",
+    "name": "Barham Park"
+  },
+  {
+    "id": "act-fryent-country-park",
+    "section": "activities",
+    "name": "Fryent Country Park"
+  },
+  {
+    "id": "act-welsh-harp-open-space",
+    "section": "activities",
+    "name": "Welsh Harp Open Space"
+  },
+  {
+    "id": "act-neasden-recreation-ground",
+    "section": "activities",
+    "name": "Neasden Recreation Ground"
+  },
+  {
+    "id": "act-brent-dolphins-willesden",
+    "section": "activities",
+    "name": "Brent Dolphins Swimming Club at Willesden"
+  },
+  {
+    "id": "act-brent-dolphins-vale-farm",
+    "section": "activities",
+    "name": "Brent Dolphins Swimming Club at Vale Farm"
+  },
+  {
+    "id": "act-wu-shu-kwan",
+    "section": "activities",
+    "name": "Wu Shu Kwan"
+  },
+  {
+    "id": "act-track-academy",
+    "section": "activities",
+    "name": "Track Academy"
+  },
+  {
+    "id": "act-mg-gymstars",
+    "section": "activities",
+    "name": "MG Gymstars"
+  },
+  {
+    "id": "act-alis-dojang",
+    "section": "activities",
+    "name": "Ali's Dojang at Moberly Sports Centre"
+  },
+  {
+    "id": "act-maiwand-martial-arts",
+    "section": "activities",
+    "name": "Maiwand Martial Arts"
+  },
+  {
+    "id": "act-young-football-school",
+    "section": "activities",
+    "name": "Young\u2019s Football Coaching School"
+  },
+  {
+    "id": "act-play-with-your-sole",
+    "section": "activities",
+    "name": "Play With your Sole FC"
+  },
+  {
+    "id": "act-jason-roberts-foundation",
+    "section": "activities",
+    "name": "The Jason Roberts Foundation"
+  },
+  {
+    "id": "act-rsbc-sports-club",
+    "section": "activities",
+    "name": "RSBC sports club at Willesden Sports Centre"
+  },
+  {
+    "id": "act-2-da-stage",
+    "section": "activities",
+    "name": "2 Da Stage Performing Arts & Childcare Club"
+  },
+  {
+    "id": "act-blue-ocean-waves",
+    "section": "activities",
+    "name": "Blue Ocean Waves"
+  },
+  {
+    "id": "act-brent-youth-theatre",
+    "section": "activities",
+    "name": "Brent Youth Theatre"
+  },
+  {
+    "id": "act-concrete-canvas-arts",
+    "section": "activities",
+    "name": "Concrete Canvas Arts"
+  },
+  {
+    "id": "act-abundance-arts",
+    "section": "activities",
+    "name": "Abundance Arts"
+  },
+  {
+    "id": "act-margaret-dance-academy",
+    "section": "activities",
+    "name": "Margaret Dance Academy / Roundwood Stage School"
+  },
+  {
+    "id": "act-london-irish-music-school",
+    "section": "activities",
+    "name": "London Irish Music School"
+  },
+  {
+    "id": "act-brent-music-service",
+    "section": "activities",
+    "name": "Brent Music Service"
+  },
+  {
+    "id": "act-kalaniketan",
+    "section": "activities",
+    "name": "Kalaniketan"
+  },
+  {
+    "id": "act-kiln-theatre-young-people",
+    "section": "activities",
+    "name": "Kiln Theatre \u2013 Creative Engagement / Young People"
+  },
+  {
+    "id": "act-salusbury-world",
+    "section": "activities",
+    "name": "Salusbury World"
+  },
+  {
+    "id": "act-sklpc-saturday-school",
+    "section": "activities",
+    "name": "SKLPC Saturday School"
+  },
+  {
+    "id": "act-edsg-harlesden-saturday-school",
+    "section": "activities",
+    "name": "Education and Skills Development Group (Harlesden Saturday School)"
+  },
+  {
+    "id": "act-global-skills-centre",
+    "section": "activities",
+    "name": "Global Skills Centre"
+  },
+  {
+    "id": "act-jag-salusbury-primary",
+    "section": "activities",
+    "name": "Junior Adventures Group \u2014 Salusbury Primary School"
+  }
+]

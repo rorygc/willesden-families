@@ -1,0 +1,1542 @@
+[
+  {
+    "id": "event-banner-making-family-craft-workshop",
+    "section": "this-week",
+    "name": "Banner-making family craft workshop",
+    "promoImage": "",
+    "text": "banner-making family craft workshop make your own artwork and help create one big banner celebrating brent\u2019s history of fighting for a fairer future. good if you want a proper one-off activity rather than a regular class. workshop craft family event",
+    "src": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "craft"
+  },
+  {
+    "id": "event-long-play-lloyd-bradley",
+    "section": "this-week",
+    "name": "The Long Play Sessions: Lloyd Bradley with Funk Is Its Own Reward",
+    "promoImage": "",
+    "text": "the long play sessions: lloyd bradley with funk is its own reward a live talk event at icmp with music writing and a local culture angle. good if you want an evening event rather than a children\u2019s drop-in. talk music live event",
+    "src": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "music"
+  },
+  {
+    "id": "event-magic-and-imagination",
+    "section": "this-week",
+    "name": "Magic and Imagination: children\u2019s creative writing fun!",
+    "promoImage": "",
+    "text": "magic and imagination: children\u2019s creative writing fun! a short, booked creative-writing session with poems, rap, rhyme, and spine festival links. good if you want a focused one-off children\u2019s activity. creative writing children library event",
+    "src": "https://images.unsplash.com/photo-1505236858219-8359eb29e329?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "festival"
+  },
+  {
+    "id": "event-family-craft-dance-clothes",
+    "section": "this-week",
+    "name": "Family craft: Dance clothes in Brent",
+    "promoImage": "",
+    "text": "family craft: dance clothes in brent a family craft workshop at the library at willesden green linked to brent\u2019s dance history. good if you want a neat, local creative session for younger children. workshop craft heritage",
+    "src": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "library"
+  },
+  {
+    "id": "event-international-childrens-day",
+    "section": "this-week",
+    "name": "International Children's Day event",
+    "promoImage": "",
+    "text": "international children's day event a bigger family event with circus fun, crafts, face painting, balloon modelling, magic, and special guests. best one-off family day in the list this week. festival circus family event",
+    "src": "https://images.unsplash.com/photo-1505236858219-8359eb29e329?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "festival"
+  },
+  {
+    "id": "child-bright-horizons",
+    "section": "childcare",
+    "name": "Bright Horizons Queen's Park",
+    "promoImage": "",
+    "text": "bright horizons queen's park full-day nursery option with a strong early-years reputation and a parent-friendly brand people already know. worth shortlisting if you want a more formal nursery setting. nursery full day early years",
+    "src": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "nursery"
+  },
+  {
+    "id": "child-monkey-puzzle",
+    "section": "childcare",
+    "name": "Monkey Puzzle Kensal Rise",
+    "promoImage": "",
+    "text": "monkey puzzle kensal rise popular nursery choice with a familiar setting for local parents comparing options. good if you want a mainstream nursery brand nearby. nursery kensal rise full day",
+    "src": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "nursery"
+  },
+  {
+    "id": "child-n-family",
+    "section": "childcare",
+    "name": "N Family Club Queen's Park",
+    "promoImage": "",
+    "text": "n family club queen's park contemporary nursery chain with a polished feel for families who want a more design-led childcare option. great if you like modern nursery environments. nursery queen\u2019s park modern",
+    "src": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "nursery"
+  },
+  {
+    "id": "child-little-garden",
+    "section": "childcare",
+    "name": "Little Garden Day Nursery & Forest School",
+    "promoImage": "",
+    "text": "little garden day nursery & forest school forest-school flavour nursery with outdoor emphasis for children who need lots of fresh air and movement. strong pick for outdoorsy families. forest school nursery outdoors",
+    "src": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "nursery"
+  },
+  {
+    "id": "child-richborough",
+    "section": "childcare",
+    "name": "Richborough Nursery & Pre-school",
+    "promoImage": "",
+    "text": "richborough nursery & pre-school private, home-based nursery with a strong home-from-home feel, eyfs learning, and close parent communication. a good fit if you want a small, nurturing cricklewood nursery. nursery pre-school cricklewood eyfs",
+    "src": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "nursery"
+  },
+  {
+    "id": "child-mulberry-house",
+    "section": "childcare",
+    "name": "The Mulberry House School",
+    "promoImage": "",
+    "text": "the mulberry house school independent early-years and prep school with a nursery-style entry point and a strong nurturing ethos. good if you want a more academic early-years route near west hampstead. early years nursery west hampstead independent",
+    "src": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "nursery"
+  },
+  {
+    "id": "child-broadhurst",
+    "section": "childcare",
+    "name": "Broadhurst School",
+    "promoImage": "",
+    "text": "broadhurst school independent nursery and pre-prep school with a dedicated early-learning focus and a well-established local reputation. strong candidate if you want a premium nursery/pre-prep close to the area. nursery pre-prep west hampstead independent",
+    "src": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "nursery"
+  },
+  {
+    "id": "child-rainbow-montessori",
+    "section": "childcare",
+    "name": "Rainbow Montessori",
+    "promoImage": "",
+    "text": "rainbow montessori montessori-style early years option for children who like practical, child-led learning. good if you prefer a calmer learning approach. montessori nursery early years",
+    "src": "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "montessori"
+  },
+  {
+    "id": "child-malorees",
+    "section": "childcare",
+    "name": "Malorees Infant & Nursery School",
+    "promoImage": "",
+    "text": "malorees infant & nursery school nursery and infant provision in a local school setting \u2014 useful if you want continuity into primary. worth a visit for school-based early years. nursery class school free",
+    "src": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "nursery"
+  },
+  {
+    "id": "child-princess-frederica",
+    "section": "childcare",
+    "name": "Princess Frederica C of E Nursery School",
+    "promoImage": "",
+    "text": "princess frederica c of e nursery school nursery school option with school-style routines and a local community feel. a solid school-nursery route for families wanting structure. nursery school free school-based",
+    "src": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "nursery"
+  },
+  {
+    "id": "child-beckford-nursery",
+    "section": "childcare",
+    "name": "Beckford Primary Nursery",
+    "promoImage": "",
+    "text": "beckford primary nursery nursery provision attached to a primary school for a straightforward transition later on. useful if you want nursery-to-primary continuity. nursery primary school free",
+    "src": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "nursery"
+  },
+  {
+    "id": "child-treetops",
+    "section": "childcare",
+    "name": "Treetops Nursery School",
+    "promoImage": "",
+    "text": "treetops nursery school childcare nursery and pre-school based in willesden, close to king edward vii park and willesden sports centre. strong local all-day childcare option if you want something very close to home. nursery pre-school outdoors",
+    "src": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "nursery"
+  },
+  {
+    "id": "child-happy-hands-willesden",
+    "section": "childcare",
+    "name": "Happy Hands Montessori Nursery (Willesden)",
+    "promoImage": "",
+    "text": "happy hands montessori nursery (willesden) montessori nursery with a willesden site, for families who want a calmer early-years environment. good if you prefer montessori style care. montessori nursery willesden",
+    "src": "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "montessori"
+  },
+  {
+    "id": "child-dollis-hill",
+    "section": "childcare",
+    "name": "N Family Club Dollis Hill",
+    "promoImage": "",
+    "text": "n family club dollis hill purpose-built modern nursery on dudden hill lane with long opening hours. good for families needing flexible hours and a polished setting. nursery long hours modern",
+    "src": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "nursery"
+  },
+  {
+    "id": "child-wetherby-kensal",
+    "section": "childcare",
+    "name": "Wetherby House Montessori Kensal Rise",
+    "promoImage": "",
+    "text": "wetherby house montessori kensal rise montessori nursery on purves road, close enough for most willesden green families. good if you want a montessori-led setting nearby. montessori nursery kensal rise",
+    "src": "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "montessori"
+  },
+  {
+    "id": "child-brondesbury-nursery",
+    "section": "childcare",
+    "name": "Brondesbury Park Synagogue Nursery",
+    "promoImage": "",
+    "text": "brondesbury park synagogue nursery small local nursery setting near brondesbury park, with ofsted-listed provision and an established neighbourhood feel. worth checking if you want a smaller community nursery. nursery community brondesbury park",
+    "src": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "nursery"
+  },
+  {
+    "id": "child-kensal-house",
+    "section": "childcare",
+    "name": "Kensal House Nursery",
+    "promoImage": "",
+    "text": "kensal house nursery local nursery on harrow road with an up-to-date ofsted presence and a straightforward west-london commute. useful if you\u2019re looking across kensal green as well as willesden. nursery kensal green full day",
+    "src": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "nursery"
+  },
+  {
+    "id": "child-college-green",
+    "section": "childcare",
+    "name": "College Nursery School & Services",
+    "promoImage": "",
+    "text": "college nursery school & services school-linked nursery provision at college road, showing up strongly in local nursery listings. good free option if you\u2019re happy with a school-linked setting. nursery free school-linked",
+    "src": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "nursery"
+  },
+  {
+    "id": "child-anson-primary",
+    "section": "childcare",
+    "name": "Anson Primary Nursery",
+    "promoImage": "",
+    "text": "anson primary nursery primary-school nursery provision just north-east of willesden green. handy if you want a maintained nursery class close by. nursery class primary school free",
+    "src": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "nursery"
+  },
+  {
+    "id": "child-busy-bees-harlesden",
+    "section": "childcare",
+    "name": "Busy Bees Harlesden",
+    "promoImage": "",
+    "text": "busy bees harlesden purpose-built nursery near willesden junction with a strong local profile and long day-care hours. good if you want a well-known nursery chain in the neighbourhood. nursery harlesden full day",
+    "src": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "nursery"
+  },
+  {
+    "id": "child-busy-bees-kilburn",
+    "section": "childcare",
+    "name": "Busy Bees Kilburn",
+    "promoImage": "",
+    "text": "busy bees kilburn busy bees nursery in kilburn square, useful for families comparing options across nw6. good if you want a central, established nursery brand. nursery kilburn full day",
+    "src": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "nursery"
+  },
+  {
+    "id": "child-wetherby-queens-park",
+    "section": "childcare",
+    "name": "Wetherby House Montessori Queen\\'s Park",
+    "promoImage": "",
+    "text": "wetherby house montessori queen\\'s park montessori nursery opening in queen\u2019s park, adding another local option for families who like that approach. worth a look if you want a montessori nursery in nw6. montessori nursery queen\u2019s park",
+    "src": "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "montessori"
+  },
+  {
+    "id": "child-snuggle-bunnies",
+    "section": "childcare",
+    "name": "Snuggle Bunnies Nursery",
+    "promoImage": "",
+    "text": "snuggle bunnies nursery community nursery in kingsbury with a local family feel and home-nursery style setting. useful if you are widening the search east/north of willesden. nursery kingsbury community",
+    "src": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "nursery"
+  },
+  {
+    "id": "child-bright-star-kilburn",
+    "section": "childcare",
+    "name": "Bright Star Day Nursery Kilburn",
+    "promoImage": "",
+    "text": "bright star day nursery kilburn kilburn nursery with early-years provision for babies through pre-schoolers. good if you want a term-time friendly nursery near nw6. nursery kilburn babies",
+    "src": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "nursery"
+  },
+  {
+    "id": "camp-fresh-arts-queens-park",
+    "section": "camps",
+    "name": "Queens Park Holiday Camp (Fresh Arts)",
+    "promoImage": "",
+    "text": "queens park holiday camp (fresh arts) performing arts holiday camp at salusbury primary school, with 9am\u20133pm days and weekly blocks seen in the 2025 guide. best if your child likes theatre, music, and a structured camp day. holiday camp performing arts summer",
+    "src": "./assets/hero.png",
+    "kind": "hero",
+    "hint": "performing"
+  },
+  {
+    "id": "camp-seed-of-life-half-term",
+    "section": "camps",
+    "name": "The Seed of Life \u2014 May Half-Term Play Scheme",
+    "promoImage": "./assets/seed-of-life-half-term.jpg",
+    "text": "the seed of life \u2014 may half-term play scheme half-term play scheme at happy days montessori school on empire way, with creative play, science, gardening, karate, trampoline time, and a sand pit. good if you want a friendly early-years holiday club with a clear daily rate and manageable hours. half-term play scheme early years wembley",
+    "src": "./assets/seed-of-life-half-term.jpg",
+    "kind": "good",
+    "hint": "stem"
+  },
+  {
+    "id": "camp-jag-willesden-sports-centre",
+    "section": "camps",
+    "name": "Willesden Sports Centre Holiday HQ",
+    "promoImage": "",
+    "text": "willesden sports centre holiday hq junior adventures group runs holiday clubs at willesden sports centre with sports, games, and themed activities. great local option if you need reliable childcare-hours coverage. holiday club sports breakfast",
+    "src": "https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "sport"
+  },
+  {
+    "id": "camp-holiday-academy",
+    "section": "camps",
+    "name": "Holiday Academy London",
+    "promoImage": "",
+    "text": "holiday academy london steam day camp plus forest school, with long hours from 8:30am\u20136pm and flexible age groups. useful if you need full-day wraparound during the holidays. steam forest school long day",
+    "src": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "stem"
+  },
+  {
+    "id": "camp-nwga-queens-park",
+    "section": "camps",
+    "name": "Nile Wilson Gymnastics Academy",
+    "promoImage": "",
+    "text": "nile wilson gymnastics academy gymnastics and circus-skills camps, including queen\u2019s park sessions for children who like active days. best if your child needs to burn energy and likes coaching-led sport. gymnastics circus sport",
+    "src": "https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "sport"
+  },
+  {
+    "id": "camp-apf-brent",
+    "section": "camps",
+    "name": "APF Brent Holiday Camps",
+    "promoImage": "",
+    "text": "apf brent holiday camps multi-activity holiday camps with archery, football, basketball, arts and crafts, and age-grouped sessions. good broad-appeal option if siblings need different pace levels. multi-activity sports holiday club",
+    "src": "https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "sport"
+  },
+  {
+    "id": "camp-brent-haf",
+    "section": "camps",
+    "name": "Brent HAF holiday places",
+    "promoImage": "",
+    "text": "brent haf holiday places brent council\u2019s holiday activities and food programme for eligible children during school holidays. best free route if you qualify for haf support. free haf school holidays",
+    "src": "https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "default"
+  },
+  {
+    "id": "camp-breezy-club",
+    "section": "camps",
+    "name": "The Breezy Club",
+    "promoImage": "",
+    "text": "the breezy club multi-activity holiday club at aps and st martin of porres primary school with games, sports, and creative activities. good if you want a lively school-based holiday club with a local north london feel. holiday club multi-activity north london",
+    "src": "https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "sport"
+  },
+  {
+    "id": "camp-little-dance-queens-park",
+    "section": "camps",
+    "name": "The Little Dance Academy \u2014 Queen\\'s Park",
+    "promoImage": "",
+    "text": "the little dance academy \u2014 queen\\'s park dance and movement holiday camps in queen\u2019s park, with a local branch serving nearby families. strong if your child likes dance, movement, and a more creative camp day. dance creative holiday camp",
+    "src": "./assets/hero.png",
+    "kind": "hero",
+    "hint": "dance"
+  },
+  {
+    "id": "camp-dance-by-the-park",
+    "section": "camps",
+    "name": "Dance by the Park",
+    "promoImage": "",
+    "text": "dance by the park dance-led holiday camp with creative movement, outdoor play, and a showcase at the end of the week. great if you want a structured creative camp rather than sports-only days. dance performance outdoors",
+    "src": "./assets/hero.png",
+    "kind": "hero",
+    "hint": "performing"
+  },
+  {
+    "id": "camp-club-excel-qpcs",
+    "section": "camps",
+    "name": "Club Excel Multi Activity Camp \u2014 Queen\\'s Park Community School",
+    "promoImage": "",
+    "text": "club excel multi activity camp \u2014 queen\\'s park community school big multi-activity day camp at queen\u2019s park community school with sports, theatre, football, and arts-led streams. useful if you need a wide age spread and lots of activity choice. multi-activity sports theatre",
+    "src": "https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "sport"
+  },
+  {
+    "id": "camp-serving-winners",
+    "section": "camps",
+    "name": "Serving Winners Holiday Camps",
+    "promoImage": "",
+    "text": "serving winners holiday camps tennis holiday camps with half-day and full-day options across north west london. good if you want a focused racket-sports camp. tennis sport holiday camp",
+    "src": "./assets/hero.png",
+    "kind": "hero",
+    "hint": "tennis"
+  },
+  {
+    "id": "camp-gladstone-park-nta",
+    "section": "camps",
+    "name": "Gladstone Park NTA Holiday Camps",
+    "promoImage": "",
+    "text": "gladstone park nta holiday camps official national tennis association holiday camps at gladstone park, combining coaching, games, drills, and mini/junior team challenges. best local tennis-camp pick if you want a proper coached tennis day in brent. tennis racket sports holiday camp",
+    "src": "https://clubspark.lta.org.uk/Library/NTAgladstone?command=Proxy&type=Images&currentFolder=%2F&hash=0c69cff0b530da2f249ff45ef8a6e2b2b6b91bdd&fileName=gladstone.jpg",
+    "kind": "good",
+    "hint": "tennis"
+  },
+  {
+    "id": "camp-elmwood-lawn-tennis-club",
+    "section": "camps",
+    "name": "Elmwood Lawn Tennis Club Holiday Camps",
+    "promoImage": "",
+    "text": "elmwood lawn tennis club holiday camps may half-term tennis camps at elmwood with daniele and will, plus daily and weekly booking options. strong if you want a local club camp with clear age bands and flexible bookings. tennis racket sports holiday camp",
+    "src": "https://clubspark.lta.org.uk/Library/ElmwoodLawnTennisClub?command=Proxy&type=Images&currentFolder=%2F&hash=b43bf4f3071dfa34cd6de3dd4d10ddf2b3116b1c&fileName=elmwood.jpg",
+    "kind": "good",
+    "hint": "tennis"
+  },
+  {
+    "id": "camp-childs-hill-park",
+    "section": "camps",
+    "name": "Childs Hill Park Tennis Camps",
+    "promoImage": "",
+    "text": "childs hill park tennis camps fg tennis holiday camps for kids, with daily monday\u2013friday sessions run by fully qualified coaches. useful if you want a broader age range and a camp that books by individual sessions. tennis racket sports holiday camp",
+    "src": "https://clubspark.lta.org.uk/Library/FGChildsHillPark?command=Proxy&type=Images&currentFolder=%2F&hash=9e45a3c5e9476ce454cbe7cfebb86f4c7f2875a2&fileName=ChildsHillPark.jpg",
+    "kind": "good",
+    "hint": "tennis"
+  },
+  {
+    "id": "camp-lyttleton-playing-fields",
+    "section": "camps",
+    "name": "Lyttleton Playing Fields Holiday Camps",
+    "promoImage": "",
+    "text": "lyttleton playing fields holiday camps holiday tennis camps for kids in school holidays, with age and ability groups and bookable sessions. good extra option if you want a north-west london club camp a bit beyond brent. tennis racket sports holiday camp",
+    "src": "https://clubspark.lta.org.uk/Library/FGLyttletonPlayingFields?command=Proxy&type=Images&currentFolder=%2F&hash=de103d674b2a1cf0f67a9ab5a31a8af4ddb80d4a&fileName=LyttletonPlayingFields.jpg",
+    "kind": "good",
+    "hint": "tennis"
+  },
+  {
+    "id": "camp-queens-park-tennis-courts",
+    "section": "camps",
+    "name": "Queen's Park Tennis Courts Holiday Camps",
+    "promoImage": "",
+    "text": "queen's park tennis courts holiday camps queen\\'s park tennis courts says it can offer tennis camps in the park and asks visitors to check back for details. worth watching if you want a very local option, but details are not yet posted. tennis racket sports holiday camp",
+    "src": "https://images.unsplash.com/photo-1542144582-1ba00456b5e3?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "tennis"
+  },
+  {
+    "id": "camp-vale-tennis-coaching",
+    "section": "camps",
+    "name": "Vale Tennis Coaching Holiday Camps",
+    "promoImage": "",
+    "text": "vale tennis coaching holiday camps official three-day summer tennis camps at littletons tennis club with coaching, pickleball, team activities, and clubhouse backup for wet weather. strong nearby racket-sports option if you want a well-structured summer camp just beyond queen\u2019s park. tennis racket sports holiday camp",
+    "src": "https://images.unsplash.com/photo-1542144582-1ba00456b5e3?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "tennis"
+  },
+  {
+    "id": "camp-highgate-tennis",
+    "section": "camps",
+    "name": "Highgate Tennis Camps",
+    "promoImage": "",
+    "text": "highgate tennis camps official highgate tennis holiday camps with morning and full-day options, age-banded groups, and daily or week-long bookings. good further-out option if you want clearer pricing and longer full-day tennis cover. tennis racket sports holiday camp",
+    "src": "https://images.unsplash.com/photo-1542144582-1ba00456b5e3?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "tennis"
+  },
+  {
+    "id": "camp-cherry-tree-wood",
+    "section": "camps",
+    "name": "Cherry Tree Wood Tennis & Multi-Sport Camps",
+    "promoImage": "",
+    "text": "cherry tree wood tennis & multi-sport camps official fg tennis holiday camp mixing tennis with football, basketball, and athletics games in a structured monday\u2013friday format. useful if you want a stronger multi-sport alternative to a pure tennis camp. tennis racket sports holiday camp multi-sport",
+    "src": "https://clubspark.lta.org.uk/Library/CherryTreeWood?command=Proxy&type=Images&currentFolder=%2F&hash=5ba3bfe70389ddfa16ef7eddb1d5f6d1f9b0fb44&fileName=CherryTreeWood.jpg",
+    "kind": "good",
+    "hint": "tennis"
+  },
+  {
+    "id": "camp-northway-gardens",
+    "section": "camps",
+    "name": "Northway Gardens Holiday Camps",
+    "promoImage": "",
+    "text": "northway gardens holiday camps official fg tennis holiday camps for children grouped by age and ability, aimed at beginners through more advanced players. good overflow option if you want another official north-west london tennis venue beyond childs hill and lyttleton. tennis racket sports holiday camp",
+    "src": "https://clubspark.lta.org.uk/Library/FGNorthwayGardens?command=Proxy&type=Images&currentFolder=%2F&hash=59c8d39df4e9d6da629af42f17bd6d6dd7eb3537&fileName=NorthwayGardens.jpg",
+    "kind": "good",
+    "hint": "tennis"
+  },
+  {
+    "id": "camp-msport-active",
+    "section": "camps",
+    "name": "MSport Active Kidz Holiday Camp",
+    "promoImage": "",
+    "text": "msport active kidz holiday camp multi-sport and activities camp with arts, crafts, football, and active play during school holidays. good if you want a dependable active childcare option. sports active holiday camp",
+    "src": "https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "sport"
+  },
+  {
+    "id": "camp-petite-performers-west-hampstead",
+    "section": "camps",
+    "name": "Petite Performers \u2014 West Hampstead",
+    "promoImage": "",
+    "text": "petite performers \u2014 west hampstead performing arts holiday camps with dance, drama, singing, and crafts in west hampstead. strong if your child prefers a creative, smaller-scale camp. performing arts creative holiday camp",
+    "src": "./assets/hero.png",
+    "kind": "hero",
+    "hint": "performing"
+  },
+  {
+    "id": "camp-rocket-club-kensal-rise",
+    "section": "camps",
+    "name": "Rocket Club \u2014 Kensal Rise",
+    "promoImage": "",
+    "text": "rocket club \u2014 kensal rise creative holiday camp for kids in kensal rise, run at the scout hall / scout hut in nw10. good if you want something playful and community-based. creative holiday club kensal rise",
+    "src": "https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "default"
+  },
+  {
+    "id": "camp-2-da-stage",
+    "section": "camps",
+    "name": "2 Da Stage Holiday Playscheme",
+    "promoImage": "",
+    "text": "2 da stage holiday playscheme holiday playscheme with drama, street dance, singing, music, and a proper full-day structure. best if you want a lively arts-led holiday option with childcare hours. performing arts holiday camp creative",
+    "src": "https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "performing"
+  },
+  {
+    "id": "camp-jag-salusbury",
+    "section": "camps",
+    "name": "Junior Adventures Group \u2014 Salusbury Primary School",
+    "promoImage": "",
+    "text": "junior adventures group \u2014 salusbury primary school holiday club option at salusbury primary school with active play, games, and wraparound-friendly booking. useful if you want a school-based holiday club near queen\u2019s park. holiday club multi-activity wraparound",
+    "src": "https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "sport"
+  },
+  {
+    "id": "cafe-hearth",
+    "section": "cafes",
+    "name": "The Hearth",
+    "promoImage": "",
+    "text": "the hearth warm, community-minded indoor spot that works well with buggies, toddlers, or a playdate stop. best all-round caf\u00e9 for a parent reset. caf\u00e9 community lunch",
+    "src": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "default"
+  },
+  {
+    "id": "cafe-queens-park-books",
+    "section": "cafes",
+    "name": "Queens Park Books",
+    "promoImage": "",
+    "text": "queens park books bookshop stop with an easy parent-friendly vibe. good for a quiet browse and a child in a buggy or on the floor. lovely for calm time rather than a big outing. bookshop indoor quiet",
+    "src": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "default"
+  },
+  {
+    "id": "cafe-willesden-library",
+    "section": "cafes",
+    "name": "Willesden Green Library Centre caf\u00e9 area",
+    "promoImage": "",
+    "text": "willesden green library centre caf\u00e9 area a simple, reliable indoors option when you want books, toilets, space, and a warm drink. great default option for a wet day. library caf\u00e9 books",
+    "src": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "default"
+  },
+  {
+    "id": "cafe-maqam",
+    "section": "cafes",
+    "name": "The Maqam Centre caf\u00e9",
+    "promoImage": "",
+    "text": "the maqam centre caf\u00e9 family-friendly venue with an easy caf\u00e9 stop attached to lessons, classes, or a catch-up with other parents. useful if you want a venue with built-in activities. venue family-friendly classes",
+    "src": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "default"
+  },
+  {
+    "id": "cafe-local-park",
+    "section": "cafes",
+    "name": "Parks and caf\u00e9 stop combo",
+    "promoImage": "",
+    "text": "parks and caf\u00e9 stop combo a good strategy, not just a place: park first, caf\u00e9 second, then home before the meltdown. recommended for the sanity-saving loop. park coffee routine",
+    "src": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "default"
+  },
+  {
+    "id": "cafe-respite",
+    "section": "cafes",
+    "name": "Buggy-friendly neighbourhood caf\u00e9 run",
+    "promoImage": "",
+    "text": "buggy-friendly neighbourhood caf\u00e9 run a flexible catch-all for the parent caf\u00e9s on your regular rotation. use the map to choose the closest one. best when you just need to get out of the house. coffee buggy-friendly routine",
+    "src": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "default"
+  },
+  {
+    "id": "indoor-library",
+    "section": "indoor",
+    "name": "Willesden Green Library Centre",
+    "promoImage": "",
+    "text": "willesden green library centre the best all-weather base: books, toilets, story sessions, and usually less chaos than a soft play. top rainy-day fallback for most families. library rainy day free",
+    "src": "https://images.unsplash.com/photo-1515169067868-5387ec356754?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "default"
+  },
+  {
+    "id": "indoor-hearth",
+    "section": "indoor",
+    "name": "The Hearth",
+    "promoImage": "",
+    "text": "the hearth indoor community space with food and room to breathe. useful when parks are off the table. good for meeting another parent and not needing a plan. caf\u00e9 community warm",
+    "src": "https://images.unsplash.com/photo-1515169067868-5387ec356754?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "default"
+  },
+  {
+    "id": "indoor-books",
+    "section": "indoor",
+    "name": "Queens Park Books",
+    "promoImage": "",
+    "text": "queens park books a quiet indoor option for a browse, a story pause, or a quick reset on the way home. best for calmer children or one-on-one time. bookshop quiet indoor",
+    "src": "https://images.unsplash.com/photo-1515169067868-5387ec356754?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "default"
+  },
+  {
+    "id": "indoor-swim",
+    "section": "indoor",
+    "name": "Swimming Nature at The Maqam",
+    "promoImage": "",
+    "text": "swimming nature at the maqam indoor swim sessions that can rescue an afternoon and burn energy without needing dry weather. good for tiring children out responsibly. swimming lessons indoor",
+    "src": "https://images.unsplash.com/photo-1515169067868-5387ec356754?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "default"
+  },
+  {
+    "id": "indoor-softplay",
+    "section": "indoor",
+    "name": "Soft-play style venue / playdate fallback",
+    "promoImage": "",
+    "text": "soft-play style venue / playdate fallback a catch-all slot for the indoor venue you reach for when everyone is bouncing off the walls. use when you need movement more than entertainment. indoor energy burn playdate",
+    "src": "https://images.unsplash.com/photo-1515169067868-5387ec356754?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "default"
+  },
+  {
+    "id": "indoor-home",
+    "section": "indoor",
+    "name": "At-home rainy-day ideas",
+    "promoImage": "",
+    "text": "at-home rainy-day ideas if you do not want to go out, build a tiny plan: craft, music, snack, then one calm job you can finish. use this when the weather wins. home craft plan",
+    "src": "https://images.unsplash.com/photo-1515169067868-5387ec356754?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "default"
+  },
+  {
+    "id": "send-local-offer",
+    "section": "send",
+    "name": "Brent Local Offer",
+    "promoImage": "",
+    "text": "brent local offer the most important starting point for send support, local services, and signposting. start here before you do anything else. send local offer support",
+    "src": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "default"
+  },
+  {
+    "id": "send-family-info",
+    "section": "send",
+    "name": "Brent Family Information Service",
+    "promoImage": "",
+    "text": "brent family information service useful for parents who need the practical version: who, where, and what to do next. very handy as a navigation layer. family support information support",
+    "src": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "default"
+  },
+  {
+    "id": "send-contact",
+    "section": "send",
+    "name": "Contact",
+    "promoImage": "",
+    "text": "contact national charity for families with disabled children, with practical advice and parent-to-parent clarity. excellent if you need plain-english guidance. charity disability advice",
+    "src": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "default"
+  },
+  {
+    "id": "send-ipsea",
+    "section": "send",
+    "name": "IPSEA",
+    "promoImage": "",
+    "text": "ipsea independent special educational advice and legal guidance for parents navigating school support. best when you need to understand rights and next steps. legal sen education",
+    "src": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "default"
+  },
+  {
+    "id": "send-inclusive-activities",
+    "section": "send",
+    "name": "Inclusive activities with parent review",
+    "promoImage": "",
+    "text": "inclusive activities with parent review look for smaller groups, predictable routines, quiet start times, and venues that welcome adaptations. use the filters and shortlist to find calmer options. inclusive quiet adaptations",
+    "src": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "default"
+  },
+  {
+    "id": "send-ask-parents",
+    "section": "send",
+    "name": "Parent recommendation note",
+    "promoImage": "",
+    "text": "parent recommendation note the best send-friendly places often show up in parent chats before they show up in directories. keep an eye on the shortlist and update it often. recommendation community tips",
+    "src": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "default"
+  },
+  {
+    "id": "act-baby-swim",
+    "section": "activities",
+    "name": "Swimming Nature (baby & child swim)",
+    "promoImage": "",
+    "text": "swimming nature (baby & child swim) indoor swim lessons for babies and children, useful year-round and a good energy-burn option. strong if you already like structured classes. swim lessons indoor",
+    "src": "https://images.unsplash.com/photo-1519315901367-f34ff9154487?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "swim"
+  },
+  {
+    "id": "act-busy-rascals",
+    "section": "activities",
+    "name": "Busy Rascals",
+    "promoImage": "",
+    "text": "busy rascals music, rhymes, dance, and a baby-friendly social space. good for meeting other parents locally. music stay and play community",
+    "src": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "clubs"
+  },
+  {
+    "id": "act-classes",
+    "section": "activities",
+    "name": "Local classes on ClassForKids",
+    "promoImage": "",
+    "text": "local classes on classforkids a good catch-all for gym, dance, football, capoeira, and other repeat sessions. best if you want regular weekly structure. classes sports music",
+    "src": "https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "sport"
+  },
+  {
+    "id": "act-parks",
+    "section": "activities",
+    "name": "Queen\u2019s Park",
+    "promoImage": "",
+    "text": "queen\u2019s park playground, paddling pool, petting farm, and an easy family outing with enough moving parts to last the morning. one of the best all-round family parks nearby. park playground outdoors",
+    "src": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "parks"
+  },
+  {
+    "id": "act-roundwood",
+    "section": "activities",
+    "name": "Roundwood Park",
+    "promoImage": "https://upload.wikimedia.org/wikipedia/commons/3/32/Roundwood_Park.jpg",
+    "text": "roundwood park reliable open space for scooters, movement, and a reset without spending money. best low-effort outdoor option. park free outdoors",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/3/32/Roundwood_Park.jpg",
+    "kind": "good",
+    "hint": "parks"
+  },
+  {
+    "id": "act-gladstone",
+    "section": "activities",
+    "name": "Gladstone Park",
+    "promoImage": "https://gladstoneparkfriends.org/wp-content/uploads/2016/03/evening-light-on-trees.jpeg",
+    "text": "gladstone park nature trails, sports courts, duck pond, and playgrounds. a proper long-run option when you need space. useful for siblings with different energy levels. park nature free",
+    "src": "https://gladstoneparkfriends.org/wp-content/uploads/2016/03/evening-light-on-trees.jpeg",
+    "kind": "good",
+    "hint": "parks"
+  },
+  {
+    "id": "act-mapesbury",
+    "section": "activities",
+    "name": "Mapesbury Dell",
+    "promoImage": "http://www.mapesbury-dell.org/s/cc_images/thumb_6487547.jpg",
+    "text": "mapesbury dell small hidden-gem garden space with water features and a calmer pace than the bigger parks. great when you want less noise. garden quiet free",
+    "src": "http://www.mapesbury-dell.org/s/cc_images/thumb_6487547.jpg",
+    "kind": "good",
+    "hint": "parks"
+  },
+  {
+    "id": "act-forest-school",
+    "section": "activities",
+    "name": "The Friendly Forest School",
+    "promoImage": "https://c-p.rmcdn.net/63a1a269dbce7700133e81ea/4856259/Screenshot-8a7d15b4-16f0-4919-a0cd-49a12605bb50_readyscr_1024.jpg",
+    "text": "the friendly forest school forest-school style activities with a strong outdoors feel. ideal if your child thrives outdoors. forest school outdoors holiday",
+    "src": "https://c-p.rmcdn.net/63a1a269dbce7700133e81ea/4856259/Screenshot-8a7d15b4-16f0-4919-a0cd-49a12605bb50_readyscr_1024.jpg",
+    "kind": "good",
+    "hint": "parks"
+  },
+  {
+    "id": "act-the-playmap",
+    "section": "activities",
+    "name": "Playgroups via The Play Map",
+    "promoImage": "",
+    "text": "playgroups via the play map a practical route to stay-and-play groups, toddler sessions, and parent chatter. best if you like checking what is happening before you leave the house. playgroup stay and play free",
+    "src": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "clubs"
+  },
+  {
+    "id": "act-brent-museum",
+    "section": "activities",
+    "name": "Brent Museum",
+    "promoImage": "",
+    "text": "brent museum local museum at willesden green library centre with exhibitions, heritage displays, and an easy outing when you want something calm. best close-to-home indoor culture pick. museum free indoor",
+    "src": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "libraries"
+  },
+  {
+    "id": "act-lexi-cinema",
+    "section": "activities",
+    "name": "The Lexi Cinema",
+    "promoImage": "",
+    "text": "the lexi cinema independent social-enterprise cinema on chamberlayne road, good for a parent-and-child film outing. best nearby cinema if you want something a bit more local and indie. cinema film indoor",
+    "src": "https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "theatre"
+  },
+  {
+    "id": "act-freud-museum",
+    "section": "activities",
+    "name": "Freud Museum London",
+    "promoImage": "",
+    "text": "freud museum london a small, interesting museum in freud\u2019s former home. better for older children and curious adults than toddlers. useful when you need a calmer culture day out. museum culture older kids",
+    "src": "https://images.unsplash.com/photo-1518998053901-5348d3961a04?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "culture"
+  },
+  {
+    "id": "act-willesden-green-library",
+    "section": "activities",
+    "name": "The Library at Willesden Green",
+    "promoImage": "",
+    "text": "the library at willesden green library, gallery, community rooms, performance space, and brent museum / archives in one building. best local library pick if you want an easy indoor stop plus things to do. library museum free",
+    "src": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "libraries"
+  },
+  {
+    "id": "act-west-hampstead-library",
+    "section": "activities",
+    "name": "West Hampstead Library",
+    "promoImage": "",
+    "text": "west hampstead library library with browsing space, public computers, study areas, and local activities on the schedule. handy for a low-cost half hour that still feels useful. library free quiet",
+    "src": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "libraries"
+  },
+  {
+    "id": "act-brent-library-events",
+    "section": "activities",
+    "name": "Brent library events",
+    "promoImage": "",
+    "text": "brent library events regular kids events, family learning, and free talks across brent libraries \u2014 a good low-cost fallback. best recurring source for calm indoor activities. library events free",
+    "src": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "libraries"
+  },
+  {
+    "id": "act-willesden-sports-swim",
+    "section": "activities",
+    "name": "Willesden Sports Centre swimming lessons",
+    "promoImage": "",
+    "text": "willesden sports centre swimming lessons swim england lessons across baby, toddler, children\u2019s, and adult stages, with progress tracking and lane/public swim perks. your strongest local all-round swim lesson option. swim lessons learn to swim",
+    "src": "https://images.unsplash.com/photo-1519315901367-f34ff9154487?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "swim"
+  },
+  {
+    "id": "act-willesden-sports-baby-swim",
+    "section": "activities",
+    "name": "Willesden Sports Centre baby, toddler & preschool lessons",
+    "promoImage": "",
+    "text": "willesden sports centre baby, toddler & preschool lessons parent-in-water sessions for babies, toddlers, and preschoolers learning water confidence. best for starting very young in a local pool. swim baby swim preschool",
+    "src": "https://images.unsplash.com/photo-1519315901367-f34ff9154487?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "swim"
+  },
+  {
+    "id": "act-willesden-sports-send-swim",
+    "section": "activities",
+    "name": "Willesden Sports Centre SEND swimming lessons",
+    "promoImage": "",
+    "text": "willesden sports centre send swimming lessons small-group and one-to-one lessons for children and young people with an ehc plan. very useful if you need a more supported water-learning route. swim send lessons",
+    "src": "https://images.unsplash.com/photo-1519315901367-f34ff9154487?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "swim"
+  },
+  {
+    "id": "act-cygnets-manor",
+    "section": "activities",
+    "name": "Cygnets Swim School at Manor School",
+    "promoImage": "",
+    "text": "cygnets swim school at manor school child-friendly swimming lessons from birth to age 9 in a warm pool with small groups. good if you want a calmer, more personal swim school. swim lessons small groups",
+    "src": "https://images.unsplash.com/photo-1519315901367-f34ff9154487?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "swim"
+  },
+  {
+    "id": "act-swimtank-willesden",
+    "section": "activities",
+    "name": "SWIMTANK Willesden",
+    "promoImage": "",
+    "text": "swimtank willesden private indoor pool with stroke-based children\u2019s lessons in a warm, controlled setting. handy if you want another local swim school option. swim lessons private pool",
+    "src": "https://images.unsplash.com/photo-1519315901367-f34ff9154487?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "swim"
+  },
+  {
+    "id": "act-swiss-cottage-leisure",
+    "section": "activities",
+    "name": "Swiss Cottage Leisure Centre",
+    "promoImage": "",
+    "text": "swiss cottage leisure centre big leisure centre with swimming, gym, climbing wall, and classes for different ages. strong all-weather option when everyone needs something different. swim climbing fitness",
+    "src": "https://images.unsplash.com/photo-1519315901367-f34ff9154487?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "swim"
+  },
+  {
+    "id": "act-natural-history-museum",
+    "section": "activities",
+    "name": "Natural History Museum",
+    "promoImage": "",
+    "text": "natural history museum dinosaur galleries, the blue whale hall, and big hands-on family appeal for a full london day out. one of the easiest museum wins for kids of almost any age. museum dinosaurs free",
+    "src": "https://images.unsplash.com/photo-1518998053901-5348d3961a04?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "culture"
+  },
+  {
+    "id": "act-science-museum",
+    "section": "activities",
+    "name": "Science Museum",
+    "promoImage": "",
+    "text": "science museum a classic kids museum with rocket, flight, space, and interactive galleries that actually work well for families. great if your child likes buttons, machines, and wow moments. museum science free",
+    "src": "https://images.unsplash.com/photo-1518998053901-5348d3961a04?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "culture"
+  },
+  {
+    "id": "act-young-vanda",
+    "section": "activities",
+    "name": "Young V&A",
+    "promoImage": "",
+    "text": "young v&a designed for children and families, with play, design, and hands-on galleries built into the experience. best for younger kids who like creative, interactive museums. museum design free",
+    "src": "https://images.unsplash.com/photo-1518998053901-5348d3961a04?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "culture"
+  },
+  {
+    "id": "act-london-transport-museum",
+    "section": "activities",
+    "name": "London Transport Museum",
+    "promoImage": "",
+    "text": "london transport museum brilliant for children who love trains, buses, and moving vehicles of all kinds. easy to pair with a tube ride and a walk around covent garden. museum transport trains",
+    "src": "https://images.unsplash.com/photo-1518998053901-5348d3961a04?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "culture"
+  },
+  {
+    "id": "act-british-museum",
+    "section": "activities",
+    "name": "British Museum",
+    "promoImage": "",
+    "text": "british museum huge historic museum with enough to choose a short targeted family visit or a longer culture trip. best when you want one iconic london museum day out. museum history free",
+    "src": "https://images.unsplash.com/photo-1518998053901-5348d3961a04?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "culture"
+  },
+  {
+    "id": "act-london-museum-docklands",
+    "section": "activities",
+    "name": "London Museum Docklands",
+    "promoImage": "",
+    "text": "london museum docklands riverside museum with 400 years of docklands history and strong family-friendly galleries. good for a longer trip when you do not mind getting the tube out east. museum history free",
+    "src": "https://images.unsplash.com/photo-1518998053901-5348d3961a04?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "culture"
+  },
+  {
+    "id": "act-postal-museum",
+    "section": "activities",
+    "name": "The Postal Museum",
+    "promoImage": "",
+    "text": "the postal museum a hands-on museum where the mail rail ride makes it feel more like an adventure than a history lesson. great for a slightly different kids day out. museum mail rail history",
+    "src": "https://images.unsplash.com/photo-1518998053901-5348d3961a04?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "culture"
+  },
+  {
+    "id": "act-national-maritime-museum",
+    "section": "activities",
+    "name": "National Maritime Museum",
+    "promoImage": "",
+    "text": "national maritime museum ships, sea stories, and plenty of room to build a family day around greenwich. worth the trip if your child likes transport and history. museum ships free",
+    "src": "https://images.unsplash.com/photo-1518998053901-5348d3961a04?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "culture"
+  },
+  {
+    "id": "act-horniman-museum",
+    "section": "activities",
+    "name": "Horniman Museum and Gardens",
+    "promoImage": "",
+    "text": "horniman museum and gardens family favourite with animals, natural history, and gardens outside for a full outing. one of the best if you want a museum plus park-style outdoor time. museum gardens free",
+    "src": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "parks"
+  },
+  {
+    "id": "act-national-army-museum",
+    "section": "activities",
+    "name": "National Army Museum",
+    "promoImage": "",
+    "text": "national army museum clear, family-friendly galleries with hands-on exhibits and enough space to browse without overload. good for an accessible history day out with kids. museum history free",
+    "src": "https://images.unsplash.com/photo-1518998053901-5348d3961a04?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "culture"
+  },
+  {
+    "id": "act-grace-poise",
+    "section": "activities",
+    "name": "Grace & Poise Academy CIC",
+    "promoImage": "",
+    "text": "grace & poise academy cic dance and confidence-building classes from a local classforkids listing. useful if you want a regular weekly slot. dance class weekly",
+    "src": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "clubs"
+  },
+  {
+    "id": "act-idea-design-hub",
+    "section": "activities",
+    "name": "IDEA Design Hub CIC",
+    "promoImage": "",
+    "text": "idea design hub cic creative design / arts sessions listed in the local classes directory. good for children who like making and designing. creative art class",
+    "src": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "clubs"
+  },
+  {
+    "id": "act-jinga-jinga",
+    "section": "activities",
+    "name": "Jinga Jinga Kids",
+    "promoImage": "",
+    "text": "jinga jinga kids music and movement classes from the willesden green local classes listing. good for younger children who need energy out. music movement class",
+    "src": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "clubs"
+  },
+  {
+    "id": "act-flexi-athletics",
+    "section": "activities",
+    "name": "Flexi Athletics Gymnastics",
+    "promoImage": "",
+    "text": "flexi athletics gymnastics gymnastics sessions listed locally for children who like jumping, balance, and movement. useful if you want a sporty class with progression. gymnastics class sport",
+    "src": "https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "sport"
+  },
+  {
+    "id": "act-maida-vale-ballet",
+    "section": "activities",
+    "name": "Maida Vale Ballet School",
+    "promoImage": "",
+    "text": "maida vale ballet school ballet classes in the wider local classforkids listing. good if your child likes a structured dance class. ballet dance class",
+    "src": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "clubs"
+  },
+  {
+    "id": "act-switch-sports",
+    "section": "activities",
+    "name": "Switch Sports CIC",
+    "promoImage": "",
+    "text": "switch sports cic multi-sport and games classes from the local classforkids directory. handy if you want a sporty regular commitment. sport games class",
+    "src": "https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "sport"
+  },
+  {
+    "id": "act-summit-club-kids",
+    "section": "activities",
+    "name": "Summit Club Kids",
+    "promoImage": "",
+    "text": "summit club kids after-school style activities from the local classes listing. useful when you want a more routine class option. club class weekly",
+    "src": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "clubs"
+  },
+  {
+    "id": "act-more-than-sport",
+    "section": "activities",
+    "name": "More than sport London",
+    "promoImage": "",
+    "text": "more than sport london another local sports and movement option from the classforkids willesden green listing. good if your child likes activity-heavy sessions. sport movement class",
+    "src": "https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "sport"
+  },
+  {
+    "id": "act-aurora-gymnastics",
+    "section": "activities",
+    "name": "Aurora Gymnastics West London",
+    "promoImage": "",
+    "text": "aurora gymnastics west london gymnastics classes listed in the willesden green activity directory. useful if you want another gymnastics option nearby. gymnastics class sport",
+    "src": "https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "sport"
+  },
+  {
+    "id": "act-paddington-rec-ground",
+    "section": "activities",
+    "name": "Paddington Recreation Ground",
+    "promoImage": "",
+    "text": "paddington recreation ground large park and sports ground with playground space, courts, and plenty of room for scooters and ball games. good for a bigger-energy outing within easy reach. park playground sports",
+    "src": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "parks"
+  },
+  {
+    "id": "act-vue-finchley-road",
+    "section": "activities",
+    "name": "Vue Finchley Road",
+    "promoImage": "",
+    "text": "vue finchley road mainstream cinema at the o2 centre, handy for family films and easy rainy-day plans. simple if you want a bigger-screen movie trip. cinema film indoor",
+    "src": "https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "theatre"
+  },
+  {
+    "id": "act-st-johns-wood-library",
+    "section": "activities",
+    "name": "St John\u2019s Wood Library",
+    "promoImage": "",
+    "text": "st john\u2019s wood library longer-hours library with study space and regular local use, useful when you need an easy indoor stop. worth it if you want a quieter alternative to soft play. library free indoor",
+    "src": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "libraries"
+  },
+  {
+    "id": "act-canal-cafe-theatre",
+    "section": "activities",
+    "name": "Canal Cafe Theatre",
+    "promoImage": "",
+    "text": "canal cafe theatre small theatre near little venice that works better for older children and grown-up outings. good for a culture day when you want something different from the usual family circuit. theatre culture older kids",
+    "src": "https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "theatre"
+  },
+  {
+    "id": "act-pentameters",
+    "section": "activities",
+    "name": "Pentameters Theatre",
+    "promoImage": "",
+    "text": "pentameters theatre tiny hampstead theatre that is better for older children, teens, and low-key evening plans. best when you want a small-scale live-show option nearby. theatre live show older kids",
+    "src": "https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "theatre"
+  },
+  {
+    "id": "act-brent-library-services",
+    "section": "activities",
+    "name": "Children's and Young People's Library Services",
+    "promoImage": "",
+    "text": "children's and young people's library services free library services for children and young people, including story times, rhyme times, stem, clubs, and holiday activities. best if you want the broader library offer rather than a single event. library free children",
+    "src": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "libraries"
+  },
+  {
+    "id": "act-willesden-gallery",
+    "section": "activities",
+    "name": "Willesden Gallery",
+    "promoImage": "",
+    "text": "willesden gallery indoor gallery space at the library with exhibitions and a calmer culture stop for mixed-age families. good when you want something quiet and easy to pair with the library. gallery culture free",
+    "src": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "libraries"
+  },
+  {
+    "id": "act-portraits-of-brent",
+    "section": "activities",
+    "name": "Portraits of Brent",
+    "promoImage": "",
+    "text": "portraits of brent an ongoing local culture project at the library and exhibition space with a strong brent identity. worth a look if you like local-history-led family outings. exhibition culture free",
+    "src": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "libraries"
+  },
+  {
+    "id": "act-walking-for-health-roundwood",
+    "section": "activities",
+    "name": "Walking for Health \u2014 Roundwood Park",
+    "promoImage": "",
+    "text": "walking for health \u2014 roundwood park free guided walk in roundwood park as part of brent\u2019s healthy walking programme. simple, free, and useful if you want a structured walk rather than a playground trip. walk outdoors free",
+    "src": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "parks"
+  },
+  {
+    "id": "act-walking-for-health-gladstone",
+    "section": "activities",
+    "name": "Walking for Health \u2014 Gladstone Park",
+    "promoImage": "",
+    "text": "walking for health \u2014 gladstone park free guided walk in gladstone park with a proper community feel and a gentle pace. good if you want a low-cost outdoor routine. walk outdoors free",
+    "src": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "parks"
+  },
+  {
+    "id": "act-outdoor-gyms-brent",
+    "section": "activities",
+    "name": "Outdoor gyms in Brent",
+    "promoImage": "",
+    "text": "outdoor gyms in brent free outdoor gym spaces across brent, with some instructor-led sessions mentioned by the council. handy when you want easy movement without paying for a class. outdoors fitness free",
+    "src": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "parks"
+  },
+  {
+    "id": "act-barham-park",
+    "section": "activities",
+    "name": "Barham Park",
+    "promoImage": "",
+    "text": "barham park park with a play area, walled garden, walking route, and outdoor gym. good lower-key park choice if you want space without a big outing. park playground free",
+    "src": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "parks"
+  },
+  {
+    "id": "act-fryent-country-park",
+    "section": "activities",
+    "name": "Fryent Country Park",
+    "promoImage": "",
+    "text": "fryent country park large open countryside-style park with walking, wildlife, and more room to roam. best if you want a proper nature walk rather than a neighbourhood green. park nature free",
+    "src": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "parks"
+  },
+  {
+    "id": "act-welsh-harp-open-space",
+    "section": "activities",
+    "name": "Welsh Harp Open Space",
+    "promoImage": "",
+    "text": "welsh harp open space waterfront open space with room for walks, wildlife, and a longer outdoor reset. good if your family likes bigger, more open landscapes. park water free",
+    "src": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "parks"
+  },
+  {
+    "id": "act-neasden-recreation-ground",
+    "section": "activities",
+    "name": "Neasden Recreation Ground",
+    "promoImage": "",
+    "text": "neasden recreation ground simple playground-and-green-space option with an outdoor gym and room to run around. useful if you want something easy and close to home. park playground free",
+    "src": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "parks"
+  },
+  {
+    "id": "act-brent-dolphins-willesden",
+    "section": "activities",
+    "name": "Brent Dolphins Swimming Club at Willesden",
+    "promoImage": "",
+    "text": "brent dolphins swimming club at willesden swimming club sessions at willesden sports centre with set times across the week. best if you want a club atmosphere as well as lessons. swim club lessons",
+    "src": "https://images.unsplash.com/photo-1519315901367-f34ff9154487?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "swim"
+  },
+  {
+    "id": "act-brent-dolphins-vale-farm",
+    "section": "activities",
+    "name": "Brent Dolphins Swimming Club at Vale Farm",
+    "promoImage": "",
+    "text": "brent dolphins swimming club at vale farm second brent dolphins training base with explicit weekly sessions at vale farm. useful if vale farm is the easier travel option. swim club lessons",
+    "src": "https://images.unsplash.com/photo-1519315901367-f34ff9154487?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "swim"
+  },
+  {
+    "id": "act-wu-shu-kwan",
+    "section": "activities",
+    "name": "Wu Shu Kwan",
+    "promoImage": "",
+    "text": "wu shu kwan martial arts classes at willesden sports centre with a clear weekly structure. good if you want a disciplined class rather than casual play. martial arts class weekly",
+    "src": "https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "sport"
+  },
+  {
+    "id": "act-track-academy",
+    "section": "activities",
+    "name": "Track Academy",
+    "promoImage": "",
+    "text": "track academy athletics-style club with year-round sessions and holiday coverage at willesden sports centre. useful if your child likes running, jumping, and structured sport. athletics sport weekly",
+    "src": "https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "sport"
+  },
+  {
+    "id": "act-mg-gymstars",
+    "section": "activities",
+    "name": "MG Gymstars",
+    "promoImage": "",
+    "text": "mg gymstars gymnastics classes and training across willesden and vale farm. strong if your child likes tumbling and balance work. gymnastics class sport",
+    "src": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "parks"
+  },
+  {
+    "id": "act-alis-dojang",
+    "section": "activities",
+    "name": "Ali's Dojang at Moberly Sports Centre",
+    "promoImage": "",
+    "text": "ali's dojang at moberly sports centre taekwondo classes for kids and adults with a clear weekday timetable. good if you want a martial arts class with proper structure. martial arts taekwondo class",
+    "src": "https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "sport"
+  },
+  {
+    "id": "act-maiwand-martial-arts",
+    "section": "activities",
+    "name": "Maiwand Martial Arts",
+    "promoImage": "",
+    "text": "maiwand martial arts martial arts classes at roundwood youth centre with an evening timetable. useful if you want a local weekday evening class. martial arts class weekly",
+    "src": "https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "sport"
+  },
+  {
+    "id": "act-young-football-school",
+    "section": "activities",
+    "name": "Young\u2019s Football Coaching School",
+    "promoImage": "",
+    "text": "young\u2019s football coaching school saturday football coaching for younger children, with a straightforward age range. handy if you want football with a clear weekly slot. football sport class",
+    "src": "https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "sport"
+  },
+  {
+    "id": "act-play-with-your-sole",
+    "section": "activities",
+    "name": "Play With your Sole FC",
+    "promoImage": "",
+    "text": "play with your sole fc age-banded football sessions with clear time blocks and venue detail. good if you want football without a huge travel radius. football sport class",
+    "src": "https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "sport"
+  },
+  {
+    "id": "act-jason-roberts-foundation",
+    "section": "activities",
+    "name": "The Jason Roberts Foundation",
+    "promoImage": "",
+    "text": "the jason roberts foundation weekly multi-sports and football sessions plus half-term and summer holiday activity. excellent if you want a social, active option that is also low-cost. football multi-sport free",
+    "src": "https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "sport"
+  },
+  {
+    "id": "act-rsbc-sports-club",
+    "section": "activities",
+    "name": "RSBC sports club at Willesden Sports Centre",
+    "promoImage": "",
+    "text": "rsbc sports club at willesden sports centre monthly sports club for blind and partially sighted children and young people with a mix of games. very useful if you need a more supported inclusive sports option. send sport free",
+    "src": "https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "sport"
+  },
+  {
+    "id": "act-2-da-stage",
+    "section": "activities",
+    "name": "2 Da Stage Performing Arts & Childcare Club",
+    "promoImage": "",
+    "text": "2 da stage performing arts & childcare club drama, dance, singing, and music-led performing arts sessions with holiday playscheme coverage. best if you want a polished arts option with a clear school-holiday offer. performing arts dance music",
+    "src": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "clubs"
+  },
+  {
+    "id": "act-blue-ocean-waves",
+    "section": "activities",
+    "name": "Blue Ocean Waves",
+    "promoImage": "",
+    "text": "blue ocean waves music, vocals, dance, drama, art, and yoga for children and young people, including disabled young people. good if you want a broad creative offer with an inclusive feel. performing arts music dance",
+    "src": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "clubs"
+  },
+  {
+    "id": "act-brent-youth-theatre",
+    "section": "activities",
+    "name": "Brent Youth Theatre",
+    "promoImage": "",
+    "text": "brent youth theatre weekly inclusive performing arts sessions for younger children. strong local pick for kids who like theatre and performance. theatre drama free",
+    "src": "https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "theatre"
+  },
+  {
+    "id": "act-concrete-canvas-arts",
+    "section": "activities",
+    "name": "Concrete Canvas Arts",
+    "promoImage": "",
+    "text": "concrete canvas arts youth arts, drama, music-making, filmmaking, fashion, journalism, sports, and leadership. best for older children and teens who want a broader creative programme. arts creative youth",
+    "src": "https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "sport"
+  },
+  {
+    "id": "act-abundance-arts",
+    "section": "activities",
+    "name": "Abundance Arts",
+    "promoImage": "",
+    "text": "abundance arts african drumming, storytelling, dance, and visual arts with a strong community identity. useful if you want something creative and rooted in the neighbourhood. arts music dance",
+    "src": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "clubs"
+  },
+  {
+    "id": "act-margaret-dance-academy",
+    "section": "activities",
+    "name": "Margaret Dance Academy / Roundwood Stage School",
+    "promoImage": "",
+    "text": "margaret dance academy / roundwood stage school ballet, modern, theatre, musical theatre, jazz, street, hip hop, and tap for a wide age range. good if you want a well-rounded dance school with lots of style choice. dance ballet theatre",
+    "src": "https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "theatre"
+  },
+  {
+    "id": "act-london-irish-music-school",
+    "section": "activities",
+    "name": "London Irish Music School",
+    "promoImage": "",
+    "text": "london irish music school traditional irish music lessons on saturdays. useful if your child wants a regular music lesson rather than a one-off activity. music class weekly",
+    "src": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "clubs"
+  },
+  {
+    "id": "act-brent-music-service",
+    "section": "activities",
+    "name": "Brent Music Service",
+    "promoImage": "",
+    "text": "brent music service instrumental and vocal tuition, ensembles, and choirs across brent. good if you want proper progression beyond a starter class. music class ensembles",
+    "src": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "clubs"
+  },
+  {
+    "id": "act-kalaniketan",
+    "section": "activities",
+    "name": "Kalaniketan",
+    "promoImage": "",
+    "text": "kalaniketan indian dance classes plus harmonium, satar, tabla, and vocal singing. good if you want a strong cultural arts option. dance music arts",
+    "src": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "clubs"
+  },
+  {
+    "id": "act-kiln-theatre-young-people",
+    "section": "activities",
+    "name": "Kiln Theatre \u2013 Creative Engagement / Young People",
+    "promoImage": "",
+    "text": "kiln theatre \u2013 creative engagement / young people theatre-making, youth outreach, young company work, and youth theatre offers. useful if you want a higher-quality theatre pathway nearby. theatre drama youth",
+    "src": "https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "theatre"
+  },
+  {
+    "id": "act-salusbury-world",
+    "section": "activities",
+    "name": "Salusbury World",
+    "promoImage": "",
+    "text": "salusbury world after-school and holiday clubs plus workshops and film club. good if you want a community-based option with some variety. club holiday free",
+    "src": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "clubs"
+  },
+  {
+    "id": "act-sklpc-saturday-school",
+    "section": "activities",
+    "name": "SKLPC Saturday School",
+    "promoImage": "",
+    "text": "sklpc saturday school weekend school with hinduism, english, maths, bollywood dancing, coding, gujarati, and bharatanatyam. good if you want a mix of cultural learning and academic support. saturday school dance coding",
+    "src": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "clubs"
+  },
+  {
+    "id": "act-edsg-harlesden-saturday-school",
+    "section": "activities",
+    "name": "Education and Skills Development Group (Harlesden Saturday School)",
+    "promoImage": "",
+    "text": "education and skills development group (harlesden saturday school) saturday learning with english, maths, science, and homework support. useful if you want structured educational support alongside activities. saturday school learning homework",
+    "src": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "clubs"
+  },
+  {
+    "id": "act-global-skills-centre",
+    "section": "activities",
+    "name": "Global Skills Centre",
+    "promoImage": "",
+    "text": "global skills centre stem-focused programme with robotics, coding, apps design, 3d design, and programming. best if you want a stronger stem option than a basic club. stem coding class",
+    "src": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "clubs"
+  },
+  {
+    "id": "act-jag-salusbury-primary",
+    "section": "activities",
+    "name": "Junior Adventures Group \u2014 Salusbury Primary School",
+    "promoImage": "",
+    "text": "junior adventures group \u2014 salusbury primary school wraparound and holiday club provision with booking availability shown live. useful if you want a school-based after-school or holiday option. holiday club wraparound school",
+    "src": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80",
+    "kind": "stock",
+    "hint": "clubs"
+  }
+]

@@ -804,9 +804,11 @@ function normalizeHost(value) {
 }
 
 function resolveExplicitLogo(url, baseUrl) {
-  if (!url || String(url).includes('*')) return '';
+  const raw = String(url || '');
+  if (!raw || raw.includes('*')) return '';
+  if (/favicon|apple-touch-icon|\.ico(?:\?|$)/i.test(raw)) return '';
   try {
-    return new URL(url, baseUrl).href;
+    return new URL(raw, baseUrl).href;
   } catch {
     return '';
   }
@@ -933,6 +935,20 @@ function populateGrids() {
   });
 }
 
+function updateHeroStats() {
+  const totalSchools = schools.length;
+  const outstandingSchools = schools.filter(s => s.rating === 'outstanding').length;
+  const goodSchools = schools.filter(s => s.rating === 'good').length;
+
+  const statTotal = document.getElementById('stat-total');
+  const statOutstanding = document.getElementById('stat-outstanding');
+  const statGood = document.getElementById('stat-good');
+
+  if (statTotal) statTotal.textContent = totalSchools;
+  if (statOutstanding) statOutstanding.textContent = outstandingSchools;
+  if (statGood) statGood.textContent = goodSchools;
+}
+
 // ---- Filtering ----
 let activeSchoolFilter = 'all';
 let activeRatingFilter = null;
@@ -1043,3 +1059,4 @@ if (header) {
 
 // ---- Init ----
 populateGrids();
+updateHeroStats();

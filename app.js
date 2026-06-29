@@ -8,92 +8,92 @@ const LIVE_UPDATES = window.WF_LIVE_UPDATES || {
 const DATA = {
   thisWeek: [
     {
-      id: 'event-banner-making-family-craft-workshop',
+      id: 'event-malorees-sports-week',
       section: 'this-week',
-      name: 'Banner-making family craft workshop',
-      age: '5+',
+      name: 'Malorees Sports Week',
+      age: '4–11',
       cost: 'free',
-      area: 'Kilburn',
-      eventDate: 'Tue 26 May',
-      eventTime: 'drop-in',
-      blurb: 'Make your own artwork and help create one big banner celebrating Brent’s history of fighting for a fairer future.',
-      recommendation: 'Good if you want a proper one-off activity rather than a regular class.',
-      tags: ['workshop', 'craft', 'family event'],
-      contact: 'https://www.brent.gov.uk/libraries-arts-and-heritage/libraries/library-events?page=1&skip=0&size=25',
-      linkLabel: 'View event',
-      mapQuery: 'Kilburn Library (Brent), 42 Salusbury Rd, London NW6 6NN',
+      area: 'Willesden Green',
+      eventDate: 'Mon 29 Jun – Fri 3 Jul',
+      eventTime: 'school hours',
+      blurb: "Malorees Infants & Junior School's annual Sports Week — daily sporting activities for all year groups culminating in sports days.",
+      recommendation: 'Essential for Malorees parents. Junior Sports Day Tue, Infants Sports Day Wed.',
+      tags: ['school event', 'sports', 'Malorees'],
+      contact: 'https://www.maloreesschools.com',
+      linkLabel: 'School calendar',
+      mapQuery: 'Malorees Infant School, Christchurch Avenue, London NW6 7PB',
       featured: true,
       cardTone: 'weekly'
     },
     {
-      id: 'event-long-play-lloyd-bradley',
+      id: 'event-brent-summer-fun-festival',
       section: 'this-week',
-      name: 'The Long Play Sessions: Lloyd Bradley with Funk Is Its Own Reward',
+      name: 'Brent Libraries Summer Fun Festival',
       age: 'all ages',
-      cost: 'varies',
-      area: 'Queen’s Park',
-      eventDate: 'Tue 26 May',
-      eventTime: '19:00–22:30',
-      blurb: 'A live talk event at ICMP with music writing and a local culture angle.',
-      recommendation: 'Good if you want an evening event rather than a children’s drop-in.',
-      tags: ['talk', 'music', 'live event'],
-      contact: 'https://www.brentcreates.com/events/496',
-      linkLabel: 'View event',
-      mapQuery: 'ICMP, 76-78 Salusbury Road, Queen\'s Park',
-      featured: false,
-      cardTone: 'weekly'
-    },
-    {
-      id: 'event-magic-and-imagination',
-      section: 'this-week',
-      name: 'Magic and Imagination: children’s creative writing fun!',
-      age: '7–11',
       cost: 'free',
-      area: 'Kilburn',
-      eventDate: 'Thu 28 May',
-      eventTime: '11:00–12:00',
-      blurb: 'A short, booked creative-writing session with poems, rap, rhyme, and SPINE Festival links.',
-      recommendation: 'Good if you want a focused one-off children’s activity.',
-      tags: ['creative writing', 'children', 'library event'],
-      contact: 'https://www.brent.gov.uk/libraries-arts-and-heritage/libraries/library-events/magic-and-imagination',
-      linkLabel: 'Reserve spot',
-      mapQuery: 'Kilburn Library, 42 Salusbury Road, London, Brent, NW6 6NN',
+      area: 'Willesden Green',
+      eventDate: 'Wed 1 Jul (launch)',
+      eventTime: 'drop-in',
+      blurb: 'Free summer programme at all Brent libraries including Willesden Green. Weekly themes (adventure, fantasy, STEM, sports), robotics, storytelling, arts & crafts. Read 6 books, earn rewards, become a Reading Ambassador.',
+      recommendation: 'Fantastic free summer activity — just drop in from Wed 1 July through to Sep.',
+      tags: ['library', 'summer', 'reading', 'craft', 'free'],
+      contact: 'https://www.brent.gov.uk/summer-in-brent',
+      linkLabel: 'Summer in Brent',
+      mapQuery: 'The Library at Willesden Green, 95 High Road, NW10 2SF',
       featured: true,
       cardTone: 'weekly'
     },
     {
-      id: 'event-family-craft-dance-clothes',
+      id: 'event-harlesden-reggae-day',
       section: 'this-week',
-      name: 'Family craft: Dance clothes in Brent',
-      age: '3+',
+      name: 'Harlesden Walk of Music & Reggae Exhibition',
+      age: 'all ages',
       cost: 'free',
-      area: 'Willesden Green',
-      eventDate: 'Thu 29 May',
-      eventTime: 'drop-in',
-      blurb: 'A family craft workshop at The Library at Willesden Green linked to Brent’s dance history.',
-      recommendation: 'Good if you want a neat, local creative session for younger children.',
-      tags: ['workshop', 'craft', 'heritage'],
-      contact: 'https://www.brentcreates.com/events/272',
-      linkLabel: 'View event',
-      mapQuery: 'The Library at Willesden Green, 95 High Road, Willesden Green, NW10 2SF',
-      featured: false,
+      area: 'Harlesden',
+      eventDate: 'Wed 1 Jul',
+      eventTime: '2:00pm walk / 6:00pm exhibition',
+      blurb: 'International Reggae Day celebrations in Brent: a walking tour of Harlesden\'s musical heritage starting at Picture Palace at 2pm, plus a Reggae Album Covers Exhibition at Harlesden Library from 6pm.',
+      recommendation: 'Unique free cultural event celebrating Harlesden\'s music history — fun for older kids too.',
+      tags: ['music', 'heritage', 'walk', 'exhibition', 'free'],
+      contact: 'https://www.brent.gov.uk',
+      linkLabel: 'Check Brent events',
+      mapQuery: 'Picture Palace, Harlesden, London NW10',
+      featured: true,
       cardTone: 'weekly'
     },
     {
-      id: 'event-international-childrens-day',
+      id: 'event-preston-park-hub-launch',
       section: 'this-week',
-      name: "International Children's Day event",
+      name: 'Preston Park Family Hub Launch',
+      age: '0–5',
+      cost: 'free',
+      area: 'Harlesden',
+      eventDate: 'Thu 2 Jul',
+      eventTime: '11:30–14:30',
+      blurb: 'Brent\'s Best Start Family Hub officially launches at Preston Park. Free drop-in event with health visiting, parenting support, early education, childcare advice and SEND support under one roof.',
+      recommendation: 'Brilliant for parents of under-5s — get to know your local Family Hub services.',
+      tags: ['family hub', 'early years', 'SEND', 'health visit', 'free'],
+      contact: 'https://www.brent.gov.uk',
+      linkLabel: 'Brent Family Hubs',
+      mapQuery: 'Preston Park, Preston Road, Harlesden, NW10',
+      featured: true,
+      cardTone: 'weekly'
+    },
+    {
+      id: 'event-south-kilburn-carnivale',
+      section: 'this-week',
+      name: 'Street Swap South Kilburn CarniVale',
       age: 'all ages',
       cost: 'free',
-      area: 'Willesden Green',
-      eventDate: 'Sat 30 May',
-      eventTime: '11:00–15:30',
-      blurb: 'A bigger family event with circus fun, crafts, face painting, balloon modelling, magic, and special guests.',
-      recommendation: 'Best one-off family day in the list this week.',
-      tags: ['festival', 'circus', 'family event'],
-      contact: 'https://www.brent.gov.uk/libraries-arts-and-heritage/libraries/library-events/international-childrens-day-event-30-may-wg',
-      linkLabel: 'See event',
-      mapQuery: 'Willesden Green Library, 95 High Road, London, Brent, NW10 2SF',
+      area: 'Kilburn',
+      eventDate: 'Sat 4 Jul',
+      eventTime: '13:00',
+      blurb: 'A community carnival in South Kilburn with street swapping, activities, music, and family fun at the Oxford Kilburn Youth Trust (OK Club).',
+      recommendation: 'Lively community event to round off the week — free, outdoor, and fun for all ages.',
+      tags: ['carnival', 'street festival', 'community', 'free', 'music'],
+      contact: 'https://www.okclub.org.uk',
+      linkLabel: 'OK Club events',
+      mapQuery: 'Oxford Kilburn Youth Trust, 38 Dane Road, London NW6',
       featured: true,
       cardTone: 'weekly'
     }
@@ -2930,6 +2930,18 @@ function getFilteredItems() {
 }
 
 function renderAll() {
+  const highlights = DATA.thisWeek.filter(item => item.featured);
+  const container = document.getElementById('hero-highlights');
+  if (container) {
+    container.innerHTML = highlights.map(item => `
+      <a href="#this-week" class="highlight-item" data-id="${item.id}">
+        <span class="highlight-date">${escapeHtml(item.eventDate)}</span>
+        <span class="highlight-name">${escapeHtml(item.name)}</span>
+        <span class="highlight-area">${escapeHtml(item.area)}</span>
+        ${item.cost === 'free' ? '<span class="highlight-free">Free</span>' : ''}
+      </a>
+    `).join('');
+  }
   const filtered = getFilteredItems();
   currentFilteredGroups = filtered;
   SECTIONS.forEach(section => renderSection(section, filtered[dataKeyForSection(section)] || []));
