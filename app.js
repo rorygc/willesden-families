@@ -515,9 +515,9 @@ const DATA = {
       age: '4–11',
       cost: 'mid',
       area: 'Queen’s Park',
-      eventDate: 'Check website for Queen\\'s Park dates',
+      eventDate: 'Check website for Queen\'s Park dates',
             season: 'summer',
-            blurb:
+      blurb: 'Gymnastics and circus-skills camps, including Queen\'s Park sessions for children who like active days.',
       recommendation: 'Best if your child needs to burn energy and likes coaching-led sport.',
       tags: ['gymnastics', 'circus', 'sport'],
       contact: 'https://nwga.co.uk/holiday-camps/',
@@ -709,7 +709,7 @@ const DATA = {
       area: "Queen's Park",
       eventDate: 'TBC — check website',
             season: 'tbc',
-            blurb: 'Queen\\'s Park Tennis Courts says
+            blurb: 'Queen\'s Park Tennis Courts says it can offer tennis camps in the park and asks visitors to check back for details.',
       recommendation: 'Worth watching if you want a very local option, but details are not yet posted.',
       tags: ['tennis', 'racket sports', 'holiday camp'],
       contact: 'https://clubspark.lta.org.uk/QueensParkTennisCourts/Coaching/Camps',
