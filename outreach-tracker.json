@@ -1,29 +1,116 @@
 {
-  "lastUpdated": "2026-07-03T11:00:00+01:00",
+  "lastUpdated": "2026-07-03T11:35:00+01:00",
   "contacts": [
     {
       "id": "fresh-arts-education",
       "provider": "Fresh Arts Education",
-      "email": "admin@fresharts.co",
       "contactName": "Kemi",
+      "email": "admin@fresharts.co",
       "listingId": "camp-fresh-arts-queens-park",
       "listingName": "Queens Park Holiday Camp (Fresh Arts)",
       "status": "replied",
       "firstContacted": "2026-07-03",
-      "draftApproved": "2026-07-03",
-      "replyReceived": "2026-07-03",
+      "replyReceived": "2026-07-03 10:38",
       "infoReceived": {
         "pricing": "£152/week or £30.50/day",
-        "hours": "9am–3pm",
+        "hours": "9am-3pm",
         "activities": "Dance, Drama, Singing, Arts & Crafts, Games",
-        "ages": "4–11, split Infants (4–6) and Juniors (7–11)",
+        "ages": "4-11, split Infants (4-6) and Juniors (7-11)",
         "whatToBring": "Packed lunch, snack, water, comfortable clothes/shoes",
         "booking": "Individual days or full weeks via BookPebble",
-        "fundedSpaces": "Available for families on benefits — email with subject 'Queens Park - Funded Space'",
+        "fundedSpaces": "Available for families on benefits",
         "bookingUrl": "https://activities.bookpebble.co.uk/activity/fresh-arts-queens-park-holiday-camp-london-d12557c7-2632-4e49-846e-69a986413c6b"
       },
       "siteUpdated": true,
-      "notes": "Replied same day. Very thorough response. Logo not provided yet."
+      "notes": "Replied same day. Very thorough. Logo not provided."
+    },
+    {
+      "id": "salusbury-primary",
+      "provider": "Salusbury Primary School",
+      "email": "admin@salusbury.brent.sch.uk",
+      "listingId": "school-salusbury-primary",
+      "listingName": "Salusbury Primary School",
+      "status": "sent",
+      "firstContacted": "2026-07-03",
+      "siteUpdated": false,
+      "notes": "Asked about summer camps/activities"
+    },
+    {
+      "id": "malorees-primary",
+      "provider": "Malorees Primary School",
+      "email": "admin@maloreesprimaryschool.co.uk",
+      "listingId": "school-malorees-primary",
+      "listingName": "Malorees Primary School",
+      "status": "sent",
+      "firstContacted": "2026-07-03",
+      "siteUpdated": false,
+      "notes": "Asked about summer camps/activities"
+    },
+    {
+      "id": "mora-primary",
+      "provider": "Mora Primary School",
+      "email": "admin@mora.brent.sch.uk",
+      "listingId": "school-mora-primary",
+      "listingName": "Mora Primary School",
+      "status": "sent",
+      "firstContacted": "2026-07-03",
+      "siteUpdated": false,
+      "notes": "Asked about summer camps/activities"
+    },
+    {
+      "id": "qpcs",
+      "provider": "Queen's Park Community School",
+      "email": "info@qpcs.brent.sch.uk",
+      "listingId": "school-qpcs",
+      "listingName": "Queen's Park Community School",
+      "status": "sent",
+      "firstContacted": "2026-07-03",
+      "siteUpdated": false,
+      "notes": "Asked about summer camps/activities"
+    },
+    {
+      "id": "st-martin-of-porres",
+      "provider": "St Martin of Porres",
+      "email": "adminstmartins@stpm.org.uk",
+      "listingId": "school-st-martin-porres",
+      "listingName": "St Martin of Porres",
+      "status": "sent",
+      "firstContacted": "2026-07-03",
+      "siteUpdated": false,
+      "notes": "Asked about summer camps/activities"
+    },
+    {
+      "id": "junior-adventures-group",
+      "provider": "Junior Adventures Group",
+      "email": "hello@junioradventuresgroup.co.uk",
+      "listingId": "camp-junior-adventures",
+      "listingName": "Willesden Sports Centre & Salusbury holiday clubs",
+      "status": "sent",
+      "firstContacted": "2026-07-03",
+      "siteUpdated": false,
+      "notes": "Asked about holiday club details at both locations"
+    },
+    {
+      "id": "queens-park-folk",
+      "provider": "Queens Park Folk",
+      "email": "usfolk@queensparkfolk.com",
+      "listingId": "camp-rocket-club",
+      "listingName": "The Rocket Club — Kensal Rise",
+      "status": "sent",
+      "firstContacted": "2026-07-03",
+      "siteUpdated": false,
+      "notes": "Asked about Rocket Club holiday camp details"
+    },
+    {
+      "id": "msport-active",
+      "provider": "MSport Active",
+      "email": "info@msportactive.co.uk",
+      "listingId": "camp-msport-active",
+      "listingName": "MSport Active Kidz Holiday Camp",
+      "status": "sent",
+      "firstContacted": "2026-07-03",
+      "siteUpdated": false,
+      "notes": "Asked about holiday camp details"
     }
   ]
 }
