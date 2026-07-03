@@ -32,5 +32,17 @@ window.WF_SCHOOL_LOGOS = {
   "Malorees Junior School": "https://maloreesjuniorschool.co.uk/i/design/malorees-school_2.png",
   "Malorees Primary School": "https://www.maloreesschools.com/i/design/malorees-school_2.png",
   "Wykeham Primary School": "https://www.wykeham.brent.sch.uk/favicon.ico",
-  "St Saviour's CofE Primary School": "https://www.stsavioursprimary.co.uk/_site/data/files/images/F78EFABD7A118C625C0D59FDC19BC11B.jpg"
+  "St Saviour's CofE Primary School": "https://www.stsavioursprimary.co.uk/_site/data/files/images/F78EFABD7A118C625C0D59FDC19BC11B.jpg",
+
+  // === NEWLY FOUND (July 2026) ===
+  "St Margaret Clitherow RC Primary School": "https://images-cdn.schooljotter3.com/img/253fca85-267e-406e-ad9f-cd6de2de0b62/800x800",
+  "NW London Jewish Day School": "https://www.nwljds.org.uk/wp-content/uploads/2023/06/WAS_NCB-logo_2023-2026-300x94.png",
+  "Barham Primary School": "https://www.barhamprimary.co.uk/_site/images/favicons/favicon.png",
+  "Byron Court Primary School": "https://www.byroncourtschool.co.uk/logo.png",
+  "Our Lady of Lourdes Catholic Primary School & Nursery": "https://primarysite-prod.s3.amazonaws.com/theme/OurLadyOfLourdes/apple-touch-icon-precomposed.png",
+  "Newman Catholic College": "https://www.ncc.brent.sch.uk/_site/data/files/images/logos/BD008364CB81BAF5F9CE26C5ADAD3205.jpeg",
+  "St Claudine's Catholic School for Girls": "https://www.stclaudines.co.uk/images/logo.png",
+  "Ark Academy": "https://arkacademy.org/sites/default/files/White_Ark%20Academy_logo.png",
+  "The Village School": "https://www.thevillageschool.co.uk/wordpress/wp-content/uploads/site-icon-300x300.png",
+  "Manor School": "https://www.manor.brent.sch.uk/_site/images/design/logo.svg"
 };
