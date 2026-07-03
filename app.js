@@ -445,6 +445,7 @@ const DATA = {
       cost: 'mid',
       area: 'Queen’s Park',
       eventDate: 'Summer: Jul–Aug (weekly blocks)',
+      season: 'summer',
       eventTime: '9am–3pm',
       blurb: 'Performing arts holiday camp at Salusbury Primary School, with 9am–3pm days and weekly blocks seen in the 2025 guide.',
       recommendation: 'Best if your child likes theatre, music, and a structured camp day.',
@@ -462,6 +463,7 @@ const DATA = {
       cost: 'low',
       area: 'Wembley',
       eventDate: 'Summer: Jul–Aug (weekly blocks)',
+      season: 'summer',
       blurb: 'Holiday play scheme at Happy Days Montessori School on Empire Way, with creative play, science, gardening, karate, trampoline time, and a sand pit.',
       recommendation: 'Good if you want a friendly early-years holiday club with a clear daily rate and manageable hours.',
       tags: ['play scheme', 'early years', 'Wembley'],
@@ -480,6 +482,7 @@ const DATA = {
       cost: 'mid',
       area: 'Willesden',
       eventDate: 'Summer: Jul–Aug (weekly blocks)',
+      season: 'summer',
       eventTime: 'check for hours',
       blurb: 'Junior Adventures Group runs holiday clubs at Willesden Sports Centre with sports, games, and themed activities.',
       recommendation: 'Great local option if you need reliable childcare-hours coverage.',
@@ -496,6 +499,7 @@ const DATA = {
       cost: 'high',
       area: 'NW1',
       eventDate: 'Summer: Jul–Aug (weekly blocks)',
+      season: 'summer',
       eventTime: '8:30am–6pm',
       blurb: 'STEAM day camp plus forest school, with long hours from 8:30am–6pm and flexible age groups.',
       recommendation: 'Useful if you need full-day wraparound during the holidays.',
@@ -511,8 +515,9 @@ const DATA = {
       age: '4–11',
       cost: 'mid',
       area: 'Queen’s Park',
-      eventDate: 'Check website for Queen\'s Park dates',
-      blurb: 'Gymnastics and circus-skills camps, including Queen’s Park sessions for children who like active days.',
+      eventDate: 'Check website for Queen\\'s Park dates',
+            season: 'summer',
+            blurb:
       recommendation: 'Best if your child needs to burn energy and likes coaching-led sport.',
       tags: ['gymnastics', 'circus', 'sport'],
       contact: 'https://nwga.co.uk/holiday-camps/',
@@ -542,6 +547,7 @@ const DATA = {
       cost: 'free',
       area: 'Brent',
       eventDate: 'School holidays (check eligibility)',
+      season: 'all',
       blurb: 'Brent Council’s Holiday Activities and Food programme for eligible children during school holidays.',
       recommendation: 'Best free route if you qualify for HAF support.',
       tags: ['free', 'HAF', 'school holidays'],
@@ -557,6 +563,7 @@ const DATA = {
       cost: 'mid',
       area: 'North London',
       eventDate: 'Summer: Jul–Aug (weekly blocks)',
+      season: 'summer',
       blurb: 'Multi-activity holiday club at APS and St Martin of Porres Primary School with games, sports, and creative activities.',
       recommendation: 'Good if you want a lively school-based holiday club with a local North London feel.',
       tags: ['holiday club', 'multi-activity', 'north london'],
@@ -572,6 +579,7 @@ const DATA = {
       cost: 'mid',
       area: 'Queen’s Park',
       eventDate: 'Summer: Jul–Aug (weekly blocks)',
+      season: 'summer',
       blurb: 'Dance and movement holiday camps in Queen’s Park, with a local branch serving nearby families.',
       recommendation: 'Strong if your child likes dance, movement, and a more creative camp day.',
       tags: ['dance', 'creative', 'holiday camp'],
@@ -587,6 +595,7 @@ const DATA = {
       cost: 'mid',
       area: 'Queen’s Park',
       eventDate: 'Summer: Jul–Aug (weekly blocks)',
+      season: 'summer',
       blurb: 'Dance-led holiday camp with creative movement, outdoor play, and a showcase at the end of the week.',
       recommendation: 'Great if you want a structured creative camp rather than sports-only days.',
       tags: ['dance', 'performance', 'outdoors'],
@@ -602,6 +611,7 @@ const DATA = {
       cost: 'mid',
       area: 'Queen’s Park',
       eventDate: '20 Jul – 21 Aug (weekly blocks)',
+      season: 'summer',
       blurb: 'Big multi-activity day camp at Queen’s Park Community School with sports, theatre, football, and arts-led streams.',
       recommendation: 'Useful if you need a wide age spread and lots of activity choice.',
       tags: ['multi-activity', 'sports', 'theatre'],
@@ -617,6 +627,7 @@ const DATA = {
       cost: 'mid',
       area: 'North West London',
       eventDate: '20 Jul – 28 Aug (weekly blocks)',
+      season: 'summer',
       blurb: 'Tennis holiday camps with half-day and full-day options across North West London.',
       recommendation: 'Good if you want a focused racket-sports camp.',
       tags: ['tennis', 'sport', 'holiday camp'],
@@ -632,6 +643,7 @@ const DATA = {
       cost: 'mid',
       area: 'Dollis Hill / Brent',
       eventDate: '20 Jul – 28 Aug (weekly blocks)',
+      season: 'summer',
       blurb: 'Official National Tennis Association holiday camps at Gladstone Park, combining coaching, games, drills, and mini/junior team challenges.',
       recommendation: 'Best local tennis-camp pick if you want a proper coached tennis day in Brent.',
       tags: ['tennis', 'racket sports', 'holiday camp'],
@@ -648,6 +660,7 @@ const DATA = {
       cost: 'mid',
       area: 'Kensal Green / NW10',
       eventDate: '20 Jul – 28 Aug (weekly blocks)',
+      season: 'summer',
       blurb: 'Summer tennis camps at Elmwood with Daniele and Will, plus daily and weekly booking options.',
       recommendation: 'Strong if you want a local club camp with clear age bands and flexible bookings.',
       tags: ['tennis', 'racket sports', 'holiday camp'],
@@ -663,6 +676,7 @@ const DATA = {
       cost: 'mid',
       area: 'Barnet / Childs Hill',
       eventDate: '20 Jul – 28 Aug (weekly blocks)',
+      season: 'summer',
       blurb: 'FG Tennis holiday camps for kids, with daily Monday–Friday sessions run by fully qualified coaches.',
       recommendation: 'Useful if you want a broader age range and a camp that books by individual sessions.',
       tags: ['tennis', 'racket sports', 'holiday camp'],
@@ -678,6 +692,7 @@ const DATA = {
       cost: 'mid',
       area: 'Barnet / N2',
       eventDate: '20 Jul – 28 Aug (weekly blocks)',
+      season: 'summer',
       blurb: 'Holiday tennis camps for kids in school holidays, with age and ability groups and bookable sessions.',
       recommendation: 'Good extra option if you want a north-west London club camp a bit beyond Brent.',
       tags: ['tennis', 'racket sports', 'holiday camp'],
@@ -693,7 +708,8 @@ const DATA = {
       cost: 'mid',
       area: "Queen's Park",
       eventDate: 'TBC — check website',
-      blurb: 'Queen\'s Park Tennis Courts says it can offer tennis camps in the park and asks visitors to check back for details.',
+            season: 'tbc',
+            blurb: 'Queen\\'s Park Tennis Courts says
       recommendation: 'Worth watching if you want a very local option, but details are not yet posted.',
       tags: ['tennis', 'racket sports', 'holiday camp'],
       contact: 'https://clubspark.lta.org.uk/QueensParkTennisCourts/Coaching/Camps',
@@ -708,6 +724,7 @@ const DATA = {
       cost: 'mid',
       area: 'Maida Vale / Little Venice',
       eventDate: 'Summer: Jul–Aug (3-day blocks)',
+      season: 'summer',
       blurb: 'Official three-day summer tennis camps at Littletons Tennis Club with coaching, pickleball, team activities, and clubhouse backup for wet weather.',
       recommendation: 'Strong nearby racket-sports option if you want a well-structured summer camp just beyond Queen’s Park.',
       tags: ['tennis', 'racket sports', 'holiday camp'],
@@ -723,6 +740,7 @@ const DATA = {
       cost: 'mid',
       area: 'Highgate',
       eventDate: '20 Jul – 28 Aug (weekly blocks)',
+      season: 'summer',
       blurb: 'Official Highgate Tennis holiday camps with morning and full-day options, age-banded groups, and daily or week-long bookings.',
       recommendation: 'Good further-out option if you want clearer pricing and longer full-day tennis cover.',
       tags: ['tennis', 'racket sports', 'holiday camp'],
@@ -738,6 +756,7 @@ const DATA = {
       cost: 'mid',
       area: 'East Finchley',
       eventDate: '20 Jul – 28 Aug (weekly blocks)',
+      season: 'summer',
       blurb: 'Official FG Tennis holiday camp mixing tennis with football, basketball, and athletics games in a structured Monday–Friday format.',
       recommendation: 'Useful if you want a stronger multi-sport alternative to a pure tennis camp.',
       tags: ['tennis', 'racket sports', 'holiday camp', 'multi-sport'],
@@ -753,6 +772,7 @@ const DATA = {
       cost: 'mid',
       area: 'Hampstead Garden Suburb / NW11',
       eventDate: '20 Jul – 28 Aug (weekly blocks)',
+      season: 'summer',
       blurb: 'Official FG Tennis holiday camps for children grouped by age and ability, aimed at beginners through more advanced players.',
       recommendation: 'Good overflow option if you want another official north-west London tennis venue beyond Childs Hill and Lyttleton.',
       tags: ['tennis', 'racket sports', 'holiday camp'],
@@ -769,6 +789,7 @@ const DATA = {
       cost: 'mid',
       area: 'London',
       eventDate: 'Summer: Jul–Aug (weekly blocks)',
+      season: 'summer',
       blurb: 'Multi-sport and activities camp with arts, crafts, football, and active play during school holidays.',
       recommendation: 'Good if you want a dependable active childcare option.',
       tags: ['sports', 'active', 'holiday camp'],
@@ -784,6 +805,7 @@ const DATA = {
       cost: 'mid',
       area: 'West Hampstead',
       eventDate: 'Summer: Jul–Aug (weekly blocks)',
+      season: 'summer',
       blurb: 'Performing arts holiday camps with dance, drama, singing, and crafts in West Hampstead.',
       recommendation: 'Strong if your child prefers a creative, smaller-scale camp.',
       tags: ['performing arts', 'creative', 'holiday camp'],
@@ -799,6 +821,7 @@ const DATA = {
       cost: 'mid',
       area: 'Kensal Rise',
       eventDate: 'Summer: Jul–Aug (weekly blocks)',
+      season: 'summer',
       blurb: 'Creative holiday camp for kids in Kensal Rise, run at the Scout Hall / Scout Hut in NW10.',
       recommendation: 'Good if you want something playful and community-based.',
       tags: ['creative', 'holiday club', 'Kensal Rise'],
@@ -814,6 +837,7 @@ const DATA = {
       cost: 'mid',
       area: 'Wembley',
       eventDate: 'Summer: Jul–Aug (weekly blocks)',
+      season: 'summer',
       blurb: 'Holiday playscheme with drama, street dance, singing, music, and a proper full-day structure.',
       recommendation: 'Best if you want a lively arts-led holiday option with childcare hours.',
       tags: ['performing arts', 'holiday camp', 'creative'],
@@ -829,6 +853,7 @@ const DATA = {
       cost: 'mid',
       area: 'Queen’s Park',
       eventDate: 'Summer: Jul–Aug (weekly blocks)',
+      season: 'summer',
       blurb: 'Holiday club option at Salusbury Primary School with active play, games, and wraparound-friendly booking.',
       recommendation: 'Useful if you want a school-based holiday club near Queen’s Park.',
       tags: ['holiday club', 'multi-activity', 'wraparound'],
@@ -844,6 +869,7 @@ const DATA = {
       cost: 'free',
       area: 'Mora School, NW2',
       eventDate: '20 Jul – 28 Aug',
+      season: 'summer',
       eventTime: 'check for hours',
       blurb: 'Six-week summer camp run by Coach Earnest at Mora School (Jul 20 – Aug 28). FSM-funded: 16 free days (4 days/wk, weeks 1–4). Non-FSM options from £45/day. Trips include Houses of Parliament (confirmed 27 Jul), Tower of London, Kensington Palace. Weeks 5–6: ballet, dance, musical instruments, drama, multi-sports, robotics, bouncy castle, film workshops.',
       recommendation: 'Best if you want a local school-based summer camp with FSM-funded free places, trips, and a wide range of activities including arts and sports.',
@@ -2531,7 +2557,7 @@ function costMatches(cost, filter) {
   return true;
 }
 
-function cardMatches(item, query, sectionFilter, ageFilter, costFilter, shortlistOnly) {
+function cardMatches(item, query, sectionFilter, ageFilter, costFilter, seasonFilter, shortlistOnly) {
   if (LOCAL_ONLY_BLOCKLIST.has(item.id)) return false;
   const staticCoords = STATIC_MAP_COORDS[item.id];
   if (staticCoords && !isWithinWillesden(item, staticCoords)) return false;
@@ -2540,8 +2566,9 @@ function cardMatches(item, query, sectionFilter, ageFilter, costFilter, shortlis
   const sectionOk = sectionFilter === 'all' || item.section === sectionFilter;
   const ageOk = ageMatches(item.age, ageFilter);
   const costOk = costMatches(item.cost, costFilter);
+  const seasonOk = seasonFilter === 'all' || !item.season || item.season === seasonFilter;
   const shortlistOk = !shortlistOnly || LS.shortlist.has(item.id);
-  return searchOk && sectionOk && ageOk && costOk && shortlistOk;
+  return searchOk && sectionOk && ageOk && costOk && seasonOk && shortlistOk;
 }
 
 function badgeForCost(cost) {
@@ -2950,12 +2977,13 @@ function getFilteredItems() {
   const sectionFilter = document.querySelector('[data-section-filter].active')?.dataset.sectionFilter || 'all';
   const ageFilter = document.querySelector('[data-age-filter].active')?.dataset.ageFilter || 'all';
   const costFilter = document.querySelector('[data-cost-filter].active')?.dataset.costFilter || 'all';
+  const seasonFilter = document.querySelector('[data-season-filter].active')?.dataset.seasonFilter || 'all';
   const shortlistOnly = document.querySelector('[data-shortlist-only]')?.classList.contains('active') || false;
 
   return Object.fromEntries(
     Object.entries(DATA).map(([key, items]) => [
       key,
-      items.filter(item => cardMatches(item, query, sectionFilter, ageFilter, costFilter, shortlistOnly))
+      items.filter(item => cardMatches(item, query, sectionFilter, ageFilter, costFilter, seasonFilter, shortlistOnly))
     ])
   );
 }
@@ -3257,7 +3285,7 @@ function exportCalendarForItems(items) {
 
 function bindControls() {
   document.getElementById('search-input').addEventListener('input', renderAll);
-  document.querySelectorAll('[data-section-filter], [data-age-filter], [data-cost-filter]').forEach(btn => {
+  document.querySelectorAll('[data-section-filter], [data-age-filter], [data-cost-filter], [data-season-filter]').forEach(btn => {
     btn.addEventListener('click', () => syncFilters(btn));
   });
   const shortlistToggle = document.querySelector('[data-shortlist-only]');
