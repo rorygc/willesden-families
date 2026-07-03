@@ -1,0 +1,29 @@
+{
+  "lastUpdated": "2026-07-03T11:00:00+01:00",
+  "contacts": [
+    {
+      "id": "fresh-arts-education",
+      "provider": "Fresh Arts Education",
+      "email": "admin@fresharts.co",
+      "contactName": "Kemi",
+      "listingId": "camp-fresh-arts-queens-park",
+      "listingName": "Queens Park Holiday Camp (Fresh Arts)",
+      "status": "replied",
+      "firstContacted": "2026-07-03",
+      "draftApproved": "2026-07-03",
+      "replyReceived": "2026-07-03",
+      "infoReceived": {
+        "pricing": "£152/week or £30.50/day",
+        "hours": "9am–3pm",
+        "activities": "Dance, Drama, Singing, Arts & Crafts, Games",
+        "ages": "4–11, split Infants (4–6) and Juniors (7–11)",
+        "whatToBring": "Packed lunch, snack, water, comfortable clothes/shoes",
+        "booking": "Individual days or full weeks via BookPebble",
+        "fundedSpaces": "Available for families on benefits — email with subject 'Queens Park - Funded Space'",
+        "bookingUrl": "https://activities.bookpebble.co.uk/activity/fresh-arts-queens-park-holiday-camp-london-d12557c7-2632-4e49-846e-69a986413c6b"
+      },
+      "siteUpdated": true,
+      "notes": "Replied same day. Very thorough response. Logo not provided yet."
+    }
+  ]
+}
