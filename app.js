@@ -7,6 +7,7 @@ const LIVE_UPDATES = window.WF_LIVE_UPDATES || {
 
 const DATA = {
   thisWeek: [
+    // ===== CLOSE TO HOME (local NW London) =====
     {
       id: 'event-malorees-sports-week',
       section: 'this-week',
@@ -18,11 +19,13 @@ const DATA = {
       eventTime: 'school hours',
       blurb: "Malorees Infants & Junior School's annual Sports Week — daily sporting activities for all year groups culminating in sports days.",
       recommendation: 'Essential for Malorees parents. Junior Sports Day Tue, Infants Sports Day Wed.',
-      tags: ['school event', 'sports', 'Malorees'],
+      tags: ['school', 'sports', 'Malorees'],
       contact: 'https://www.maloreesschools.com',
       linkLabel: 'School calendar',
       mapQuery: 'Malorees Infant School, Christchurch Avenue, London NW6 7PB',
+      promoImage: 'https://images.unsplash.com/photo-1607457561901-e6ec3a6d16cf?w=800&h=450&fit=crop&auto=format',
       featured: true,
+      region: 'local',
       cardTone: 'weekly'
     },
     {
@@ -34,13 +37,15 @@ const DATA = {
       area: 'Willesden Green',
       eventDate: 'Wed 1 Jul (launch)',
       eventTime: 'drop-in',
-      blurb: 'Free summer programme at all Brent libraries including Willesden Green. Weekly themes (adventure, fantasy, STEM, sports), robotics, storytelling, arts & crafts. Read 6 books, earn rewards, become a Reading Ambassador.',
+      blurb: 'Free summer programme at all Brent libraries including Willesden Green. Weekly themes (adventure, fantasy, STEM, sports), robotics, storytelling, arts & crafts. Read 6 books, earn rewards.',
       recommendation: 'Fantastic free summer activity — just drop in from Wed 1 July through to Sep.',
       tags: ['library', 'summer', 'reading', 'craft', 'free'],
       contact: 'https://www.brent.gov.uk/summer-in-brent',
       linkLabel: 'Summer in Brent',
       mapQuery: 'The Library at Willesden Green, 95 High Road, NW10 2SF',
+      promoImage: 'https://images.unsplash.com/photo-1507842217343-583bb4565c69?w=800&h=450&fit=crop&auto=format',
       featured: true,
+      region: 'local',
       cardTone: 'weekly'
     },
     {
@@ -51,14 +56,16 @@ const DATA = {
       cost: 'free',
       area: 'Harlesden',
       eventDate: 'Wed 1 Jul',
-      eventTime: '2:00pm walk / 6:00pm exhibition',
+      eventTime: '2pm walk / 6pm exhibition',
       blurb: 'International Reggae Day celebrations in Brent: a walking tour of Harlesden\'s musical heritage starting at Picture Palace at 2pm, plus a Reggae Album Covers Exhibition at Harlesden Library from 6pm.',
       recommendation: 'Unique free cultural event celebrating Harlesden\'s music history — fun for older kids too.',
       tags: ['music', 'heritage', 'walk', 'exhibition', 'free'],
       contact: 'https://www.brent.gov.uk',
       linkLabel: 'Check Brent events',
       mapQuery: 'Picture Palace, Harlesden, London NW10',
+      promoImage: 'https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?w=800&h=450&fit=crop&auto=format',
       featured: true,
+      region: 'local',
       cardTone: 'weekly'
     },
     {
@@ -70,13 +77,15 @@ const DATA = {
       area: 'Harlesden',
       eventDate: 'Thu 2 Jul',
       eventTime: '11:30–14:30',
-      blurb: 'Brent\'s Best Start Family Hub officially launches at Preston Park. Free drop-in event with health visiting, parenting support, early education, childcare advice and SEND support under one roof.',
+      blurb: 'Brent\'s Best Start Family Hub officially launches at Preston Park. Free drop-in with health visiting, parenting support, early education, childcare advice and SEND support under one roof.',
       recommendation: 'Brilliant for parents of under-5s — get to know your local Family Hub services.',
       tags: ['family hub', 'early years', 'SEND', 'health visit', 'free'],
       contact: 'https://www.brent.gov.uk',
       linkLabel: 'Brent Family Hubs',
       mapQuery: 'Preston Park, Preston Road, Harlesden, NW10',
+      promoImage: 'https://images.unsplash.com/photo-1511895426328-dc8714191300?w=800&h=450&fit=crop&auto=format',
       featured: true,
+      region: 'local',
       cardTone: 'weekly'
     },
     {
@@ -94,7 +103,111 @@ const DATA = {
       contact: 'https://www.okclub.org.uk',
       linkLabel: 'OK Club events',
       mapQuery: 'Oxford Kilburn Youth Trust, 38 Dane Road, London NW6',
+      promoImage: 'https://images.unsplash.com/photo-1533176952548-2c5b8c4e2f28?w=800&h=450&fit=crop&auto=format',
       featured: true,
+      region: 'local',
+      cardTone: 'weekly'
+    },
+
+    // ===== WORTH THE TRIP (wider London) =====
+    {
+      id: 'event-natural-history-museum',
+      section: 'this-week',
+      name: 'Natural History Museum',
+      age: 'all ages',
+      cost: 'free',
+      area: 'South Kensington',
+      eventDate: 'Open daily',
+      eventTime: '10:00–17:50',
+      blurb: 'Dinosaurs, earthquakes, volcanoes, and a giant blue whale — all free. One of London\'s most-loved museums and an easy Tube ride to South Kensington.',
+      recommendation: 'The dinosaur gallery alone is worth the trip. Book free timed tickets online to skip the queue.',
+      tags: ['museum', 'dinosaurs', 'free', 'indoor', 'iconic'],
+      contact: 'https://www.nhm.ac.uk/',
+      linkLabel: 'Book free tickets',
+      mapQuery: 'Natural History Museum, Cromwell Road, London SW7 5BD',
+      promoImage: 'https://images.unsplash.com/photo-1563299354-778ae17428d4?w=800&h=450&fit=crop&auto=format',
+      featured: false,
+      region: 'wider',
+      cardTone: 'weekly'
+    },
+    {
+      id: 'event-science-museum',
+      section: 'this-week',
+      name: 'Science Museum',
+      age: '4+',
+      cost: 'free',
+      area: 'South Kensington',
+      eventDate: 'Open daily',
+      eventTime: '10:00–18:00',
+      blurb: 'Hands-on galleries, space rockets, flight simulators, and the brilliant Wonderlab for kids. Right next door to the Natural History Museum — do both in a day.',
+      recommendation: 'The Pattern Pod and Garden galleries are perfect for younger kids. Wonderlab costs extra but is worth it.',
+      tags: ['museum', 'science', 'interactive', 'free', 'indoor'],
+      contact: 'https://www.sciencemuseum.org.uk/',
+      linkLabel: 'Book free tickets',
+      mapQuery: 'Science Museum, Exhibition Road, London SW7 2DD',
+      promoImage: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=450&fit=crop&auto=format',
+      featured: false,
+      region: 'wider',
+      cardTone: 'weekly'
+    },
+    {
+      id: 'event-diana-playground',
+      section: 'this-week',
+      name: 'Diana Memorial Playground',
+      age: '0–12',
+      cost: 'free',
+      area: 'Kensington Gardens',
+      eventDate: 'Open daily',
+      eventTime: '10:00–18:45',
+      blurb: 'A huge wooden pirate ship, sensory trail, teepees, and a beach. The most magical playground in London, set in Kensington Gardens near the palace.',
+      recommendation: 'Go early or late to avoid queues. Bring a change of clothes — the sand and water play area is irresistible.',
+      tags: ['playground', 'outdoor', 'free', 'iconic', 'picnic'],
+      contact: 'https://www.royalparks.org.uk/visit/parks/kensington-gardens/diana-memorial-playground',
+      linkLabel: 'Royal Parks info',
+      mapQuery: 'Diana Memorial Playground, Kensington Gardens, London W2 4RU',
+      promoImage: 'https://images.unsplash.com/photo-1472162072942-37e9d7a13a2a?w=800&h=450&fit=crop&auto=format',
+      featured: false,
+      region: 'wider',
+      cardTone: 'weekly'
+    },
+    {
+      id: 'event-changing-guard',
+      section: 'this-week',
+      name: 'Changing of the Guard',
+      age: 'all ages',
+      cost: 'free',
+      area: 'Buckingham Palace',
+      eventDate: 'Mon, Wed, Fri, Sun',
+      eventTime: '11:00 (arrive 10:30)',
+      blurb: 'The iconic ceremony at Buckingham Palace — bearskin hats, military bands, and royal pomp. Free to watch from the railings or The Mall.',
+      recommendation: 'Best view is from the Victoria Memorial steps. Check schedule before you go — it sometimes changes.',
+      tags: ['ceremony', 'free', 'iconic', 'outdoor', 'royal'],
+      contact: 'https://www.householddivision.org.uk/changing-the-guard',
+      linkLabel: 'Check schedule',
+      mapQuery: 'Buckingham Palace, London SW1A 1AA',
+      promoImage: 'https://images.unsplash.com/photo-1513635269970-05849352c775?w=800&h=450&fit=crop&auto=format',
+      featured: false,
+      region: 'wider',
+      cardTone: 'weekly'
+    },
+    {
+      id: 'event-southbank-centre',
+      section: 'this-week',
+      name: 'Southbank Centre Riverside',
+      age: 'all ages',
+      cost: 'free',
+      area: 'South Bank',
+      eventDate: 'Open daily',
+      eventTime: 'anytime',
+      blurb: 'Street performers, pop-up book markets, fountains to splash in, and unbeatable river views. The Southbank Centre always has free family activities on — check what\'s on.',
+      recommendation: 'Walk from Waterloo to London Bridge — street food, playgrounds, and Tate Modern along the way.',
+      tags: ['riverside', 'free', 'street food', 'outdoor', 'iconic'],
+      contact: 'https://www.southbankcentre.co.uk/whats-on/family/',
+      linkLabel: 'What\'s on',
+      mapQuery: 'Southbank Centre, Belvedere Road, London SE1 8XX',
+      promoImage: 'https://images.unsplash.com/photo-1526129318477-4a2db4c77c36?w=800&h=450&fit=crop&auto=format',
+      featured: false,
+      region: 'wider',
       cardTone: 'weekly'
     }
   ],
@@ -2959,6 +3072,18 @@ function escapeAttr(value) {
 }
 
 function renderSection(sectionId, items) {
+  if (sectionId === 'this-week') {
+    // Split by region
+    const localGrid = document.getElementById('this-week-local-grid');
+    const widerGrid = document.getElementById('this-week-wider-grid');
+    const local = items.filter(i => i.region !== 'wider');
+    const wider = items.filter(i => i.region === 'wider');
+    if (localGrid) localGrid.innerHTML = local.map(renderCard).join('');
+    if (widerGrid) widerGrid.innerHTML = wider.map(renderCard).join('');
+    const count = document.getElementById('count-this-week');
+    if (count) count.textContent = items.length;
+    return;
+  }
   const grid = document.getElementById(`${sectionId}-grid`);
   const count = document.getElementById(`count-${sectionId}`);
   if (!grid) return;

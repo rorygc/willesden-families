@@ -110,6 +110,38 @@
     </div>
   </section>
 
+  <section class="section this-week-hero" id="this-week">
+    <div class="container">
+      <div class="section-header this-week-main-header">
+        <div>
+          <h2>This week for families</h2>
+          <p class="section-subtitle">What's on right now — close to home and across London</p>
+        </div>
+        <span class="section-count" id="count-this-week">0</span>
+      </div>
+
+      <!-- Close to home -->
+      <div class="this-week-region">
+        <div class="this-week-region-header">
+          <span class="region-dot" aria-hidden="true"></span>
+          <h3>Close to home</h3>
+          <span class="region-sub">Willesden, Queen's Park &amp; nearby</span>
+        </div>
+        <div class="parent-grid this-week-grid" id="this-week-local-grid"></div>
+      </div>
+
+      <!-- Worth the trip -->
+      <div class="this-week-region">
+        <div class="this-week-region-header">
+          <span class="region-dot wider" aria-hidden="true"></span>
+          <h3>Worth the trip</h3>
+          <span class="region-sub">A quick Tube ride into town</span>
+        </div>
+        <div class="parent-grid this-week-grid" id="this-week-wider-grid"></div>
+      </div>
+    </div>
+  </section>
+
   <section class="filter-section" aria-label="Search and filters">
     <div class="container">
       <div class="search-row">
@@ -166,19 +198,6 @@
         </div>
       </div>
       <div class="live-update-banner" id="live-update-banner" hidden></div>
-    </div>
-  </section>
-
-  <section class="section" id="this-week">
-    <div class="container">
-      <div class="section-header">
-        <div>
-          <h2>This week's events</h2>
-          <p class="section-subtitle">Actual dated events in the area — one-offs, festivals, workshops, and local happenings</p>
-        </div>
-        <span class="section-count" id="count-this-week">0</span>
-      </div>
-      <div class="parent-grid" id="this-week-grid"></div>
     </div>
   </section>
 
@@ -373,6 +392,6 @@
 <script src="./logo-overrides.js?v=20260703b"></script>
 <script src="./map-coordinates.js"></script>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-    <script src="./app.js?v=20260526a8ff0e7"></script>
+    <script src="./app.js?v=20260703c"></script>
 </body>
 </html>
