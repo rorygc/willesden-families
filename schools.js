@@ -817,9 +817,10 @@ function resolveExplicitLogo(url, baseUrl) {
 function logoUrlForSchool(school) {
   const explicit = resolveExplicitLogo((window.WF_SCHOOL_LOGOS && window.WF_SCHOOL_LOGOS[school.name]) || (window.WF_LOGOS && window.WF_LOGOS[school.name]), school.website || window.location.href);
   if (explicit) return explicit;
-  const host = normalizeHost(school.website);
-  if (!host) return '';
-  return `https://www.google.com/s2/favicons?domain=${encodeURIComponent(host)}&sz=128`;
+  // Skip the Google favicon fallback — it produces ugly dark blobs for domains
+  // that have dark favicons or no favicon at all. Schools without an explicit
+  // logo get clean initials instead.
+  return '';
 }
 
 function initialsForSchool(name) {
