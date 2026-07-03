@@ -13,7 +13,7 @@ const schools = [
     level: "primary",
     rating: "outstanding",
     ofstedDate: "January 2024",
-    summary: "Pupils thrive in a close, welcoming community with a rich, ambitious curriculum that builds deep knowledge and prepares them exceptionally well for future education, including those with SEND. Behaviour is exemplary from early years, with high motivation, respect, and attendance. Provision for pupils' personal development is exceptional through diverse enrichment, responsibilities, and community support.",
+    summary: "A warm, welcoming Catholic primary where children thrive in a close-knit community. The curriculum is rich and ambitious, building deep knowledge from early years through to Year 6. Behaviour is exemplary, with pupils showing high motivation and respect. Exceptional personal development through enrichment activities and community involvement. Strong SEND support.",
     website: "http://www.stjosephsrc.co.uk/",
     ofstedUrl: "https://files.ofsted.gov.uk/v1/file/50241654"
   },
@@ -26,7 +26,7 @@ const schools = [
     level: "primary",
     rating: "outstanding",
     ofstedDate: "March 2024",
-    summary: "Outstanding across all categories, with a highly ambitious and well-sequenced curriculum that ensures pupils, including those with SEND, achieve exceptionally well. Pupils demonstrate exemplary behaviour, positive attitudes to learning, and thrive in a nurturing environment enriched by trips, clubs, and community contributions. No areas for improvement identified.",
+    summary: "An outstanding junior school (ages 7-11) in Dollis Hill with a highly ambitious curriculum. Pupils achieve exceptionally well, including those with SEND. Behaviour and attitudes are exemplary, and the nurturing environment is enriched by trips, clubs, and community contributions. No areas for improvement identified.",
     website: "https://www.ourladyofgracejuniors.co.uk",
     ofstedUrl: "https://files.ofsted.gov.uk/v1/file/50246234"
   },
@@ -39,7 +39,7 @@ const schools = [
     level: "primary",
     rating: "outstanding",
     ofstedDate: "December 2023",
-    summary: "Rated Outstanding across all inspection categories, including quality of education, behaviour and attitudes, personal development, leadership and management, and early years provision. Inspectors noted no areas for improvement, reflecting the school's strong performance following its academy conversion.",
+    summary: "Outstanding infant school (ages 3-7) feeding into the junior school on Dollis Hill Lane. Excellent early years provision, strong phonics and reading foundations. Rated Outstanding across all categories with no areas for improvement.",
     website: "https://www.ologinfants.brent.sch.uk",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/21/146721"
   },
@@ -52,7 +52,7 @@ const schools = [
     level: "primary",
     rating: "outstanding",
     ofstedDate: "December 2023",
-    summary: "Highly ambitious curriculum that captures pupils' interests, with strong emphasis on reading and phonics, effective support for pupils with SEND, exemplary behaviour, and robust personal development. Early years provision, leadership, and safeguarding are all outstanding. No areas for improvement were identified.",
+    summary: "A highly ambitious infant school in Brondesbury Park that captures pupils' interests from age 3. Strong emphasis on reading and phonics, with effective SEND support and exemplary behaviour. Outstanding early years provision, leadership, and personal development.",
     website: "http://www.cjminfantschool.co.uk",
     ofstedUrl: "https://files.ofsted.gov.uk/v1/file/50238318"
   },
@@ -65,7 +65,7 @@ const schools = [
     level: "primary",
     rating: "outstanding",
     ofstedDate: "March 2025",
-    summary: "Pupils are very happy, behave exceptionally well, and achieve high academic outcomes due to an ambitious, well-implemented curriculum that builds knowledge securely across mathematics, reading, and writing. Pupils with SEND are well-supported, attendance is high, and the school provides rich opportunities for leadership, clubs, and community involvement. No areas for improvement identified.",
+    summary: "Very happy, high-achieving Catholic primary in Cricklewood (ages 3-11). Pupils behave exceptionally well and achieve strong academic outcomes through an ambitious, well-implemented curriculum. Strong mathematics, reading, and writing with excellent SEND support and rich opportunities for leadership and clubs.",
     website: "https://stagnesnw2.co.uk",
     ofstedUrl: "https://files.ofsted.gov.uk/v1/file/50275655"
   },
@@ -78,7 +78,7 @@ const schools = [
     level: "primary",
     rating: "outstanding",
     ofstedDate: "November 2023",
-    summary: "Rated Outstanding across all categories. Key strengths include an ambitious curriculum with strong phonics and reading teaching, exemplary pupil behaviour, effective support for pupils with SEND, and an exceptional personal development programme that fosters confidence and empathy. No areas for improvement are identified.",
+    summary: "A diverse, thriving community primary in Kilburn with an ambitious curriculum and strong phonics programme. Pupils behave exemplarily and develop confidence and empathy through an exceptional personal development programme. Effective SEND support.",
     website: "https://www.kingsgateprimaryschool.org.uk",
     ofstedUrl: "https://files.ofsted.gov.uk/v1/file/50235332"
   },
@@ -91,7 +91,7 @@ const schools = [
     level: "primary",
     rating: "outstanding",
     ofstedDate: "October 2023",
-    summary: "Outstanding in all inspected areas, with a broad, ambitious curriculum where pupils' knowledge builds securely, excellent support for pupils with SEND, strong emphasis on reading and phonics, and exceptional personal development opportunities. No areas for improvement were identified.",
+    summary: "Outstanding Catholic primary in Queen's Park (ages 4-11) with a broad, ambitious curriculum where knowledge builds securely year on year. Excellent SEND support, strong reading and phonics, and exceptional personal development opportunities.",
     website: "https://www.steugene.camden.sch.uk",
     ofstedUrl: "https://files.ofsted.gov.uk/v1/file/50233907"
   },
@@ -106,7 +106,7 @@ const schools = [
     level: "primary",
     rating: "good",
     ofstedDate: "September 2022",
-    summary: "An ambitious and creative curriculum that builds pupils' knowledge over time, a high priority on reading with an effective phonics programme, strong support for pupils with SEND, and broad opportunities for personal development. Areas for improvement involve training less experienced staff in phonics delivery and refining key vocabulary.",
+    summary: "A creative, ambitious primary in Dollis Hill (ages 3-11) with strong reading outcomes thanks to effective phonics. Broad curriculum building knowledge over time with excellent SEND support and personal development. Ofsted notes newer staff need more phonics training.",
     website: "https://www.gladpark.anthemtrust.uk/",
     ofstedUrl: "https://files.ofsted.gov.uk/v1/file/50199104"
   },
@@ -119,7 +119,7 @@ const schools = [
     level: "primary",
     rating: "good",
     ofstedDate: "June 2023",
-    summary: "A nurturing, inclusive environment with an ambitious curriculum and strong reading and early years provision. Leaders have high expectations for behaviour and learning, supported by effective safeguarding and positive parental feedback. Improvements are needed in embedding curriculum checks in newer subjects and refining support for SEND pupils.",
+    summary: "A nurturing Church of England primary in Harlesden with a genuinely inclusive environment. Ambitious curriculum with strong reading and early years provision. High expectations for behaviour and positive parental feedback. SEND support being refined further.",
     website: "https://www.johnkeble.com",
     ofstedUrl: "https://files.ofsted.gov.uk/v1/file/50224658"
   },
@@ -132,7 +132,7 @@ const schools = [
     level: "primary",
     rating: "good",
     ofstedDate: "March 2025",
-    summary: "Effective action to maintain good standards. Pupils are nurtured, safe, well-behaved, happy, and achieve well across a well-designed curriculum with strong support for those with SEND and in early reading. Leaders should provide more opportunities for pupils to practise oracy and speaking skills.",
+    summary: "A well-regarded Willesden community primary (ages 3-11) where pupils feel nurtured, safe, and happy. Strong curriculum design with effective SEND support and early reading. 2025 inspection confirms Good standards maintained.",
     website: "https://www.newfield.brent.sch.uk",
     ofstedUrl: "https://files.ofsted.gov.uk/v1/file/50275800"
   },
@@ -145,7 +145,7 @@ const schools = [
     level: "primary",
     rating: "good",
     ofstedDate: "May 2022",
-    summary: "Pupils are happy, safe, and achieving well due to an ambitious curriculum, effective phonics teaching, strong SEND support, and positive behaviour. The diverse community thrives with respect and high expectations. The main area for improvement is ensuring all pupils retain key knowledge for future learning.",
+    summary: "A happy, safe community primary in Dollis Hill where pupils achieve well across an ambitious curriculum. Strong phonics teaching and SEND support. The diverse community thrives on respect and high expectations.",
     website: "http://www.northview.brent.sch.uk",
     ofstedUrl: "https://files.ofsted.gov.uk/v1/file/50187369"
   },
@@ -158,7 +158,7 @@ const schools = [
     level: "primary",
     rating: "good",
     ofstedDate: "June 2022",
-    summary: "A diverse community where pupils behave well, work hard, and achieve strongly in reading thanks to a well-sequenced curriculum and high teacher expectations. Effective support for struggling readers and SEND pupils, strong safeguarding, and leadership improvements. Areas for improvement involve refining curriculum precision in some subjects.",
+    summary: "A diverse, welcoming community primary in Willesden where pupils behave well and work hard. Strong reading outcomes thanks to well-sequenced curriculum and high teacher expectations. Effective support for struggling readers and SEND pupils.",
     website: "https://www.leopoldprimary.co.uk",
     ofstedUrl: "https://files.ofsted.gov.uk/v1/file/50189577"
   },
@@ -171,7 +171,7 @@ const schools = [
     level: "primary",
     rating: "good",
     ofstedDate: "September 2023",
-    summary: "Pupils achieve well with an ambitious curriculum, strong behaviour, effective early reading and phonics support, and well-planned provision for SEND pupils. Areas for improvement include ensuring better curriculum sequencing in some subjects and strengthening the coherence of broader development opportunities.",
+    summary: "A Good-rated Catholic junior school (ages 7-11) in Willesden Green with an ambitious curriculum and strong behaviour. Effective early reading and phonics support and well-planned SEND provision.",
     website: "https://www.marymag.brent.sch.uk",
     ofstedUrl: "https://files.ofsted.gov.uk/v1/file/50232207"
   },
@@ -184,7 +184,7 @@ const schools = [
     level: "primary",
     rating: "good",
     ofstedDate: "October 2022",
-    summary: "Rated Good in all inspected categories: quality of education, behaviour and attitudes, personal development, leadership and management, and early years provision. The school demonstrates consistently good standards across all areas.",
+    summary: "A Good-rated Church of England primary in Willesden (ages 3-11). Consistently good quality of education, behaviour, personal development, and leadership. A reliable local option for families seeking a faith-based primary with nursery.",
     website: "https://www.stmarysce.brent.sch.uk/",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/21/101537"
   },
@@ -197,7 +197,7 @@ const schools = [
     level: "primary",
     rating: "good",
     ofstedDate: "June 2023",
-    summary: "Pupils enjoy coming to school every day, feeling happy and safe due to caring adults who know them well. Key strengths include effective leadership and a positive school atmosphere with strong community values.",
+    summary: "A welcoming Church of England primary in Cricklewood where pupils feel happy and safe. Strong phonics programme driving reading progress. Effective support for SEND pupils. Comprehensive safeguarding and personal development are particular strengths.",
     website: "https://www.standrewandstfrancis.org",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/21/141672"
   },
@@ -210,7 +210,7 @@ const schools = [
     level: "primary",
     rating: "good",
     ofstedDate: "June 2022",
-    summary: "Leaders prioritize reading with a strong phonics programme, well-sequenced curriculum in most subjects, effective support for SEND pupils and early years, and positive pupil behaviour. In a few subjects, leaders should refine curriculum thinking to ensure teachers know what pupils need to learn and remember.",
+    summary: "A Harlesden community primary where reading is the top priority with a strong phonics programme and well-sequenced curriculum. Effective SEND support. Ofsted recommends ensuring all newer staff deliver the curriculum as intended.",
     website: "https://www.harlesdenschool.com",
     ofstedUrl: "https://files.ofsted.gov.uk/v1/file/50189007"
   },
@@ -223,7 +223,7 @@ const schools = [
     level: "primary",
     rating: "good",
     ofstedDate: "March 2022",
-    summary: "An ambitious curriculum, strong safeguarding, and effective support for pupils with SEND. Strengths include pupils' enthusiasm for reading, high expectations for learning, positive behaviour, and focus on wider development like tolerance and teamwork. The key area for improvement is using assessment to address misconceptions more swiftly.",
+    summary: "Community primary in Brentfield with an ambitious curriculum and strong safeguarding. Effective SEND support. Pupils behave well and personal development is a notable strength. Reading programme well-regarded.",
     website: "https://www.brentfield.brent.sch.uk",
     ofstedUrl: "https://files.ofsted.gov.uk/v1/file/50183837"
   },
@@ -236,7 +236,7 @@ const schools = [
     level: "primary",
     rating: "good",
     ofstedDate: "November 2023",
-    summary: "Good overall with Outstanding ratings for behaviour and attitudes, personal development, and early years provision. Excellent pupil behaviour, an ambitious curriculum leading to well above national average outcomes in English and maths at Year 6. Leaders foster a vibrant, inclusive community where pupils feel safe.",
+    summary: "A strong Brent primary in Dollis Hill with Outstanding ratings for behaviour, attitudes, personal development, and early years. A broad, well-sequenced curriculum with effective SEND support. Great for parents prioritising personal development alongside academics.",
     website: "https://www.mbrook.brent.sch.uk",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/21/101524"
   },
@@ -249,7 +249,7 @@ const schools = [
     level: "primary",
     rating: "good",
     ofstedDate: "May 2024",
-    summary: "A broad, ambitious curriculum with strong phonics teaching and excellent support for pupils with SEND, fostering a friendly community where pupils behave well, feel safe, and benefit from enriching wider opportunities. Staff expertise is high, and safeguarding is effective.",
+    summary: "A Catholic primary in Wembley with a broad, ambitious curriculum and strong phonics teaching. Excellent SEND support in a nurturing faith environment. Pupils develop well both academically and personally.",
     website: "https://www.clitherow.brent.sch.uk",
     ofstedUrl: "https://files.ofsted.gov.uk/v1/file/50250490"
   },
@@ -262,7 +262,7 @@ const schools = [
     level: "primary",
     rating: "good",
     ofstedDate: "November 2022",
-    summary: "Pupils have positive attitudes to learning, exemplary behaviour, and feel safe, with leaders providing a broad ambitious curriculum, strong phonics and reading support, and effective SEND provision. Pupils benefit from enriching activities and community engagement. In a few subjects, strategies to deepen understanding are not yet fully embedded.",
+    summary: "A Jewish primary in Brent with close community ties. Pupils have positive attitudes, exemplary behaviour, and feel very safe. Broad curriculum well-delivered in a nurturing environment.",
     website: "http://www.nwljds.org.uk",
     ofstedUrl: "https://files.ofsted.gov.uk/v1/file/50206957"
   },
@@ -275,7 +275,7 @@ const schools = [
     level: "primary",
     rating: "good",
     ofstedDate: "July 2024",
-    summary: "Maintains its Good judgement with evidence suggesting it could be Outstanding if graded. Key strengths include an ambitious curriculum leading to high pupil achievement, exceptional reading provision and phonics teaching, excellent behaviour and attendance, and strong support for pupils with SEND. No areas for improvement were identified.",
+    summary: "A Church of England primary near West Hampstead with evidence of performance approaching Outstanding in some areas. Excellent reading outcomes, strong early years, and very effective SEND support.",
     website: "https://www.emmanuel.camden.sch.uk/",
     ofstedUrl: "https://files.ofsted.gov.uk/v1/file/50257788"
   },
@@ -288,7 +288,7 @@ const schools = [
     level: "primary",
     rating: "good",
     ofstedDate: "2025",
-    summary: "A local community primary in Cricklewood with nursery provision and a clear neighbourhood catchment.",
+    summary: "A friendly community primary in Cricklewood with nursery provision and a clear local catchment. A solid local option for families seeking a community school with nursery continuity.",
     website: "https://www.ansonprimaryschool.com/",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/21/101514"
   },
@@ -301,7 +301,7 @@ const schools = [
     level: "primary",
     rating: "good",
     ofstedDate: "2025",
-    summary: "A large Brent community primary with a broad intake and strong local relevance for families further south/east of Willesden.",
+    summary: "A large, well-established community primary in Wembley with a broad intake and strong local reputation. Serves the wider Brent area south and east of Willesden.",
     website: "https://get-information-schools.service.gov.uk/Establishments/Establishment/Details/101515",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/21/101515"
   },
@@ -314,7 +314,7 @@ const schools = [
     level: "primary",
     rating: "good",
     ofstedDate: "2025",
-    summary: "A big community primary serving the wider Brent/Wembley area with strong local demand for places.",
+    summary: "A large community primary in Wembley with strong local demand. Serves a wide Brent/Wembley catchment. Well-regarded for its size and facilities.",
     website: "https://get-information-schools.service.gov.uk/Establishments/Establishment/Details/101497",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/21/101497"
   },
@@ -327,7 +327,7 @@ const schools = [
     level: "primary",
     rating: "good",
     ofstedDate: "2023",
-    summary: "Infant provision with nursery and an autism resource base, useful for families prioritising early years continuity.",
+    summary: "Infant provision in Harlesden/Kilburn with nursery and an autism resource base. Particularly useful for those needing specialist SEND support from Reception age.",
     website: "https://www.carlton.brent.sch.uk/",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/21/101498"
   },
@@ -340,7 +340,7 @@ const schools = [
     level: "primary",
     rating: "good",
     ofstedDate: "November 2024",
-    summary: "A large Queen's Park / Kilburn community primary with a strong reading culture, high expectations, and a very local catchment for families in NW6.",
+    summary: "A large, well-regarded community primary in Queen's Park with a strong reading culture and high expectations. Very popular locally with a diverse, welcoming community.",
     website: "https://www.salusbury.brent.sch.uk/",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/21/101527"
   },
@@ -353,7 +353,7 @@ const schools = [
     level: "primary",
     rating: "good",
     ofstedDate: "March 2025",
-    summary: "A Catholic primary and nursery on the Harlesden side of the Willesden area, with places from nursery through Year 6 and a strong local family profile.",
+    summary: "Catholic primary and nursery on the Harlesden side of Willesden. Also serves St Raphael's estate families. Full provision from nursery through Year 6.",
     website: "https://www.lourdes.brent.sch.uk/",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/21/101545"
   },
@@ -366,7 +366,7 @@ const schools = [
     level: "primary",
     rating: "good",
     ofstedDate: "2025",
-    summary: "A large Wembley community primary and an important local option for Brent families west/south-west of Willesden.",
+    summary: "A large Wembley community primary serving west Brent. Strong local option with broad facilities and a well-established reputation among Brent families.",
     website: "https://www.chalkhillprimaryschool.uk/",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/21/101526"
   },
@@ -379,7 +379,7 @@ const schools = [
     level: "primary",
     rating: "good",
     ofstedDate: "2025",
-    summary: "A local NW10 community primary with nursery class and a straightforward fit for Willesden families.",
+    summary: "A community primary in NW10 serving the Willesden/Harlesden borders with nursery class attached. A straightforward local option for families in the immediate catchment.",
     website: "https://www.donnington.brent.sch.uk/",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/21/101520"
   },
@@ -392,7 +392,7 @@ const schools = [
     level: "primary",
     rating: "good",
     ofstedDate: "2025",
-    summary: "A strong Wembley community primary with a broad reputation and a large roll.",
+    summary: "A strong Wembley community primary with a broad reputation and large roll. Well-regarded by local families for consistent standards and community feel.",
     website: "https://www.elsley.brent.sch.uk/",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/21/101519"
   },
@@ -405,7 +405,7 @@ const schools = [
     level: "primary",
     rating: "good",
     ofstedDate: "2025",
-    summary: "A large Kingsbury primary that matters for families willing to travel a bit further north-east in Brent.",
+    summary: "A large Kingsbury primary serving north Brent. Worth considering for families willing to travel a bit further north-east where it has a strong local reputation.",
     website: "https://get-information-schools.service.gov.uk/Establishments/Establishment/Details/101521",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/21/101521"
   },
@@ -418,7 +418,7 @@ const schools = [
     level: "primary",
     rating: "good",
     ofstedDate: "2025",
-    summary: "A Brent community primary with a strong local catchment in Kingsbury.",
+    summary: "A Brent community primary with a strong local catchment in Kingsbury. A solid option for families seeking a maintained primary in the area.",
     website: "https://get-information-schools.service.gov.uk/Establishments/Establishment/Details/101503",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/21/101503"
   },
@@ -431,7 +431,7 @@ const schools = [
     level: "primary",
     rating: "good",
     ofstedDate: "September 2024",
-    summary: "The infant half of the Mount Stewart federation on the Brent/Harrow edge, offering a local route into Reception and Key Stage 1.",
+    summary: "Infant school on the Brent/Harrow border. Part of the Mount Stewart federation offering a natural pathway into Reception and through to the junior school. Good early years provision.",
     website: "https://www.mountstewartinfant.co.uk/",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/21/101501"
   },
@@ -444,7 +444,7 @@ const schools = [
     level: "primary",
     rating: "good",
     ofstedDate: "March 2024",
-    summary: "The junior half of the Mount Stewart federation, continuing pupils' primary journey on the Brent/Harrow border.",
+    summary: "Junior school continuing from Mount Stewart Infant School on the Brent/Harrow border. Keeps families in a single federation from age 7-11.",
     website: "https://www.mountstewartjunior.co.uk/",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/21/101500"
   },
@@ -457,7 +457,7 @@ const schools = [
     level: "primary",
     rating: "good",
     ofstedDate: "2025",
-    summary: "A large Wembley community primary and one of the key Brent schools for local family planning.",
+    summary: "A large Wembley community primary with a broad catchment. One of the key Brent primaries with well-established nursery through Year 6 provision.",
     website: "http://lyonpark.brent.sch.uk",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/21/101506"
   },
@@ -470,7 +470,7 @@ const schools = [
     level: "primary",
     rating: "good",
     ofstedDate: "2026",
-    summary: "The merged Malorees primary school serving the wider Brondesbury/Kilburn area.",
+    summary: "The merged Malorees primary school serving the Brondesbury/Kilburn area. Your children's school — included for local context.",
     website: "https://get-information-schools.service.gov.uk/Establishments/Establishment/Details/101507",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/21/101507"
   },
@@ -483,7 +483,7 @@ const schools = [
     level: "primary",
     rating: "good",
     ofstedDate: "2025",
-    summary: "A Cricklewood community primary with a clear north-west London footprint.",
+    summary: "A Cricklewood community primary with a clear north-west London footprint. Known for green grounds and a community feel. Serves local area with nursery through Year 6 provision.",
     website: "https://www.mora.brent.sch.uk/",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/21/101530"
   },
@@ -496,7 +496,7 @@ const schools = [
     level: "primary",
     rating: "good",
     ofstedDate: "2025",
-    summary: "A Kingsbury primary with nursery and a strong local community presence.",
+    summary: "A Kingsbury primary with nursery and a strong local community presence. Serves Kingsbury/Queensbury area with consistent Good standards.",
     website: "https://olivergoldsmith.brent.sch.uk/",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/21/101505"
   },
@@ -509,7 +509,7 @@ const schools = [
     level: "primary",
     rating: "good",
     ofstedDate: "2025",
-    summary: "Infant provision in Kingsbury with nursery and a rights-aware ethos.",
+    summary: "Infant school in Kingsbury with nursery and a rights-aware ethos. Part of a cluster with Roe Green Junior School for continuity through to Year 6.",
     website: "https://www.rgreeninf.brent.sch.uk/",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/21/101512"
   },
@@ -522,7 +522,7 @@ const schools = [
     level: "primary",
     rating: "good",
     ofstedDate: "2025",
-    summary: "Junior continuation at the Roe Green site, keeping families in one local cluster.",
+    summary: "Junior school completing the Roe Green pathway in Kingsbury. Keeps families in one cluster with the infant school for nursery-through-Year-6 continuity.",
     website: "https://www.rgjs.brent.sch.uk/",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/21/101511"
   },
@@ -535,7 +535,7 @@ const schools = [
     level: "primary",
     rating: "good",
     ofstedDate: "2025",
-    summary: "Catholic infant provision in Wembley with a strong community and federation with the junior school.",
+    summary: "Catholic infant school in Wembley (ages 3-7) with a strong community feel. Federated with St Joseph's Catholic Junior School for a smooth Year 3 transition.",
     website: "http://www.sjinf.brent.sch.uk/",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/21/101546"
   },
@@ -548,7 +548,7 @@ const schools = [
     level: "primary",
     rating: "good",
     ofstedDate: "2025",
-    summary: "Junior school linked to the infant school, useful for families wanting continuity in Wembley.",
+    summary: "Catholic junior school in Wembley (ages 7-11) continuing from the infant school. Ideal for families wanting Catholic primary continuity in Wembley.",
     website: "https://www.sjjnr.brent.sch.uk/",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/21/101539"
   },
@@ -563,7 +563,7 @@ const schools = [
     level: "secondary",
     rating: "good",
     ofstedDate: "November 2024",
-    summary: "Pupils achieve well and are prepared successfully for their next academic steps due to an ambitious curriculum, positive behaviour, and a comprehensive careers programme. The school fosters a sense of belonging, mutual respect, and ambition. Leaders should ensure the KS3 curriculum is better adapted to pupils' prior knowledge and provide more support for early readers.",
+    summary: "A popular Willesden secondary (ages 11-18) with an ambitious curriculum and strong careers programme. Pupils achieve well and feel a strong sense of belonging. Good behaviour and mutual respect. Ofsted recommends adapting KS3 curriculum to prior knowledge.",
     website: "https://www.harrislowewillesden.org.uk/",
     ofstedUrl: "https://files.ofsted.gov.uk/v1/file/50266194"
   },
@@ -576,7 +576,7 @@ const schools = [
     level: "secondary",
     rating: "good",
     ofstedDate: "May 2022",
-    summary: "Pupils enjoy a friendly, safe environment with positive relationships and good behaviour. The curriculum is broad and effectively checked, with good support for SEND pupils and strong wider development. Areas for improvement include greater ambition and sequencing in the English curriculum.",
+    summary: "A friendly, safe Catholic secondary in Harlesden (ages 11-19). Broad, well-checked curriculum with good SEND support and strong wider development. Working on greater ambition in English.",
     website: "http://www.ncc.brent.sch.uk",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/23/101564"
   },
@@ -589,7 +589,7 @@ const schools = [
     level: "secondary",
     rating: "good",
     ofstedDate: "January 2025",
-    summary: "A warm, inclusive environment where pupils feel safe and supported, with a broad, high-quality curriculum that fosters strong subject knowledge and high achievement for SEND pupils. Behaviour and pastoral care are strong. Areas for improvement include inconsistent checks on pupils' work and embedding the new behaviour system.",
+    summary: "A warm, inclusive secondary (ages 11-19) right in Queen's Park. Broad, high-quality curriculum with strong subject knowledge. Excellent pastoral care and inclusive SEND provision. Some inconsistency in checking pupils' work across subjects.",
     website: "http://www.qpcs.brent.sch.uk",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/23/138609"
   },
@@ -602,7 +602,7 @@ const schools = [
     level: "secondary",
     rating: "good",
     ofstedDate: "March 2024",
-    summary: "Highly ambitious curriculum with outstanding behaviour and attitudes and exceptional personal development. Pupils are proud, happy, safe, and achieving well due to supportive teachers, clear routines, and enriching activities. Some pupils with SEND do not receive fully consistent support.",
+    summary: "A newer free school in Neasden (ages 11-18) with an ambitious curriculum. Outstanding behaviour and attitudes. Pupils are proud, happy, and achieving well with supportive teachers and clear routines. Rich enrichment. SEND consistency being improved.",
     website: "https://www.northbrentschool.co.uk/",
     ofstedUrl: "https://files.ofsted.gov.uk/v1/file/50245565"
   },
@@ -615,7 +615,7 @@ const schools = [
     level: "secondary",
     rating: "good",
     ofstedDate: "April 2013",
-    summary: "Students make good progress with generally good teaching and outstanding behaviour and safety. Strong leadership and pastoral support contribute to high attendance and excellent conduct. Areas for improvement include ensuring high-achieving students make maximum progress and improving assessment consistency.",
+    summary: "A Catholic girls' secondary (ages 11-18) in Harlesden. Good teaching and outstanding behaviour and safety. Strong pastoral support. Working on ensuring high-achieving students make maximum progress.",
     website: "http://cjmlc.co.uk",
     ofstedUrl: "https://files.ofsted.gov.uk/v1/file/2269437"
   },
@@ -628,7 +628,7 @@ const schools = [
     level: "secondary",
     rating: "good",
     ofstedDate: "2025",
-    summary: "A major Jewish secondary school serving Brent families in Kenton, with a very large intake and strong local prominence.",
+    summary: "A major Jewish secondary in Kenton (ages 11-18) serving Brent families with a very large intake. Broad curriculum with sixth form. Strong local prominence and community links.",
     website: "https://www.jfs.brent.sch.uk/",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/23/133724"
   },
@@ -641,7 +641,7 @@ const schools = [
     level: "secondary",
     rating: "good",
     ofstedDate: "2024",
-    summary: "A large Brent secondary with a sixth form and a broad community role in Kingsbury.",
+    summary: "A large Brent secondary with sixth form in Kingsbury (ages 11-18). Broad community role serving north Brent families. Well-established with good transport links.",
     website: "https://www.kingsburyhigh.org.uk/",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/23/137685"
   },
@@ -654,7 +654,7 @@ const schools = [
     level: "secondary",
     rating: "outstanding",
     ofstedDate: "2025",
-    summary: "A high-profile Wembley free school with a reputation for very strong academic outcomes and a highly structured culture.",
+    summary: "A high-profile Wembley free school (ages 11-19) known for very strong academic outcomes and a highly structured culture. Often oversubscribed. Distinctive approach that suits some families very well.",
     website: "https://michaela.education/",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/28/140862"
   },
@@ -667,7 +667,7 @@ const schools = [
     level: "secondary",
     rating: "good",
     ofstedDate: "2025",
-    summary: "A well-known all-through Brent school with lower and upper sites and a broad local reputation.",
+    summary: "A well-known all-through Brent school (ages 3-18) with lower and upper sites. Broad local reputation covering nursery through to sixth form in Wembley.",
     website: "https://www.preston-manor.com/",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/28/136506"
   },
@@ -680,7 +680,7 @@ const schools = [
     level: "secondary",
     rating: "outstanding",
     ofstedDate: "2025",
-    summary: "A girls' Catholic secondary in Harlesden with a strong local reputation and a long-established school community.",
+    summary: "An outstanding girls' Catholic secondary (ages 11-18) in Harlesden. Strong local reputation and established school community. Excellent outcomes in a faith-based environment.",
     website: "https://www.stclaudines.co.uk/",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/23/137994"
   },
@@ -693,7 +693,7 @@ const schools = [
     level: "secondary",
     rating: "good",
     ofstedDate: "2025",
-    summary: "A large Wembley secondary and sixth form with strong local relevance for families across north-west London.",
+    summary: "A large Wembley secondary and sixth form (ages 11-18) for families across north-west London. Known for Good standards and a broad curriculum with technology focus.",
     website: "https://www.whtc.co.uk/",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/23/138457"
   },
@@ -706,7 +706,7 @@ const schools = [
     level: "secondary",
     rating: "outstanding",
     ofstedDate: "2025",
-    summary: "An all-through Wembley school with a sixth form and a broad catchment across Brent.",
+    summary: "A Wembley all-through school (ages 3-18) with sixth form. Part of the Ark network offering consistency and strong outcomes across the full age range.",
     website: "https://arkacademy.org/",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/28/135600"
    },
@@ -721,7 +721,7 @@ const schools = [
     level: "special",
     rating: "good",
     ofstedDate: "2025",
-    summary: "Special school on the former Grove Park site, serving pupils with SEND and a strong Brent-specific role.",
+    summary: "A Kingsbury special school (ages 3-19) for pupils with severe and profound learning difficulties. Strong local reputation with dedicated staff and good facilities. Key Brent specialist provision.",
     website: "https://www.thevillage.compasslp.co.uk/",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/25/101580"
   },
@@ -734,7 +734,7 @@ const schools = [
     level: "special",
     rating: "good",
     ofstedDate: "2025",
-    summary: "Brent special school for autistic children, with a clear local referral route through the council.",
+    summary: "A Brent special school in NW10 for autistic children (ages 4-11). Specialist autism provision with tailored support and small class sizes. Clear local referral route.",
     website: "https://www.phoenixarchschool.co.uk/",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/25/101581"
   },
@@ -747,7 +747,7 @@ const schools = [
     level: "special",
     rating: "outstanding",
     ofstedDate: "2025",
-    summary: "Special school in Kingsbury for pupils with a wide range of learning needs, including autism and moderate learning difficulties.",
+    summary: "An outstanding Kingsbury special school (ages 11-19) for pupils with wide-ranging learning needs including autism. Excellent outcomes and exceptional support.",
     website: "https://www.woodfield.compasslp.co.uk/",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/25/101582"
   },
@@ -760,7 +760,7 @@ const schools = [
     level: "special",
     rating: "good",
     ofstedDate: "2025",
-    summary: "A Brent special school serving pupils with severe and profound learning difficulties.",
+    summary: "A Brent special school in Kingsbury serving pupils with severe and profound learning difficulties. Specialist provision with strong staff-to-pupil ratios and tailored programmes.",
     website: "https://www.brent.gov.uk/children-young-people-and-families/send-local-offer/education/specialist-schools",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/25/101579"
   },
@@ -773,7 +773,7 @@ const schools = [
     level: "special",
     rating: "outstanding",
     ofstedDate: "January 2020",
-    summary: "An outstanding special school for pupils with autism spectrum disorder, where staff support every pupil to achieve their full potential through tailored learning pathways, high expectations, and a focus on independence and life skills. Exceptional reading provision, excellent behaviour, and rich personal development opportunities. No areas for improvement identified.",
+    summary: "An outstanding special school in Willesden for pupils with autism spectrum disorder. Staff support every pupil to achieve their potential with highly individualised programmes and excellent facilities.",
     website: "https://www.manor.brent.sch.uk",
     ofstedUrl: "https://files.ofsted.gov.uk/v1/file/50146961"
   }
