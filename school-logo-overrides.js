@@ -30,6 +30,7 @@ window.WF_SCHOOL_LOGOS = {
   "Roe Green Junior School": "https://static.wixstatic.com/media/4fcae3_007e234fd9414069b75d0eee5ea52012~mv2.png",
   "Oliver Goldsmith Primary School": "https://olivergoldsmith.brent.sch.uk/assets/oliver-goldsmith/images/oliver-goldsmith-logo.png?1471857379",
   "Malorees Junior School": "https://maloreesjuniorschool.co.uk/i/design/malorees-school_2.png",
+  "Malorees Primary School": "https://www.maloreesschools.com/i/design/malorees-school_2.png",
   "Wykeham Primary School": "https://www.wykeham.brent.sch.uk/favicon.ico",
   "St Saviour's CofE Primary School": "https://www.stsavioursprimary.co.uk/_site/data/files/images/F78EFABD7A118C625C0D59FDC19BC11B.jpg"
 };

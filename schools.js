@@ -469,9 +469,9 @@ const schools = [
     ageRange: "3–11",
     level: "primary",
     rating: "good",
-    ofstedDate: "2026",
-    summary: "The merged Malorees primary school serving the Brondesbury/Kilburn area. Your children's school — included for local context.",
-    website: "https://get-information-schools.service.gov.uk/Establishments/Establishment/Details/101507",
+    ofstedDate: "2021",
+    summary: "A diverse, inclusive community primary in Kilburn (ages 3–11) with a strong pastoral focus and wide-ranging enrichment through music, sport, drama, and school trips. Reading and phonics are well led, and the early years foundation stage provides a solid start. The school has strong community links and a nurturing ethos — pupils feel happy, safe, and valued. SEND support is effective, and behaviour is good.",
+    website: "https://www.maloreesschools.com",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/21/101507"
   },
   {
@@ -482,7 +482,7 @@ const schools = [
     ageRange: "3–11",
     level: "primary",
     rating: "good",
-    ofstedDate: "2025",
+    ofstedDate: "2021",
     summary: "A Cricklewood community primary with a clear north-west London footprint. Known for green grounds and a community feel. Serves local area with nursery through Year 6 provision.",
     website: "https://www.mora.brent.sch.uk/",
     ofstedUrl: "https://reports.ofsted.gov.uk/provider/21/101530"
@@ -863,9 +863,14 @@ function schoolHighlights(school) {
     if (clean && !highlights.includes(clean)) highlights.push(clean);
   };
 
-  add(sentences[0]);
-  if (sentences[1]) add(sentences[1]);
-  if (sentences.length > 2) add(sentences[sentences.length - 1]);
+  // Skip the first sentence — it's already shown as the summary above
+  if (sentences.length === 1) {
+    add(sentences[0]);
+  } else {
+    if (sentences[1]) add(sentences[1]);
+    if (sentences.length > 2) add(sentences[sentences.length - 1]);
+    if (sentences.length > 3) add(sentences[sentences.length - 2]);
+  }
 
   return highlights.slice(0, 3);
 }
