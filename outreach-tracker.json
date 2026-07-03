@@ -1,7 +1,7 @@
 {
   "lastUpdated": "2026-07-03T12:00:00+01:00",
   "totalContacted": 44,
-  "replied": 1,
+  "replied": 2,
   "contacts": [
     {
       "id": "fresh-arts-education",
@@ -273,9 +273,10 @@
       "id": "donnington",
       "provider": "Donnington Primary School",
       "email": "admin@donnington.brent.sch.uk",
-      "status": "sent",
+      "status": "replied",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": true,
+      "replyReceived": "2026-07-03 13:15"
     },
     {
       "id": "harris-lowe",
