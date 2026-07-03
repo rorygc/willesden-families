@@ -44,5 +44,6 @@ window.WF_SCHOOL_LOGOS = {
   "St Claudine's Catholic School for Girls": "https://www.stclaudines.co.uk/images/logo.png",
   "Ark Academy": "https://arkacademy.org/sites/default/files/White_Ark%20Academy_logo.png",
   "The Village School": "https://www.thevillageschool.co.uk/wordpress/wp-content/uploads/site-icon-300x300.png",
-  "Manor School": "https://www.manor.brent.sch.uk/_site/images/design/logo.svg"
+  "Manor School": "https://www.manor.brent.sch.uk/_site/images/design/logo.svg",
+  "Salusbury Primary School": "https://www.salusbury.brent.sch.uk/i/design/Salusbury-Primary-School.png"
 };
