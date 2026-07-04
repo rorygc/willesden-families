@@ -136,10 +136,18 @@
         <a href="#this-week" class="cta-button">📅 This week</a>
         <a href="./camps.html" class="cta-button secondary">🏕️ Camps</a>
         <a href="#activities" class="cta-button secondary">⚽ Activities</a>
-        <a href="./weekly-classes.html" class="cta-button secondary">📋 Weekly classes</a>
+        <a href="./weekly-classes.html" class="cta-button secondary">📋 Classes</a>
         <a href="./schools.html" class="cta-button secondary">🏫 Schools</a>
         <a href="#childcare" class="cta-button secondary">🧸 Childcare</a>
-        <a href="./baby-groups.html" class="cta-button secondary">👶 Baby & Toddler</a>
+        <a href="./baby-groups.html" class="cta-button secondary">👶 Baby</a>
+        <a href="./restaurants.html" class="cta-button secondary">🍽️ Eat</a>
+        <a href="./parks.html" class="cta-button secondary">🌳 Parks</a>
+        <a href="./pubs.html" class="cta-button secondary">🍺 Pubs</a>
+        <a href="./birthday-parties.html" class="cta-button secondary">🎂 Parties</a>
+        <a href="#cafes" class="cta-button secondary">☕ Cafés</a>
+        <a href="#indoor" class="cta-button secondary">🌧️ Indoor</a>
+        <a href="#send" class="cta-button secondary">♿ SEND</a>
+        <a href="./itineraries.html" class="cta-button secondary">🗺️ Day plans</a>
       </div>
       <div class="hero-highlights" id="hero-highlights"></div>
       <div class="hero-stats" id="hero-stats">
@@ -147,79 +155,6 @@
         <div class="stat-card"><strong id="stat-free">0</strong><span>free / low cost</span></div>
         <div class="stat-card"><strong id="stat-shortlist">0</strong><span>saved</span></div>
         <div class="stat-card"><strong id="stat-updated">—</strong><span>last refreshed</span></div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section hub-strip">
-    <div class="container">
-      <div class="section-header"><div><h2>Explore by category</h2><p class="section-subtitle">Dedicated guides for the things parents search for most</p></div></div>
-      <div class="hub-cards">
-        <a href="./camps.html" class="hub-card">
-          <span class="hub-card-icon">🏕️</span>
-          <strong>Holiday camps</strong>
-          <span>Summer, half-term & school holiday clubs</span>
-        </a>
-        <a href="./weekly-classes.html" class="hub-card">
-          <span class="hub-card-icon">📅</span>
-          <strong>Weekly classes</strong>
-          <span>Swimming, football, dance, music — day by day</span>
-        </a>
-        <a href="./schools.html" class="hub-card">
-          <span class="hub-card-icon">🏫</span>
-          <strong>Schools</strong>
-          <span>Ofsted ratings, admissions, local primaries</span>
-        </a>
-        <a href="./restaurants.html" class="hub-card">
-          <span class="hub-card-icon">🍽️</span>
-          <strong>Family restaurants</strong>
-          <span>Kids' menus, high chairs, colouring sheets</span>
-        </a>
-        <a href="./parks.html" class="hub-card">
-          <span class="hub-card-icon">🌳</span>
-          <strong>Parks & playgrounds</strong>
-          <span>Playgrounds, cafés, splash pads, duck ponds</span>
-        </a>
-        <a href="./pubs.html" class="hub-card">
-          <span class="hub-card-icon">🍺</span>
-          <strong>Family pubs</strong>
-          <span>Beer gardens, Sunday roasts, high chairs</span>
-        </a>
-        <a href="./baby-groups.html" class="hub-card">
-          <span class="hub-card-icon">👶</span>
-          <strong>Baby & toddler groups</strong>
-          <span>Stay-and-plays, rhyme time, sensory classes</span>
-        </a>
-        <a href="./birthday-parties.html" class="hub-card">
-          <span class="hub-card-icon">🎂</span>
-          <strong>Birthday parties</strong>
-          <span>Soft plays, halls, park pavilions, pool parties</span>
-        </a>
-        <a href="./itineraries.html" class="hub-card">
-          <span class="hub-card-icon">🗺️</span>
-          <strong>Day plans</strong>
-          <span>Ready-made family routes and itineraries</span>
-        </a>
-        <a href="#childcare" class="hub-card">
-          <span class="hub-card-icon">🧸</span>
-          <strong>Childcare & nurseries</strong>
-          <span>Nurseries, pre-schools & early years</span>
-        </a>
-        <a href="#cafes" class="hub-card">
-          <span class="hub-card-icon">☕</span>
-          <strong>Cafés & venues</strong>
-          <span>Buggy-friendly spots & family cafés</span>
-        </a>
-        <a href="#indoor" class="hub-card">
-          <span class="hub-card-icon">🌧️</span>
-          <strong>Rainy-day ideas</strong>
-          <span>Museums, soft plays & indoor fun</span>
-        </a>
-        <a href="#send" class="hub-card">
-          <span class="hub-card-icon">♿</span>
-          <strong>SEND support</strong>
-          <span>Local resources & inclusive activities</span>
-        </a>
       </div>
     </div>
   </section>
@@ -422,6 +357,16 @@
           <p class="section-subtitle">Choose a place and jump straight to maps or directions</p>
         </div>
         <span class="section-count" id="count-map">0</span>
+      </div>
+      <div class="map-category-toggles" id="map-category-toggles" style="display:flex;flex-wrap:wrap;gap:6px 12px;margin-bottom:12px;font-size:0.85rem;">
+        <label style="cursor:pointer;display:flex;align-items:center;gap:4px;"><input type="checkbox" data-map-category="this-week" checked onchange="updateMapCategories()"> This week</label>
+        <label style="cursor:pointer;display:flex;align-items:center;gap:4px;"><input type="checkbox" data-map-category="camps" checked onchange="updateMapCategories()"> Camps</label>
+        <label style="cursor:pointer;display:flex;align-items:center;gap:4px;"><input type="checkbox" data-map-category="childcare" checked onchange="updateMapCategories()"> Childcare</label>
+        <label style="cursor:pointer;display:flex;align-items:center;gap:4px;"><input type="checkbox" data-map-category="cafes" checked onchange="updateMapCategories()"> Cafés</label>
+        <label style="cursor:pointer;display:flex;align-items:center;gap:4px;"><input type="checkbox" data-map-category="indoor" checked onchange="updateMapCategories()"> Indoor</label>
+        <label style="cursor:pointer;display:flex;align-items:center;gap:4px;"><input type="checkbox" data-map-category="send" checked onchange="updateMapCategories()"> SEND</label>
+        <label style="cursor:pointer;display:flex;align-items:center;gap:4px;"><input type="checkbox" data-map-category="activities" checked onchange="updateMapCategories()"> Activities</label>
+        <label style="cursor:pointer;display:flex;align-items:center;gap:4px;"><input type="checkbox" data-map-category="pubs" checked onchange="updateMapCategories()"> Pubs</label>
       </div>
       <div class="map-layout">
         <div class="map-shell">
