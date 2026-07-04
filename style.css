@@ -367,6 +367,15 @@ a, button, [role="button"], [role="link"], input, textarea, select {
   overflow: hidden;
 }
 
+/* Lock hero map to bbox aspect ratio — clip excess */
+#hero-map {
+  height: 100%;
+  aspect-ratio: 1.894 / 1;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
 .hero-image img,
 .hero-image iframe {
   width: 100%;
