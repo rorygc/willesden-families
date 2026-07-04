@@ -6,10 +6,19 @@
 <meta name="theme-color" content="#fcfaf7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#1a1815" media="(prefers-color-scheme: dark)">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Willesden Families — Parents' guide to NW London</title>
-<meta name="description" content="A warm, searchable guide for parents with young children in Willesden Green, NW London: childcare, school-holiday camps, cafés, indoor ideas, SEND support, activities, shortlist, and a map view.">
-<meta property="og:title" content="Willesden Families">
-<meta property="og:description" content="Childcare, school-holiday camps, cafés, rainy-day ideas, SEND support, activities, shortlist, and a map view for parents in Willesden Green and NW London.">
+<title>Willesden Families — Parents' Guide to NW London | Childcare, Camps, Activities</title>
+<meta name="description" content="Find childcare, school-holiday camps, cafés, rainy-day activities, SEND support, and what's on this week for families in Willesden Green, Queen's Park, Kensal Rise, Harlesden, Kilburn & nearby NW London.">
+<link rel="canonical" href="https://willesdenfamilies.uk/">
+<meta property="og:title" content="Willesden Families — Parents' Guide to NW London">
+<meta property="og:description" content="Childcare, camps, cafés, rainy-day ideas, SEND support & activities for parents in Willesden Green, Queen's Park, Kensal Rise & nearby NW London.">
+<meta property="og:url" content="https://willesdenfamilies.uk/">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://willesdenfamilies.uk/assets/neighbourhood-map.jpg">
+<meta property="og:image:width" content="844">
+<meta property="og:image:height" content="1280">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Willesden Families — Parents' Guide to NW London">
+<meta name="twitter:description" content="Childcare, camps, cafés & activities for families in Willesden Green, Queen's Park & NW London.">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;650;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./base.css">
 <link rel="stylesheet" href="./style.css">
@@ -19,6 +28,39 @@
 <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16.png">
 <link rel="shortcut icon" href="./favicon.ico">
 <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://willesdenfamilies.uk/#website",
+      "url": "https://willesdenfamilies.uk/",
+      "name": "Willesden Families",
+      "description": "Parents' guide to NW London — childcare, camps, cafés, activities, and what's on for families in Willesden Green, Queen's Park, Kensal Rise, Harlesden, Kilburn & nearby.",
+      "inLanguage": "en-GB",
+      "publisher": { "@id": "https://willesdenfamilies.uk/#organization" }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://willesdenfamilies.uk/#organization",
+      "name": "Willesden Families",
+      "url": "https://willesdenfamilies.uk/",
+      "description": "A community-curated guide for parents with young children in NW London.",
+      "logo": "https://willesdenfamilies.uk/favicon.svg",
+      "areaServed": {
+        "@type": "City",
+        "name": "London",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "London Borough of Brent"
+        }
+      },
+      "knowsAbout": ["Childcare", "School Holiday Camps", "Family Activities", "SEND Support", "Cafés", "Indoor Activities", "Local Events"]
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <a href="#main-content" class="sr-only skip-link">Skip to content</a>
@@ -388,5 +430,28 @@
 <script src="./map-coordinates.js"></script>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <script src="./app.js?v=20260704"></script>
+<script>
+  // JSON-LD Event schema — keeps Google updated on what's on
+  (function() {
+    if (typeof DATA === 'undefined' || !DATA.thisWeek) return;
+    var events = DATA.thisWeek.slice(0, 10).map(function(e) {
+      var startDate = e.eventDate ? e.eventDate.replace(/ \\(launch\\)/, '').trim() : '';
+      return {
+        "@type": "Event",
+        "name": e.name,
+        "description": e.blurb,
+        "startDate": startDate,
+        "location": { "@type": "Place", "name": e.area + ", London", "address": e.mapQuery || e.area },
+        "offers": { "@type": "Offer", "price": e.cost === 'free' ? '0' : undefined, "priceCurrency": "GBP" },
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "url": e.contact || "https://willesdenfamilies.uk/"
+      };
+    });
+    var ld = document.createElement('script');
+    ld.type = 'application/ld+json';
+    ld.textContent = JSON.stringify({ "@context": "https://schema.org", "@graph": events }, null, 2);
+    document.head.appendChild(ld);
+  })();
+</script>
 </body>
 </html>
