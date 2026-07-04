@@ -245,7 +245,8 @@ const DATA = {
       contact: './assets/Summer Camp Junior _ After School Dreams _ July 2026-compressed.pdf',
       linkLabel: 'View flyer (Junior 3–6)',
       mapQuery: 'Instituto Español, 317 Portobello Road, London W10 5SZ',
-      promoImage: 'https://images.unsplash.com/photo-1503919545889-aef636e10ad4?w=800&h=450&fit=crop&auto=format',
+      promoImage: './assets/after-school-dreams-flyer.jpg',
+      promoAlt: 'After School Dreams Summer Camp flyer',
       featured: true,
       region: 'local',
       cardTone: 'weekly'
@@ -1047,8 +1048,8 @@ const DATA = {
       contact: './assets/Summer Camp Junior _ After School Dreams _ July 2026-compressed.pdf',
       linkLabel: 'Flyer: Junior (3–6) — tap for Senior too',
       mapQuery: 'Instituto Español, 317 Portobello Road, London W10 5SZ',
-      promoImage: 'https://images.unsplash.com/photo-1503919545889-aef636e10ad4?w=800&h=450&fit=crop&auto=format',
-      promoAlt: 'After School Dreams Summer Camp flyers available',
+      promoImage: './assets/after-school-dreams-flyer.jpg',
+      promoAlt: 'After School Dreams Summer Camp flyer',
       featured: true
     }
   ],
