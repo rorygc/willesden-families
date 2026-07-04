@@ -65,9 +65,10 @@
       "id": "queens-park-folk",
       "provider": "Queens Park Folk",
       "email": "usfolk@queensparkfolk.com",
-      "status": "sent",
+      "status": "replied",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": true,
+      "replyReceived": "2026-07-04 09:00"
     },
     {
       "id": "msport-active",
