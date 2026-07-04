@@ -1,6 +1,6 @@
 # Summer Holiday Camps 2025 — Outreach Contacts
 
-Source: "2025 Summer Holiday Camp Guide" by Adeline @ The New Parent Company
+Source: "2025 Summer Holiday Camp Guide"
 https://www.canva.com/design/DAGpCPvOSR0/N6-1xqI44ixODgHg0pkZYw/view
 
 ---
