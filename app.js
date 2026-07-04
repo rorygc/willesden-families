@@ -9,26 +9,6 @@ const DATA = {
   thisWeek: [
     // ===== CLOSE TO HOME (local NW London) =====
     {
-      id: 'event-malorees-sports-week',
-      section: 'this-week',
-      name: 'Malorees Sports Week',
-      age: '4–11',
-      cost: 'free',
-      area: 'Willesden Green',
-      eventDate: 'Mon 29 Jun – Fri 3 Jul',
-      eventTime: 'school hours',
-      blurb: "Malorees Infants & Junior School's annual Sports Week — daily sporting activities for all year groups culminating in sports days.",
-      recommendation: 'Essential for Malorees parents. Junior Sports Day Tue, Infants Sports Day Wed.',
-      tags: ['school', 'sports', 'Malorees'],
-      contact: 'https://www.maloreesschools.com',
-      linkLabel: 'School calendar',
-      mapQuery: 'Malorees Infant School, Christchurch Avenue, London NW6 7PB',
-      promoImage: 'https://images.unsplash.com/photo-1607457561901-e6ec3a6d16cf?w=800&h=450&fit=crop&auto=format',
-      featured: true,
-      region: 'local',
-      cardTone: 'weekly'
-    },
-    {
       id: 'event-brent-summer-fun-festival',
       section: 'this-week',
       name: 'Brent Libraries Summer Fun Festival',
