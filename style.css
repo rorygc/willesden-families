@@ -355,7 +355,7 @@ a, button, [role="button"], [role="link"], input, textarea, select {
 .hero {
   position: relative;
   overflow: hidden;
-  min-height: 50vh;
+  min-height: 65vh;
   display: flex;
   align-items: center;
 }
