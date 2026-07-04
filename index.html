@@ -408,13 +408,13 @@
           maxZoom: 19
         }).addTo(map);
         // Brent Cross (51.576) pinned to top edge of viewport
-        map.setView([51.38, -0.220], 13);
+        map.setView([51.30, -0.220], 13);
         map.setMinZoom(13);
         map.setMaxZoom(13);
         map._handlers.forEach(function(h) { h.disable(); });
         // If map drifts after tiles load, re-center
         map.once('load', function() {
-          map.setView([51.38, -0.220], 13, { animate: false });
+          map.setView([51.30, -0.220], 13, { animate: false });
         });
       })();
     </script>
