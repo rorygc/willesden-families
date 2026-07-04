@@ -2921,7 +2921,9 @@ async function updateMap(filtered) {
   if (!selected) {
     mapList.innerHTML = '<div class="map-fallback-message">No local map entries within 3 miles right now.</div>';
     mapPanel.innerHTML = '<strong>No local map entries</strong><span>Try a different filter.</span>';
-    if (mapFrame) mapFrame.innerHTML = '';
+    // Don't clear mapFrame — it destroys the Leaflet instance. Just clear markers.
+    const map = ensureMap();
+    if (map && mapMarkerLayer) mapMarkerLayer.clearLayers();
     return;
   }
 
