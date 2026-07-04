@@ -2586,7 +2586,7 @@ const DATA = {
     }
   ]
 };
-const SECTIONS = ['this-week', 'camps', 'childcare', 'cafes', 'pubs', 'indoor', 'send', 'activities'];
+const SECTIONS = ['this-week', 'camps', 'childcare', 'cafes', 'indoor', 'send', 'activities'];
 const SECTION_DATA_KEYS = {
   'this-week': 'thisWeek'
 };
