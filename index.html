@@ -403,6 +403,34 @@
       </div>
     </div>
   </section>
+
+  <section class="section alt" id="contact">
+    <div class="container">
+      <div class="about-section reveal">
+        <div class="about-grid">
+          <div>
+            <h2>Get in touch</h2>
+            <p>Got a suggestion? Know a great local club, camp, café, or pub that should be on here? Spot something that's out of date? I'd genuinely love to hear from you.</p>
+            <p>This site is built for families in NW London — the more people chip in, the more useful it gets for everyone.</p>
+            <p>
+              <a href="#" class="cta-button" id="contact-email-link">Send a suggestion</a>
+            </p>
+            <p class="fineprint" style="margin-top:0.5rem;">Your email stays private — it won't appear anywhere on the site.</p>
+          </div>
+          <div class="about-stack">
+            <div class="about-callout">
+              <strong>What to suggest</strong>
+              <span>New cafés, baby groups, holiday camps, accessible venues, soft plays, family pubs, SEND-friendly spaces — anything useful for local parents.</span>
+            </div>
+            <div class="about-callout">
+              <strong>Updates & corrections</strong>
+              <span>Opening hours changed? Closed down? New baby change facilities? Let me know and I'll update the listing.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
 
 <footer class="site-footer">
@@ -418,6 +446,7 @@
           <li><a href="#this-week">This week</a></li>
           <li><a href="#childcare">Childcare</a></li>
           <li><a href="#cafes">Cafés</a></li>
+          <li><a href="#pubs">Pubs</a></li>
           <li><a href="#indoor">Indoor</a></li>
           <li><a href="#send">SEND</a></li>
           <li><a href="#activities">Activities</a></li>
@@ -429,6 +458,7 @@
         <ul role="list">
           <li><a href="#shortlist">Shortlist</a></li>
           <li><a href="./schools.html">Schools</a></li>
+          <li><a href="#contact">Contact</a></li>
 
         </ul>
       </div>
@@ -444,6 +474,17 @@
 <script src="./map-coordinates.js"></script>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <script src="./app.js?v=20260704"></script>
+<script>
+  // Anti-spam: build email link in JS so bots can't scrape it
+  (function() {
+    var link = document.getElementById('contact-email-link');
+    if (!link) return;
+    var user = 'rorycooney';
+    var domain = 'gmail.com';
+    var subject = 'Willesden Families suggestion';
+    link.href = 'mailto:' + user + '@' + domain + '?subject=' + encodeURIComponent(subject);
+  })();
+</script>
 <script>
   // JSON-LD Event schema — keeps Google updated on what's on
   (function() {
