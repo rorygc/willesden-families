@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="color-scheme" content="light only"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Holiday Camps & School Holiday Clubs — Willesden Families</title>
+<meta name="description" content="Find school holiday camps in NW London — sports, tennis, performing arts, multi-activity, and free HAF places. Queen's Park, Willesden, West Hampstead, Kensal Rise, Kilburn & nearby.">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;650;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./base.css"><link rel="stylesheet" href="./style.css"><link rel="stylesheet" href="./pubs.css">
+<link rel="icon" type="image/svg+xml" href="./favicon.svg"><link rel="shortcut icon" href="./favicon.ico">
+</head>
+<body>
+<a href="#main-content" class="sr-only" style="position:absolute;top:0;left:0;padding:8px 16px;background:var(--color-primary);color:white;z-index:999;">Skip to content</a>
+<header class="site-header">
+  <div class="header-inner">
+    <a href="./index.html" class="logo"><svg viewBox="0 0 36 36" width="36" height="36" fill="none"><circle cx="18" cy="18" r="16" fill="currentColor" opacity="0.1"/><path d="M18 6C14 6 11 8 10 11c-1 3 0 6 2 8l6 8 6-8c2-2 3-5 2-8-1-3-4-5-8-5z" fill="var(--color-primary)" opacity="0.8"/><circle cx="18" cy="15" r="3" fill="var(--color-surface)" opacity="0.9"/></svg><div><div class="logo-text">Willesden Families</div><div class="logo-sub">NW London Community Guide</div></div></a>
+    <nav class="nav-desktop"><a href="./index.html">Home</a><a href="./restaurants.html">Restaurants</a><a href="./parks.html">Parks</a><a href="./pubs.html">Pubs</a><a href="./baby-groups.html">Baby &amp; Toddler</a></nav>
+    <div class="header-actions"><button class="theme-toggle" data-theme-toggle aria-label="Switch to dark mode"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button></div>
+  </div>
+</header>
+<main id="main-content">
+  <section class="pubs-hero">
+    <img class="pubs-hero-img" src="./assets/neighbourhood-map.jpg" alt="NW London map"><div class="pubs-hero-overlay"></div>
+    <div class="container" style="position:relative;z-index:2;">
+      <a href="./index.html" class="back-link"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>Back to Willesden Families</a>
+      <div class="pubs-hero-content">
+        <p class="pubs-eyebrow">Holiday camps & school holiday clubs in North West London</p>
+        <h1>Summer camps, sports clubs, and holiday activities.</h1>
+        <p class="pubs-hero-sub">Twenty-eight holiday camps and school-holiday clubs across Queen's Park, Willesden, West Hampstead, Kensal Rise, Kilburn, and beyond. Tennis, performing arts, multi-activity, gymnastics, and free HAF-funded places.</p>
+      </div>
+      <div class="pubs-stats">
+        <div class="pubs-stat"><strong>28</strong><span>camps</span></div>
+        <div class="pubs-stat"><strong>8</strong><span>types</span></div>
+        <div class="pubs-stat"><strong>7</strong><span>areas</span></div>
+        <div class="pubs-stat"><strong>Free</strong><span>to £££</span></div>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="section-header"><div><h2>All holiday camps</h2><p class="section-subtitle">Click through for booking, dates, and pricing</p></div><span class="section-count" id="count-camps">—</span></div>
+      <div id="camps-content"><p style="text-align:center;padding:var(--space-8);color:var(--color-text-secondary);">Loading camps…</p></div>
+    </div>
+  </section>
+  <section class="section alt" id="contact">
+    <div class="container"><div class="about-section reveal"><div class="about-grid">
+      <div><h2>Know a great holiday camp we missed?</h2><p>Running a camp or know one that should be listed? Let us know.</p>
+        <form id="contact-form" class="contact-form" method="POST">
+          <input type="hidden" name="_subject" value="Willesden Families — camp suggestion"><input type="hidden" name="_captcha" value="false"><input type="hidden" name="_template" value="table"><input type="hidden" name="_next" value="https://willesdenfamilies.uk/camps">
+          <div class="contact-field"><label for="contact-name">Your name</label><input type="text" id="contact-name" name="name" placeholder="Sarah" required></div>
+          <div class="contact-field"><label for="contact-email">Your email</label><input type="email" id="contact-email" name="email" placeholder="sarah@example.com" required></div>
+          <div class="contact-field"><label for="contact-message">Camp suggestion</label><textarea id="contact-message" name="message" rows="4" placeholder="Camp name, ages, dates, cost, location..." required></textarea></div>
+          <button type="submit" class="cta-button">Send suggestion</button>
+        </form>
+      </div>
+      <div class="about-stack">
+        <div class="about-callout"><strong>Free HAF places</strong><span>Brent Council funds free holiday club places for eligible families. Look for 'HAF' or 'FSM-funded' in the listings.</span></div>
+        <div class="about-callout"><strong>Last updated</strong><span>Summer 2026. Camp dates and availability change — always check the provider's website before booking.</span></div>
+      </div>
+    </div></div></div>
+  </section>
+</main>
+<footer class="site-footer"><div class="container"><div class="footer-grid"><div class="footer-about"><div class="logo-text" style="font-family:var(--font-display);font-weight:600;">Willesden Families</div><p>A free community guide for parents in NW London.</p></div><div class="footer-col"><h4>Sections</h4><ul role="list"><li><a href="./camps.html">Camps</a></li><li><a href="./restaurants.html">Restaurants</a></li><li><a href="./parks.html">Parks</a></li><li><a href="./pubs.html">Pubs</a></li><li><a href="./baby-groups.html">Baby &amp; Toddler</a></li></ul></div><div class="footer-col"><h4>More</h4><ul role="list"><li><a href="./schools.html">Schools</a></li><li><a href="./index.html#contact">Contact</a></li></ul></div></div><div class="footer-bottom"><span>&copy; 2026 Willesden Families. Community-built guide.</span></div></div></footer>
+<script src="./app.js?v=20260704"></script>
+<script>
+(function(){
+  if(typeof DATA==='undefined'||!DATA.camps){document.getElementById('camps-content').innerHTML='<p style="text-align:center;padding:var(--space-8);">Camps data loading…</p>';return;}
+  document.getElementById('camps-content').innerHTML=renderCampGroups(DATA.camps);
+  document.getElementById('count-camps').textContent=DATA.camps.length;
+  // Wire up save buttons
+  setTimeout(function(){
+    if(typeof LS!=='undefined'&&LS.shortlist){
+      document.querySelectorAll('[data-action="save"]').forEach(function(b){
+        b.addEventListener('click',function(){var id=this.dataset.id;LS.shortlist.has(id)?LS.shortlist.delete(id):LS.shortlist.add(id);this.classList.toggle('saved',LS.shortlist.has(id));this.setAttribute('aria-pressed',LS.shortlist.has(id)?'true':'false');});
+      });
+    }
+  },200);
+})();
+(function(){var f=document.getElementById('contact-form');if(!f)return;f.action='https://formsubmit.co/'+'rorycooney'+'@'+'gmail.com';})();
+(function(){var t=document.querySelector('[data-theme-toggle]');if(!t)return;t.addEventListener('click',function(){var h=document.documentElement,d=h.getAttribute('data-theme')==='dark';h.setAttribute('data-theme',d?'light':'dark');localStorage.setItem('wf-theme',d?'light':'dark');});var s=localStorage.getItem('wf-theme');if(s)document.documentElement.setAttribute('data-theme',s);})();
+</script>
+</body>
+</html>

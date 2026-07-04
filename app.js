@@ -248,6 +248,7 @@ const DATA = {
       promoImage: './assets/after-school-dreams-flyer.jpg',
       promoAlt: 'After School Dreams Summer Camp flyer',
       featured: true,
+      isNew: true,
       region: 'local',
       cardTone: 'weekly'
     }
@@ -1050,7 +1051,8 @@ const DATA = {
       mapQuery: 'Instituto Español, 317 Portobello Road, London W10 5SZ',
       promoImage: './assets/after-school-dreams-flyer.jpg',
       promoAlt: 'After School Dreams Summer Camp flyer',
-      featured: true
+      featured: true,
+      isNew: true
     }
   ],
   cafes: [
@@ -3239,7 +3241,8 @@ function renderCard(item) {
         <button class="card-action" data-action="export" data-id="${item.id}">${ICONS.calendar} Export</button>
       </div>
       <div class="card-footnote">
-        <span>${item.featured ? 'Featured this week' : (sourceLabel || 'Saved locally if you want it')}</span>
+        <span>${item.isNew ? '<span class="freshness-badge">New</span> ' : ''}${item.featured ? 'Featured this week' : (sourceLabel || 'Saved locally if you want it')}</span>
+        <a class="text-button" href="#contact">Suggest edit</a>
         <button class="text-button" data-action="details" data-id="${item.id}">Open in shortlist</button>
       </div>
     </article>
@@ -3722,6 +3725,40 @@ function bootstrap() {
   renderAll();
   const firstMapItem = Object.values(DATA).flat().find(Boolean);
   if (firstMapItem) selectMapItem(firstMapItem.id);
+}
+
+// ── Near Me Geolocation ──
+function triggerNearMe() {
+  var btn = document.getElementById('near-me-btn');
+  if (!navigator.geolocation) {
+    alert('Geolocation is not supported by your browser.');
+    return;
+  }
+  if (btn) { btn.textContent = '📍 Locating…'; btn.disabled = true; }
+  navigator.geolocation.getCurrentPosition(function(pos) {
+    var lat = pos.coords.latitude;
+    var lng = pos.coords.longitude;
+    // Scroll to map and zoom to user location
+    var mapSection = document.getElementById('map');
+    if (mapSection) mapSection.scrollIntoView({ behavior: 'smooth' });
+    // If Leaflet map exists, fly to user location
+    setTimeout(function() {
+      if (typeof map !== 'undefined' && map && map.flyTo) {
+        map.flyTo([lat, lng], 15);
+        // Add a marker for user location
+        if (typeof L !== 'undefined') {
+          var userIcon = L.divIcon({ className: 'user-location-marker', html: '<div style="width:16px;height:16px;background:#4285F4;border:3px solid white;border-radius:50%;box-shadow:0 2px 6px rgba(0,0,0,0.3);"></div>', iconSize: [16, 16], iconAnchor: [8, 8] });
+          var marker = L.marker([lat, lng], { icon: userIcon }).addTo(map);
+          marker.bindPopup('📍 You are here').openPopup();
+          setTimeout(function() { map.removeLayer(marker); }, 10000);
+        }
+      }
+    }, 600);
+    if (btn) { btn.textContent = '📍 Near me'; btn.disabled = false; btn.setAttribute('aria-pressed', 'true'); }
+  }, function(err) {
+    if (btn) { btn.textContent = '📍 Near me'; btn.disabled = false; }
+    alert('Could not get your location. Please check your browser permissions.');
+  }, { enableHighAccuracy: true, timeout: 10000, maximumAge: 60000 });
 }
 
 bootstrap();
