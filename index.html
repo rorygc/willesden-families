@@ -413,10 +413,25 @@
             <h2>Get in touch</h2>
             <p>Got a suggestion? Know a great local club, camp, café, or pub that should be on here? Spot something that's out of date? I'd genuinely love to hear from you.</p>
             <p>This site is built for families in NW London — the more people chip in, the more useful it gets for everyone.</p>
-            <p>
-              <a href="#" class="cta-button" id="contact-email-link">Send a suggestion</a>
-            </p>
-            <p class="fineprint" style="margin-top:0.5rem;">Your email stays private — it won't appear anywhere on the site.</p>
+            <form id="contact-form" class="contact-form" method="POST">
+              <input type="hidden" name="_subject" value="Willesden Families suggestion">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_template" value="table">
+              <div class="contact-field">
+                <label for="contact-name">Your name</label>
+                <input type="text" id="contact-name" name="name" placeholder="Sarah" required>
+              </div>
+              <div class="contact-field">
+                <label for="contact-email">Your email</label>
+                <input type="email" id="contact-email" name="email" placeholder="sarah@example.com" required>
+              </div>
+              <div class="contact-field">
+                <label for="contact-message">Your suggestion</label>
+                <textarea id="contact-message" name="message" rows="4" placeholder="Tell us about a venue, event, correction, or idea..." required></textarea>
+              </div>
+              <button type="submit" class="cta-button">Send suggestion</button>
+            </form>
+            <p class="fineprint" style="margin-top:0.5rem;">Your email is only used to reply — it won't appear anywhere on the site.</p>
           </div>
           <div class="about-stack">
             <div class="about-callout">
@@ -476,14 +491,13 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <script src="./app.js?v=20260704"></script>
 <script>
-  // Anti-spam: build email link in JS so bots can't scrape it
+  // Build form action URL in JS — email never appears in page source
   (function() {
-    var link = document.getElementById('contact-email-link');
-    if (!link) return;
+    var form = document.getElementById('contact-form');
+    if (!form) return;
     var user = 'rorycooney';
     var domain = 'gmail.com';
-    var subject = 'Willesden Families suggestion';
-    link.href = 'mailto:' + user + '@' + domain + '?subject=' + encodeURIComponent(subject);
+    form.action = 'https://formsubmit.co/' + user + '@' + domain;
   })();
 </script>
 <script>
