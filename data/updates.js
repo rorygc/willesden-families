@@ -12,8 +12,8 @@ window.WF_LIVE_UPDATES = {
       text: 'Disability Sports Coach runs a free inclusive movement club for disabled girls aged 11–17 (up to 25), Saturdays 4:15–5:15pm. Ongoing — just started 27 June. Book via Eventbrite. Great for SEND families.'
     },
     {
-      title: 'Preston Park Family Hub launch 2 July; Roundwood Park funfair 10–19 July',
-      text: 'Brent\'s Best Start Family Hub at Preston Park launches Thu 2 July, 11:30am–2:30pm — free, drop-in. St Raphael\'s Hub (NW10) now open Mon–Fri. Also: Roundwood Park funfair returns Fri 10–Sun 19 July, Irvin Leisure, Harlesden NW10.'
+      title: 'Preston Park Family Hub launch 2 July (Wembley); Roundwood Park funfair 10–19 July (Harlesden)',
+      text: 'Brent\'s Best Start Family Hub at Preston Park launches Thu 2 July, 11:30am–2:30pm — free, drop-in. Address: College Road, Wembley HA9 8RJ. St Raphael\'s Hub (NW10) now open Mon–Fri. Also: Roundwood Park funfair returns Fri 10–Sun 19 July, Irvin Leisure, Harlesden NW10.'
     }
   ]
 };
