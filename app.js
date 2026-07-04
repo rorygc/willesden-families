@@ -89,26 +89,6 @@ const DATA = {
       cardTone: 'weekly'
     },
     {
-      id: 'event-preston-park-hub-launch',
-      section: 'this-week',
-      name: 'Preston Park Family Hub Launch',
-      age: '0–5',
-      cost: 'free',
-      area: 'Wembley',
-      eventDate: 'Thu 2 Jul',
-      eventTime: '11:30–14:30',
-      blurb: 'Brent\'s Best Start Family Hub officially launches at Preston Park. Free drop-in with health visiting, parenting support, early education, childcare advice and SEND support under one roof.',
-      recommendation: 'Brilliant for parents of under-5s — get to know your local Family Hub services.',
-      tags: ['family hub', 'early years', 'SEND', 'health visit', 'free'],
-      contact: 'https://www.brent.gov.uk',
-      linkLabel: 'Brent Family Hubs',
-      mapQuery: 'Preston Park, Preston Road, Wembley, HA9',
-      promoImage: 'https://images.unsplash.com/photo-1511895426328-dc8714191300?w=800&h=450&fit=crop&auto=format',
-      featured: true,
-      region: 'wider',
-      cardTone: 'weekly'
-    },
-    {
       id: 'event-south-kilburn-carnivale',
       section: 'this-week',
       name: 'Street Swap South Kilburn CarniVale',
