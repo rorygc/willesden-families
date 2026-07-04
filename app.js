@@ -69,26 +69,6 @@ const DATA = {
       cardTone: 'weekly'
     },
     {
-      id: 'event-harlesden-reggae-day',
-      section: 'this-week',
-      name: 'Harlesden Walk of Music & Reggae Exhibition',
-      age: 'all ages',
-      cost: 'free',
-      area: 'Harlesden',
-      eventDate: 'Wed 1 Jul',
-      eventTime: '2pm walk / 6pm exhibition',
-      blurb: 'International Reggae Day celebrations in Brent: a walking tour of Harlesden\'s musical heritage starting at Picture Palace at 2pm, plus a Reggae Album Covers Exhibition at Harlesden Library from 6pm.',
-      recommendation: 'Unique free cultural event celebrating Harlesden\'s music history — fun for older kids too.',
-      tags: ['music', 'heritage', 'walk', 'exhibition', 'free'],
-      contact: 'https://www.brent.gov.uk',
-      linkLabel: 'Check Brent events',
-      mapQuery: 'Picture Palace, Harlesden, London NW10',
-      promoImage: 'https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?w=800&h=450&fit=crop&auto=format',
-      featured: true,
-      region: 'local',
-      cardTone: 'weekly'
-    },
-    {
       id: 'event-south-kilburn-carnivale',
       section: 'this-week',
       name: 'Street Swap South Kilburn CarniVale',
@@ -338,11 +318,11 @@ const DATA = {
       name: 'Rainbow Montessori',
       age: '2–5',
       cost: 'mid',
-      area: 'NW London',
+      area: 'Willesden Green',
       blurb: 'Montessori-style early years option for children who like practical, child-led learning.',
       recommendation: 'Good if you prefer a calmer learning approach.',
       tags: ['Montessori', 'nursery', 'early years'],
-      contact: 'https://www.google.com/search?q=Rainbow+Montessori+Willesden+Green',
+      contact: 'https://www.rainbowmontessori.co.uk/',
       linkLabel: 'Search details',
       mapQuery: 'Rainbow Montessori, Willesden Green, London'
     },
@@ -380,7 +360,7 @@ const DATA = {
       name: 'Beckford Primary Nursery',
       age: '3–5',
       cost: 'free',
-      area: 'Willesden / NW10',
+      area: 'West Hampstead',
       blurb: 'Nursery provision attached to a primary school for a straightforward transition later on.',
       recommendation: 'Useful if you want nursery-to-primary continuity.',
       tags: ['nursery', 'primary school', 'free'],
@@ -734,7 +714,7 @@ const DATA = {
       blurb: 'Dance-led holiday camp with creative movement, outdoor play, and a showcase at the end of the week.',
       recommendation: 'Great if you want a structured creative camp rather than sports-only days.',
       tags: ['dance', 'performance', 'outdoors'],
-      contact: 'https://hedanceacademy.co.uk/elementor-2737/',
+      contact: 'https://hedanceacademy.co.uk/',
       linkLabel: 'See camp',
       mapQuery: 'Queen’s Park, London NW6'
     },
@@ -1009,7 +989,7 @@ const DATA = {
       blurb: 'Six-week summer camp run by Coach Earnest at Mora School (Jul 20 – Aug 28). FSM-funded: 16 free days (4 days/wk, weeks 1–4). Non-FSM options from £45/day. Trips include Houses of Parliament (confirmed 27 Jul), Tower of London, Kensington Palace. Weeks 5–6: ballet, dance, musical instruments, drama, multi-sports, robotics, bouncy castle, film workshops.',
       recommendation: 'Best if you want a local school-based summer camp with FSM-funded free places, trips, and a wide range of activities including arts and sports.',
       tags: ['summer', 'multi-activity', 'FSM', 'trips', 'sports', 'arts'],
-      contact: '',
+      contact: 'https://www.ettsports.co.uk/',
       linkLabel: 'Contact ETT Sports',
       mapQuery: 'Mora School, Mora Road, London NW2'
     },
@@ -1092,36 +1072,9 @@ const DATA = {
       contact: 'https://themaqamcentre.com',
       linkLabel: 'Visit The Maqam Centre',
       mapQuery: 'The Maqam Centre, Wrentham Avenue, London'
-    },
-    {
-      id: 'cafe-local-park',
-      section: 'cafes',
-      name: 'Parks and café stop combo',
-      age: 'all ages',
-      cost: 'low',
-      area: 'NW London',
-      blurb: 'A good strategy, not just a place: park first, café second, then home before the meltdown.',
-      recommendation: 'Recommended for the sanity-saving loop.',
-      tags: ['park', 'coffee', 'routine'],
-      contact: '#activities',
-      linkLabel: 'See nearby parks',
-      mapQuery: 'Queen\'s Park, London'
-    },
-    {
-      id: 'cafe-respite',
-      section: 'cafes',
-      name: 'Buggy-friendly neighbourhood café run',
-      age: '0–5',
-      cost: 'mid',
-      area: 'Willesden / Kensal',
-      blurb: 'A flexible catch-all for the parent cafés on your regular rotation. Use the map to choose the closest one.',
-      recommendation: 'Best when you just need to get out of the house.',
-      tags: ['coffee', 'buggy-friendly', 'routine'],
-      contact: '#map',
-      linkLabel: 'Pick on the map',
-      mapQuery: 'Willesden Green, London'
     }
   ],
+
   indoor: [
     {
       id: 'indoor-library',
@@ -2602,7 +2555,7 @@ const DATA = {
     {
       id: 'indoor-science-museum',
       section: 'indoor',
-      name: 'Science Museum',
+      name: 'Worth the trip: Science Museum',
       age: '3–12',
       cost: 'free',
       area: 'South Kensington',
@@ -2617,7 +2570,7 @@ const DATA = {
     {
       id: 'indoor-natural-history',
       section: 'indoor',
-      name: 'Natural History Museum',
+      name: 'Worth the trip: Natural History Museum',
       age: 'all ages',
       cost: 'free',
       area: 'South Kensington',
@@ -2632,7 +2585,7 @@ const DATA = {
     {
       id: 'indoor-clip-n-climb',
       section: 'indoor',
-      name: 'Clip \'n Climb Chelsea',
+      name: 'Worth the trip: Clip \'n Climb Chelsea',
       age: '4+',
       cost: 'mid',
       area: 'Chelsea',
@@ -2647,13 +2600,13 @@ const DATA = {
     {
       id: 'indoor-soft-play-cricklewood',
       section: 'indoor',
-      name: 'Jump In! Soft Play Cricklewood',
-      age: '0–10',
+      name: 'Jump In! Trampoline Park Cricklewood',
+      age: '4–12',
       cost: 'low',
       area: 'Cricklewood',
-      blurb: 'Large indoor soft-play centre with dedicated baby and toddler zones, a bigger frame for older kids, and a comfortable café with proper coffee and free Wi-Fi. Socks required for everyone (adults too — they sell them if you forget).',
-      recommendation: 'The toddler mornings (weekdays 9:30–11:30) are quieter and cheaper. Best value soft play in the immediate area.',
-      tags: ['soft play', 'indoor', 'toddler', 'café', 'active'],
+      blurb: 'Large indoor trampoline park with interconnected trampolines, foam pits, dodgeball courts, and a dedicated toddler zone. Great energy-burner for rainy days — kids bounce, you sit in the café with proper coffee and Wi-Fi. Grip socks required (available to buy).',
+      recommendation: 'The toddler zone (weekdays before 11am) is quieter and cheaper. Great birthday party venue too.',
+      tags: ['trampoline', 'indoor', 'active', 'café', 'party venue'],
       contact: 'https://www.gojumpin.com/',
       linkLabel: 'Visit website',
       mapQuery: 'Jump In Cricklewood, 158 Cricklewood Broadway, London NW2 3ED',
@@ -2662,7 +2615,7 @@ const DATA = {
     {
       id: 'indoor-london-transport',
       section: 'indoor',
-      name: 'London Transport Museum',
+      name: 'Worth the trip: London Transport Museum',
       age: '2–10',
       cost: 'mid',
       area: 'Covent Garden',
@@ -2987,7 +2940,7 @@ const DATA = {
       blurb: 'Weekly art and craft club where kids explore different materials, techniques, and themes each term. Painting, clay, collage, printing — all the messy stuff you don\'t want to do at home. Smocks provided. Small groups (max 12) mean lots of individual attention.',
       recommendation: 'The end-of-term exhibition is genuinely lovely — kids are so proud of their work.',
       tags: ['art', 'creative', 'craft', 'messy play', 'cricklewood', 'term time'],
-      contact: 'https://www.hobbycraft.co.uk/',
+      contact: 'https://www.hoop.co.uk/search?q=art+club+cricklewood',
       linkLabel: 'Art classes',
       mapQuery: 'Cricklewood, London NW2'
     },
