@@ -7,7 +7,7 @@ const LIVE_UPDATES = window.WF_LIVE_UPDATES || {
 
 const DATA = {
   thisWeek: [
-{
+    {
       id: 'event-ouryard-kids-garden-club',
       section: 'this-week',
       name: 'Kids Garden Club at Clitterhouse Farm',
@@ -29,7 +29,7 @@ const DATA = {
       region: 'local',
       cardTone: 'weekly'
     },
-{
+    {
       id: 'event-ouryard-little-critters',
       section: 'this-week',
       name: "Little Critters Stay 'n' Play",
@@ -51,7 +51,7 @@ const DATA = {
       region: 'local',
       cardTone: 'weekly'
     },
-{
+    {
       id: 'event-brent-summer-fun-festival',
       section: 'this-week',
       name: 'Brent Libraries Summer Fun Festival',
@@ -73,7 +73,7 @@ const DATA = {
       region: 'local',
       cardTone: 'weekly'
     },
-{
+    {
       id: 'event-south-kilburn-carnivale',
       section: 'this-week',
       name: 'Street Swap South Kilburn CarniVale',
@@ -95,7 +95,7 @@ const DATA = {
       region: 'local',
       cardTone: 'weekly'
     },
-{
+    {
       id: 'event-natural-history-museum',
       section: 'this-week',
       name: 'Natural History Museum',
@@ -117,7 +117,7 @@ const DATA = {
       region: 'wider',
       cardTone: 'weekly'
     },
-{
+    {
       id: 'event-science-museum',
       section: 'this-week',
       name: 'Science Museum',
@@ -139,7 +139,7 @@ const DATA = {
       region: 'wider',
       cardTone: 'weekly'
     },
-{
+    {
       id: 'event-diana-playground',
       section: 'this-week',
       name: 'Diana Memorial Playground',
@@ -161,7 +161,7 @@ const DATA = {
       region: 'wider',
       cardTone: 'weekly'
     },
-{
+    {
       id: 'event-changing-guard',
       section: 'this-week',
       name: 'Changing of the Guard',
@@ -183,7 +183,7 @@ const DATA = {
       region: 'wider',
       cardTone: 'weekly'
     },
-{
+    {
       id: 'event-southbank-centre',
       section: 'this-week',
       name: 'Southbank Centre Riverside',
@@ -205,7 +205,7 @@ const DATA = {
       region: 'wider',
       cardTone: 'weekly'
     },
-{
+    {
       id: 'event-after-school-dreams-week1',
       section: 'this-week',
       name: 'After School Dreams Summer Camp — Week 1',
@@ -231,7 +231,7 @@ const DATA = {
     }
   ],
   childcare: [
-{
+    {
       id: 'child-bright-horizons',
       section: 'childcare',
       name: "Bright Horizons Queen's Park",
@@ -247,7 +247,7 @@ const DATA = {
       lng: -0.205,
       mapQuery: "Bright Horizons Queen's Park, London"
     },
-{
+    {
       id: 'child-monkey-puzzle',
       section: 'childcare',
       name: 'Monkey Puzzle Kensal Rise',
@@ -263,7 +263,7 @@ const DATA = {
       lng: -0.218,
       mapQuery: 'Monkey Puzzle Day Nursery Kensal Rise, London'
     },
-{
+    {
       id: 'child-n-family',
       section: 'childcare',
       name: "N Family Club Queen's Park",
@@ -279,7 +279,7 @@ const DATA = {
       lng: -0.205,
       mapQuery: "N Family Club Queen's Park, London"
     },
-{
+    {
       id: 'child-little-garden',
       section: 'childcare',
       name: 'Little Garden Day Nursery & Forest School',
@@ -295,7 +295,7 @@ const DATA = {
       lng: -0.218,
       mapQuery: 'Little Garden Day Nursery Kensal Rise, London'
     },
-{
+    {
       id: 'child-richborough',
       section: 'childcare',
       name: 'Richborough Nursery & Pre-school',
@@ -311,7 +311,7 @@ const DATA = {
       lng: -0.218,
       mapQuery: 'Richborough Nursery & Pre-school, Cricklewood, London'
     },
-{
+    {
       id: 'child-mulberry-house',
       section: 'childcare',
       name: 'The Mulberry House School',
@@ -327,7 +327,7 @@ const DATA = {
       lng: -0.2079357,
       mapQuery: 'The Mulberry House School, West Hampstead, London'
     },
-{
+    {
       id: 'child-broadhurst',
       section: 'childcare',
       name: 'Broadhurst School',
@@ -343,7 +343,7 @@ const DATA = {
       lng: -0.19,
       mapQuery: 'Broadhurst School, West Hampstead, London'
     },
-{
+    {
       id: 'child-rainbow-montessori',
       section: 'childcare',
       name: 'Rainbow Montessori',
@@ -359,7 +359,7 @@ const DATA = {
       lng: -0.225,
       mapQuery: 'Rainbow Montessori, Willesden Green, London'
     },
-{
+    {
       id: 'child-malorees',
       section: 'childcare',
       name: 'Malorees Infant & Nursery School',
@@ -375,7 +375,7 @@ const DATA = {
       lng: -0.128,
       mapQuery: 'Malorees Infant and Nursery School, London'
     },
-{
+    {
       id: 'child-princess-frederica',
       section: 'childcare',
       name: 'Princess Frederica C of E Nursery School',
@@ -391,7 +391,7 @@ const DATA = {
       lng: -0.128,
       mapQuery: 'Princess Frederica C of E Nursery School, London'
     },
-{
+    {
       id: 'child-beckford-nursery',
       section: 'childcare',
       name: 'Beckford Primary Nursery',
@@ -407,7 +407,7 @@ const DATA = {
       lng: -0.128,
       mapQuery: 'Beckford Primary School, London'
     },
-{
+    {
       id: 'child-treetops',
       section: 'childcare',
       name: 'Treetops Nursery School',
@@ -423,7 +423,7 @@ const DATA = {
       lng: -0.2328814,
       mapQuery: 'Treetops Nursery School, Doyle Gardens, London'
     },
-{
+    {
       id: 'child-happy-hands-willesden',
       section: 'childcare',
       name: 'Happy Hands Montessori Nursery (Willesden)',
@@ -439,7 +439,7 @@ const DATA = {
       lng: -0.235,
       mapQuery: 'Happy Hands Montessori Nursery, Willesden, London'
     },
-{
+    {
       id: 'child-dollis-hill',
       section: 'childcare',
       name: 'N Family Club Dollis Hill',
@@ -455,7 +455,7 @@ const DATA = {
       lng: -0.2439987,
       mapQuery: '82 Dudden Hill Lane, Dollis Hill, London'
     },
-{
+    {
       id: 'child-wetherby-kensal',
       section: 'childcare',
       name: 'Wetherby House Montessori Kensal Rise',
@@ -471,7 +471,7 @@ const DATA = {
       lng: -0.218,
       mapQuery: 'Wetherby House Montessori Kensal Rise, London'
     },
-{
+    {
       id: 'child-brondesbury-nursery',
       section: 'childcare',
       name: 'Brondesbury Park Synagogue Nursery',
@@ -487,7 +487,7 @@ const DATA = {
       lng: -0.215,
       mapQuery: 'Brondesbury Park Synagogue Nursery, London'
     },
-{
+    {
       id: 'child-kensal-house',
       section: 'childcare',
       name: 'Kensal House Nursery',
@@ -503,7 +503,7 @@ const DATA = {
       lng: -0.128,
       mapQuery: 'Kensal House Nursery, White Building, 555 Harrow Road, London W10 4RH'
     },
-{
+    {
       id: 'child-college-green',
       section: 'childcare',
       name: 'College Green Nursery School & Services',
@@ -519,7 +519,7 @@ const DATA = {
       lng: -0.128,
       mapQuery: 'College Green Nursery School & Services, 161 College Road, London NW10 3PH'
     },
-{
+    {
       id: 'child-anson-primary',
       section: 'childcare',
       name: 'Anson Primary Nursery',
@@ -535,7 +535,7 @@ const DATA = {
       lng: -0.2193071,
       mapQuery: 'Anson Primary School, London'
     },
-{
+    {
       id: 'child-busy-bees-harlesden',
       section: 'childcare',
       name: 'Busy Bees Harlesden',
@@ -551,7 +551,7 @@ const DATA = {
       lng: -0.249,
       mapQuery: 'Busy Bees Harlesden, 59a Longstone Avenue, London NW10 3UN'
     },
-{
+    {
       id: 'child-busy-bees-kilburn',
       section: 'childcare',
       name: 'Busy Bees Kilburn',
@@ -567,7 +567,7 @@ const DATA = {
       lng: -0.2,
       mapQuery: 'Busy Bees Kilburn Square, London NW6 6QG'
     },
-{
+    {
       id: 'child-wetherby-queens-park',
       section: 'childcare',
       name: "Wetherby House Montessori Queen's Park",
@@ -583,7 +583,7 @@ const DATA = {
       lng: -0.205,
       mapQuery: "Wetherby House Montessori Queen's Park, London"
     },
-{
+    {
       id: 'child-snuggle-bunnies',
       section: 'childcare',
       name: 'Snuggle Bunnies Nursery',
@@ -599,7 +599,7 @@ const DATA = {
       lng: -0.272,
       mapQuery: 'Snuggle Bunnies Nursery, Kingsbury, London NW9'
     },
-{
+    {
       id: 'child-bright-star-kilburn',
       section: 'childcare',
       name: 'Bright Star Day Nursery Kilburn',
@@ -617,7 +617,7 @@ const DATA = {
     }
   ],
   camps: [
-{
+    {
       id: 'camp-fresh-arts-queens-park',
       section: 'camps',
       name: 'Queens Park Holiday Camp (Fresh Arts)',
@@ -637,7 +637,7 @@ const DATA = {
       mapQuery: 'Salusbury Primary School, Salusbury Road, London NW6 6RG',
       featured: true
     },
-{
+    {
       id: 'camp-jag-willesden-sports-centre',
       section: 'camps',
       name: 'Willesden Sports Centre Holiday HQ',
@@ -656,7 +656,7 @@ const DATA = {
       lng: -0.2313636,
       mapQuery: 'Willesden Sports Centre, Donnington Road, London NW10 3QX'
     },
-{
+    {
       id: 'camp-holiday-academy',
       section: 'camps',
       name: 'Holiday Academy London',
@@ -675,7 +675,7 @@ const DATA = {
       lng: -0.128,
       mapQuery: 'Holiday Academy London, NW1'
     },
-{
+    {
       id: 'camp-nwga-queens-park',
       section: 'camps',
       name: 'Nile Wilson Gymnastics Academy',
@@ -693,7 +693,7 @@ const DATA = {
       lng: -0.205,
       mapQuery: "Queen's Park, London NW6"
     },
-{
+    {
       id: 'camp-apf-brent',
       section: 'camps',
       name: 'APF Brent Holiday Camps',
@@ -710,7 +710,7 @@ const DATA = {
       lng: -0.28,
       mapQuery: 'Bridge Park Leisure Centre, Brent, London'
     },
-{
+    {
       id: 'camp-brent-haf',
       section: 'camps',
       name: 'Brent HAF holiday places',
@@ -728,7 +728,7 @@ const DATA = {
       lng: -0.2014562,
       mapQuery: 'Brent Council, London'
     },
-{
+    {
       id: 'camp-breezy-club',
       section: 'camps',
       name: 'The Breezy Club',
@@ -746,7 +746,7 @@ const DATA = {
       lng: -0.128,
       mapQuery: 'The Breezy Club, Alexandra Park School, London'
     },
-{
+    {
       id: 'camp-little-dance-queens-park',
       section: 'camps',
       name: "The Little Dance Academy — Queen's Park",
@@ -764,7 +764,7 @@ const DATA = {
       lng: -0.2054958,
       mapQuery: 'Queen’s Park, London'
     },
-{
+    {
       id: 'camp-dance-by-the-park',
       section: 'camps',
       name: 'Dance by the Park',
@@ -782,7 +782,7 @@ const DATA = {
       lng: -0.1948607,
       mapQuery: 'Queen’s Park, London NW6'
     },
-{
+    {
       id: 'camp-club-excel-qpcs',
       section: 'camps',
       name: "Club Excel Multi Activity Camp — Queen's Park Community School",
@@ -800,7 +800,7 @@ const DATA = {
       lng: -0.2190511,
       mapQuery: 'Queens Park Community School, London'
     },
-{
+    {
       id: 'camp-serving-winners',
       section: 'camps',
       name: 'Serving Winners Holiday Camps',
@@ -818,7 +818,7 @@ const DATA = {
       lng: -13.2140092,
       mapQuery: 'North West London'
     },
-{
+    {
       id: 'camp-gladstone-park-nta',
       section: 'camps',
       name: 'Gladstone Park NTA Holiday Camps',
@@ -837,7 +837,7 @@ const DATA = {
       mapQuery: 'Gladstone Park, London NW2',
       featured: true
     },
-{
+    {
       id: 'camp-elmwood-lawn-tennis-club',
       section: 'camps',
       name: 'Elmwood Lawn Tennis Club Holiday Camps',
@@ -855,7 +855,7 @@ const DATA = {
       lng: -0.128,
       mapQuery: 'Elmwood Lawn Tennis Club, London NW10'
     },
-{
+    {
       id: 'camp-queens-park-tennis-courts',
       section: 'camps',
       name: "Queen's Park Tennis Courts Holiday Camps",
@@ -873,7 +873,7 @@ const DATA = {
       lng: -0.205,
       mapQuery: "Queen's Park Tennis Courts, London"
     },
-{
+    {
       id: 'camp-vale-tennis-coaching',
       section: 'camps',
       name: 'Vale Tennis Coaching Holiday Camps',
@@ -891,7 +891,7 @@ const DATA = {
       lng: -0.19,
       mapQuery: 'Littletons Tennis Club, Maida Vale, London'
     },
-{
+    {
       id: 'camp-msport-active',
       section: 'camps',
       name: 'MSport Active Kidz Holiday Camp',
@@ -909,7 +909,7 @@ const DATA = {
       lng: -0.1277653,
       mapQuery: 'London'
     },
-{
+    {
       id: 'camp-petite-performers-west-hampstead',
       section: 'camps',
       name: 'Petite Performers — West Hampstead',
@@ -927,7 +927,7 @@ const DATA = {
       lng: -0.1895175,
       mapQuery: 'West Hampstead, London NW6'
     },
-{
+    {
       id: 'camp-rocket-club-kensal-rise',
       section: 'camps',
       name: 'Rocket Club — Kensal Rise',
@@ -945,7 +945,7 @@ const DATA = {
       lng: -0.2200978,
       mapQuery: 'Kensal Rise, London NW10'
     },
-{
+    {
       id: 'camp-jag-salusbury',
       section: 'camps',
       name: 'Junior Adventures Group — Salusbury Primary School',
@@ -963,7 +963,7 @@ const DATA = {
       lng: -0.2055289,
       mapQuery: 'Salusbury Primary School, Salusbury Road, London NW6 6RG'
     },
-{
+    {
       id: 'camp-ett-sports',
       section: 'camps',
       name: 'ETT Sports Summer Camp',
@@ -982,7 +982,7 @@ const DATA = {
       lng: -0.128,
       mapQuery: 'Mora School, Mora Road, London NW2'
     },
-{
+    {
       id: 'camp-after-school-dreams',
       section: 'camps',
       name: 'After School Dreams Summer Camp',
@@ -1005,7 +1005,7 @@ const DATA = {
       featured: true,
       isNew: true
     },
-{
+    {
       id: 'camp-camp-beaumont-mill-hill',
       section: 'camps',
       name: 'Camp Beaumont — Mill Hill School',
@@ -1021,7 +1021,7 @@ const DATA = {
       lng: -0.2326364,
       mapQuery: 'Mill Hill School, The Ridgeway, London NW7 1QS'
     },
-{
+    {
       id: 'camp-super-camps-south-hampstead',
       section: 'camps',
       name: 'Super Camps — South Hampstead High School',
@@ -1037,7 +1037,7 @@ const DATA = {
       lng: -0.1768538,
       mapQuery: 'South Hampstead High School, 3 Maresfield Gardens, London NW3 5SS'
     },
-{
+    {
       id: 'camp-super-camps-west-hampstead',
       section: 'camps',
       name: 'Super Camps — The Mulberry House School',
@@ -1053,7 +1053,7 @@ const DATA = {
       lng: -0.128,
       mapQuery: 'The Mulberry House School, 7 Minster Road, London NW2 3SD'
     },
-{
+    {
       id: 'camp-chelsea-fc-paddington',
       section: 'camps',
       name: 'Chelsea FC Foundation Soccer School — Paddington',
@@ -1069,7 +1069,7 @@ const DATA = {
       lng: -0.19,
       mapQuery: 'Paddington Recreation Ground, Maida Vale, London W9'
     },
-{
+    {
       id: 'camp-arsenal-soccer',
       section: 'camps',
       name: 'Arsenal Soccer Schools — North London',
@@ -1085,7 +1085,7 @@ const DATA = {
       lng: -0.128,
       mapQuery: 'Arsenal, North London'
     },
-{
+    {
       id: 'camp-qpr-community',
       section: 'camps',
       name: 'QPR Community Trust — holiday courses',
@@ -1101,7 +1101,7 @@ const DATA = {
       lng: -0.128,
       mapQuery: 'QPR, Loftus Road, London'
     },
-{
+    {
       id: 'camp-all-star-tennis',
       section: 'camps',
       name: 'All Star Tennis — holiday camps',
@@ -1117,7 +1117,7 @@ const DATA = {
       lng: -0.1958473,
       mapQuery: 'All Star Tennis, London'
     },
-{
+    {
       id: 'camp-will-to-win-regents',
       section: 'camps',
       name: "Will to Win Tennis — Regent's Park",
@@ -1133,7 +1133,7 @@ const DATA = {
       lng: -0.157,
       mapQuery: "Will to Win, Regent's Park, York Bridge, London NW1 4NU"
     },
-{
+    {
       id: 'camp-fit-for-sport',
       section: 'camps',
       name: 'Fit for Sport — Better leisure centres',
@@ -1149,7 +1149,7 @@ const DATA = {
       lng: -0.1726474,
       mapQuery: 'Swiss Cottage Leisure Centre, London NW3 3NF'
     },
-{
+    {
       id: 'camp-barracudas',
       section: 'camps',
       name: 'Barracudas — multi-activity camps',
@@ -1165,7 +1165,7 @@ const DATA = {
       lng: -0.128,
       mapQuery: 'Barracudas, London'
     },
-{
+    {
       id: 'camp-stagecoach-holiday',
       section: 'camps',
       name: 'Stagecoach — holiday workshops',
@@ -1181,7 +1181,7 @@ const DATA = {
       lng: -0.2246571,
       mapQuery: 'Princess Frederica School, College Road, London NW10 5TP'
     },
-{
+    {
       id: 'camp-fire-tech',
       section: 'camps',
       name: 'Fire Tech Camp — coding & tech',
@@ -1197,7 +1197,7 @@ const DATA = {
       lng: -0.128,
       mapQuery: 'Fire Tech Camp, London'
     },
-{
+    {
       id: 'camp-little-house-science',
       section: 'camps',
       name: 'Little House of Science — holiday workshops',
@@ -1213,7 +1213,7 @@ const DATA = {
       lng: -0.178,
       mapQuery: 'Little House of Science, Hampstead, London'
     },
-{
+    {
       id: 'camp-razzamataz',
       section: 'camps',
       name: 'Razzamataz Theatre Schools — holiday workshops',
@@ -1229,7 +1229,7 @@ const DATA = {
       lng: -0.128,
       mapQuery: 'Razzamataz, London'
     },
-{
+    {
       id: 'camp-art-academy-camden',
       section: 'camps',
       name: 'Art Academy — holiday workshops',
@@ -1245,7 +1245,7 @@ const DATA = {
       lng: -0.143,
       mapQuery: 'Art Academy, Camden, London NW1'
     },
-{
+    {
       id: 'camp-camden-haf',
       section: 'camps',
       name: 'Camden Healthy Holidays (HAF)',
@@ -1261,7 +1261,7 @@ const DATA = {
       lng: -0.1624803,
       mapQuery: 'Camden, London'
     },
-{
+    {
       id: 'camp-swiss-cottage-holiday',
       section: 'camps',
       name: 'Swiss Cottage Leisure Centre — holiday activities',
@@ -1277,7 +1277,7 @@ const DATA = {
       lng: -0.1725073,
       mapQuery: 'Swiss Cottage Leisure Centre, Adelaide Road, London NW3 3NF'
     },
-{
+    {
       id: 'camp-hendon-gymnastics',
       section: 'camps',
       name: 'Gymnastics holiday camps — Hendon Leisure Centre',
@@ -1293,7 +1293,7 @@ const DATA = {
       lng: -0.2154514,
       mapQuery: 'Hendon Leisure Centre, Marble Drive, London NW2 1XQ'
     },
-{
+    {
       id: 'camp-brondesbury-coaching',
       section: 'camps',
       name: 'Brondesbury Coaching — Tennis & Multi-Sport Camps',
@@ -1311,7 +1311,7 @@ const DATA = {
     }
   ],
   cafes: [
-{
+    {
       id: 'cafe-hearth',
       section: 'cafes',
       name: 'The Hearth',
@@ -1328,7 +1328,7 @@ const DATA = {
       mapQuery: "The Hearth, Queen's Park, London",
       mapPinned: true
     },
-{
+    {
       id: 'cafe-queens-park-books',
       section: 'cafes',
       name: 'Queens Park Books',
@@ -1344,7 +1344,7 @@ const DATA = {
       lng: -0.128,
       mapQuery: 'Queens Park Books, London'
     },
-{
+    {
       id: 'cafe-willesden-library',
       section: 'cafes',
       name: 'Willesden Green Library Centre café area',
@@ -1360,7 +1360,7 @@ const DATA = {
       lng: -0.225,
       mapQuery: 'Willesden Green Library Centre, London'
     },
-{
+    {
       id: 'cafe-maqam',
       section: 'cafes',
       name: 'The Maqam Centre café',
@@ -1378,7 +1378,7 @@ const DATA = {
     }
   ],
   indoor: [
-{
+    {
       id: 'indoor-willesden-library',
       section: 'indoor',
       name: 'The Library at Willesden Green',
@@ -1395,7 +1395,7 @@ const DATA = {
       mapQuery: 'The Library at Willesden Green, 95 High Road, NW10 2SF',
       promoImage: 'https://images.unsplash.com/photo-1507842217343-583bb4565c69?w=800&h=450&fit=crop&auto=format'
     },
-{
+    {
       id: 'indoor-raf-museum',
       section: 'indoor',
       name: 'Royal Air Force Museum',
@@ -1412,7 +1412,7 @@ const DATA = {
       mapQuery: 'RAF Museum London, Grahame Park Way, London NW9 5LL',
       promoImage: 'https://images.unsplash.com/photo-1559060018-6153ad18ec53?w=800&h=450&fit=crop&auto=format'
     },
-{
+    {
       id: 'indoor-science-museum',
       section: 'indoor',
       name: 'Worth the trip: Science Museum',
@@ -1429,7 +1429,7 @@ const DATA = {
       mapQuery: 'Science Museum, Exhibition Road, London SW7 2DD',
       promoImage: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=450&fit=crop&auto=format'
     },
-{
+    {
       id: 'indoor-natural-history',
       section: 'indoor',
       name: 'Worth the trip: Natural History Museum',
@@ -1446,7 +1446,7 @@ const DATA = {
       mapQuery: 'Natural History Museum, Cromwell Road, London SW7 5BD',
       promoImage: 'https://images.unsplash.com/photo-1569428034239-f9565e32e224?w=800&h=450&fit=crop&auto=format'
     },
-{
+    {
       id: 'indoor-clip-n-climb',
       section: 'indoor',
       name: "Worth the trip: Clip 'n Climb Chelsea",
@@ -1463,7 +1463,7 @@ const DATA = {
       mapQuery: 'Clip n Climb Chelsea, 19 Michael Road, London SW6 2ER',
       promoImage: 'https://images.unsplash.com/photo-1522163182402-834f871fd851?w=800&h=450&fit=crop&auto=format'
     },
-{
+    {
       id: 'indoor-soft-play-cricklewood',
       section: 'indoor',
       name: 'Jump In! Trampoline Park Cricklewood',
@@ -1480,7 +1480,7 @@ const DATA = {
       mapQuery: 'Jump In Cricklewood, 158 Cricklewood Broadway, London NW2 3ED',
       promoImage: 'https://images.unsplash.com/photo-1596895111956-bf1cf84b1e2b?w=800&h=450&fit=crop&auto=format'
     },
-{
+    {
       id: 'indoor-london-transport',
       section: 'indoor',
       name: 'Worth the trip: London Transport Museum',
@@ -1497,7 +1497,7 @@ const DATA = {
       mapQuery: 'London Transport Museum, Covent Garden Piazza, London WC2E 7BB',
       promoImage: 'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&h=450&fit=crop&auto=format'
     },
-{
+    {
       id: 'indoor-swiss-cottage-leisure',
       section: 'indoor',
       name: 'Swiss Cottage Leisure Centre',
@@ -1514,7 +1514,7 @@ const DATA = {
       mapQuery: 'Swiss Cottage Leisure Centre, Adelaide Road, London NW3 3NF',
       promoImage: 'https://images.unsplash.com/photo-1576610616656-d3aa5d1f4534?w=800&h=450&fit=crop&auto=format'
     },
-{
+    {
       id: 'indoor-cinema-kids-club',
       section: 'indoor',
       name: "Kids' Club at Everyman Cinema",
@@ -1531,7 +1531,7 @@ const DATA = {
       mapQuery: 'Everyman Maida Vale, 215 Sutherland Avenue, London W9 1RU',
       promoImage: 'https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800&h=450&fit=crop&auto=format'
     },
-{
+    {
       id: 'indoor-sheriff-centre',
       section: 'indoor',
       name: 'The Sheriff Centre',
@@ -1539,7 +1539,7 @@ const DATA = {
       cost: 'low',
       area: 'West Hampstead',
       blurb: 'Community hub on Sheriff Road with a dedicated soft play area, café, and regular toddler groups. A West Hampstead institution — relaxed, affordable, and properly community-run. Great for rainy days and meeting other local parents.',
-      recommendation: 'The café is surprisingly good and the soft play is clean — a genuine local gem that\'s been here for years.',
+      recommendation: "The café is surprisingly good and the soft play is clean — a genuine local gem that's been here for years.",
       tags: ['soft play', 'community', 'café', 'toddler', 'west hampstead'],
       contact: 'https://www.sheriffcentre.co.uk/',
       linkLabel: 'Sheriff Centre',
@@ -1567,7 +1567,7 @@ const DATA = {
     }
   ],
   send: [
-{
+    {
       id: 'send-brent-parent-carer',
       section: 'send',
       name: 'Brent Parent Carer Forum',
@@ -1583,7 +1583,7 @@ const DATA = {
       lng: -0.2759064,
       mapQuery: 'Brent, London'
     },
-{
+    {
       id: 'send-contact-charity',
       section: 'send',
       name: 'Contact — for families with disabled children',
@@ -1599,7 +1599,7 @@ const DATA = {
       lng: -0.128,
       mapQuery: 'Contact, Wenlock Road, London N1 7GT'
     },
-{
+    {
       id: 'send-ipsea',
       section: 'send',
       name: 'IPSEA — SEND legal advice',
@@ -1615,7 +1615,7 @@ const DATA = {
       lng: 0.122,
       mapQuery: 'IPSEA, Cambridge, UK'
     },
-{
+    {
       id: 'send-brent-mencap',
       section: 'send',
       name: 'Brent Mencap',
@@ -1631,7 +1631,7 @@ const DATA = {
       lng: -0.28,
       mapQuery: 'Brent Mencap, 379-381 High Road, London NW10 2JR'
     },
-{
+    {
       id: 'send-queens-park-inclusive',
       section: 'send',
       name: "Inclusive Play Sessions at Queen's Park",
@@ -1647,7 +1647,7 @@ const DATA = {
       lng: -0.205,
       mapQuery: "Queen's Park, Harvist Road, London NW6 6SG"
     },
-{
+    {
       id: 'send-swimming-send',
       section: 'send',
       name: 'SEND-friendly swimming sessions',
@@ -1663,7 +1663,7 @@ const DATA = {
       lng: -0.2313636,
       mapQuery: 'Willesden Sports Centre, Donnington Road, London NW10 3QX'
     },
-{
+    {
       id: 'send-autism-brent',
       section: 'send',
       name: 'Brent Autism Service',
@@ -1679,7 +1679,7 @@ const DATA = {
       lng: -0.28,
       mapQuery: 'Brent CAMHS, London'
     },
-{
+    {
       id: 'send-sensory-room',
       section: 'send',
       name: 'Sensory Room at Willesden Library',
@@ -1695,7 +1695,7 @@ const DATA = {
       lng: -0.2289918,
       mapQuery: 'The Library at Willesden Green, 95 High Road, NW10 2SF'
     },
-{
+    {
       id: 'send-nasen',
       section: 'send',
       name: 'nasen — SEND teaching resources',
@@ -1713,7 +1713,7 @@ const DATA = {
     }
   ],
   activities: [
-{
+    {
       id: 'act-swiss-cottage-swim',
       section: 'activities',
       name: 'Swiss Cottage Leisure Centre — family swim',
@@ -1729,7 +1729,7 @@ const DATA = {
       lng: -0.1725073,
       mapQuery: 'Swiss Cottage Leisure Centre, Adelaide Road, London NW3 3NF'
     },
-{
+    {
       id: 'act-capoeira-kensal',
       section: 'activities',
       name: 'Capoeira for Kids — Kensal Rise',
@@ -1745,7 +1745,7 @@ const DATA = {
       lng: -0.2200978,
       mapQuery: 'Kensal Rise, London NW10'
     },
-{
+    {
       id: 'act-queens-park-tennis',
       section: 'activities',
       name: "Queen's Park Tennis Courts",
@@ -1761,7 +1761,7 @@ const DATA = {
       lng: -0.205,
       mapQuery: "Queen's Park Tennis Courts, Harvist Road, London NW6 6SG"
     },
-{
+    {
       id: 'act-football-little-kickers',
       section: 'activities',
       name: 'Little Kickers — Willesden',
@@ -1777,7 +1777,7 @@ const DATA = {
       lng: -0.2363599,
       mapQuery: 'Willesden Green, London NW10'
     },
-{
+    {
       id: 'act-gymnastics-willesden',
       section: 'activities',
       name: 'Willesden Gymnastics Club',
@@ -1793,7 +1793,7 @@ const DATA = {
       lng: -0.230209,
       mapQuery: 'Willesden, London NW10'
     },
-{
+    {
       id: 'act-dance-willesden',
       section: 'activities',
       name: 'Baby Ballet — Willesden Green',
@@ -1809,7 +1809,7 @@ const DATA = {
       lng: -0.2363599,
       mapQuery: 'Willesden Green, London NW10'
     },
-{
+    {
       id: 'act-music-monkeys',
       section: 'activities',
       name: "Monkey Music — Queen's Park",
@@ -1825,7 +1825,7 @@ const DATA = {
       lng: -0.205,
       mapQuery: "Queen's Park, London NW6"
     },
-{
+    {
       id: 'act-karate-willesden',
       section: 'activities',
       name: 'Karate Kids — Willesden',
@@ -1841,7 +1841,7 @@ const DATA = {
       lng: -0.230209,
       mapQuery: 'Willesden, London NW10'
     },
-{
+    {
       id: 'act-art-club-cricklewood',
       section: 'activities',
       name: 'Little Artists Club — Cricklewood',
@@ -1857,7 +1857,7 @@ const DATA = {
       lng: -0.2237068,
       mapQuery: 'Cricklewood, London NW2'
     },
-{
+    {
       id: 'act-forest-school-queens-park',
       section: 'activities',
       name: "Forest School at Queen's Park",
@@ -1872,147 +1872,6 @@ const DATA = {
       lat: 51.535,
       lng: -0.205,
       mapQuery: "Queen's Park Wildlife Area, Harvist Road, London NW6 6SG"
-    }
-  ],
-  pubs: [
-{
-      id: 'pub-alice-house',
-      section: 'pubs',
-      name: 'The Alice House',
-      age: 'all ages',
-      cost: 'mid',
-      area: "Queen's Park",
-      blurb: 'Gastropub with a large beer garden at the back — one of the most family-friendly spots on Salusbury Road. High chairs, changing facilities, and a relaxed weekend vibe where nobody blinks at a toddler uprising. Good Sunday roasts.',
-      recommendation: "Best all-rounder for families in Queen's Park — big garden, great food, genuinely welcoming staff.",
-      tags: ['beer garden', 'gastropub', 'sunday roast', 'changing facilities', 'salusbury road'],
-      contact: 'https://www.thealicehouse.co.uk/',
-      linkLabel: 'Visit website',
-      lat: 51.5348333,
-      lng: -0.2045056,
-      mapQuery: 'The Alice House, 53-55 Salusbury Road, London NW6 6NJ',
-      promoImage: 'https://images.unsplash.com/photo-1571071627962-b100cdd80b50?w=800&h=450&fit=crop&auto=format',
-      featured: true
-    },
-{
-      id: 'pub-salusbury',
-      section: 'pubs',
-      name: 'The Salusbury',
-      age: 'all ages',
-      cost: 'high',
-      area: "Queen's Park",
-      blurb: 'Wine bar-meets-gastropub with a continental feel. Kids are genuinely welcome — not just tolerated. The deli counter and bakery make it an easy stop any time of day, and the outdoor tables on Salusbury Road are prime parent-watching territory.',
-      recommendation: 'Perfect for a civilised lunch where you actually get to finish your meal while the kids colour.',
-      tags: ['gastropub', 'wine bar', 'deli', 'outdoor seating', 'salusbury road'],
-      contact: 'https://www.thesalusbury.co.uk/',
-      linkLabel: 'Visit website',
-      lat: 51.5355635,
-      lng: -0.2054968,
-      mapQuery: 'The Salusbury, 50 Salusbury Road, London NW6 6NN',
-      promoImage: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&h=450&fit=crop&auto=format'
-    },
-{
-      id: 'pub-gallery',
-      section: 'pubs',
-      name: 'The Gallery',
-      age: 'all ages',
-      cost: 'mid',
-      area: 'West Hampstead',
-      blurb: "Spacious gastropub on Broadhurst Gardens with a large beer garden that fills with families at weekends. The garden is the main draw — plenty of room for buggies and wandering toddlers. Solid pub food menu with kids' options.",
-      recommendation: 'The garden is the star here — one of the biggest in the area and properly set up for families.',
-      tags: ['beer garden', 'gastropub', 'kids menu', 'west hampstead'],
-      contact: 'https://www.thegallerynw6.co.uk/',
-      linkLabel: 'Visit website',
-      lat: 51.5465265,
-      lng: -0.1902167,
-      mapQuery: 'The Gallery, 190 Broadhurst Gardens, London NW6 3AY',
-      promoImage: 'https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=800&h=450&fit=crop&auto=format'
-    },
-{
-      id: 'pub-black-lion',
-      section: 'pubs',
-      name: 'The Black Lion',
-      age: 'all ages',
-      cost: 'mid',
-      area: 'Kensal Rise / West Hampstead',
-      blurb: 'Beautifully renovated pub on West End Lane with a large beer garden. Dogs and kids equally welcome. The garden is a suntrap in summer and the menu covers everything from proper roasts to burgers. High chairs available.',
-      recommendation: 'The garden is a proper suntrap — great for a lazy weekend afternoon with the family.',
-      tags: ['beer garden', 'gastropub', 'sunday roast', 'west end lane'],
-      contact: 'https://www.theblacklionnw6.com/',
-      linkLabel: 'Visit website',
-      lat: 51.551175,
-      lng: -0.1918711,
-      mapQuery: 'The Black Lion, 295 West End Lane, London NW6 1RD',
-      promoImage: 'https://images.unsplash.com/photo-1615937722923-67f6deaf2cc9?w=800&h=450&fit=crop&auto=format'
-    },
-{
-      id: 'pub-old-bell',
-      section: 'pubs',
-      name: 'The Old Bell',
-      age: 'all ages',
-      cost: 'mid',
-      area: 'Kilburn',
-      blurb: 'Gastropub on Willesden Lane with a relaxed beer garden. One of those places where families, after-work drinks, and Sunday roasts all coexist without friction. Baby change facilities and high chairs.',
-      recommendation: "Solid local that handles the full spectrum — quiet weekday lunch to busy Sunday roast — without ever feeling like kids aren't welcome.",
-      tags: ['beer garden', 'gastropub', 'sunday roast', 'changing facilities', 'kilburn'],
-      contact: 'https://www.theoldbellkilburn.co.uk/',
-      linkLabel: 'Visit website',
-      lat: 51.54,
-      lng: -0.235,
-      mapQuery: 'The Old Bell, 38 Willesden Lane, London NW6 7ST',
-      promoImage: 'https://images.unsplash.com/photo-1549488344-1f9b8d2bd1f3?w=800&h=450&fit=crop&auto=format'
-    },
-{
-      id: 'pub-freemasons-arms',
-      section: 'pubs',
-      name: 'The Freemasons Arms',
-      age: 'all ages',
-      cost: 'mid',
-      area: 'Hampstead',
-      blurb: "Right next to Hampstead Heath with a huge beer garden — the textbook post-Heath-walk family pub. The garden is enormous and very relaxed, with plenty of space for kids to run around. Menu covers pub classics, pizzas, and kids' portions.",
-      recommendation: "The ultimate family pub for a Heath day — massive garden, zero pretension, everyone's there for the same reason.",
-      tags: ['beer garden', 'hampstead heath', 'pub food', 'outdoor', 'large garden'],
-      contact: 'https://www.freemasonsarmshampstead.co.uk/',
-      linkLabel: 'Visit website',
-      lat: 51.507,
-      lng: -0.128,
-      mapQuery: 'Freemasons Arms, 32 Downshire Hill, London NW3 1NT',
-      promoImage: 'https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&h=450&fit=crop&auto=format',
-      featured: true
-    },
-{
-      id: 'pub-spaniards-inn',
-      section: 'pubs',
-      name: 'The Spaniards Inn',
-      age: 'all ages',
-      cost: 'high',
-      area: 'Hampstead',
-      blurb: "Historic 16th-century pub with one of the biggest and loveliest beer gardens in North London. Right on the edge of the Heath. Extremely family-friendly — the garden is practically a village green. Keats and Dickens drank here; now it's mostly parents with buggies.",
-      recommendation: 'Worth the trip for the garden alone — feels like a country pub in the middle of London. Perfect summer destination.',
-      tags: ['beer garden', 'historic', 'hampstead heath', 'large garden', 'destination pub'],
-      contact: 'https://www.thespaniardshampstead.co.uk/',
-      linkLabel: 'Visit website',
-      lat: 51.5698654,
-      lng: -0.1740643,
-      mapQuery: 'Spaniards Inn, Spaniards Road, London NW3 7JJ',
-      promoImage: 'https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=800&h=450&fit=crop&auto=format',
-      featured: true
-    },
-{
-      id: 'pub-crown-cricklewood',
-      section: 'pubs',
-      name: 'The Crown',
-      age: 'all ages',
-      cost: 'low',
-      area: 'Cricklewood',
-      blurb: 'Big pub on Cricklewood Broadway with a decent outdoor area and a properly family-friendly attitude. More of a traditional pub feel than the gastropubs — affordable, unpretentious, and the kind of place where nobody minds a bit of noise.',
-      recommendation: 'Best value family pub in the area — no gastropub mark-up, just honest pub food in a welcoming space.',
-      tags: ['beer garden', 'traditional', 'affordable', 'cricklewood'],
-      contact: 'https://www.crowncricklewood.co.uk/',
-      linkLabel: 'Visit website',
-      lat: 51.556211,
-      lng: -0.2148562,
-      mapQuery: 'The Crown, Cricklewood Broadway, London NW2 3ED',
-      promoImage: 'https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=800&h=450&fit=crop&auto=format'
     }
   ]
 };const SECTIONS = ['this-week', 'camps', 'childcare', 'cafes', 'indoor', 'send', 'activities'];
