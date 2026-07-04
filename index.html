@@ -83,9 +83,7 @@
 
 <main id="main-content">
   <section class="hero">
-    <div class="hero-image">
-      <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-0.290,51.510,-0.165,51.576&layer=mapnik" title="Map of Willesden Green and NW London" loading="eager"></iframe>
-    </div>
+    <div class="hero-image" id="hero-map"></div>
     <div class="hero-overlay"></div>
     <div class="hero-content">
       <div class="hero-kicker">Parents' guide for Willesden Green, Queen's Park, Kensal Rise, Harlesden, and nearby NW London</div>
@@ -390,5 +388,34 @@
 <script src="./map-coordinates.js"></script>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <script src="./app.js?v=20260704"></script>
+    <script>
+      // Hero Leaflet map — exact bounds, no interaction
+      (function() {
+        var el = document.getElementById('hero-map');
+        if (!el || !window.L) return;
+        var map = L.map(el, {
+          attributionControl: false,
+          zoomControl: false,
+          dragging: false,
+          touchZoom: false,
+          scrollWheelZoom: false,
+          doubleClickZoom: false,
+          boxZoom: false,
+          keyboard: false,
+          tap: false
+        });
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          maxZoom: 19
+        }).addTo(map);
+        // Brent Cross at top, Queen's Park area at bottom
+        var bounds = L.latLngBounds(
+          L.latLng(51.510, -0.290),
+          L.latLng(51.576, -0.165)
+        );
+        map.fitBounds(bounds);
+        // Prevent any map movement
+        map._handlers.forEach(function(h) { h.disable(); });
+      })();
+    </script>
 </body>
 </html>

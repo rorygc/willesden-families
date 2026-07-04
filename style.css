@@ -369,16 +369,10 @@ a, button, [role="button"], [role="link"], input, textarea, select {
 
 .hero-image img,
 .hero-image iframe {
-  position: absolute;
-  top: 50%;
-  left: 50%;
   width: 100%;
-  aspect-ratio: 1.894 / 1;
+  height: 100%;
   object-fit: cover;
   border: none;
-  transform: translate(-50%, -50%);
-  min-height: 100%;
-  min-width: 100%;
 }
 
 .hero-overlay {
