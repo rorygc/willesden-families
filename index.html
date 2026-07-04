@@ -87,9 +87,9 @@
       <a href="./pubs.html">Pubs</a>
       <a href="./baby-groups.html">Baby &amp; Toddler</a>
       <a href="#camps">Camps</a>
-      <a href="#childcare">Childcare</a>
-      <a href="#cafes">Cafés</a>
-      <a href="#map">Map</a>
+      <a href="./weekly-classes.html">Weekly classes</a>
+      <a href="./birthday-parties.html">🎂 Parties</a>
+      <a href="./itineraries.html">🗺️ Day plans</a>
       <a href="./schools.html">Schools</a>
     </nav>
 
@@ -117,12 +117,9 @@
   <a href="./pubs.html" onclick="document.getElementById('mobile-nav').classList.remove('open')">Pubs</a>
   <a href="./baby-groups.html" onclick="document.getElementById('mobile-nav').classList.remove('open')">Baby &amp; Toddler</a>
   <a href="#camps" onclick="document.getElementById('mobile-nav').classList.remove('open')">Camps</a>
-  <a href="#childcare" onclick="document.getElementById('mobile-nav').classList.remove('open')">Childcare</a>
-  <a href="#cafes" onclick="document.getElementById('mobile-nav').classList.remove('open')">Cafés</a>
-  <a href="#indoor" onclick="document.getElementById('mobile-nav').classList.remove('open')">Indoor</a>
-  <a href="#send" onclick="document.getElementById('mobile-nav').classList.remove('open')">SEND</a>
-  <a href="#activities" onclick="document.getElementById('mobile-nav').classList.remove('open')">Activities</a>
-  <a href="#map" onclick="document.getElementById('mobile-nav').classList.remove('open')">Map</a>
+  <a href="./weekly-classes.html" onclick="document.getElementById('mobile-nav').classList.remove('open')">Weekly classes</a>
+  <a href="./birthday-parties.html" onclick="document.getElementById('mobile-nav').classList.remove('open')">🎂 Party venues</a>
+  <a href="./itineraries.html" onclick="document.getElementById('mobile-nav').classList.remove('open')">🗺️ Day plans</a>
   <a href="./schools.html" onclick="document.getElementById('mobile-nav').classList.remove('open')">Schools</a>
   <a href="#contact" onclick="document.getElementById('mobile-nav').classList.remove('open')">Contact</a>
 </div>
@@ -224,10 +221,20 @@
           <strong>Schools</strong>
           <span>Ofsted ratings, admissions, local primaries</span>
         </a>
-        <a href="#camps" class="hub-card">
-          <span class="hub-card-icon">🏕️</span>
-          <strong>Holiday camps</strong>
-          <span>Summer, half-term, and school holiday clubs</span>
+        <a href="./birthday-parties.html" class="hub-card">
+          <span class="hub-card-icon">🎂</span>
+          <strong>Birthday parties</strong>
+          <span>Soft plays, halls, park pavilions, pool parties</span>
+        </a>
+        <a href="./weekly-classes.html" class="hub-card">
+          <span class="hub-card-icon">📅</span>
+          <strong>Weekly classes</strong>
+          <span>Swimming, football, dance, music — day by day</span>
+        </a>
+        <a href="./itineraries.html" class="hub-card">
+          <span class="hub-card-icon">🗺️</span>
+          <strong>Day plans</strong>
+          <span>Ready-made family routes and itineraries</span>
         </a>
       </div>
     </div>
@@ -242,6 +249,7 @@
         </div>
         <button class="toggle-chip" data-shortlist-only aria-pressed="false">Shortlist only</button>
         <button class="toggle-chip near-me-btn" id="near-me-btn" aria-pressed="false" onclick="triggerNearMe()">📍 Near me</button>
+        <button class="toggle-chip" id="open-now-btn" data-open-now aria-pressed="false" onclick="toggleOpenNow()">🕐 Open now</button>
       </div>
       <div class="filter-columns">
         <div>
@@ -440,6 +448,10 @@
               <strong>Sources</strong>
               <span>Brent, local directories, parent recommendations, and live web searches.</span>
             </div>
+            <div class="about-callout">
+              <strong>🗓️ School term dates 2026–27</strong>
+              <span>Autumn: Thu 3 Sep – Fri 18 Dec. Half term: 26–30 Oct. Spring: Mon 4 Jan 2027 – Thu 1 Apr. Summer: Mon 19 Apr – Wed 21 Jul. <a href="./weekly-classes.html#term-dates" style="text-decoration:underline;">Full calendar →</a></span>
+            </div>
           </div>
         </div>
       </div>
@@ -505,17 +517,19 @@
           <li><a href="./parks.html">Parks</a></li>
           <li><a href="./pubs.html">Pubs</a></li>
           <li><a href="./baby-groups.html">Baby &amp; Toddler</a></li>
-          <li><a href="#camps">Camps</a></li>
-          <li><a href="#childcare">Childcare</a></li>
-          <li><a href="#cafes">Cafés</a></li>
+          <li><a href="./camps.html">Camps</a></li>
+          <li><a href="./weekly-classes.html">Weekly classes</a></li>
+          <li><a href="./birthday-parties.html">Party venues</a></li>
         </ul>
       </div>
       <div class="footer-col">
         <h4>More</h4>
         <ul role="list">
-          <li><a href="#shortlist">Shortlist</a></li>
+          <li><a href="./itineraries.html">Day plans</a></li>
           <li><a href="./schools.html">Schools</a></li>
+          <li><a href="#shortlist">Shortlist</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li><a href="./feed.xml">RSS feed</a></li>
 
         </ul>
       </div>

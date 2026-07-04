@@ -1624,3 +1624,116 @@ a, button, [role="button"], [role="link"], input, textarea, select {
 .map-tooltip {
   display: none;
 }
+
+/* ══════════════════════════════════════════
+   Print styles — clean parent-friendly output
+   Removes nav, filters, map, and dark backgrounds
+   ══════════════════════════════════════════ */
+@media print {
+  *, *::before, *::after {
+    color: #222 !important;
+    background: white !important;
+    box-shadow: none !important;
+  }
+
+  .site-header,
+  .mobile-nav,
+  .filter-section,
+  #map,
+  .map-layout,
+  .hero-image,
+  .hero-overlay,
+  .community-banner,
+  .hub-strip,
+  .theme-toggle,
+  .mobile-menu-btn,
+  .header-actions,
+  .save-btn,
+  .card-actions,
+  .shortlist-actions,
+  .hero-actions,
+  .hero-highlights,
+  .live-update-banner,
+  #shortlist,
+  .back-link,
+  button[data-action],
+  .text-button,
+  .skip-link,
+  .region-dot,
+  .near-me-btn,
+  footer {
+    display: none !important;
+  }
+
+  body {
+    font-size: 11pt;
+    line-height: 1.4;
+    padding: 0;
+    margin: 0;
+  }
+
+  .container {
+    max-width: 100%;
+    padding: 0 15pt;
+  }
+
+  h1 { font-size: 18pt; margin-bottom: 6pt; }
+  h2 { font-size: 14pt; margin-top: 12pt; margin-bottom: 4pt; }
+  h3 { font-size: 12pt; margin-bottom: 2pt; }
+
+  .hero {
+    padding: 0;
+    min-height: unset;
+  }
+  .hero-content { padding: 0; }
+  .hero-stats { display: grid; grid-template-columns: repeat(4,1fr); gap: 8pt; padding: 0; }
+  .stat-card { border: 1px solid #ccc; padding: 4pt; }
+  .stat-card strong { display: block; font-size: 14pt; }
+
+  .parent-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 8pt;
+  }
+
+  .parent-card,
+  .shortlist-item,
+  article,
+  .about-callout {
+    break-inside: avoid;
+    border: 1px solid #ccc;
+    padding: 6pt;
+    margin-bottom: 6pt;
+    page-break-inside: avoid;
+  }
+
+  .parent-card-media-wrap,
+  .parent-card-promo,
+  .parent-card-media-overlay,
+  .badge-row,
+  .mini-pill-row,
+  .card-footnote { display: none; }
+
+  .parent-card-copy,
+  .parent-card-reco { font-size: 9pt; margin: 2pt 0; }
+
+  .section-header { margin-bottom: 6pt; }
+  .section-count { font-size: 10pt; }
+
+  .about-section { break-inside: avoid; }
+  .about-grid { grid-template-columns: 1fr; }
+
+  .site-footer { display: block; padding: 8pt 0; border-top: 1px solid #ccc; font-size: 8pt; }
+  .site-footer * { font-size: 8pt !important; }
+  .footer-grid { display: none; }
+
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 7pt;
+    color: #666;
+  }
+
+  /* Page margins */
+  @page {
+    margin: 15mm;
+  }
+}

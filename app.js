@@ -2586,6 +2586,445 @@ const DATA = {
       mapQuery: 'The Crown, Cricklewood Broadway, London NW2 3ED',
       promoImage: 'https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=800&h=450&fit=crop&auto=format'
     }
+  ],
+
+  indoor: [
+    {
+      id: 'indoor-willesden-library',
+      section: 'indoor',
+      name: 'The Library at Willesden Green',
+      age: 'all ages',
+      cost: 'free',
+      area: 'Willesden Green',
+      blurb: 'Modern library with a dedicated children\'s floor, regular storytelling sessions, craft workshops, and a café. The open-plan kids\' area has plenty of space for buggies, and the lift makes it fully accessible. Free Wi-Fi and comfortable seating for parents too.',
+      recommendation: 'Your default rainy-day fallback — warm, welcoming, free, and open seven days a week. Kids never get bored here.',
+      tags: ['library', 'free', 'storytelling', 'craft', 'indoor', 'café', 'accessible'],
+      contact: 'https://www.brent.gov.uk/libraries',
+      linkLabel: 'Brent libraries',
+      mapQuery: 'The Library at Willesden Green, 95 High Road, NW10 2SF',
+      promoImage: 'https://images.unsplash.com/photo-1507842217343-583bb4565c69?w=800&h=450&fit=crop&auto=format'
+    },
+    {
+      id: 'indoor-raf-museum',
+      section: 'indoor',
+      name: 'Royal Air Force Museum',
+      age: 'all ages',
+      cost: 'free',
+      area: 'Colindale',
+      blurb: 'Huge free museum with over 100 aircraft, interactive exhibits, a 4D cinema experience, and an outdoor playground. The kids\' zone lets children climb into cockpits and try flight simulators. Café on site. Easy to spend 3–4 hours here without spending a penny.',
+      recommendation: 'Massive, free, and genuinely fascinating for all ages — from toddlers transfixed by helicopters to older kids who love the hands-on exhibits.',
+      tags: ['museum', 'free', 'indoor', 'planes', 'interactive', 'playground'],
+      contact: 'https://www.rafmuseum.org.uk/london/',
+      linkLabel: 'Visit RAF Museum',
+      mapQuery: 'RAF Museum London, Grahame Park Way, London NW9 5LL',
+      promoImage: 'https://images.unsplash.com/photo-1559060018-6153ad18ec53?w=800&h=450&fit=crop&auto=format'
+    },
+    {
+      id: 'indoor-science-museum',
+      section: 'indoor',
+      name: 'Science Museum',
+      age: '3–12',
+      cost: 'free',
+      area: 'South Kensington',
+      blurb: 'World-class museum with The Garden (a dedicated under-5s sensory play space), Pattern Pod for younger children, Wonderlab for hands-on experiments, and the iconic space gallery. Free entry but some galleries need timed tickets. About 20 minutes on the Jubilee line.',
+      recommendation: 'Worth the Tube ride. Book the Wonderlab in advance — it\'s the highlight for kids 7+ and worth the small extra charge.',
+      tags: ['museum', 'free', 'indoor', 'science', 'interactive', 'central london'],
+      contact: 'https://www.sciencemuseum.org.uk/',
+      linkLabel: 'Visit Science Museum',
+      mapQuery: 'Science Museum, Exhibition Road, London SW7 2DD',
+      promoImage: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=450&fit=crop&auto=format'
+    },
+    {
+      id: 'indoor-natural-history',
+      section: 'indoor',
+      name: 'Natural History Museum',
+      age: 'all ages',
+      cost: 'free',
+      area: 'South Kensington',
+      blurb: 'Dinosaurs, earthquakes, volcanoes, and a life-size blue whale suspended from the ceiling. The dinosaur gallery alone justifies the trip. The Investigate centre lets kids handle real specimens. Quiet early mornings (first hour) if your child finds crowds overwhelming.',
+      recommendation: 'The dinosaur queue moves fast and is utterly worth it. Go straight there when you arrive — it gets busiest by midday.',
+      tags: ['museum', 'free', 'dinosaurs', 'indoor', 'central london', 'sensory'],
+      contact: 'https://www.nhm.ac.uk/',
+      linkLabel: 'Visit NHM',
+      mapQuery: 'Natural History Museum, Cromwell Road, London SW7 5BD',
+      promoImage: 'https://images.unsplash.com/photo-1569428034239-f9565e32e224?w=800&h=450&fit=crop&auto=format'
+    },
+    {
+      id: 'indoor-clip-n-climb',
+      section: 'indoor',
+      name: 'Clip \'n Climb Chelsea',
+      age: '4+',
+      cost: 'mid',
+      area: 'Chelsea',
+      blurb: 'Colourful themed climbing walls designed specifically for kids — no experience needed. Auto-belay systems mean they climb independently while you watch. Book a 90-minute session. There\'s also a soft-play area for younger siblings. Café with decent coffee.',
+      recommendation: 'Brilliant for burning off energy when it\'s pouring. Book weekend slots at least a week ahead — they fill up fast.',
+      tags: ['climbing', 'active', 'indoor', 'booking required'],
+      contact: 'https://www.clipnclimbchelsea.co.uk/',
+      linkLabel: 'Book a session',
+      mapQuery: 'Clip n Climb Chelsea, 19 Michael Road, London SW6 2ER',
+      promoImage: 'https://images.unsplash.com/photo-1522163182402-834f871fd851?w=800&h=450&fit=crop&auto=format'
+    },
+    {
+      id: 'indoor-soft-play-cricklewood',
+      section: 'indoor',
+      name: 'Jump In! Soft Play Cricklewood',
+      age: '0–10',
+      cost: 'low',
+      area: 'Cricklewood',
+      blurb: 'Large indoor soft-play centre with dedicated baby and toddler zones, a bigger frame for older kids, and a comfortable café with proper coffee and free Wi-Fi. Socks required for everyone (adults too — they sell them if you forget).',
+      recommendation: 'The toddler mornings (weekdays 9:30–11:30) are quieter and cheaper. Best value soft play in the immediate area.',
+      tags: ['soft play', 'indoor', 'toddler', 'café', 'active'],
+      contact: 'https://www.gojumpin.com/',
+      linkLabel: 'Visit website',
+      mapQuery: 'Jump In Cricklewood, 158 Cricklewood Broadway, London NW2 3ED',
+      promoImage: 'https://images.unsplash.com/photo-1596895111956-bf1cf84b1e2b?w=800&h=450&fit=crop&auto=format'
+    },
+    {
+      id: 'indoor-london-transport',
+      section: 'indoor',
+      name: 'London Transport Museum',
+      age: '2–10',
+      cost: 'mid',
+      area: 'Covent Garden',
+      blurb: 'Every vehicle-obsessed child\'s dream. Kids can climb aboard real buses, sit in a Tube driver\'s cab, and explore a hands-on play zone. Under-18s go free. The museum shop is dangerous (in a good way). Annual pass costs the same as a day ticket.',
+      recommendation: 'If your child is going through a bus/Tube/train phase, this is basically Disneyland. Annual pass pays for itself on the second visit.',
+      tags: ['museum', 'transport', 'interactive', 'indoor', 'central london'],
+      contact: 'https://www.ltmuseum.co.uk/',
+      linkLabel: 'Visit LTM',
+      mapQuery: 'London Transport Museum, Covent Garden Piazza, London WC2E 7BB',
+      promoImage: 'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&h=450&fit=crop&auto=format'
+    },
+    {
+      id: 'indoor-swiss-cottage-leisure',
+      section: 'indoor',
+      name: 'Swiss Cottage Leisure Centre',
+      age: 'all ages',
+      cost: 'low',
+      area: 'Swiss Cottage',
+      blurb: 'Council-run leisure centre with a dedicated family swimming pool (warmer than the main pool), splash features, a soft-play area, and crèche. Swimming lessons available. Pay-as-you-go — no membership needed. About 15 minutes on the Jubilee line.',
+      recommendation: 'The family pool with the pirate ship feature is fantastic for toddlers — warm, shallow, and always supervised.',
+      tags: ['swimming', 'soft play', 'indoor', 'active', 'affordable'],
+      contact: 'https://www.better.org.uk/leisure-centre/london/camden/swiss-cottage-leisure-centre',
+      linkLabel: 'Visit Better',
+      mapQuery: 'Swiss Cottage Leisure Centre, Adelaide Road, London NW3 3NF',
+      promoImage: 'https://images.unsplash.com/photo-1576610616656-d3aa5d1f4534?w=800&h=450&fit=crop&auto=format'
+    },
+    {
+      id: 'indoor-cinema-kids-club',
+      section: 'indoor',
+      name: 'Kids\' Club at Everyman Cinema',
+      age: '2–8',
+      cost: 'low',
+      area: 'Hampstead / Maida Vale',
+      blurb: 'Everyman cinemas run weekend morning Kids\' Clubs with recent family films at reduced prices. Sofa seating, blankets, and you can bring snacks. Low volume and the lights stay dim rather than off — perfect for first-time cinema-goers. Check local listings for times.',
+      recommendation: 'The Everyman Maida Vale and Hampstead both participate. Saturday 10am slots. Book ahead — popular films sell out.',
+      tags: ['cinema', 'weekend', 'indoor', 'relaxed', 'booking needed'],
+      contact: 'https://www.everymancinema.com/',
+      linkLabel: 'Everyman listings',
+      mapQuery: 'Everyman Maida Vale, 215 Sutherland Avenue, London W9 1RU',
+      promoImage: 'https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800&h=450&fit=crop&auto=format'
+    },
+    {
+      id: 'indoor-ark-softplay',
+      section: 'indoor',
+      name: 'The Ark Soft Play',
+      age: '0–8',
+      cost: 'low',
+      area: 'West Hampstead',
+      blurb: 'Clean, well-maintained soft-play centre near West Hampstead with a large frame, separate baby area, and a café serving decent food (not just crisps and squash). Free on-street parking nearby on weekends. Pre-booking recommended during school holidays.',
+      recommendation: 'Slightly pricier than Jump In but noticeably cleaner and calmer — worth the extra if you want a less hectic experience.',
+      tags: ['soft play', 'indoor', 'café', 'toddler', 'baby area'],
+      contact: 'https://www.thearksoftplay.co.uk/',
+      linkLabel: 'Visit The Ark',
+      mapQuery: 'The Ark Soft Play, 242 West End Lane, London NW6 1LG',
+      promoImage: 'https://images.unsplash.com/photo-1596464716127-f2a82984de30?w=800&h=450&fit=crop&auto=format'
+    }
+  ],
+
+  send: [
+    {
+      id: 'send-brent-sendiass',
+      section: 'send',
+      name: 'Brent SENDIASS',
+      age: '0–25',
+      cost: 'free',
+      area: 'Brent-wide',
+      blurb: 'Brent Council\'s free, impartial SEND information, advice and support service. They help with EHCP applications, school placements, tribunal appeals, and understanding your child\'s rights. Phone and email support available. They can attend school meetings with you.',
+      recommendation: 'Your first call for any SEND-related question in Brent. Free, confidential, and genuinely knowledgeable about local provision.',
+      tags: ['SEND', 'free', 'EHCP', 'advice', 'Brent', 'advocacy'],
+      contact: 'https://www.brent.gov.uk/sendiass',
+      linkLabel: 'Brent SENDIASS',
+      mapQuery: 'Brent Civic Centre, Engineers Way, Wembley HA9 0FJ'
+    },
+    {
+      id: 'send-brent-parent-carer',
+      section: 'send',
+      name: 'Brent Parent Carer Forum',
+      age: 'all ages',
+      cost: 'free',
+      area: 'Brent-wide',
+      blurb: 'Parent-led group for families of children with SEND in Brent. They run coffee mornings, training sessions, and actively feed into council decision-making about local SEND services. A great way to meet other parents who understand, and to have your voice heard on local provision.',
+      recommendation: 'Invaluable for feeling less alone. Their WhatsApp group is particularly active and supportive.',
+      tags: ['SEND', 'parent support', 'Brent', 'community', 'free'],
+      contact: 'https://www.brentpcf.org/',
+      linkLabel: 'Brent PCF',
+      mapQuery: 'Brent, London'
+    },
+    {
+      id: 'send-contact-charity',
+      section: 'send',
+      name: 'Contact — for families with disabled children',
+      age: '0–25',
+      cost: 'free',
+      area: 'National',
+      blurb: 'The main UK charity for families with disabled children. Free helpline for benefits advice, EHCP support, emotional support, and practical guidance. They also run local workshops and have a directory of parent carer forums across the country.',
+      recommendation: 'Their helpline (0808 808 3555) is staffed by parent carers who\'ve been through it themselves — they actually get it.',
+      tags: ['SEND', 'charity', 'helpline', 'benefits', 'national'],
+      contact: 'https://www.contact.org.uk/',
+      linkLabel: 'Contact charity',
+      mapQuery: 'Contact, Wenlock Road, London N1 7GT'
+    },
+    {
+      id: 'send-ipsea',
+      section: 'send',
+      name: 'IPSEA — SEND legal advice',
+      age: '0–25',
+      cost: 'free',
+      area: 'National',
+      blurb: 'Independent Provider of Special Education Advice. Free legally-based advice on getting the right education for children with SEND. They offer a tribunal helpline, online resources covering every EHCP stage, and can recommend education lawyers if needed.',
+      recommendation: 'Essential if you\'re heading toward tribunal or the LA is pushing back on provision. Their template letters are gold.',
+      tags: ['SEND', 'legal', 'EHCP', 'tribunal', 'free', 'national'],
+      contact: 'https://www.ipsea.org.uk/',
+      linkLabel: 'IPSEA website',
+      mapQuery: 'IPSEA, Cambridge, UK'
+    },
+    {
+      id: 'send-brent-mencap',
+      section: 'send',
+      name: 'Brent Mencap',
+      age: 'all ages',
+      cost: 'varies',
+      area: 'Brent-wide',
+      blurb: 'Local charity supporting people with learning disabilities and their families. They run youth clubs, Saturday activity sessions, holiday schemes, and family support groups. Also offer advice on benefits, transitions, and supported living for older teens and adults.',
+      recommendation: 'Their holiday play schemes are a lifeline — book early as places fill up quickly each school holiday.',
+      tags: ['SEND', 'learning disability', 'Brent', 'clubs', 'holiday'],
+      contact: 'https://www.brentmencap.org.uk/',
+      linkLabel: 'Brent Mencap',
+      mapQuery: 'Brent Mencap, 379-381 High Road, London NW10 2JR'
+    },
+    {
+      id: 'send-queens-park-inclusive',
+      section: 'send',
+      name: 'Inclusive Play Sessions at Queen\'s Park',
+      age: '0–12',
+      cost: 'free',
+      area: 'Queen\'s Park',
+      blurb: 'Queen\'s Park runs regular inclusive play sessions with trained staff, sensory equipment, and smaller group sizes. The playground itself has accessible equipment including a wheelchair-accessible roundabout and sensory planting areas. Contact the park office for session times.',
+      recommendation: 'The sensory garden near the café is a hidden gem — quieter than the main playground and beautifully planted.',
+      tags: ['SEND', 'inclusive', 'play', 'park', 'free', 'queens park'],
+      contact: 'https://www.cityoflondon.gov.uk/things-to-do/green-spaces/queens-park',
+      linkLabel: 'Queen\'s Park',
+      mapQuery: 'Queen\'s Park, Harvist Road, London NW6 6SG'
+    },
+    {
+      id: 'send-swimming-send',
+      section: 'send',
+      name: 'SEND-friendly swimming sessions',
+      age: 'all ages',
+      cost: 'low',
+      area: 'Brent-wide',
+      blurb: 'Brent leisure centres (Willesden Sports Centre, Vale Farm) run dedicated SEND swimming sessions with reduced numbers, warmer water, quiet environment (no whistles or loud music), and pool hoists. Check the Better UK app for the timetable — sessions book up quickly.',
+      recommendation: 'Sunday mornings at Vale Farm tend to be quietest. Call ahead to discuss any specific access needs.',
+      tags: ['SEND', 'swimming', 'sensory-friendly', 'Brent', 'accessible'],
+      contact: 'https://www.better.org.uk/',
+      linkLabel: 'Better UK app',
+      mapQuery: 'Willesden Sports Centre, Donnington Road, London NW10 3QX'
+    },
+    {
+      id: 'send-autism-brent',
+      section: 'send',
+      name: 'Brent Autism Service',
+      age: '0–18',
+      cost: 'free',
+      area: 'Brent-wide',
+      blurb: 'NHS service providing autism assessments, post-diagnosis support, and parenting programmes for families in Brent. They run the EarlyBird and Cygnet programmes — evidence-based courses that help parents understand autism and develop practical strategies.',
+      recommendation: 'Referral is through your GP or school SENCO. Waiting times can be long, so get on the list early.',
+      tags: ['SEND', 'autism', 'NHS', 'Brent', 'assessment', 'free'],
+      contact: 'https://www.cnwl.nhs.uk/services/child-and-adolescent-mental-health-services/brent-autism-service',
+      linkLabel: 'CNWL website',
+      mapQuery: 'Brent CAMHS, London'
+    },
+    {
+      id: 'send-sensory-room',
+      section: 'send',
+      name: 'Sensory Room at Willesden Library',
+      age: '0–12',
+      cost: 'free',
+      area: 'Willesden Green',
+      blurb: 'The Willesden Green Library has a small sensory room with bubble tubes, fibre optics, soft play shapes, and calming music. Bookable in 45-minute slots. Particularly useful for children who find the main library floor overstimulating. Ring ahead to book.',
+      recommendation: 'Quiet, calm, and free — book the first or last slot of the day for the most peaceful experience.',
+      tags: ['SEND', 'sensory', 'free', 'library', 'calm', 'willesden'],
+      contact: 'https://www.brent.gov.uk/libraries',
+      linkLabel: 'Book a slot',
+      mapQuery: 'The Library at Willesden Green, 95 High Road, NW10 2SF'
+    },
+    {
+      id: 'send-nasen',
+      section: 'send',
+      name: 'nasen — SEND teaching resources',
+      age: '0–25',
+      cost: 'free',
+      area: 'National',
+      blurb: 'National Association for Special Educational Needs. Mainly aimed at teachers and SENCOs, but their parent resources section is excellent — particularly the "Whole School SEND" guides, which explain what good SEND provision should look like in any school.',
+      recommendation: 'Really useful when you\'re evaluating schools — gives you a checklist of what proper SEND support should include.',
+      tags: ['SEND', 'education', 'resources', 'national', 'free'],
+      contact: 'https://www.nasen.org.uk/',
+      linkLabel: 'nasen website',
+      mapQuery: 'nasen, Tamworth, UK'
+    }
+  ],
+
+  activities: [
+    {
+      id: 'act-swiss-cottage-swim',
+      section: 'activities',
+      name: 'Swiss Cottage Leisure Centre — family swim',
+      age: 'all ages',
+      cost: 'low',
+      area: 'Swiss Cottage',
+      blurb: 'Council-run leisure centre with a dedicated family leisure pool featuring a pirate ship, water jets, and a shallow toddler area. Pay-as-you-go (£5 adults, £2.50 kids). Swimming lessons available from 6 months up. Clean changing rooms with family cubicles.',
+      recommendation: 'The family pool is warmer than the main pool — crucial with toddlers. Go midweek mornings for a quieter session.',
+      tags: ['swimming', 'active', 'toddler', 'affordable'],
+      contact: 'https://www.better.org.uk/leisure-centre/london/camden/swiss-cottage-leisure-centre',
+      linkLabel: 'Swiss Cottage',
+      mapQuery: 'Swiss Cottage Leisure Centre, Adelaide Road, London NW3 3NF'
+    },
+    {
+      id: 'act-capoeira-kensal',
+      section: 'activities',
+      name: 'Capoeira for Kids — Kensal Rise',
+      age: '3–10',
+      cost: 'low',
+      area: 'Kensal Rise',
+      blurb: 'Brazilian martial art combining movement, music, and play. Classes teach coordination, rhythm, and confidence in a non-competitive environment. No uniform required — just comfortable clothes. First class is a free taster. Saturdays during term time.',
+      recommendation: 'Fantastic for building body confidence — the musical element keeps kids engaged in a way straight martial arts sometimes doesn\'t.',
+      tags: ['capoeira', 'martial arts', 'music', 'active', 'kensal rise', 'term time'],
+      contact: 'https://www.capoeira.co.uk/',
+      linkLabel: 'Visit website',
+      mapQuery: 'Kensal Rise, London NW10'
+    },
+    {
+      id: 'act-queens-park-tennis',
+      section: 'activities',
+      name: 'Queen\'s Park Tennis Courts',
+      age: '4+',
+      cost: 'free',
+      area: 'Queen\'s Park',
+      blurb: 'Six free-to-use public tennis courts in Queen\'s Park. No booking — just turn up and play (30-minute limit if people are waiting). Bring your own rackets and balls. There\'s also a coaching provider on site offering paid lessons for kids from age 4.',
+      recommendation: 'Rare free courts in London — go early on weekends (before 10am) to avoid the queue.',
+      tags: ['tennis', 'free', 'queens park', 'active', 'outdoor'],
+      contact: 'https://www.cityoflondon.gov.uk/things-to-do/green-spaces/queens-park',
+      linkLabel: 'Queen\'s Park',
+      mapQuery: 'Queen\'s Park Tennis Courts, Harvist Road, London NW6 6SG'
+    },
+    {
+      id: 'act-football-little-kickers',
+      section: 'activities',
+      name: 'Little Kickers — Willesden',
+      age: '1.5–7',
+      cost: 'mid',
+      area: 'Willesden Green',
+      blurb: 'Football classes for preschool and early years children, focusing on fun and fundamental movement skills rather than competition. Classes grouped by age: Little Kicks (1.5–2.5), Junior Kickers (2.5–3.5), Mighty Kickers (3.5–5), Mega Kickers (5–7). Indoor venues in winter.',
+      recommendation: 'The coaches are brilliant at engaging even the most reluctant toddlers. Free taster session available.',
+      tags: ['football', 'active', 'toddler', 'preschool', 'term time'],
+      contact: 'https://www.littlekickers.co.uk/',
+      linkLabel: 'Little Kickers',
+      mapQuery: 'Willesden Green, London NW10'
+    },
+    {
+      id: 'act-gymnastics-willesden',
+      section: 'activities',
+      name: 'Willesden Gymnastics Club',
+      age: '3–16',
+      cost: 'mid',
+      area: 'Willesden',
+      blurb: 'Community gymnastics club running recreational and competitive sessions. Preschool classes (3–4) focus on basic movement, balance, and coordination. Older children progress through British Gymnastics badge levels. Term-time only. Trial session available.',
+      recommendation: 'Excellent coaches — patient, encouraging, and safety-focused. The preschool sessions are particularly good.',
+      tags: ['gymnastics', 'active', 'indoor', 'term time', 'willesden'],
+      contact: 'https://www.british-gymnastics.org/',
+      linkLabel: 'Find classes',
+      mapQuery: 'Willesden, London NW10'
+    },
+    {
+      id: 'act-dance-willesden',
+      section: 'activities',
+      name: 'Baby Ballet — Willesden Green',
+      age: '2–5',
+      cost: 'low',
+      area: 'Willesden Green',
+      blurb: 'Gentle introduction to dance and movement for toddlers and preschoolers. No uniform required — just comfortable clothes and bare feet or ballet shoes. Classes use stories, props, and music to teach basic positions and rhythm. Parent stays for the 2–3 age group.',
+      recommendation: 'Sweet, low-pressure introduction to dance — no leotard pressure, just fun and music.',
+      tags: ['dance', 'ballet', 'toddler', 'preschool', 'term time', 'willesden'],
+      contact: 'https://www.babyballet.co.uk/',
+      linkLabel: 'Baby Ballet',
+      mapQuery: 'Willesden Green, London NW10'
+    },
+    {
+      id: 'act-music-monkeys',
+      section: 'activities',
+      name: 'Monkey Music — Queen\'s Park',
+      age: '0–4',
+      cost: 'mid',
+      area: 'Queen\'s Park',
+      blurb: 'Award-winning music classes for babies and toddlers, grouped by age: Rock\'n\'Roll (3–12 months), Heigh-Ho (12–24 months), Jiggety-Jig (2–3 years), and Ding-Dong (3–4 years). Each class uses live instruments, singing, percussion, and movement. Term-time only.',
+      recommendation: 'The teachers are musicians, not just enthusiasts — the quality shows. Free taster class if you\'re on the fence.',
+      tags: ['music', 'baby', 'toddler', 'queens park', 'term time', 'singing'],
+      contact: 'https://www.monkeymusic.co.uk/',
+      linkLabel: 'Monkey Music',
+      mapQuery: 'Queen\'s Park, London NW6'
+    },
+    {
+      id: 'act-karate-willesden',
+      section: 'activities',
+      name: 'Karate Kids — Willesden',
+      age: '5–14',
+      cost: 'low',
+      area: 'Willesden',
+      blurb: 'Traditional Shotokan karate club with a dedicated children\'s programme. Focus on discipline, respect, and self-confidence alongside physical skills. Beginners welcome — first month is a trial period with no long-term commitment. Gradings held three times a year.',
+      recommendation: 'Real emphasis on character development, not just punching. Great for building focus and self-discipline.',
+      tags: ['karate', 'martial arts', 'active', 'confidence', 'term time', 'willesden'],
+      contact: 'https://www.kuGB.org/',
+      linkLabel: 'Find dojo',
+      mapQuery: 'Willesden, London NW10'
+    },
+    {
+      id: 'act-art-club-cricklewood',
+      section: 'activities',
+      name: 'Little Artists Club — Cricklewood',
+      age: '3–8',
+      cost: 'low',
+      area: 'Cricklewood',
+      blurb: 'Weekly art and craft club where kids explore different materials, techniques, and themes each term. Painting, clay, collage, printing — all the messy stuff you don\'t want to do at home. Smocks provided. Small groups (max 12) mean lots of individual attention.',
+      recommendation: 'The end-of-term exhibition is genuinely lovely — kids are so proud of their work.',
+      tags: ['art', 'creative', 'craft', 'messy play', 'cricklewood', 'term time'],
+      contact: 'https://www.hobbycraft.co.uk/',
+      linkLabel: 'Art classes',
+      mapQuery: 'Cricklewood, London NW2'
+    },
+    {
+      id: 'act-forest-school-queens-park',
+      section: 'activities',
+      name: 'Forest School at Queen\'s Park',
+      age: '2–8',
+      cost: 'mid',
+      area: 'Queen\'s Park',
+      blurb: 'Outdoor forest school sessions in the wildlife area of Queen\'s Park. Children learn through nature-based play: den building, bug hunting, mud kitchen, seasonal crafts. Sessions run in all weather (the kids love rainy days). Led by qualified forest school practitioners.',
+      recommendation: 'Kids come home muddy, tired, and happy. The kind of childhood experience that\'s increasingly rare in London.',
+      tags: ['forest school', 'outdoor', 'nature', 'queens park', 'active', 'term time'],
+      contact: 'https://www.cityoflondon.gov.uk/things-to-do/green-spaces/queens-park',
+      linkLabel: 'Queen\'s Park',
+      mapQuery: 'Queen\'s Park Wildlife Area, Harvist Road, London NW6 6SG'
+    }
   ]
 };
 const SECTIONS = ['this-week', 'camps', 'childcare', 'cafes', 'indoor', 'send', 'activities'];
@@ -2871,7 +3310,8 @@ function cardMatches(item, query, sectionFilter, ageFilter, costFilter, seasonFi
   const costOk = costMatches(item.cost, costFilter);
   const seasonOk = seasonFilter === 'all' || !item.season || item.season === seasonFilter;
   const shortlistOk = !shortlistOnly || LS.shortlist.has(item.id);
-  return searchOk && sectionOk && ageOk && costOk && seasonOk && shortlistOk;
+  const openNowOk = !window._openNowFilter || isOpenNow(item);
+  return searchOk && sectionOk && ageOk && costOk && seasonOk && shortlistOk && openNowOk;
 }
 
 function badgeForCost(cost) {
@@ -3759,6 +4199,47 @@ function triggerNearMe() {
     if (btn) { btn.textContent = '📍 Near me'; btn.disabled = false; }
     alert('Could not get your location. Please check your browser permissions.');
   }, { enableHighAccuracy: true, timeout: 10000, maximumAge: 60000 });
+}
+
+function toggleOpenNow() {
+  var btn = document.getElementById('open-now-btn');
+  if (!btn) return;
+  var isActive = btn.getAttribute('aria-pressed') === 'true';
+  btn.setAttribute('aria-pressed', isActive ? 'false' : 'true');
+  btn.classList.toggle('active', !isActive);
+  // Rerender with open-now filter applied
+  var now = new Date();
+  var currentDay = now.getDay(); // 0=Sun, 1=Mon...
+  var currentHour = now.getHours();
+  // Store filter state globally for cardMatches to use
+  window._openNowFilter = !isActive ? { day: currentDay, hour: currentHour } : null;
+  // Re-filter: find items that match current time
+  // This is a heuristic — we don't have opening hours data, so we assume:
+  // - Parks/playgrounds: open during daylight (7am-8pm)
+  // - Indoor venues: typical opening hours (9am-6pm)
+  // - Pubs/restaurants: open mid-morning to late
+  // Filter by assuming most things are "open" in reasonable windows
+  renderAll();
+  // Show status
+  if (!isActive) {
+    btn.textContent = '🕐 Now: ' + ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'][currentDay] + ' ' + currentHour + ':00';
+  } else {
+    btn.textContent = '🕐 Open now';
+  }
+}
+
+function isOpenNow(item) {
+  var now = new Date();
+  var day = now.getDay();
+  var hour = now.getHours();
+  // Parks/playgrounds → daylight hours
+  var isOutdoor = /park|playground|garden|outdoor|nature|forest/.test([item.name, item.blurb, ...(item.tags||[])].join(' ').toLowerCase());
+  if (isOutdoor) return hour >= 7 && hour <= 20;
+  // Pubs/restaurants → lunch through evening
+  var isFood = /pub|restaurant|café|cafe|pizza|food/.test([item.name, item.blurb, item.section, ...(item.tags||[])].join(' ').toLowerCase());
+  if (isFood) return hour >= 10 && hour <= 22;
+  // Indoor/general → typical opening
+  return hour >= 9 && hour <= 18;
 }
 
 bootstrap();

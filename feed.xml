@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Willesden Families — This Week in NW London</title>
+  <link>https://willesdenfamilies.uk/</link>
+  <description>What's on this week for families in Willesden Green, Queen's Park, Kensal Rise, and nearby NW London.</description>
+  <language>en-gb</language>
+  <lastBuildDate>Sat, 04 Jul 2026 20:00:00 +0100</lastBuildDate>
+  <atom:link href="https://willesdenfamilies.uk/feed.xml" rel="self" type="application/rss+xml"/>
+  <item><title>After School Dreams Summer Camp — Week 1</title><link>https://willesdenfamilies.uk/#this-week</link><description>Mon 6 – Fri 10 Jul, Ladbroke Grove. Multi-activity camp with arts, sports, and outdoor play. Ages 4–12. ££. Book via website.</description><pubDate>Mon, 06 Jul 2026 09:00:00 +0100</pubDate><guid>https://willesdenfamilies.uk/#event-after-school-dreams</guid></item>
+  <item><title>Kids Garden Club at Clitterhouse Farm</title><link>https://willesdenfamilies.uk/#this-week</link><description>Fri 10 Jul, 16:00, Brent Cross. Free weekly gardening club at Our Yard. All ages. Hands-on with planting, growing, and nature.</description><pubDate>Fri, 10 Jul 2026 09:00:00 +0100</pubDate><guid>https://willesdenfamilies.uk/#event-ouryard-kids-garden-club</guid></item>
+  <item><title>Brent Libraries Summer Fun Festival</title><link>https://willesdenfamilies.uk/#this-week</link><description>Now launched! Free summer programme at all Brent libraries including Willesden Green. Robotics, storytelling, arts &amp; crafts. All ages.</description><pubDate>Wed, 01 Jul 2026 09:00:00 +0100</pubDate><guid>https://willesdenfamilies.uk/#event-brent-summer-fun-festival</guid></item>
+</channel>
+</rss>
