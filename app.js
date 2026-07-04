@@ -229,6 +229,26 @@ const DATA = {
       featured: false,
       region: 'wider',
       cardTone: 'weekly'
+    },
+    {
+      id: 'event-after-school-dreams-week1',
+      section: 'this-week',
+      name: 'After School Dreams Summer Camp — Week 1',
+      age: '3–12',
+      cost: 'mid',
+      area: 'Ladbroke Grove',
+      eventDate: 'Mon 6 – Fri 10 Jul',
+      eventTime: '8:30–17:00',
+      blurb: 'Summer camp at Instituto Español on Portobello Rd. Junior (3–6) and Senior (7–12) groups. Trips this week: Holland Park, London Museum of Water, cinema. £60/day or £250/week. Sibling discount available.',
+      recommendation: 'Great last-minute option — Week 1 starts Monday, and they take daily bookings if you can\'t commit to the full week.',
+      tags: ['summer camp', 'holiday club', 'trips', 'daily booking', 'ladbroke grove'],
+      contact: './assets/Summer Camp Junior _ After School Dreams _ July 2026-compressed.pdf',
+      linkLabel: 'View flyer (Junior 3–6)',
+      mapQuery: 'Instituto Español, 317 Portobello Road, London W10 5SZ',
+      promoImage: 'https://images.unsplash.com/photo-1503919545889-aef636e10ad4?w=800&h=450&fit=crop&auto=format',
+      featured: true,
+      region: 'local',
+      cardTone: 'weekly'
     }
   ],
   childcare: [
@@ -1010,6 +1030,26 @@ const DATA = {
       contact: '',
       linkLabel: 'Contact ETT Sports',
       mapQuery: 'Mora School, Mora Road, London NW2'
+    },
+    {
+      id: 'camp-after-school-dreams',
+      section: 'camps',
+      name: 'After School Dreams Summer Camp',
+      age: '3–12',
+      cost: 'mid',
+      area: 'Ladbroke Grove / Portobello',
+      eventDate: '6 Jul – 30 Jul (4 weeks)',
+      season: 'summer',
+      eventTime: '8:30am–5pm',
+      blurb: 'Summer camp at Instituto Español on Portobello Road. Junior group (3–6) and Senior group (7–12) with weekly themes including Circus and Sports weeks. Trips to Holland Park, London Museum of Water, cinema, ice skating, zoo, mini golf, Queen\'s Park, and bouldering. £60/day or £250/week with sibling discount (£50/day). T-shirt required (£15). Both Junior and Senior flyers available below.',
+      recommendation: 'Strong option for families near Ladbroke Grove / Notting Hill — daily booking available, wide age range, and packed trip schedule.',
+      tags: ['summer camp', 'holiday club', 'trips', 'daily booking', 'ladbroke grove', 'portobello'],
+      contact: './assets/Summer Camp Junior _ After School Dreams _ July 2026-compressed.pdf',
+      linkLabel: 'Flyer: Junior (3–6) — tap for Senior too',
+      mapQuery: 'Instituto Español, 317 Portobello Road, London W10 5SZ',
+      promoImage: 'https://images.unsplash.com/photo-1503919545889-aef636e10ad4?w=800&h=450&fit=crop&auto=format',
+      promoAlt: 'After School Dreams Summer Camp flyers available',
+      featured: true
     }
   ],
   cafes: [
