@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 800" role="img" aria-labelledby="title desc">
+  <title id="title">Editorial illustration of a family-friendly pub beer garden</title>
+  <desc id="desc">A warm pub with outdoor seating, trees, lanterns, and a relaxed family-friendly garden atmosphere.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c8d6af"/>
+      <stop offset="100%" stop-color="#e8dcc8"/>
+    </linearGradient>
+    <linearGradient id="brick" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c48b5d"/>
+      <stop offset="100%" stop-color="#a06641"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7a9b4c"/>
+      <stop offset="100%" stop-color="#5e7a38"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="800" fill="url(#sky)"/>
+  <circle cx="1120" cy="160" r="64" fill="#ffe08a" opacity="0.85"/>
+  <!-- Building -->
+  <rect x="80" y="140" width="520" height="420" rx="16" fill="url(#brick)"/>
+  <rect x="100" y="160" width="140" height="140" rx="10" fill="#3d2c1e" opacity="0.6"/>
+  <rect x="280" y="160" width="140" height="140" rx="10" fill="#3d2c1e" opacity="0.6"/>
+  <rect x="460" y="160" width="100" height="140" rx="10" fill="#3d2c1e" opacity="0.6"/>
+  <rect x="240" y="340" width="280" height="48" rx="12" fill="#d4a76a"/>
+  <!-- Sign -->
+  <rect x="160" y="80" width="360" height="70" rx="14" fill="#2c1810"/>
+  <text x="340" y="128" text-anchor="middle" fill="#f0d9a0" font-family="serif" font-size="42" font-weight="bold">THE FAMILY ARMS</text>
+  <!-- Ground / grass -->
+  <path d="M0 560 C200 530 480 510 700 530 C900 550 1100 560 1400 540 L1400 800 L0 800 Z" fill="url(#grass)"/>
+  <!-- Path -->
+  <path d="M200 800 Q340 620 480 560 Q620 510 800 540 Q1000 570 1200 800" fill="none" stroke="#c4a67a" stroke-width="36" opacity="0.6"/>
+  <!-- Picnic tables -->
+  <rect x="700" y="540" width="300" height="18" rx="6" fill="#8b6914"/>
+  <rect x="710" y="560" width="14" height="60" rx="4" fill="#8b6914"/>
+  <rect x="976" y="560" width="14" height="60" rx="4" fill="#8b6914"/>
+  <rect x="740" y="520" width="220" height="18" rx="6" fill="#a07a2e"/>
+  <rect x="950" y="620" width="280" height="18" rx="6" fill="#8b6914"/>
+  <rect x="960" y="640" width="14" height="60" rx="4" fill="#8b6914"/>
+  <rect x="1216" y="640" width="14" height="60" rx="4" fill="#8b6914"/>
+  <rect x="990" y="600" width="200" height="18" rx="6" fill="#a07a2e"/>
+  <!-- Trees -->
+  <rect x="780" y="420" width="14" height="140" rx="6" fill="#5c4018"/>
+  <circle cx="787" cy="400" r="60" fill="#5a8a3c"/>
+  <circle cx="750" cy="420" r="40" fill="#4a7a2c"/>
+  <circle cx="824" cy="420" r="40" fill="#4a7a2c"/>
+  <rect x="1140" y="440" width="12" height="120" rx="5" fill="#5c4018"/>
+  <circle cx="1146" cy="420" r="48" fill="#5a8a3c"/>
+  <circle cx="1115" cy="435" r="32" fill="#4a7a2c"/>
+  <circle cx="1177" cy="435" r="32" fill="#4a7a2c"/>
+  <!-- String lights -->
+  <path d="M600 380 Q750 420 900 390 Q1050 360 1200 400" fill="none" stroke="#2c1810" stroke-width="3"/>
+  <circle cx="650" cy="398" r="12" fill="#ffe08a" opacity="0.9"/>
+  <circle cx="750" cy="408" r="12" fill="#ffe08a" opacity="0.9"/>
+  <circle cx="850" cy="396" r="12" fill="#ffe08a" opacity="0.9"/>
+  <circle cx="950" cy="382" r="12" fill="#ffe08a" opacity="0.9"/>
+  <circle cx="1050" cy="372" r="12" fill="#ffe08a" opacity="0.9"/>
+  <circle cx="1150" cy="382" r="12" fill="#ffe08a" opacity="0.9"/>
+  <!-- Pint glass on table -->
+  <path d="M890 488 L910 488 L906 456 L894 456 Z" fill="#d4a017" opacity="0.8"/>
+  <rect x="882" y="452" width="36" height="6" rx="3" fill="#fff" opacity="0.3"/>
+  <!-- Kids toys hint (ball) -->
+  <circle cx="680" cy="590" r="16" fill="#e86040"/>
+  <path d="M662 582 Q674 572 698 582" fill="none" stroke="#c04030" stroke-width="3"/>
+  <circle cx="1080" cy="700" r="14" fill="#4090d0"/>
+  <!-- Hanging baskets on building -->
+  <rect x="130" y="310" width="80" height="36" rx="12" fill="#4a6b2c"/>
+  <circle cx="150" cy="318" r="10" fill="#d44060"/>
+  <circle cx="170" cy="315" r="10" fill="#e8c040"/>
+  <circle cx="190" cy="318" r="10" fill="#d44060"/>
+  <rect x="430" y="310" width="80" height="36" rx="12" fill="#4a6b2c"/>
+  <circle cx="450" cy="318" r="10" fill="#e8c040"/>
+  <circle cx="470" cy="315" r="10" fill="#d44060"/>
+  <circle cx="490" cy="318" r="10" fill="#e8c040"/>
+</svg>

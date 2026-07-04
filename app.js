@@ -2459,10 +2459,134 @@ const DATA = {
       linkLabel: 'View club page',
       mapQuery: 'Salusbury Primary School, London NW6 6RG'
     }
+  ],
+  pubs: [
+    {
+      id: 'pub-alice-house',
+      section: 'pubs',
+      name: 'The Alice House',
+      age: 'all ages',
+      cost: 'mid',
+      area: 'Queen\'s Park',
+      blurb: 'Gastropub with a large beer garden at the back — one of the most family-friendly spots on Salusbury Road. High chairs, changing facilities, and a relaxed weekend vibe where nobody blinks at a toddler uprising. Good Sunday roasts.',
+      recommendation: 'Best all-rounder for families in Queen\'s Park — big garden, great food, genuinely welcoming staff.',
+      tags: ['beer garden', 'gastropub', 'sunday roast', 'changing facilities', 'salusbury road'],
+      contact: 'https://www.thealicehouse.co.uk/',
+      linkLabel: 'Visit website',
+      mapQuery: 'The Alice House, 53-55 Salusbury Road, London NW6 6NJ',
+      promoImage: 'https://images.unsplash.com/photo-1571071627962-b100cdd80b50?w=800&h=450&fit=crop&auto=format',
+      featured: true
+    },
+    {
+      id: 'pub-salusbury',
+      section: 'pubs',
+      name: 'The Salusbury',
+      age: 'all ages',
+      cost: 'high',
+      area: 'Queen\'s Park',
+      blurb: 'Wine bar-meets-gastropub with a continental feel. Kids are genuinely welcome — not just tolerated. The deli counter and bakery make it an easy stop any time of day, and the outdoor tables on Salusbury Road are prime parent-watching territory.',
+      recommendation: 'Perfect for a civilised lunch where you actually get to finish your meal while the kids colour.',
+      tags: ['gastropub', 'wine bar', 'deli', 'outdoor seating', 'salusbury road'],
+      contact: 'https://www.thesalusbury.co.uk/',
+      linkLabel: 'Visit website',
+      mapQuery: 'The Salusbury, 50 Salusbury Road, London NW6 6NN',
+      promoImage: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&h=450&fit=crop&auto=format'
+    },
+    {
+      id: 'pub-gallery',
+      section: 'pubs',
+      name: 'The Gallery',
+      age: 'all ages',
+      cost: 'mid',
+      area: 'West Hampstead',
+      blurb: 'Spacious gastropub on Broadhurst Gardens with a large beer garden that fills with families at weekends. The garden is the main draw — plenty of room for buggies and wandering toddlers. Solid pub food menu with kids\' options.',
+      recommendation: 'The garden is the star here — one of the biggest in the area and properly set up for families.',
+      tags: ['beer garden', 'gastropub', 'kids menu', 'west hampstead'],
+      contact: 'https://www.thegallerynw6.co.uk/',
+      linkLabel: 'Visit website',
+      mapQuery: 'The Gallery, 190 Broadhurst Gardens, London NW6 3AY',
+      promoImage: 'https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=800&h=450&fit=crop&auto=format'
+    },
+    {
+      id: 'pub-black-lion',
+      section: 'pubs',
+      name: 'The Black Lion',
+      age: 'all ages',
+      cost: 'mid',
+      area: 'Kensal Rise / West Hampstead',
+      blurb: 'Beautifully renovated pub on West End Lane with a large beer garden. Dogs and kids equally welcome. The garden is a suntrap in summer and the menu covers everything from proper roasts to burgers. High chairs available.',
+      recommendation: 'The garden is a proper suntrap — great for a lazy weekend afternoon with the family.',
+      tags: ['beer garden', 'gastropub', 'sunday roast', 'west end lane'],
+      contact: 'https://www.theblacklionnw6.com/',
+      linkLabel: 'Visit website',
+      mapQuery: 'The Black Lion, 295 West End Lane, London NW6 1RD',
+      promoImage: 'https://images.unsplash.com/photo-1615937722923-67f6deaf2cc9?w=800&h=450&fit=crop&auto=format'
+    },
+    {
+      id: 'pub-old-bell',
+      section: 'pubs',
+      name: 'The Old Bell',
+      age: 'all ages',
+      cost: 'mid',
+      area: 'Kilburn',
+      blurb: 'Gastropub on Willesden Lane with a relaxed beer garden. One of those places where families, after-work drinks, and Sunday roasts all coexist without friction. Baby change facilities and high chairs.',
+      recommendation: 'Solid local that handles the full spectrum — quiet weekday lunch to busy Sunday roast — without ever feeling like kids aren\'t welcome.',
+      tags: ['beer garden', 'gastropub', 'sunday roast', 'changing facilities', 'kilburn'],
+      contact: 'https://www.theoldbellkilburn.co.uk/',
+      linkLabel: 'Visit website',
+      mapQuery: 'The Old Bell, 38 Willesden Lane, London NW6 7ST',
+      promoImage: 'https://images.unsplash.com/photo-1549488344-1f9b8d2bd1f3?w=800&h=450&fit=crop&auto=format'
+    },
+    {
+      id: 'pub-freemasons-arms',
+      section: 'pubs',
+      name: 'The Freemasons Arms',
+      age: 'all ages',
+      cost: 'mid',
+      area: 'Hampstead',
+      blurb: 'Right next to Hampstead Heath with a huge beer garden — the textbook post-Heath-walk family pub. The garden is enormous and very relaxed, with plenty of space for kids to run around. Menu covers pub classics, pizzas, and kids\' portions.',
+      recommendation: 'The ultimate family pub for a Heath day — massive garden, zero pretension, everyone\'s there for the same reason.',
+      tags: ['beer garden', 'hampstead heath', 'pub food', 'outdoor', 'large garden'],
+      contact: 'https://www.freemasonsarmshampstead.co.uk/',
+      linkLabel: 'Visit website',
+      mapQuery: 'Freemasons Arms, 32 Downshire Hill, London NW3 1NT',
+      promoImage: 'https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&h=450&fit=crop&auto=format',
+      featured: true
+    },
+    {
+      id: 'pub-spaniards-inn',
+      section: 'pubs',
+      name: 'The Spaniards Inn',
+      age: 'all ages',
+      cost: 'high',
+      area: 'Hampstead',
+      blurb: 'Historic 16th-century pub with one of the biggest and loveliest beer gardens in North London. Right on the edge of the Heath. Extremely family-friendly — the garden is practically a village green. Keats and Dickens drank here; now it\'s mostly parents with buggies.',
+      recommendation: 'Worth the trip for the garden alone — feels like a country pub in the middle of London. Perfect summer destination.',
+      tags: ['beer garden', 'historic', 'hampstead heath', 'large garden', 'destination pub'],
+      contact: 'https://www.thespaniardshampstead.co.uk/',
+      linkLabel: 'Visit website',
+      mapQuery: 'Spaniards Inn, Spaniards Road, London NW3 7JJ',
+      promoImage: 'https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=800&h=450&fit=crop&auto=format',
+      featured: true
+    },
+    {
+      id: 'pub-crown-cricklewood',
+      section: 'pubs',
+      name: 'The Crown',
+      age: 'all ages',
+      cost: 'low',
+      area: 'Cricklewood',
+      blurb: 'Big pub on Cricklewood Broadway with a decent outdoor area and a properly family-friendly attitude. More of a traditional pub feel than the gastropubs — affordable, unpretentious, and the kind of place where nobody minds a bit of noise.',
+      recommendation: 'Best value family pub in the area — no gastropub mark-up, just honest pub food in a welcoming space.',
+      tags: ['beer garden', 'traditional', 'affordable', 'cricklewood'],
+      contact: 'https://www.crowncricklewood.co.uk/',
+      linkLabel: 'Visit website',
+      mapQuery: 'The Crown, Cricklewood Broadway, London NW2 3ED',
+      promoImage: 'https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=800&h=450&fit=crop&auto=format'
+    }
   ]
 };
-
-const SECTIONS = ['this-week', 'camps', 'childcare', 'cafes', 'indoor', 'send', 'activities'];
+const SECTIONS = ['this-week', 'camps', 'childcare', 'cafes', 'pubs', 'indoor', 'send', 'activities'];
 const SECTION_DATA_KEYS = {
   'this-week': 'thisWeek'
 };
@@ -2500,6 +2624,9 @@ const CARD_IMAGE_DEFAULTS = {
   },
   cafes: {
     default: './assets/illustrations/cafe.svg'
+  },
+  pubs: {
+    default: './assets/illustrations/pubs.svg'
   },
   indoor: {
     default: './assets/illustrations/indoor.svg'
