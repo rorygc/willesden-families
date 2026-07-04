@@ -404,8 +404,9 @@
           keyboard: false,
           tap: false
         });
-        // Geo bounds of the neighbourhood map image (NW2/NW6/NW10 area)
-        var bounds = [[51.572, -0.258], [51.506, -0.175]];
+        // Geo bounds calibrated to match neighbourhood map image aspect ratio (844×1280 portrait)
+        // Center ~Willesden Green. Span covers Dollis Hill → Notting Hill, Kensal Green → West Hampstead
+        var bounds = [[51.572, -0.253], [51.506, -0.183]];
         L.imageOverlay('assets/neighbourhood-map.jpg', bounds).addTo(map);
         map.fitBounds(bounds);
         map.setMinZoom(map.getZoom());
