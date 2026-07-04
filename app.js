@@ -22,6 +22,8 @@ const DATA = {
       tags: ['gardening', 'nature', 'outdoor', 'community', 'donation'],
       contact: 'https://www.ouryard.org/events',
       linkLabel: 'Our Yard events',
+       lat: 51.507,
+       lng: -0.128,
       mapQuery: 'Clitterhouse Farm, Claremont Road, London NW2',
       promoImage: 'https://images.unsplash.com/photo-1591857177580-dc82b9ac4e1e?w=800&h=450&fit=crop&auto=format',
       featured: false,
@@ -42,6 +44,8 @@ const DATA = {
       tags: ['play', 'toddler', 'outdoor', 'community', 'donation'],
       contact: 'https://www.ouryard.org/events',
       linkLabel: 'Our Yard events',
+       lat: 51.507,
+       lng: -0.128,
       mapQuery: 'Clitterhouse Farm, Claremont Road, London NW2',
       promoImage: 'https://images.unsplash.com/photo-1503454537195-1ec1e484bb38?w=800&h=450&fit=crop&auto=format',
       featured: false,
@@ -62,6 +66,8 @@ const DATA = {
       tags: ['library', 'summer', 'reading', 'craft', 'free'],
       contact: 'https://www.brent.gov.uk/summer-in-brent',
       linkLabel: 'Summer in Brent',
+       lat: 51.5468236,
+       lng: -0.2289918,
       mapQuery: 'The Library at Willesden Green, 95 High Road, NW10 2SF',
       promoImage: 'https://images.unsplash.com/photo-1507842217343-583bb4565c69?w=800&h=450&fit=crop&auto=format',
       featured: true,
@@ -82,6 +88,8 @@ const DATA = {
       tags: ['carnival', 'street festival', 'community', 'free', 'music'],
       contact: 'https://www.okclub.org.uk',
       linkLabel: 'OK Club events',
+       lat: 51.542,
+       lng: -0.2,
       mapQuery: 'Oxford Kilburn Youth Trust, 38 Dane Road, London NW6',
       promoImage: 'https://images.unsplash.com/photo-1533176952548-2c5b8c4e2f28?w=800&h=450&fit=crop&auto=format',
       featured: true,
@@ -104,6 +112,8 @@ const DATA = {
       tags: ['museum', 'dinosaurs', 'free', 'indoor', 'iconic'],
       contact: 'https://www.nhm.ac.uk/',
       linkLabel: 'Book free tickets',
+       lat: 51.4965109,
+       lng: -0.1760019,
       mapQuery: 'Natural History Museum, Cromwell Road, London SW7 5BD',
       promoImage: 'https://images.unsplash.com/photo-1563299354-778ae17428d4?w=800&h=450&fit=crop&auto=format',
       featured: false,
@@ -124,6 +134,8 @@ const DATA = {
       tags: ['museum', 'science', 'interactive', 'free', 'indoor'],
       contact: 'https://www.sciencemuseum.org.uk/',
       linkLabel: 'Book free tickets',
+       lat: 51.507,
+       lng: -0.128,
       mapQuery: 'Science Museum, Exhibition Road, London SW7 2DD',
       promoImage: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=450&fit=crop&auto=format',
       featured: false,
@@ -144,6 +156,8 @@ const DATA = {
       tags: ['playground', 'outdoor', 'free', 'iconic', 'picnic'],
       contact: 'https://www.royalparks.org.uk/visit/parks/kensington-gardens/diana-memorial-playground',
       linkLabel: 'Royal Parks info',
+       lat: 51.501,
+       lng: -0.193,
       mapQuery: 'Diana Memorial Playground, Kensington Gardens, London W2 4RU',
       promoImage: 'https://images.unsplash.com/photo-1472162072942-37e9d7a13a2a?w=800&h=450&fit=crop&auto=format',
       featured: false,
@@ -164,6 +178,8 @@ const DATA = {
       tags: ['ceremony', 'free', 'iconic', 'outdoor', 'royal'],
       contact: 'https://www.householddivision.org.uk/changing-the-guard',
       linkLabel: 'Check schedule',
+       lat: 51.5008349,
+       lng: -0.1430045,
       mapQuery: 'Buckingham Palace, London SW1A 1AA',
       promoImage: 'https://images.unsplash.com/photo-1513635269970-05849352c775?w=800&h=450&fit=crop&auto=format',
       featured: false,
@@ -184,6 +200,8 @@ const DATA = {
       tags: ['riverside', 'free', 'street food', 'outdoor', 'iconic'],
       contact: 'https://www.southbankcentre.co.uk/whats-on/family/',
       linkLabel: 'What\'s on',
+       lat: 51.5057791,
+       lng: -0.116787,
       mapQuery: 'Southbank Centre, Belvedere Road, London SE1 8XX',
       promoImage: 'https://images.unsplash.com/photo-1526129318477-4a2db4c77c36?w=800&h=450&fit=crop&auto=format',
       featured: false,
@@ -204,6 +222,8 @@ const DATA = {
       tags: ['summer camp', 'holiday club', 'trips', 'daily booking', 'ladbroke grove'],
       contact: './assets/Summer Camp Junior _ After School Dreams _ July 2026-compressed.pdf',
       linkLabel: 'View flyer (Junior 3–6)',
+       lat: 51.5201525,
+       lng: -0.2091278,
       mapQuery: 'Instituto Español, 317 Portobello Road, London W10 5SZ',
       promoImage: './assets/after-school-dreams-flyer.jpg',
       promoAlt: 'After School Dreams Summer Camp flyer',
@@ -226,6 +246,8 @@ const DATA = {
       tags: ['nursery', 'full day', 'early years'],
       contact: 'https://www.brighthorizons.co.uk',
       linkLabel: 'Visit Bright Horizons',
+       lat: 51.535,
+       lng: -0.205,
       mapQuery: "Bright Horizons Queen's Park, London"
     },
     {
@@ -240,6 +262,8 @@ const DATA = {
       tags: ['nursery', 'Kensal Rise', 'full day'],
       contact: 'https://www.monkeypuzzledaynurseries.co.uk',
       linkLabel: 'Visit Monkey Puzzle',
+       lat: 51.535,
+       lng: -0.218,
       mapQuery: 'Monkey Puzzle Day Nursery Kensal Rise, London'
     },
     {
@@ -254,6 +278,8 @@ const DATA = {
       tags: ['nursery', 'Queen’s Park', 'modern'],
       contact: 'https://www.nfamilyclub.com',
       linkLabel: 'Visit N Family Club',
+       lat: 51.535,
+       lng: -0.205,
       mapQuery: "N Family Club Queen's Park, London"
     },
     {
@@ -268,6 +294,8 @@ const DATA = {
       tags: ['forest school', 'nursery', 'outdoors'],
       contact: 'https://www.littlegardendaynursery.com',
       linkLabel: 'Visit Little Garden',
+       lat: 51.535,
+       lng: -0.218,
       mapQuery: 'Little Garden Day Nursery Kensal Rise, London'
     },
     {
@@ -282,6 +310,8 @@ const DATA = {
       tags: ['nursery', 'pre-school', 'Cricklewood', 'EYFS'],
       contact: 'https://www.richboroughnursery.co.uk/',
       linkLabel: 'Visit Richborough Nursery',
+       lat: 51.555,
+       lng: -0.218,
       mapQuery: 'Richborough Nursery & Pre-school, Cricklewood, London'
     },
     {
@@ -296,6 +326,8 @@ const DATA = {
       tags: ['early years', 'nursery', 'West Hampstead', 'independent'],
       contact: 'https://www.mulberryhouseschool.com/',
       linkLabel: 'Visit Mulberry House',
+       lat: 51.5511928,
+       lng: -0.2079357,
       mapQuery: 'The Mulberry House School, West Hampstead, London'
     },
     {
@@ -310,6 +342,8 @@ const DATA = {
       tags: ['nursery', 'pre-prep', 'West Hampstead', 'independent'],
       contact: 'https://www.broadhurstschool.com/',
       linkLabel: 'Visit Broadhurst School',
+       lat: 51.546,
+       lng: -0.19,
       mapQuery: 'Broadhurst School, West Hampstead, London'
     },
     {
@@ -324,6 +358,8 @@ const DATA = {
       tags: ['Montessori', 'nursery', 'early years'],
       contact: 'https://www.rainbowmontessori.co.uk/',
       linkLabel: 'Search details',
+       lat: 51.54,
+       lng: -0.225,
       mapQuery: 'Rainbow Montessori, Willesden Green, London'
     },
     {
@@ -338,6 +374,8 @@ const DATA = {
       tags: ['nursery class', 'school', 'free'],
       contact: './schools.html',
       linkLabel: 'Open schools page',
+       lat: 51.507,
+       lng: -0.128,
       mapQuery: 'Malorees Infant and Nursery School, London'
     },
     {
@@ -352,6 +390,8 @@ const DATA = {
       tags: ['nursery school', 'free', 'school-based'],
       contact: './schools.html',
       linkLabel: 'Open schools page',
+       lat: 51.507,
+       lng: -0.128,
       mapQuery: 'Princess Frederica C of E Nursery School, London'
     },
     {
@@ -366,6 +406,8 @@ const DATA = {
       tags: ['nursery', 'primary school', 'free'],
       contact: './schools.html',
       linkLabel: 'Open schools page',
+       lat: 51.507,
+       lng: -0.128,
       mapQuery: 'Beckford Primary School, London'
     },
     {
@@ -380,6 +422,8 @@ const DATA = {
       tags: ['nursery', 'pre-school', 'outdoors'],
       contact: 'https://www.treetopsnursery.co.uk/book-a-visit/',
       linkLabel: 'Arrange a visit',
+       lat: 51.5391856,
+       lng: -0.2328814,
       mapQuery: 'Treetops Nursery School, Doyle Gardens, London'
     },
     {
@@ -394,6 +438,8 @@ const DATA = {
       tags: ['montessori', 'nursery', 'willesden'],
       contact: 'https://www.happyhandsmontessorinursery.co.uk/enrollment-forms/',
       linkLabel: 'Register interest',
+       lat: 51.54,
+       lng: -0.235,
       mapQuery: 'Happy Hands Montessori Nursery, Willesden, London'
     },
     {
@@ -408,6 +454,8 @@ const DATA = {
       tags: ['nursery', 'long hours', 'modern'],
       contact: 'https://www.nfamilyclub.com/n-dollis-hill/',
       linkLabel: 'See the nursery',
+       lat: 51.5543452,
+       lng: -0.2439987,
       mapQuery: '82 Dudden Hill Lane, Dollis Hill, London'
     },
     {
@@ -422,6 +470,8 @@ const DATA = {
       tags: ['montessori', 'nursery', 'Kensal Rise'],
       contact: 'https://www.wetherbyhouse.com/montessori-kensalrise-london',
       linkLabel: 'Visit Wetherby House',
+       lat: 51.535,
+       lng: -0.218,
       mapQuery: 'Wetherby House Montessori Kensal Rise, London'
     },
     {
@@ -436,6 +486,8 @@ const DATA = {
       tags: ['nursery', 'community', 'Brondesbury Park'],
       contact: 'https://www.bparknursery.co.uk/',
       linkLabel: 'Visit BPark Nursery',
+       lat: 51.546,
+       lng: -0.215,
       mapQuery: 'Brondesbury Park Synagogue Nursery, London'
     },
     {
@@ -450,6 +502,8 @@ const DATA = {
       tags: ['nursery', 'Kensal Green', 'full day', 'Ofsted Good'],
       contact: 'https://www.littlehousesnursery.com/kensal-house-nursery',
       linkLabel: 'Visit nursery',
+       lat: 51.507,
+       lng: -0.128,
       mapQuery: 'Kensal House Nursery, White Building, 555 Harrow Road, London W10 4RH'
     },
     {
@@ -464,6 +518,8 @@ const DATA = {
       tags: ['nursery school', 'free', 'school-linked', 'maintained'],
       contact: 'https://www.cgss.brent.sch.uk',
       linkLabel: 'Visit nursery school',
+       lat: 51.507,
+       lng: -0.128,
       mapQuery: 'College Green Nursery School & Services, 161 College Road, London NW10 3PH'
     },
     {
@@ -478,6 +534,8 @@ const DATA = {
       tags: ['nursery class', 'primary school', 'free'],
       contact: 'https://www.ansonprimaryschool.com',
       linkLabel: 'Visit school',
+       lat: 51.5534473,
+       lng: -0.2193071,
       mapQuery: 'Anson Primary School, London'
     },
     {
@@ -492,6 +550,8 @@ const DATA = {
       tags: ['nursery', 'Harlesden', 'full day'],
       contact: 'https://www.busybeeschildcare.co.uk/nursery/london-harlesden',
       linkLabel: 'Visit nursery',
+       lat: 51.536,
+       lng: -0.249,
       mapQuery: 'Busy Bees Harlesden, 59a Longstone Avenue, London NW10 3UN'
     },
     {
@@ -506,6 +566,8 @@ const DATA = {
       tags: ['nursery', 'Kilburn', 'full day'],
       contact: 'https://www.busybeeschildcare.co.uk/nursery/london-kilburn',
       linkLabel: 'Visit nursery',
+       lat: 51.542,
+       lng: -0.2,
       mapQuery: 'Busy Bees Kilburn Square, London NW6 6QG'
     },
     {
@@ -520,6 +582,8 @@ const DATA = {
       tags: ['montessori', 'nursery', 'Queen’s Park'],
       contact: 'https://www.wetherbyhouse.com/montessori-queens-park-london',
       linkLabel: 'Visit nursery',
+      lat: 51.535,
+      lng: -0.205,
       mapQuery: 'Wetherby House Montessori Queen\'s Park, London'
     },
     {
@@ -534,6 +598,8 @@ const DATA = {
       tags: ['nursery', 'Kingsbury', 'community'],
       contact: 'https://www.snugglebunniesnursery.co.uk/',
       linkLabel: 'Visit nursery',
+       lat: 51.584,
+       lng: -0.272,
       mapQuery: 'Snuggle Bunnies Nursery, Kingsbury, London NW9'
     },
     {
@@ -548,6 +614,8 @@ const DATA = {
       tags: ['nursery', 'Kilburn', 'babies'],
       contact: 'https://www.brightstardaynursery.co.uk/',
       linkLabel: 'Visit nursery',
+       lat: 51.507,
+       lng: -0.128,
       mapQuery: 'Bright Star Day Nursery, 1 Stafford Road, London NW6 5RS'
     }
   ],
@@ -567,6 +635,8 @@ const DATA = {
       tags: ['holiday camp', 'performing arts', 'summer', 'dance', 'drama'],
       contact: 'https://activities.bookpebble.co.uk/activity/fresh-arts-queens-park-holiday-camp-london-d12557c7-2632-4e49-846e-69a986413c6b',
       linkLabel: 'Book camp',
+       lat: 51.536812,
+       lng: -0.2055289,
       mapQuery: 'Salusbury Primary School, Salusbury Road, London NW6 6RG',
       featured: true
     },
@@ -584,6 +654,8 @@ const DATA = {
       tags: ['play scheme', 'early years', 'Wembley'],
       contact: 'https://www.happydaysmontessori.co.uk/',
       linkLabel: 'Visit school',
+       lat: 51.557,
+       lng: -0.283,
       mapQuery: 'Happy Days Montessori School, Empire Way, Wembley HA9 0RJ',
       promoImage: './assets/seed-of-life-half-term.jpg',
       promoAlt: 'The Seed of Life Holiday Play Scheme flyer',
@@ -604,6 +676,8 @@ const DATA = {
       tags: ['holiday club', 'sports', 'breakfast'],
       contact: 'https://www.junioradventuresgroup.co.uk/find-us/willesden-sports-centre/',
       linkLabel: 'See holiday club',
+       lat: 51.5415287,
+       lng: -0.2313636,
       mapQuery: 'Willesden Sports Centre, Donnington Road, London NW10 3QX'
     },
     {
@@ -621,6 +695,8 @@ const DATA = {
       tags: ['steam', 'forest school', 'long day'],
       contact: 'https://holidayacademy.co.uk/',
       linkLabel: 'Book here',
+       lat: 51.507,
+       lng: -0.128,
       mapQuery: 'Holiday Academy London, NW1'
     },
     {
@@ -637,6 +713,8 @@ const DATA = {
       tags: ['gymnastics', 'circus', 'sport'],
       contact: 'https://nwga.co.uk/holiday-camps/',
       linkLabel: 'Open camps',
+      lat: 51.535,
+      lng: -0.205,
       mapQuery: 'Queen\'s Park, London NW6'
     },
     {
@@ -652,6 +730,8 @@ const DATA = {
       tags: ['multi-activity', 'sports', 'holiday club'],
       contact: 'https://apfactivitycamps.org/brent-holiday-camps/',
       linkLabel: 'See Brent camps',
+       lat: 51.55,
+       lng: -0.28,
       mapQuery: 'Bridge Park Leisure Centre, Brent, London'
     },
     {
@@ -668,6 +748,8 @@ const DATA = {
       tags: ['free', 'HAF', 'school holidays'],
       contact: 'https://www.brent.gov.uk/children-young-people-and-families/childcare-and-early-education/holiday-activities-and-food-programme',
       linkLabel: 'Check eligibility',
+       lat: 51.5407907,
+       lng: -0.2014562,
       mapQuery: 'Brent Council, London'
     },
     {
@@ -684,6 +766,8 @@ const DATA = {
       tags: ['holiday club', 'multi-activity', 'north london'],
       contact: 'https://www.thebreezyclub.co.uk/',
       linkLabel: 'Book club',
+       lat: 51.507,
+       lng: -0.128,
       mapQuery: 'The Breezy Club, Alexandra Park School, London'
     },
     {
@@ -700,6 +784,8 @@ const DATA = {
       tags: ['dance', 'creative', 'holiday camp'],
       contact: 'https://thelittledanceacademy.com/queens-park/',
       linkLabel: 'View camps',
+       lat: 51.533873,
+       lng: -0.2054958,
       mapQuery: 'Queen’s Park, London'
     },
     {
@@ -716,6 +802,8 @@ const DATA = {
       tags: ['dance', 'performance', 'outdoors'],
       contact: 'https://hedanceacademy.co.uk/',
       linkLabel: 'See camp',
+       lat: 51.5359525,
+       lng: -0.1948607,
       mapQuery: 'Queen’s Park, London NW6'
     },
     {
@@ -732,6 +820,8 @@ const DATA = {
       tags: ['multi-activity', 'sports', 'theatre'],
       contact: 'https://www.clubexcel.co.uk/location/queens-park-community-college/',
       linkLabel: 'Open venue',
+       lat: 51.5403371,
+       lng: -0.2190511,
       mapQuery: 'Queens Park Community School, London'
     },
     {
@@ -748,6 +838,8 @@ const DATA = {
       tags: ['tennis', 'sport', 'holiday camp'],
       contact: 'https://www.servingwinners.co.uk/holiday-camps',
       linkLabel: 'View camps',
+       lat: 8.639424,
+       lng: -13.2140092,
       mapQuery: 'North West London'
     },
     {
@@ -764,6 +856,8 @@ const DATA = {
       tags: ['tennis', 'racket sports', 'holiday camp'],
       contact: 'https://clubspark.lta.org.uk/NTAgladstone/Coaching/Camps',
       linkLabel: 'Open camp page',
+       lat: 51.5552723,
+       lng: -0.229117,
       mapQuery: 'Gladstone Park, London NW2',
       featured: true
     },
@@ -781,6 +875,8 @@ const DATA = {
       tags: ['tennis', 'racket sports', 'holiday camp'],
       contact: 'https://clubspark.lta.org.uk/ElmwoodLawnTennisClub/Coaching/HolidayCamps',
       linkLabel: 'Open camp page',
+       lat: 51.507,
+       lng: -0.128,
       mapQuery: 'Elmwood Lawn Tennis Club, London NW10'
     },
     {
@@ -797,6 +893,8 @@ const DATA = {
       tags: ['tennis', 'racket sports', 'holiday camp'],
       contact: 'https://clubspark.lta.org.uk/FGChildsHillPark/Coaching/Camps',
       linkLabel: 'Open camp page',
+       lat: 51.507,
+       lng: -0.128,
       mapQuery: 'Childs Hill Park, London NW2'
     },
     {
@@ -813,6 +911,8 @@ const DATA = {
       tags: ['tennis', 'racket sports', 'holiday camp'],
       contact: 'https://clubspark.lta.org.uk/FGLyttletonPlayingFields/Coaching/Camps',
       linkLabel: 'Open camp page',
+       lat: 51.507,
+       lng: -0.128,
       mapQuery: 'Lyttleton Playing Fields, London N2'
     },
     {
@@ -829,6 +929,8 @@ const DATA = {
       tags: ['tennis', 'racket sports', 'holiday camp'],
       contact: 'https://clubspark.lta.org.uk/QueensParkTennisCourts/Coaching/Camps',
       linkLabel: 'Check camps',
+       lat: 51.535,
+       lng: -0.205,
       mapQuery: "Queen's Park Tennis Courts, London"
     },
     {
@@ -845,6 +947,8 @@ const DATA = {
       tags: ['tennis', 'racket sports', 'holiday camp'],
       contact: 'https://clubspark.lta.org.uk/ValeTennisCoaching/Coaching/Camps',
       linkLabel: 'Open camp page',
+       lat: 51.528,
+       lng: -0.19,
       mapQuery: 'Littletons Tennis Club, Maida Vale, London'
     },
     {
@@ -861,6 +965,8 @@ const DATA = {
       tags: ['tennis', 'racket sports', 'holiday camp'],
       contact: 'https://highgate-tennis.co.uk/tennis-camps',
       linkLabel: 'View camp details',
+       lat: 51.507,
+       lng: -0.128,
       mapQuery: 'Highgate Cricket and Lawn Tennis Club, London'
     },
     {
@@ -877,6 +983,8 @@ const DATA = {
       tags: ['tennis', 'racket sports', 'holiday camp', 'multi-sport'],
       contact: 'https://clubspark.lta.org.uk/CherryTreeWood/Coaching/Camps',
       linkLabel: 'Open camp page',
+       lat: 51.5856452,
+       lng: -0.1597889,
       mapQuery: 'Cherry Tree Wood, East Finchley, London'
     },
     {
@@ -893,6 +1001,8 @@ const DATA = {
       tags: ['tennis', 'racket sports', 'holiday camp'],
       contact: 'https://clubspark.lta.org.uk/FGNorthwayGardens/Coaching/Camps',
       linkLabel: 'Open camp page',
+       lat: 53.6880613,
+       lng: -1.703401,
       mapQuery: 'Northway Gardens, London NW11'
     },
 
@@ -910,6 +1020,8 @@ const DATA = {
       tags: ['sports', 'active', 'holiday camp'],
       contact: 'https://www.msportactive.co.uk/holiday-camp',
       linkLabel: 'Book camp',
+       lat: 51.5074456,
+       lng: -0.1277653,
       mapQuery: 'London'
     },
     {
@@ -926,6 +1038,8 @@ const DATA = {
       tags: ['performing arts', 'creative', 'holiday camp'],
       contact: 'https://www.thepetiteperformers.com/West-Hampstead',
       linkLabel: 'View camp',
+       lat: 51.5390548,
+       lng: -0.1895175,
       mapQuery: 'West Hampstead, London NW6'
     },
     {
@@ -942,6 +1056,8 @@ const DATA = {
       tags: ['creative', 'holiday club', 'Kensal Rise'],
       contact: 'https://www.queensparkfolk.com/qpfguides/a-local-guide-to-half-term-camps-and-activities-this-feb-2026-in-queens-park-kensal-rise-and-beyond',
       linkLabel: 'Local guide',
+       lat: 51.5344634,
+       lng: -0.2200978,
       mapQuery: 'Kensal Rise, London NW10'
     },
     {
@@ -958,6 +1074,8 @@ const DATA = {
       tags: ['performing arts', 'holiday camp', 'creative'],
       contact: 'https://2dastage.com/playscheme',
       linkLabel: 'View playscheme',
+       lat: 51.5560695,
+       lng: -0.2796034,
       mapQuery: 'Wembley, London'
     },
     {
@@ -974,6 +1092,8 @@ const DATA = {
       tags: ['holiday club', 'multi-activity', 'wraparound'],
       contact: 'https://www.junioradventuresgroup.co.uk/find-us/salusbury-primary-school',
       linkLabel: 'See club page',
+       lat: 51.536812,
+       lng: -0.2055289,
       mapQuery: 'Salusbury Primary School, Salusbury Road, London NW6 6RG'
     },
     {
@@ -991,6 +1111,8 @@ const DATA = {
       tags: ['summer', 'multi-activity', 'FSM', 'trips', 'sports', 'arts'],
       contact: 'https://www.ettsports.co.uk/',
       linkLabel: 'Contact ETT Sports',
+       lat: 51.507,
+       lng: -0.128,
       mapQuery: 'Mora School, Mora Road, London NW2'
     },
     {
@@ -1008,6 +1130,8 @@ const DATA = {
       tags: ['summer camp', 'holiday club', 'trips', 'daily booking', 'ladbroke grove', 'portobello'],
       contact: './assets/Summer Camp Junior _ After School Dreams _ July 2026-compressed.pdf',
       linkLabel: 'Flyer: Junior (3–6) — tap for Senior too',
+       lat: 51.5201525,
+       lng: -0.2091278,
       mapQuery: 'Instituto Español, 317 Portobello Road, London W10 5SZ',
       promoImage: './assets/after-school-dreams-flyer.jpg',
       promoAlt: 'After School Dreams Summer Camp flyer',
@@ -1026,6 +1150,8 @@ const DATA = {
       tags: ['multi-activity', 'ofsted', 'mill hill', 'all ages'],
       contact: 'https://www.campbeaumont.co.uk/',
       linkLabel: 'Camp Beaumont',
+       lat: 51.6173904,
+       lng: -0.2326364,
       mapQuery: 'Mill Hill School, The Ridgeway, London NW7 1QS'
     },
     {
@@ -1040,6 +1166,8 @@ const DATA = {
       tags: ['multi-activity', 'specialist', 'south hampstead', 'premium'],
       contact: 'https://www.supercamps.co.uk/',
       linkLabel: 'Super Camps',
+       lat: 51.5460175,
+       lng: -0.1768538,
       mapQuery: 'South Hampstead High School, 3 Maresfield Gardens, London NW3 5SS'
     },
     {
@@ -1054,6 +1182,8 @@ const DATA = {
       tags: ['multi-activity', 'west hampstead', 'walkable'],
       contact: 'https://www.supercamps.co.uk/',
       linkLabel: 'Super Camps',
+       lat: 51.507,
+       lng: -0.128,
       mapQuery: 'The Mulberry House School, 7 Minster Road, London NW2 3SD'
     },
     {
@@ -1068,6 +1198,8 @@ const DATA = {
       tags: ['football', 'chelsea', 'maida vale', 'coaching', 'affordable'],
       contact: 'https://www.chelseafc.com/en/foundation',
       linkLabel: 'Chelsea FC Foundation',
+       lat: 51.528,
+       lng: -0.19,
       mapQuery: 'Paddington Recreation Ground, Maida Vale, London W9'
     },
     {
@@ -1082,6 +1214,8 @@ const DATA = {
       tags: ['football', 'arsenal', 'coaching', 'affordable'],
       contact: 'https://www.arsenalsoccerschools.com/',
       linkLabel: 'Arsenal Soccer Schools',
+       lat: 51.507,
+       lng: -0.128,
       mapQuery: 'Arsenal, North London'
     },
     {
@@ -1096,6 +1230,8 @@ const DATA = {
       tags: ['football', 'qpr', 'community', 'affordable', 'inclusive'],
       contact: 'https://www.qpr.co.uk/community',
       linkLabel: 'QPR Community Trust',
+       lat: 51.507,
+       lng: -0.128,
       mapQuery: 'QPR, Loftus Road, London'
     },
     {
@@ -1110,6 +1246,8 @@ const DATA = {
       tags: ['tennis', 'lta', 'all ages', 'outdoor', 'affordable'],
       contact: 'https://www.allstartennis.co.uk/',
       linkLabel: 'All Star Tennis',
+       lat: 51.4535474,
+       lng: -0.1958473,
       mapQuery: 'All Star Tennis, London'
     },
     {
@@ -1124,6 +1262,8 @@ const DATA = {
       tags: ['tennis', 'regents park', 'indoor courts', 'all ages'],
       contact: 'https://www.willtowin.co.uk/',
       linkLabel: 'Will to Win',
+      lat: 51.532,
+      lng: -0.157,
       mapQuery: 'Will to Win, Regent\'s Park, York Bridge, London NW1 4NU'
     },
     {
@@ -1138,6 +1278,8 @@ const DATA = {
       tags: ['multi-sport', 'leisure centre', 'affordable', 'extended hours'],
       contact: 'https://www.fitforsport.co.uk/',
       linkLabel: 'Fit for Sport',
+       lat: 51.5425202,
+       lng: -0.1726474,
       mapQuery: 'Swiss Cottage Leisure Centre, London NW3 3NF'
     },
     {
@@ -1152,6 +1294,8 @@ const DATA = {
       tags: ['multi-activity', 'ofsted', 'adventure', 'extended hours'],
       contact: 'https://www.barracudas.co.uk/',
       linkLabel: 'Barracudas',
+       lat: 51.507,
+       lng: -0.128,
       mapQuery: 'Barracudas, London'
     },
     {
@@ -1166,6 +1310,8 @@ const DATA = {
       tags: ['performing arts', 'drama', 'dance', 'singing', 'queens park', 'primrose hill'],
       contact: 'https://www.stagecoach.co.uk/',
       linkLabel: 'Stagecoach',
+       lat: 51.5330746,
+       lng: -0.2246571,
       mapQuery: 'Princess Frederica School, College Road, London NW10 5TP'
     },
     {
@@ -1180,6 +1326,8 @@ const DATA = {
       tags: ['coding', 'stem', 'tech', 'robotics', 'premium'],
       contact: 'https://www.firetechcamp.com/',
       linkLabel: 'Fire Tech',
+       lat: 51.507,
+       lng: -0.128,
       mapQuery: 'Fire Tech Camp, London'
     },
     {
@@ -1194,6 +1342,8 @@ const DATA = {
       tags: ['stem', 'science', 'experiments', 'hampstead', 'hands-on'],
       contact: 'https://www.littlehouseofscience.com/',
       linkLabel: 'Little House of Science',
+       lat: 51.556,
+       lng: -0.178,
       mapQuery: 'Little House of Science, Hampstead, London'
     },
     {
@@ -1208,6 +1358,8 @@ const DATA = {
       tags: ['performing arts', 'musical theatre', 'confidence', 'fun'],
       contact: 'https://www.razzamataz.co.uk/',
       linkLabel: 'Razzamataz',
+       lat: 51.507,
+       lng: -0.128,
       mapQuery: 'Razzamataz, London'
     },
     {
@@ -1222,6 +1374,8 @@ const DATA = {
       tags: ['art', 'creative', 'camden', 'painting', 'sculpture'],
       contact: 'https://www.artacademy.org.uk/',
       linkLabel: 'Art Academy',
+       lat: 51.538,
+       lng: -0.143,
       mapQuery: 'Art Academy, Camden, London NW1'
     },
     {
@@ -1236,6 +1390,8 @@ const DATA = {
       tags: ['free', 'haf', 'camden', 'fsm', 'meals'],
       contact: 'https://www.camden.gov.uk/healthy-holidays',
       linkLabel: 'Camden HAF',
+       lat: 51.5427966,
+       lng: -0.1624803,
       mapQuery: 'Camden, London'
     },
     {
@@ -1250,6 +1406,8 @@ const DATA = {
       tags: ['swimming', 'leisure centre', 'affordable', 'swiss cottage', 'multi-sport'],
       contact: 'https://www.better.org.uk/leisure-centre/london/camden/swiss-cottage-leisure-centre',
       linkLabel: 'Swiss Cottage',
+       lat: 51.5423568,
+       lng: -0.1725073,
       mapQuery: 'Swiss Cottage Leisure Centre, Adelaide Road, London NW3 3NF'
     },
     {
@@ -1264,6 +1422,8 @@ const DATA = {
       tags: ['gymnastics', 'indoor', 'hendon', 'affordable'],
       contact: 'https://www.better.org.uk/leisure-centre/london/barnet/hendon-leisure-centre',
       linkLabel: 'Hendon Leisure',
+       lat: 51.5739355,
+       lng: -0.2154514,
       mapQuery: 'Hendon Leisure Centre, Marble Drive, London NW2 1XQ'
     },
     {
@@ -1278,6 +1438,8 @@ const DATA = {
       tags: ['tennis', 'multi-sport', 'holiday camp', 'brondesbury', 'sports'],
       contact: 'https://www.brondesburycoaching.co.uk',
       linkLabel: 'Brondesbury Coaching',
+       lat: 51.546,
+       lng: -0.215,
       mapQuery: 'Brondesbury Coaching, London NW2 2EB'
     }
   ],
@@ -1288,6 +1450,8 @@ const DATA = {
       name: 'The Hearth',
       age: 'all ages',
       cost: 'low',
+      lat: 51.535,
+      lng: -0.205,
       area: 'Queen’s Park',
       blurb: 'Warm, community-minded indoor spot that works well with buggies, toddlers, or a playdate stop.',
       recommendation: 'Best all-round café for a parent reset.',
@@ -1309,6 +1473,8 @@ const DATA = {
       tags: ['bookshop', 'indoor', 'quiet'],
       contact: 'https://www.google.com/search?q=Queens+Park+Books+London',
       linkLabel: 'Search details',
+       lat: 51.507,
+       lng: -0.128,
       mapQuery: 'Queens Park Books, London'
     },
     {
@@ -1323,6 +1489,8 @@ const DATA = {
       tags: ['library', 'café', 'books'],
       contact: 'https://www.brent.gov.uk/libraries-arts-and-heritage/libraries/library-events',
       linkLabel: 'See library page',
+       lat: 51.54,
+       lng: -0.225,
       mapQuery: 'Willesden Green Library Centre, London'
     },
     {
@@ -1337,6 +1505,8 @@ const DATA = {
       tags: ['venue', 'family-friendly', 'classes'],
       contact: 'https://themaqamcentre.com',
       linkLabel: 'Visit The Maqam Centre',
+       lat: 51.5375214,
+       lng: -0.2162134,
       mapQuery: 'The Maqam Centre, Wrentham Avenue, London'
     }
   ],
@@ -1354,6 +1524,8 @@ const DATA = {
       tags: ['library', 'rainy day', 'free'],
       contact: 'https://www.brent.gov.uk/libraries-arts-and-heritage/libraries/library-events',
       linkLabel: 'Open events',
+       lat: 51.54,
+       lng: -0.225,
       mapQuery: 'Willesden Green Library Centre, London',
       mapPinned: true
     },
@@ -1383,6 +1555,8 @@ const DATA = {
       tags: ['bookshop', 'quiet', 'indoor'],
       contact: 'https://www.google.com/search?q=Queens+Park+Books+London',
       linkLabel: 'Search details',
+       lat: 51.507,
+       lng: -0.128,
       mapQuery: 'Queens Park Books, London'
     },
     {
@@ -1397,6 +1571,8 @@ const DATA = {
       tags: ['swimming', 'lessons', 'indoor'],
       contact: 'https://swimmingnature.com/our-pools/the-maqam-centre',
       linkLabel: 'Visit swimming page',
+       lat: 51.5375214,
+       lng: -0.2162134,
       mapQuery: 'The Maqam Centre, Wrentham Avenue, London'
     },
     {
@@ -1527,6 +1703,8 @@ const DATA = {
       tags: ['swim', 'lessons', 'indoor'],
       contact: 'https://swimmingnature.com/our-pools/the-maqam-centre',
       linkLabel: 'Visit swimming lessons',
+       lat: 51.5375214,
+       lng: -0.2162134,
       mapQuery: 'The Maqam Centre, Wrentham Avenue, London'
     },
     {
@@ -1647,6 +1825,8 @@ const DATA = {
       tags: ['playgroup', 'stay and play', 'free'],
       contact: 'https://www.theplaymap.co.uk/playgroups/stay-and-play-in-brent',
       linkLabel: 'Browse playgroups',
+       lat: 51.5639957,
+       lng: -0.2759064,
       mapQuery: 'Brent, London'
     },
     {
@@ -1817,6 +1997,8 @@ const DATA = {
       tags: ['swim', 'climbing', 'fitness'],
       contact: 'https://www.better.org.uk/leisure-centre/london/camden/swiss-cottage-leisure-centre/activities',
       linkLabel: 'See activities',
+       lat: 51.5423568,
+       lng: -0.1725073,
       mapQuery: 'Swiss Cottage Leisure Centre, Adelaide Road, London NW3 3NF',
       featured: true
     },
@@ -2238,6 +2420,8 @@ const DATA = {
       tags: ['outdoors', 'fitness', 'free'],
       contact: 'https://www.brent.gov.uk/parks-leisure-and-healthy-living/sports-clubs-and-activities/outdoor-gyms',
       linkLabel: 'See outdoor gyms',
+       lat: 51.5639957,
+       lng: -0.2759064,
       mapQuery: 'Brent, London'
     },
     {
@@ -2420,6 +2604,8 @@ const DATA = {
       tags: ['football', 'sport', 'class'],
       contact: 'https://www.brent.gov.uk/parks-leisure-and-healthy-living/sports-clubs-and-activities/sport-activity-finder/play-with-your-sole-fc',
       linkLabel: 'View listing',
+       lat: 51.5639957,
+       lng: -0.2759064,
       mapQuery: 'Brent, London'
     },
     {
@@ -2462,6 +2648,8 @@ const DATA = {
       tags: ['performing arts', 'dance', 'music'],
       contact: 'https://www.brent.gov.uk/neighbourhoods-and-communities/community-directory/2-da-stage-performing-arts-and-childcare-club',
       linkLabel: 'View listing',
+       lat: 51.5560695,
+       lng: -0.2796034,
       mapQuery: 'Wembley, London'
     },
     {
@@ -2490,6 +2678,8 @@ const DATA = {
       tags: ['theatre', 'drama', 'free'],
       contact: 'https://www.brent.gov.uk/neighbourhoods-and-communities/community-directory/brent-youth-theatre',
       linkLabel: 'View listing',
+       lat: 51.5560695,
+       lng: -0.2796034,
       mapQuery: 'Wembley, London'
     },
     {
@@ -2560,6 +2750,8 @@ const DATA = {
       tags: ['music', 'class', 'ensembles'],
       contact: 'https://www.brent.gov.uk/education-schools-and-learning/brent-music-service',
       linkLabel: 'View music service',
+       lat: 51.5639957,
+       lng: -0.2759064,
       mapQuery: 'Brent, London'
     },
     {
@@ -2574,6 +2766,8 @@ const DATA = {
       tags: ['dance', 'music', 'arts'],
       contact: 'https://www.brent.gov.uk/neighbourhoods-and-communities/community-directory/kalaniketan',
       linkLabel: 'View listing',
+       lat: 51.5639957,
+       lng: -0.2759064,
       mapQuery: 'Brent, London'
     },
     {
@@ -2602,6 +2796,8 @@ const DATA = {
       tags: ['club', 'holiday', 'free'],
       contact: 'https://www.brent.gov.uk/neighbourhoods-and-communities/community-directory/salusbury-world',
       linkLabel: 'View listing',
+       lat: 51.533873,
+       lng: -0.2054958,
       mapQuery: 'Queen’s Park, London'
     },
     {
@@ -2674,6 +2870,8 @@ const DATA = {
       tags: ['beer garden', 'gastropub', 'sunday roast', 'changing facilities', 'salusbury road'],
       contact: 'https://www.thealicehouse.co.uk/',
       linkLabel: 'Visit website',
+       lat: 51.5348333,
+       lng: -0.2045056,
       mapQuery: 'The Alice House, 53-55 Salusbury Road, London NW6 6NJ',
       promoImage: 'https://images.unsplash.com/photo-1571071627962-b100cdd80b50?w=800&h=450&fit=crop&auto=format',
       featured: true
@@ -2690,6 +2888,8 @@ const DATA = {
       tags: ['gastropub', 'wine bar', 'deli', 'outdoor seating', 'salusbury road'],
       contact: 'https://www.thesalusbury.co.uk/',
       linkLabel: 'Visit website',
+       lat: 51.5355635,
+       lng: -0.2054968,
       mapQuery: 'The Salusbury, 50 Salusbury Road, London NW6 6NN',
       promoImage: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&h=450&fit=crop&auto=format'
     },
@@ -2705,6 +2905,8 @@ const DATA = {
       tags: ['beer garden', 'gastropub', 'kids menu', 'west hampstead'],
       contact: 'https://www.thegallerynw6.co.uk/',
       linkLabel: 'Visit website',
+       lat: 51.5465265,
+       lng: -0.1902167,
       mapQuery: 'The Gallery, 190 Broadhurst Gardens, London NW6 3AY',
       promoImage: 'https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=800&h=450&fit=crop&auto=format'
     },
@@ -2720,6 +2922,8 @@ const DATA = {
       tags: ['beer garden', 'gastropub', 'sunday roast', 'west end lane'],
       contact: 'https://www.theblacklionnw6.com/',
       linkLabel: 'Visit website',
+       lat: 51.551175,
+       lng: -0.1918711,
       mapQuery: 'The Black Lion, 295 West End Lane, London NW6 1RD',
       promoImage: 'https://images.unsplash.com/photo-1615937722923-67f6deaf2cc9?w=800&h=450&fit=crop&auto=format'
     },
@@ -2735,6 +2939,8 @@ const DATA = {
       tags: ['beer garden', 'gastropub', 'sunday roast', 'changing facilities', 'kilburn'],
       contact: 'https://www.theoldbellkilburn.co.uk/',
       linkLabel: 'Visit website',
+       lat: 51.54,
+       lng: -0.235,
       mapQuery: 'The Old Bell, 38 Willesden Lane, London NW6 7ST',
       promoImage: 'https://images.unsplash.com/photo-1549488344-1f9b8d2bd1f3?w=800&h=450&fit=crop&auto=format'
     },
@@ -2750,6 +2956,8 @@ const DATA = {
       tags: ['beer garden', 'hampstead heath', 'pub food', 'outdoor', 'large garden'],
       contact: 'https://www.freemasonsarmshampstead.co.uk/',
       linkLabel: 'Visit website',
+       lat: 51.507,
+       lng: -0.128,
       mapQuery: 'Freemasons Arms, 32 Downshire Hill, London NW3 1NT',
       promoImage: 'https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&h=450&fit=crop&auto=format',
       featured: true
@@ -2766,6 +2974,8 @@ const DATA = {
       tags: ['beer garden', 'historic', 'hampstead heath', 'large garden', 'destination pub'],
       contact: 'https://www.thespaniardshampstead.co.uk/',
       linkLabel: 'Visit website',
+       lat: 51.5698654,
+       lng: -0.1740643,
       mapQuery: 'Spaniards Inn, Spaniards Road, London NW3 7JJ',
       promoImage: 'https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=800&h=450&fit=crop&auto=format',
       featured: true
@@ -2782,6 +2992,8 @@ const DATA = {
       tags: ['beer garden', 'traditional', 'affordable', 'cricklewood'],
       contact: 'https://www.crowncricklewood.co.uk/',
       linkLabel: 'Visit website',
+       lat: 51.556211,
+       lng: -0.2148562,
       mapQuery: 'The Crown, Cricklewood Broadway, London NW2 3ED',
       promoImage: 'https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=800&h=450&fit=crop&auto=format'
     }
@@ -2800,6 +3012,8 @@ const DATA = {
       tags: ['library', 'free', 'storytelling', 'craft', 'indoor', 'café', 'accessible'],
       contact: 'https://www.brent.gov.uk/libraries',
       linkLabel: 'Brent libraries',
+       lat: 51.5468236,
+       lng: -0.2289918,
       mapQuery: 'The Library at Willesden Green, 95 High Road, NW10 2SF',
       promoImage: 'https://images.unsplash.com/photo-1507842217343-583bb4565c69?w=800&h=450&fit=crop&auto=format'
     },
@@ -2815,6 +3029,8 @@ const DATA = {
       tags: ['museum', 'free', 'indoor', 'planes', 'interactive', 'playground'],
       contact: 'https://www.rafmuseum.org.uk/london/',
       linkLabel: 'Visit RAF Museum',
+       lat: 51.507,
+       lng: -0.128,
       mapQuery: 'RAF Museum London, Grahame Park Way, London NW9 5LL',
       promoImage: 'https://images.unsplash.com/photo-1559060018-6153ad18ec53?w=800&h=450&fit=crop&auto=format'
     },
@@ -2830,6 +3046,8 @@ const DATA = {
       tags: ['museum', 'free', 'indoor', 'science', 'interactive', 'central london'],
       contact: 'https://www.sciencemuseum.org.uk/',
       linkLabel: 'Visit Science Museum',
+       lat: 51.507,
+       lng: -0.128,
       mapQuery: 'Science Museum, Exhibition Road, London SW7 2DD',
       promoImage: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=450&fit=crop&auto=format'
     },
@@ -2845,6 +3063,8 @@ const DATA = {
       tags: ['museum', 'free', 'dinosaurs', 'indoor', 'central london', 'sensory'],
       contact: 'https://www.nhm.ac.uk/',
       linkLabel: 'Visit NHM',
+       lat: 51.4965109,
+       lng: -0.1760019,
       mapQuery: 'Natural History Museum, Cromwell Road, London SW7 5BD',
       promoImage: 'https://images.unsplash.com/photo-1569428034239-f9565e32e224?w=800&h=450&fit=crop&auto=format'
     },
@@ -2860,6 +3080,8 @@ const DATA = {
       tags: ['climbing', 'active', 'indoor', 'booking required'],
       contact: 'https://www.clipnclimbchelsea.co.uk/',
       linkLabel: 'Book a session',
+       lat: 51.487,
+       lng: -0.171,
       mapQuery: 'Clip n Climb Chelsea, 19 Michael Road, London SW6 2ER',
       promoImage: 'https://images.unsplash.com/photo-1522163182402-834f871fd851?w=800&h=450&fit=crop&auto=format'
     },
@@ -2875,6 +3097,8 @@ const DATA = {
       tags: ['trampoline', 'indoor', 'active', 'café', 'party venue'],
       contact: 'https://www.gojumpin.com/',
       linkLabel: 'Visit website',
+       lat: 51.555,
+       lng: -0.218,
       mapQuery: 'Jump In Cricklewood, 158 Cricklewood Broadway, London NW2 3ED',
       promoImage: 'https://images.unsplash.com/photo-1596895111956-bf1cf84b1e2b?w=800&h=450&fit=crop&auto=format'
     },
@@ -2890,6 +3114,8 @@ const DATA = {
       tags: ['museum', 'transport', 'interactive', 'indoor', 'central london'],
       contact: 'https://www.ltmuseum.co.uk/',
       linkLabel: 'Visit LTM',
+       lat: 51.5119839,
+       lng: -0.1212265,
       mapQuery: 'London Transport Museum, Covent Garden Piazza, London WC2E 7BB',
       promoImage: 'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&h=450&fit=crop&auto=format'
     },
@@ -2905,6 +3131,8 @@ const DATA = {
       tags: ['swimming', 'soft play', 'indoor', 'active', 'affordable'],
       contact: 'https://www.better.org.uk/leisure-centre/london/camden/swiss-cottage-leisure-centre',
       linkLabel: 'Visit Better',
+       lat: 51.5423568,
+       lng: -0.1725073,
       mapQuery: 'Swiss Cottage Leisure Centre, Adelaide Road, London NW3 3NF',
       promoImage: 'https://images.unsplash.com/photo-1576610616656-d3aa5d1f4534?w=800&h=450&fit=crop&auto=format'
     },
@@ -2920,6 +3148,8 @@ const DATA = {
       tags: ['cinema', 'weekend', 'indoor', 'relaxed', 'booking needed'],
       contact: 'https://www.everymancinema.com/',
       linkLabel: 'Everyman listings',
+       lat: 51.5280256,
+       lng: -0.1817063,
       mapQuery: 'Everyman Maida Vale, 215 Sutherland Avenue, London W9 1RU',
       promoImage: 'https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800&h=450&fit=crop&auto=format'
     },
@@ -2935,6 +3165,8 @@ const DATA = {
       tags: ['soft play', 'indoor', 'café', 'toddler', 'baby area'],
       contact: 'https://www.thearksoftplay.co.uk/',
       linkLabel: 'Visit The Ark',
+       lat: 51.507,
+       lng: -0.128,
       mapQuery: 'The Ark Soft Play, 242 West End Lane, London NW6 1LG',
       promoImage: 'https://images.unsplash.com/photo-1596464716127-f2a82984de30?w=800&h=450&fit=crop&auto=format'
     }
@@ -2953,6 +3185,8 @@ const DATA = {
       tags: ['SEND', 'free', 'EHCP', 'advice', 'Brent', 'advocacy'],
       contact: 'https://www.brent.gov.uk/sendiass',
       linkLabel: 'Brent SENDIASS',
+       lat: 51.5589754,
+       lng: -0.2814288,
       mapQuery: 'Brent Civic Centre, Engineers Way, Wembley HA9 0FJ'
     },
     {
@@ -2967,6 +3201,8 @@ const DATA = {
       tags: ['SEND', 'parent support', 'Brent', 'community', 'free'],
       contact: 'https://www.brentpcf.org/',
       linkLabel: 'Brent PCF',
+       lat: 51.5639957,
+       lng: -0.2759064,
       mapQuery: 'Brent, London'
     },
     {
@@ -2981,6 +3217,8 @@ const DATA = {
       tags: ['SEND', 'charity', 'helpline', 'benefits', 'national'],
       contact: 'https://www.contact.org.uk/',
       linkLabel: 'Contact charity',
+       lat: 51.507,
+       lng: -0.128,
       mapQuery: 'Contact, Wenlock Road, London N1 7GT'
     },
     {
@@ -2995,6 +3233,8 @@ const DATA = {
       tags: ['SEND', 'legal', 'EHCP', 'tribunal', 'free', 'national'],
       contact: 'https://www.ipsea.org.uk/',
       linkLabel: 'IPSEA website',
+       lat: 52.205,
+       lng: 0.122,
       mapQuery: 'IPSEA, Cambridge, UK'
     },
     {
@@ -3009,6 +3249,8 @@ const DATA = {
       tags: ['SEND', 'learning disability', 'Brent', 'clubs', 'holiday'],
       contact: 'https://www.brentmencap.org.uk/',
       linkLabel: 'Brent Mencap',
+       lat: 51.55,
+       lng: -0.28,
       mapQuery: 'Brent Mencap, 379-381 High Road, London NW10 2JR'
     },
     {
@@ -3023,6 +3265,8 @@ const DATA = {
       tags: ['SEND', 'inclusive', 'play', 'park', 'free', 'queens park'],
       contact: 'https://www.cityoflondon.gov.uk/things-to-do/green-spaces/queens-park',
       linkLabel: 'Queen\'s Park',
+      lat: 51.535,
+      lng: -0.205,
       mapQuery: 'Queen\'s Park, Harvist Road, London NW6 6SG'
     },
     {
@@ -3037,6 +3281,8 @@ const DATA = {
       tags: ['SEND', 'swimming', 'sensory-friendly', 'Brent', 'accessible'],
       contact: 'https://www.better.org.uk/',
       linkLabel: 'Better UK app',
+       lat: 51.5415287,
+       lng: -0.2313636,
       mapQuery: 'Willesden Sports Centre, Donnington Road, London NW10 3QX'
     },
     {
@@ -3051,6 +3297,8 @@ const DATA = {
       tags: ['SEND', 'autism', 'NHS', 'Brent', 'assessment', 'free'],
       contact: 'https://www.cnwl.nhs.uk/services/child-and-adolescent-mental-health-services/brent-autism-service',
       linkLabel: 'CNWL website',
+       lat: 51.55,
+       lng: -0.28,
       mapQuery: 'Brent CAMHS, London'
     },
     {
@@ -3065,6 +3313,8 @@ const DATA = {
       tags: ['SEND', 'sensory', 'free', 'library', 'calm', 'willesden'],
       contact: 'https://www.brent.gov.uk/libraries',
       linkLabel: 'Book a slot',
+       lat: 51.5468236,
+       lng: -0.2289918,
       mapQuery: 'The Library at Willesden Green, 95 High Road, NW10 2SF'
     },
     {
@@ -3079,6 +3329,8 @@ const DATA = {
       tags: ['SEND', 'education', 'resources', 'national', 'free'],
       contact: 'https://www.nasen.org.uk/',
       linkLabel: 'nasen website',
+       lat: 52.634,
+       lng: -1.69,
       mapQuery: 'nasen, Tamworth, UK'
     }
   ],
@@ -3096,6 +3348,8 @@ const DATA = {
       tags: ['swimming', 'active', 'toddler', 'affordable'],
       contact: 'https://www.better.org.uk/leisure-centre/london/camden/swiss-cottage-leisure-centre',
       linkLabel: 'Swiss Cottage',
+       lat: 51.5423568,
+       lng: -0.1725073,
       mapQuery: 'Swiss Cottage Leisure Centre, Adelaide Road, London NW3 3NF'
     },
     {
@@ -3110,6 +3364,8 @@ const DATA = {
       tags: ['capoeira', 'martial arts', 'music', 'active', 'kensal rise', 'term time'],
       contact: 'https://www.capoeira.co.uk/',
       linkLabel: 'Visit website',
+       lat: 51.5344634,
+       lng: -0.2200978,
       mapQuery: 'Kensal Rise, London NW10'
     },
     {
@@ -3124,6 +3380,8 @@ const DATA = {
       tags: ['tennis', 'free', 'queens park', 'active', 'outdoor'],
       contact: 'https://www.cityoflondon.gov.uk/things-to-do/green-spaces/queens-park',
       linkLabel: 'Queen\'s Park',
+      lat: 51.535,
+      lng: -0.205,
       mapQuery: 'Queen\'s Park Tennis Courts, Harvist Road, London NW6 6SG'
     },
     {
@@ -3138,6 +3396,8 @@ const DATA = {
       tags: ['football', 'active', 'toddler', 'preschool', 'term time'],
       contact: 'https://www.littlekickers.co.uk/',
       linkLabel: 'Little Kickers',
+       lat: 51.5394986,
+       lng: -0.2363599,
       mapQuery: 'Willesden Green, London NW10'
     },
     {
@@ -3152,6 +3412,8 @@ const DATA = {
       tags: ['gymnastics', 'active', 'indoor', 'term time', 'willesden'],
       contact: 'https://www.british-gymnastics.org/',
       linkLabel: 'Find classes',
+       lat: 51.5401194,
+       lng: -0.230209,
       mapQuery: 'Willesden, London NW10'
     },
     {
@@ -3166,6 +3428,8 @@ const DATA = {
       tags: ['dance', 'ballet', 'toddler', 'preschool', 'term time', 'willesden'],
       contact: 'https://www.babyballet.co.uk/',
       linkLabel: 'Baby Ballet',
+       lat: 51.5394986,
+       lng: -0.2363599,
       mapQuery: 'Willesden Green, London NW10'
     },
     {
@@ -3180,6 +3444,8 @@ const DATA = {
       tags: ['music', 'baby', 'toddler', 'queens park', 'term time', 'singing'],
       contact: 'https://www.monkeymusic.co.uk/',
       linkLabel: 'Monkey Music',
+      lat: 51.535,
+      lng: -0.205,
       mapQuery: 'Queen\'s Park, London NW6'
     },
     {
@@ -3194,6 +3460,8 @@ const DATA = {
       tags: ['karate', 'martial arts', 'active', 'confidence', 'term time', 'willesden'],
       contact: 'https://www.kuGB.org/',
       linkLabel: 'Find dojo',
+       lat: 51.5401194,
+       lng: -0.230209,
       mapQuery: 'Willesden, London NW10'
     },
     {
@@ -3208,6 +3476,8 @@ const DATA = {
       tags: ['art', 'creative', 'craft', 'messy play', 'cricklewood', 'term time'],
       contact: 'https://www.hoop.co.uk/search?q=art+club+cricklewood',
       linkLabel: 'Art classes',
+       lat: 51.5566673,
+       lng: -0.2237068,
       mapQuery: 'Cricklewood, London NW2'
     },
     {
@@ -3222,6 +3492,8 @@ const DATA = {
       tags: ['forest school', 'outdoor', 'nature', 'queens park', 'active', 'term time'],
       contact: 'https://www.cityoflondon.gov.uk/things-to-do/green-spaces/queens-park',
       linkLabel: 'Queen\'s Park',
+      lat: 51.535,
+      lng: -0.205,
       mapQuery: 'Queen\'s Park Wildlife Area, Harvist Road, London NW6 6SG'
     }
   ]
@@ -3957,6 +4229,16 @@ function renderAll() {
     `).join('');
   }
   const filtered = getFilteredItems();
+  // Apply distance sort if active
+  if (window._distanceSortCoords) {
+    for (const [key, items] of Object.entries(filtered)) {
+      items.sort((a, b) => {
+        const dA = haversineDistance(window._distanceSortCoords.lat, window._distanceSortCoords.lng, a.lat || 0, a.lng || 0);
+        const dB = haversineDistance(window._distanceSortCoords.lat, window._distanceSortCoords.lng, b.lat || 0, b.lng || 0);
+        return dA - dB;
+      });
+    }
+  }
   currentFilteredGroups = filtered;
   SECTIONS.forEach(section => renderSection(section, filtered[dataKeyForSection(section)] || []));
   updateSectionVisibility(filtered);
@@ -4440,5 +4722,88 @@ function isOpenNow(item) {
   // Indoor/general → typical opening
   return hour >= 9 && hour <= 18;
 }
+
+// ── Distance Sort ──
+
+function haversineDistance(lat1, lng1, lat2, lng2) {
+  const R = 6371; // Earth's radius in km
+  const dLat = (lat2 - lat1) * Math.PI / 180;
+  const dLng = (lng2 - lng1) * Math.PI / 180;
+  const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+    Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+    Math.sin(dLng / 2) * Math.sin(dLng / 2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  return R * c; // distance in km
+}
+
+function toggleDistanceSort() {
+  var btn = document.getElementById('distance-sort-btn');
+  var panel = document.getElementById('distance-sort-panel');
+  var input = document.getElementById('distance-postcode');
+  if (!btn || !panel) return;
+  
+  var isActive = btn.getAttribute('aria-pressed') === 'true';
+  btn.setAttribute('aria-pressed', isActive ? 'false' : 'true');
+  btn.classList.toggle('active', !isActive);
+  
+  if (!isActive) {
+    panel.style.display = 'block';
+    input.focus();
+  } else {
+    panel.style.display = 'none';
+    window._distanceSortCoords = null;
+    document.getElementById('distance-sort-status').textContent = '';
+    renderAll();
+  }
+}
+
+function geocodePostcodeAndSort(postcode) {
+  var status = document.getElementById('distance-sort-status');
+  if (!status) return;
+  
+  postcode = postcode.trim().toUpperCase();
+  if (postcode.length < 5) {
+    status.textContent = '';
+    window._distanceSortCoords = null;
+    renderAll();
+    return;
+  }
+  
+  status.textContent = 'Locating...';
+  
+  fetch('https://api.postcodes.io/postcodes/' + encodeURIComponent(postcode))
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      if (data.status === 200 && data.result) {
+        window._distanceSortCoords = {
+          lat: data.result.latitude,
+          lng: data.result.longitude
+        };
+        status.textContent = 'Sorted by distance from ' + postcode;
+        renderAll();
+      } else {
+        status.textContent = 'Postcode not found';
+        window._distanceSortCoords = null;
+        renderAll();
+      }
+    })
+    .catch(function() {
+      status.textContent = 'Error — try again';
+      window._distanceSortCoords = null;
+    });
+}
+
+// Auto-trigger on postcode input
+document.addEventListener('DOMContentLoaded', function() {
+  var input = document.getElementById('distance-postcode');
+  if (input) {
+    var timeout;
+    input.addEventListener('input', function() {
+      clearTimeout(timeout);
+      var val = this.value;
+      timeout = setTimeout(function() { geocodePostcodeAndSort(val); }, 400);
+    });
+  }
+});
 
 bootstrap();

@@ -1,0 +1,441 @@
+{
+  "coords": {
+    "82 Dudden Hill Lane, Dollis Hill, London": {
+      "lat": 51.5543452,
+      "lng": -0.2439987
+    },
+    "All Star Tennis, London": {
+      "lat": 51.4535474,
+      "lng": -0.1958473
+    },
+    "Anson Primary School, London": {
+      "lat": 51.5534473,
+      "lng": -0.2193071
+    },
+    "Brent Civic Centre, Engineers Way, Wembley HA9 0FJ": {
+      "lat": 51.5589754,
+      "lng": -0.2814288
+    },
+    "Brent Council, London": {
+      "lat": 51.5407907,
+      "lng": -0.2014562
+    },
+    "Brent, London": {
+      "lat": 51.5639957,
+      "lng": -0.2759064
+    },
+    "Buckingham Palace, London SW1A 1AA": {
+      "lat": 51.5008349,
+      "lng": -0.1430045
+    },
+    "Camden, London": {
+      "lat": 51.5427966,
+      "lng": -0.1624803
+    },
+    "Cherry Tree Wood, East Finchley, London": {
+      "lat": 51.5856452,
+      "lng": -0.1597889
+    },
+    "Cricklewood, London NW2": {
+      "lat": 51.5566673,
+      "lng": -0.2237068
+    },
+    "Everyman Maida Vale, 215 Sutherland Avenue, London W9 1RU": {
+      "lat": 51.5280256,
+      "lng": -0.1817063
+    },
+    "Gladstone Park, London NW2": {
+      "lat": 51.5552723,
+      "lng": -0.229117
+    },
+    "Hendon Leisure Centre, Marble Drive, London NW2 1XQ": {
+      "lat": 51.5739355,
+      "lng": -0.2154514
+    },
+    "Instituto Espa\u00f1ol, 317 Portobello Road, London W10 5SZ": {
+      "lat": 51.5201525,
+      "lng": -0.2091278
+    },
+    "Kensal Rise, London NW10": {
+      "lat": 51.5344634,
+      "lng": -0.2200978
+    },
+    "London": {
+      "lat": 51.5074456,
+      "lng": -0.1277653
+    },
+    "London Transport Museum, Covent Garden Piazza, London WC2E 7BB": {
+      "lat": 51.5119839,
+      "lng": -0.1212265
+    },
+    "Mill Hill School, The Ridgeway, London NW7 1QS": {
+      "lat": 51.6173904,
+      "lng": -0.2326364
+    },
+    "Natural History Museum, Cromwell Road, London SW7 5BD": {
+      "lat": 51.4965109,
+      "lng": -0.1760019
+    },
+    "North West London": {
+      "lat": 8.639424,
+      "lng": -13.2140092
+    },
+    "Northway Gardens, London NW11": {
+      "lat": 53.6880613,
+      "lng": -1.703401
+    },
+    "Princess Frederica School, College Road, London NW10 5TP": {
+      "lat": 51.5330746,
+      "lng": -0.2246571
+    },
+    "Queen's Park, Harvist Road, London NW6 6SG": {
+      "lat": 51.5342345,
+      "lng": -0.2049092
+    },
+    "Queen's Park, London NW6": {
+      "lat": 51.5362988,
+      "lng": -0.1936384
+    },
+    "Queens Park Community School, London": {
+      "lat": 51.5403371,
+      "lng": -0.2190511
+    },
+    "Queen\u2019s Park, London": {
+      "lat": 51.533873,
+      "lng": -0.2054958
+    },
+    "Queen\u2019s Park, London NW6": {
+      "lat": 51.5359525,
+      "lng": -0.1948607
+    },
+    "Salusbury Primary School, Salusbury Road, London NW6 6RG": {
+      "lat": 51.536812,
+      "lng": -0.2055289
+    },
+    "South Hampstead High School, 3 Maresfield Gardens, London NW3 5SS": {
+      "lat": 51.5460175,
+      "lng": -0.1768538
+    },
+    "Southbank Centre, Belvedere Road, London SE1 8XX": {
+      "lat": 51.5057791,
+      "lng": -0.116787
+    },
+    "Spaniards Inn, Spaniards Road, London NW3 7JJ": {
+      "lat": 51.5698654,
+      "lng": -0.1740643
+    },
+    "Swiss Cottage Leisure Centre, Adelaide Road, London NW3 3NF": {
+      "lat": 51.5423568,
+      "lng": -0.1725073
+    },
+    "Swiss Cottage Leisure Centre, London NW3 3NF": {
+      "lat": 51.5425202,
+      "lng": -0.1726474
+    },
+    "The Alice House, 53-55 Salusbury Road, London NW6 6NJ": {
+      "lat": 51.5348333,
+      "lng": -0.2045056
+    },
+    "The Black Lion, 295 West End Lane, London NW6 1RD": {
+      "lat": 51.551175,
+      "lng": -0.1918711
+    },
+    "The Crown, Cricklewood Broadway, London NW2 3ED": {
+      "lat": 51.556211,
+      "lng": -0.2148562
+    },
+    "The Gallery, 190 Broadhurst Gardens, London NW6 3AY": {
+      "lat": 51.5465265,
+      "lng": -0.1902167
+    },
+    "The Hearth, Queen's Park, London": {
+      "lat": 51.5372273,
+      "lng": -0.203658
+    },
+    "The Library at Willesden Green, 95 High Road, NW10 2SF": {
+      "lat": 51.5468236,
+      "lng": -0.2289918
+    },
+    "The Maqam Centre, Wrentham Avenue, London": {
+      "lat": 51.5375214,
+      "lng": -0.2162134
+    },
+    "The Mulberry House School, West Hampstead, London": {
+      "lat": 51.5511928,
+      "lng": -0.2079357
+    },
+    "The Salusbury, 50 Salusbury Road, London NW6 6NN": {
+      "lat": 51.5355635,
+      "lng": -0.2054968
+    },
+    "Treetops Nursery School, Doyle Gardens, London": {
+      "lat": 51.5391856,
+      "lng": -0.2328814
+    },
+    "Wembley, London": {
+      "lat": 51.5560695,
+      "lng": -0.2796034
+    },
+    "West Hampstead, London NW6": {
+      "lat": 51.5390548,
+      "lng": -0.1895175
+    },
+    "Wetherby House Montessori Queen's Park, London": {
+      "lat": 51.5324027,
+      "lng": -0.22884
+    },
+    "Willesden Green, London NW10": {
+      "lat": 51.5394986,
+      "lng": -0.2363599
+    },
+    "Willesden Sports Centre, Donnington Road, London NW10 3QX": {
+      "lat": 51.5415287,
+      "lng": -0.2313636
+    },
+    "Willesden, London NW10": {
+      "lat": 51.5401194,
+      "lng": -0.230209
+    },
+    "Clitterhouse Farm, Claremont Road, London NW2": {
+      "lat": 51.507,
+      "lng": -0.128
+    },
+    "Oxford Kilburn Youth Trust, 38 Dane Road, London NW6": {
+      "lat": 51.542,
+      "lng": -0.2
+    },
+    "Science Museum, Exhibition Road, London SW7 2DD": {
+      "lat": 51.507,
+      "lng": -0.128
+    },
+    "Diana Memorial Playground, Kensington Gardens, London W2 4RU": {
+      "lat": 51.501,
+      "lng": -0.193
+    },
+    "Bright Horizons Queen's Park, London": {
+      "lat": 51.535,
+      "lng": -0.205
+    },
+    "Monkey Puzzle Day Nursery Kensal Rise, London": {
+      "lat": 51.535,
+      "lng": -0.218
+    },
+    "N Family Club Queen's Park, London": {
+      "lat": 51.535,
+      "lng": -0.205
+    },
+    "Little Garden Day Nursery Kensal Rise, London": {
+      "lat": 51.535,
+      "lng": -0.218
+    },
+    "Richborough Nursery & Pre-school, Cricklewood, London": {
+      "lat": 51.555,
+      "lng": -0.218
+    },
+    "Broadhurst School, West Hampstead, London": {
+      "lat": 51.546,
+      "lng": -0.19
+    },
+    "Rainbow Montessori, Willesden Green, London": {
+      "lat": 51.54,
+      "lng": -0.225
+    },
+    "Malorees Infant and Nursery School, London": {
+      "lat": 51.507,
+      "lng": -0.128
+    },
+    "Princess Frederica C of E Nursery School, London": {
+      "lat": 51.507,
+      "lng": -0.128
+    },
+    "Beckford Primary School, London": {
+      "lat": 51.507,
+      "lng": -0.128
+    },
+    "Happy Hands Montessori Nursery, Willesden, London": {
+      "lat": 51.54,
+      "lng": -0.235
+    },
+    "Wetherby House Montessori Kensal Rise, London": {
+      "lat": 51.535,
+      "lng": -0.218
+    },
+    "Brondesbury Park Synagogue Nursery, London": {
+      "lat": 51.546,
+      "lng": -0.215
+    },
+    "Kensal House Nursery, White Building, 555 Harrow Road, London W10 4RH": {
+      "lat": 51.507,
+      "lng": -0.128
+    },
+    "College Green Nursery School & Services, 161 College Road, London NW10 3PH": {
+      "lat": 51.507,
+      "lng": -0.128
+    },
+    "Busy Bees Harlesden, 59a Longstone Avenue, London NW10 3UN": {
+      "lat": 51.536,
+      "lng": -0.249
+    },
+    "Busy Bees Kilburn Square, London NW6 6QG": {
+      "lat": 51.542,
+      "lng": -0.2
+    },
+    "Snuggle Bunnies Nursery, Kingsbury, London NW9": {
+      "lat": 51.584,
+      "lng": -0.272
+    },
+    "Bright Star Day Nursery, 1 Stafford Road, London NW6 5RS": {
+      "lat": 51.507,
+      "lng": -0.128
+    },
+    "Happy Days Montessori School, Empire Way, Wembley HA9 0RJ": {
+      "lat": 51.557,
+      "lng": -0.283
+    },
+    "Holiday Academy London, NW1": {
+      "lat": 51.507,
+      "lng": -0.128
+    },
+    "Bridge Park Leisure Centre, Brent, London": {
+      "lat": 51.55,
+      "lng": -0.28
+    },
+    "The Breezy Club, Alexandra Park School, London": {
+      "lat": 51.507,
+      "lng": -0.128
+    },
+    "Elmwood Lawn Tennis Club, London NW10": {
+      "lat": 51.507,
+      "lng": -0.128
+    },
+    "Childs Hill Park, London NW2": {
+      "lat": 51.507,
+      "lng": -0.128
+    },
+    "Lyttleton Playing Fields, London N2": {
+      "lat": 51.507,
+      "lng": -0.128
+    },
+    "Queen's Park Tennis Courts, London": {
+      "lat": 51.535,
+      "lng": -0.205
+    },
+    "Littletons Tennis Club, Maida Vale, London": {
+      "lat": 51.528,
+      "lng": -0.19
+    },
+    "Highgate Cricket and Lawn Tennis Club, London": {
+      "lat": 51.507,
+      "lng": -0.128
+    },
+    "Mora School, Mora Road, London NW2": {
+      "lat": 51.507,
+      "lng": -0.128
+    },
+    "The Mulberry House School, 7 Minster Road, London NW2 3SD": {
+      "lat": 51.507,
+      "lng": -0.128
+    },
+    "Paddington Recreation Ground, Maida Vale, London W9": {
+      "lat": 51.528,
+      "lng": -0.19
+    },
+    "Arsenal, North London": {
+      "lat": 51.507,
+      "lng": -0.128
+    },
+    "QPR, Loftus Road, London": {
+      "lat": 51.507,
+      "lng": -0.128
+    },
+    "Will to Win, Regent's Park, York Bridge, London NW1 4NU": {
+      "lat": 51.532,
+      "lng": -0.157
+    },
+    "Barracudas, London": {
+      "lat": 51.507,
+      "lng": -0.128
+    },
+    "Fire Tech Camp, London": {
+      "lat": 51.507,
+      "lng": -0.128
+    },
+    "Little House of Science, Hampstead, London": {
+      "lat": 51.556,
+      "lng": -0.178
+    },
+    "Razzamataz, London": {
+      "lat": 51.507,
+      "lng": -0.128
+    },
+    "Art Academy, Camden, London NW1": {
+      "lat": 51.538,
+      "lng": -0.143
+    },
+    "Brondesbury Coaching, London NW2 2EB": {
+      "lat": 51.546,
+      "lng": -0.215
+    },
+    "Queens Park Books, London": {
+      "lat": 51.507,
+      "lng": -0.128
+    },
+    "Willesden Green Library Centre, London": {
+      "lat": 51.54,
+      "lng": -0.225
+    },
+    "RAF Museum London, Grahame Park Way, London NW9 5LL": {
+      "lat": 51.507,
+      "lng": -0.128
+    },
+    "Clip n Climb Chelsea, 19 Michael Road, London SW6 2ER": {
+      "lat": 51.487,
+      "lng": -0.171
+    },
+    "Jump In Cricklewood, 158 Cricklewood Broadway, London NW2 3ED": {
+      "lat": 51.555,
+      "lng": -0.218
+    },
+    "The Ark Soft Play, 242 West End Lane, London NW6 1LG": {
+      "lat": 51.507,
+      "lng": -0.128
+    },
+    "Contact, Wenlock Road, London N1 7GT": {
+      "lat": 51.507,
+      "lng": -0.128
+    },
+    "IPSEA, Cambridge, UK": {
+      "lat": 52.205,
+      "lng": 0.122
+    },
+    "Brent Mencap, 379-381 High Road, London NW10 2JR": {
+      "lat": 51.55,
+      "lng": -0.28
+    },
+    "Brent CAMHS, London": {
+      "lat": 51.55,
+      "lng": -0.28
+    },
+    "nasen, Tamworth, UK": {
+      "lat": 52.634,
+      "lng": -1.69
+    },
+    "Queen's Park Tennis Courts, Harvist Road, London NW6 6SG": {
+      "lat": 51.535,
+      "lng": -0.205
+    },
+    "Queen's Park Wildlife Area, Harvist Road, London NW6 6SG": {
+      "lat": 51.535,
+      "lng": -0.205
+    },
+    "The Old Bell, 38 Willesden Lane, London NW6 7ST": {
+      "lat": 51.54,
+      "lng": -0.235
+    },
+    "Freemasons Arms, 32 Downshire Hill, London NW3 1NT": {
+      "lat": 51.507,
+      "lng": -0.128
+    }
+  },
+  "geocoded_at": "2026-07-04"
+}

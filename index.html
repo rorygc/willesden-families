@@ -234,6 +234,12 @@
         <button class="toggle-chip" data-shortlist-only aria-pressed="false">Shortlist only</button>
         <button class="toggle-chip near-me-btn" id="near-me-btn" aria-pressed="false" onclick="triggerNearMe()">📍 Near me</button>
         <button class="toggle-chip" id="open-now-btn" data-open-now aria-pressed="false" onclick="toggleOpenNow()">🕐 Open now</button>
+        <button class="toggle-chip" id="distance-sort-btn" aria-pressed="false" onclick="toggleDistanceSort()">📍 Sort by distance</button>
+      </div>
+      <div id="distance-sort-panel" style="display:none;margin-top:8px;padding:8px 0;border-top:1px solid var(--color-border);"> 
+        <label style="font-size:0.85rem;color:var(--color-text-muted);margin-right:8px;">Postcode:</label>
+        <input type="text" id="distance-postcode" placeholder="e.g. NW2 3RT" style="padding:6px 10px;border:1px solid var(--color-border);border-radius:var(--radius-sm);font-family:inherit;font-size:0.9rem;width:140px;" maxlength="8">
+        <span id="distance-sort-status" style="font-size:0.8rem;color:var(--color-text-muted);margin-left:8px;"></span>
       </div>
       <div class="filter-columns">
         <div>
@@ -572,7 +578,7 @@
 <script src="./logo-overrides.js?v=20260704"></script>
 <script src="./map-coordinates.js"></script>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-    <script src="./app.js?v=20260704"></script>
+    <script src="./app.js?v=20260704b"></script>
 <script>
   // Build form action URL in JS — email never appears in page source
   (function() {
