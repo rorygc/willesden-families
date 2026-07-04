@@ -83,7 +83,7 @@
 
 <main id="main-content">
   <section class="hero">
-    <div class="hero-image" id="hero-map"></div>
+    <img class="hero-image" id="hero-map" src="assets/neighbourhood-map.jpg" alt="NW London neighbourhood map">
     <div class="hero-overlay"></div>
     <div class="hero-content">
       <div class="hero-kicker">Parents' guide for Willesden Green, Queen's Park, Kensal Rise, Harlesden, and nearby NW London</div>
@@ -388,34 +388,5 @@
 <script src="./map-coordinates.js"></script>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <script src="./app.js?v=20260704"></script>
-    <script>
-      // Hero neighbourhood map — static image overlay on Leaflet
-      (function() {
-        var el = document.getElementById('hero-map');
-        if (!el || !window.L) return;
-        var map = L.map(el, {
-          attributionControl: false,
-          zoomControl: false,
-          dragging: false,
-          touchZoom: false,
-          scrollWheelZoom: false,
-          doubleClickZoom: false,
-          boxZoom: false,
-          keyboard: false,
-          tap: false
-        });
-        // Geo bounds calibrated to match neighbourhood map image aspect ratio (844×1280 portrait)
-        // Center ~Willesden Green. Span covers Dollis Hill → Notting Hill, Kensal Green → West Hampstead
-        var bounds = [[51.572, -0.253], [51.506, -0.183]];
-        L.imageOverlay('assets/neighbourhood-map.jpg', bounds).addTo(map);
-        map.fitBounds(bounds);
-        map.setMinZoom(map.getZoom());
-        map.setMaxZoom(map.getZoom());
-        map._handlers.forEach(function(h) { h.disable(); });
-        map.once('load', function() {
-          map.fitBounds(bounds, { animate: false });
-        });
-      })();
-    </script>
 </body>
 </html>
