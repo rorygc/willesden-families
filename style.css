@@ -377,7 +377,7 @@ a, button, [role="button"], [role="link"], input, textarea, select {
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to bottom, oklch(from var(--color-bg) l c h / 0.1) 0%, oklch(from var(--color-bg) l c h / 0.6) 50%, oklch(from var(--color-bg) l c h / 0.96) 100%);
+  background: linear-gradient(to bottom, oklch(from var(--color-bg) l c h / 0.25) 0%, oklch(from var(--color-bg) l c h / 0.75) 55%, oklch(from var(--color-bg) l c h / 0.98) 100%);
   z-index: 1;
 }
 
