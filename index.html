@@ -407,13 +407,14 @@
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
           maxZoom: 19
         }).addTo(map);
-        // Brent Cross at top, Queen's Park area at bottom
-        var bounds = L.latLngBounds(
-          L.latLng(51.510, -0.290),
-          L.latLng(51.576, -0.165)
-        );
-        map.fitBounds(bounds);
-        // Prevent any map movement
+        // Brent Cross at top (51.576), Queen's Park area at bottom
+        var sw = L.latLng(51.510, -0.290);
+        var ne = L.latLng(51.576, -0.165);
+        var bounds = L.latLngBounds(sw, ne);
+        map.setMaxBounds(bounds);
+        map.fitBounds(bounds, { padding: [0, 0] });
+        map.setMinZoom(map.getZoom());
+        map.setMaxZoom(map.getZoom());
         map._handlers.forEach(function(h) { h.disable(); });
       })();
     </script>
