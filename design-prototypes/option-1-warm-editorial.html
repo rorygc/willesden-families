@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Option 1 — Warm Editorial (Notion-inspired)</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --ink: rgba(0,0,0,0.92);
+  --ink-muted: #615d59;
+  --ink-faint: #a39e98;
+  --surface: #ffffff;
+  --surface-warm: #f7f5f3;
+  --surface-cream: #fcfaf7;
+  --accent: #2e7d5b;
+  --accent-light: #e8f5ef;
+  --accent-hover: #1b5e3f;
+  --border: 1px solid rgba(0,0,0,0.08);
+  --shadow-card: rgba(0,0,0,0.03) 0px 2px 8px, rgba(0,0,0,0.02) 0px 6px 20px;
+  --shadow-hover: rgba(0,0,0,0.05) 0px 4px 16px, rgba(0,0,0,0.03) 0px 8px 28px;
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --max-width: 1120px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  color: var(--ink);
+  background: var(--surface-cream);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Header ── */
+.site-header {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(252,250,247,0.85);
+  backdrop-filter: blur(20px) saturate(180%);
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+  padding: 0 24px;
+}
+.header-inner {
+  max-width: var(--max-width); margin: 0 auto;
+  display: flex; align-items: center; justify-content: space-between;
+  height: 60px;
+}
+.logo {
+  display: flex; align-items: center; gap: 10px;
+  text-decoration: none; color: inherit;
+}
+.logo-mark {
+  width: 34px; height: 34px; background: var(--accent);
+  border-radius: 10px; display: flex; align-items: center; justify-content: center;
+  color: white; font-family: 'Newsreader', serif; font-size: 20px; font-weight: 500;
+}
+.logo-text { font-weight: 650; font-size: 17px; letter-spacing: -0.2px; }
+.logo-sub { font-size: 11px; color: var(--ink-muted); letter-spacing: 0.2px; margin-top: -1px; }
+.nav-desktop { display: flex; gap: 6px; }
+.nav-desktop a {
+  text-decoration: none; color: var(--ink-muted); font-size: 14px; font-weight: 500;
+  padding: 6px 12px; border-radius: var(--radius-sm); transition: all 0.15s;
+}
+.nav-desktop a:hover { background: rgba(0,0,0,0.04); color: var(--ink); }
+
+/* ── Hero ── */
+.hero {
+  max-width: var(--max-width); margin: 0 auto; padding: 80px 24px 64px;
+  text-align: center;
+}
+.hero-eyebrow {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: var(--accent-light); color: var(--accent);
+  font-size: 13px; font-weight: 600; padding: 5px 14px;
+  border-radius: 999px; margin-bottom: 24px;
+  letter-spacing: 0.3px;
+}
+.hero h1 {
+  font-family: 'Newsreader', serif; font-size: 52px; font-weight: 500;
+  line-height: 1.12; letter-spacing: -1.2px; max-width: 700px; margin: 0 auto 20px;
+  color: rgba(0,0,0,0.92);
+}
+.hero p {
+  font-size: 18px; font-weight: 400; color: var(--ink-muted);
+  max-width: 540px; margin: 0 auto 36px; line-height: 1.5;
+}
+.hero-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+.btn-primary {
+  background: var(--ink); color: white; padding: 11px 22px;
+  border-radius: var(--radius-sm); font-size: 15px; font-weight: 550;
+  text-decoration: none; transition: background 0.15s;
+  display: inline-flex; align-items: center; gap: 6px;
+}
+.btn-primary:hover { background: #222; }
+.btn-ghost {
+  background: transparent; color: var(--ink); padding: 11px 22px;
+  border-radius: var(--radius-sm); font-size: 15px; font-weight: 500;
+  text-decoration: none; border: 1px solid rgba(0,0,0,0.12); transition: all 0.15s;
+}
+.btn-ghost:hover { background: rgba(0,0,0,0.03); border-color: rgba(0,0,0,0.2); }
+
+/* ── Stats strip ── */
+.stats-strip {
+  max-width: var(--max-width); margin: 0 auto 48px; padding: 0 24px;
+  display: flex; gap: 8px; justify-content: center; flex-wrap: wrap;
+}
+.stat-pill {
+  padding: 10px 20px; border-radius: var(--radius-sm);
+  font-size: 13px; font-weight: 500; color: var(--ink-muted);
+  background: var(--surface); border: var(--border);
+  display: flex; align-items: center; gap: 6px;
+}
+.stat-pill strong { color: var(--ink); font-weight: 650; }
+
+/* ── Section ── */
+.section {
+  max-width: var(--max-width); margin: 0 auto 80px; padding: 0 24px;
+}
+.section-header {
+  display: flex; align-items: baseline; justify-content: space-between;
+  margin-bottom: 28px; flex-wrap: wrap; gap: 12px;
+}
+.section-header h2 {
+  font-family: 'Newsreader', serif; font-size: 32px; font-weight: 500;
+  letter-spacing: -0.5px;
+}
+.section-header .sub {
+  font-size: 15px; color: var(--ink-muted); font-weight: 400;
+}
+.section-header .count {
+  font-size: 13px; color: var(--ink-faint); font-weight: 500;
+  background: var(--surface); border: var(--border);
+  padding: 4px 12px; border-radius: 999px;
+}
+
+/* ── Region sub-head ── */
+.region-head {
+  margin: 32px 0 16px;
+  display: flex; align-items: center; gap: 10px;
+}
+.region-head h3 {
+  font-family: 'Newsreader', serif; font-size: 22px; font-weight: 500;
+  color: var(--ink);
+}
+.region-dot {
+  width: 10px; height: 10px; border-radius: 50%;
+}
+.region-dot.local { background: var(--accent); }
+.region-dot.wider { background: #d4a030; }
+
+/* ── Card Grid ── */
+.card-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+}
+.card {
+  background: var(--surface); border: var(--border); border-radius: var(--radius-md);
+  overflow: hidden; transition: all 0.2s; cursor: pointer;
+}
+.card:hover { box-shadow: var(--shadow-hover); transform: translateY(-2px); }
+.card-image {
+  height: 180px; background-size: cover; background-position: center;
+  position: relative;
+}
+.card-image::after {
+  content: ''; position: absolute; bottom: 0; left: 0; right: 0;
+  height: 60px; background: linear-gradient(transparent, rgba(0,0,0,0.2));
+}
+.card-badge {
+  position: absolute; top: 12px; left: 12px;
+  background: white; color: var(--ink); font-size: 11px; font-weight: 600;
+  padding: 4px 10px; border-radius: 4px; letter-spacing: 0.5px; text-transform: uppercase;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+.card-badge.featured { background: var(--accent); color: white; }
+.card-body { padding: 18px 20px 20px; }
+.card-meta {
+  display: flex; gap: 12px; margin-bottom: 10px;
+  font-size: 12px; color: var(--ink-muted); font-weight: 500;
+}
+.card-meta span { display: flex; align-items: center; gap: 4px; }
+.card h4 {
+  font-family: 'Newsreader', serif; font-size: 20px; font-weight: 550;
+  line-height: 1.2; margin-bottom: 8px; color: var(--ink);
+}
+.card p { font-size: 14px; color: var(--ink-muted); line-height: 1.5; margin-bottom: 6px; }
+.card p.reco { font-size: 14px; font-weight: 500; color: var(--ink); }
+.card-tags { display: flex; gap: 6px; margin-top: 14px; flex-wrap: wrap; }
+.tag {
+  font-size: 12px; font-weight: 500; padding: 3px 10px;
+  border-radius: 4px; background: var(--surface-warm); color: var(--ink-muted);
+}
+.card-footer {
+  display: flex; gap: 10px; padding: 14px 20px;
+  border-top: var(--border); justify-content: space-between; align-items: center;
+}
+.card-link {
+  font-size: 13px; font-weight: 600; color: var(--accent); text-decoration: none;
+  display: flex; align-items: center; gap: 4px;
+}
+.card-link:hover { color: var(--accent-hover); }
+.card-actions { display: flex; gap: 6px; }
+.btn-icon {
+  width: 34px; height: 34px; border-radius: var(--radius-sm); border: var(--border);
+  background: var(--surface); display: flex; align-items: center; justify-content: center;
+  cursor: pointer; font-size: 14px; color: var(--ink-muted); transition: all 0.15s;
+}
+.btn-icon:hover { background: var(--surface-warm); color: var(--ink); }
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .hero { padding: 48px 20px 40px; }
+  .hero h1 { font-size: 36px; letter-spacing: -0.8px; }
+  .hero p { font-size: 16px; }
+  .nav-desktop { display: none; }
+  .section-header h2 { font-size: 26px; }
+  .card-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="#" class="logo">
+      <div class="logo-mark">W</div>
+      <div>
+        <div class="logo-text">Willesden Families</div>
+        <div class="logo-sub">NW London parent guide</div>
+      </div>
+    </a>
+    <nav class="nav-desktop">
+      <a href="#">This week</a>
+      <a href="#">Camps</a>
+      <a href="#">Childcare</a>
+      <a href="#">Cafés</a>
+      <a href="#">Indoor</a>
+      <a href="#">SEND</a>
+      <a href="#">Schools</a>
+      <a href="#">Map</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-eyebrow">
+    <span>●</span> Updated for July 2026
+  </div>
+  <h1>Everything local parents actually need, in one place.</h1>
+  <p>Search childcare, school-holiday camps, cafés, rainy-day ideas, SEND support, and what's on this week. Save your favourites and export them to your calendar.</p>
+  <div class="hero-actions">
+    <a href="#" class="btn-primary">See this week →</a>
+    <a href="#" class="btn-ghost">Browse camps</a>
+    <a href="#" class="btn-ghost">Find childcare</a>
+    <a href="#" class="btn-ghost">Open map</a>
+  </div>
+</section>
+
+<div class="stats-strip">
+  <div class="stat-pill"><strong>32</strong> places &amp; picks</div>
+  <div class="stat-pill"><strong>18</strong> free / low cost</div>
+  <div class="stat-pill"><strong>4</strong> saved</div>
+  <div class="stat-pill">last refreshed <strong>4 July 2026</strong></div>
+</div>
+
+<section class="section">
+  <div class="section-header">
+    <div>
+      <h2>This week for families</h2>
+      <p class="sub">What's on right now — close to home and across London</p>
+    </div>
+    <span class="count">10 events</span>
+  </div>
+
+  <div class="region-head">
+    <div class="region-dot local"></div>
+    <h3>Close to home</h3>
+  </div>
+  <p style="font-size:14px;color:var(--ink-muted);margin-bottom:20px">Willesden, Queen's Park &amp; nearby</p>
+
+  <div class="card-grid">
+    <!-- Card 1: Malorees Sports Week -->
+    <article class="card">
+      <div class="card-image" style="background-image:url(https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=450&fit=crop&auto=format)">
+        <span class="card-badge featured">Featured</span>
+      </div>
+      <div class="card-body">
+        <div class="card-meta">
+          <span>WILLESDEN GREEN</span>
+          <span>●</span>
+          <span>4–11 yrs</span>
+          <span>●</span>
+          <span>Free</span>
+        </div>
+        <h4>Malorees Sports Week</h4>
+        <p>Mon 29 Jun – Fri 3 Jul · school hours</p>
+        <p>Malorees Infants &amp; Junior School's annual Sports Week — daily sporting activities for all year groups culminating in sports days.</p>
+        <p class="reco">Essential for Malorees parents. Junior Sports Day Tue, Infants Sports Day Wed.</p>
+        <div class="card-tags">
+          <span class="tag">school</span>
+          <span class="tag">sports</span>
+          <span class="tag">Malorees</span>
+        </div>
+      </div>
+      <div class="card-footer">
+        <a href="#" class="card-link">School calendar →</a>
+        <div class="card-actions">
+          <button class="btn-icon" title="Map">📍</button>
+          <button class="btn-icon" title="Export">📅</button>
+        </div>
+      </div>
+    </article>
+
+    <!-- Card 2: Summer Fun Festival -->
+    <article class="card">
+      <div class="card-image" style="background-image:url(https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&h=450&fit=crop&auto=format)">
+        <span class="card-badge featured">Featured</span>
+      </div>
+      <div class="card-body">
+        <div class="card-meta">
+          <span>WILLESDEN GREEN</span>
+          <span>●</span>
+          <span>all ages</span>
+          <span>●</span>
+          <span>Free</span>
+        </div>
+        <h4>Brent Libraries Summer Fun Festival</h4>
+        <p>Wed 1 Jul (launch) · drop-in</p>
+        <p>Free summer programme at all Brent libraries including Willesden Green. Weekly themes, robotics, storytelling, arts &amp; crafts.</p>
+        <p class="reco">Fantastic free summer activity — just drop in through to September.</p>
+        <div class="card-tags">
+          <span class="tag">library</span>
+          <span class="tag">summer</span>
+          <span class="tag">reading</span>
+          <span class="tag">craft</span>
+        </div>
+      </div>
+      <div class="card-footer">
+        <a href="#" class="card-link">Summer in Brent →</a>
+        <div class="card-actions">
+          <button class="btn-icon" title="Map">📍</button>
+          <button class="btn-icon" title="Export">📅</button>
+        </div>
+      </div>
+    </article>
+
+    <!-- Card 3: Harlesden Walk -->
+    <article class="card">
+      <div class="card-image" style="background-image:url(https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&h=450&fit=crop&auto=format)">
+        <span class="card-badge">FREE</span>
+      </div>
+      <div class="card-body">
+        <div class="card-meta">
+          <span>HARLESDEN</span>
+          <span>●</span>
+          <span>all ages</span>
+          <span>●</span>
+          <span>Free</span>
+        </div>
+        <h4>Harlesden Walk of Music &amp; Reggae Exhibition</h4>
+        <p>Wed 1 Jul · 2pm walk / 6pm exhibition</p>
+        <p>International Reggae Day: walking tour of Harlesden's musical heritage plus a Reggae Album Covers Exhibition at Harlesden Library.</p>
+        <p class="reco">Unique free cultural event celebrating Harlesden's music history.</p>
+        <div class="card-tags">
+          <span class="tag">music</span>
+          <span class="tag">heritage</span>
+          <span class="tag">walk</span>
+        </div>
+      </div>
+      <div class="card-footer">
+        <a href="#" class="card-link">Brent events →</a>
+        <div class="card-actions">
+          <button class="btn-icon" title="Map">📍</button>
+          <button class="btn-icon" title="Export">📅</button>
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <div class="region-head" style="margin-top:40px">
+    <div class="region-dot wider"></div>
+    <h3>Worth the trip</h3>
+  </div>
+  <p style="font-size:14px;color:var(--ink-muted);margin-bottom:20px">A bit further — still great for families</p>
+
+  <div class="card-grid">
+    <article class="card">
+      <div class="card-image" style="background-image:url(https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&h=450&fit=crop&auto=format)">
+        <span class="card-badge">SPECIAL</span>
+      </div>
+      <div class="card-body">
+        <div class="card-meta">
+          <span>ACTON</span>
+          <span>●</span>
+          <span>all ages</span>
+          <span>●</span>
+          <span>Free–£5</span>
+        </div>
+        <h4>Japan Festival London</h4>
+        <p>Sat 11 Jul · 10:00–17:00</p>
+        <p>A vibrant celebration of Japanese culture with food stalls, performances, workshops, and family activities in Acton.</p>
+        <p class="reco">Fantastic family day out — food, crafts, and performances for all ages.</p>
+        <div class="card-tags">
+          <span class="tag">festival</span>
+          <span class="tag">culture</span>
+          <span class="tag">food</span>
+          <span class="tag">family</span>
+        </div>
+      </div>
+      <div class="card-footer">
+        <a href="#" class="card-link">Festival details →</a>
+        <div class="card-actions">
+          <button class="btn-icon" title="Map">📍</button>
+          <button class="btn-icon" title="Export">📅</button>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+</body>
+</html>

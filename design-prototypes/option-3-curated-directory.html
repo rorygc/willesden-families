@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Option 3 — Curated Directory (Stripe-inspired)</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600&family=Source+Code+Pro:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --brand: #533afd;
+  --brand-hover: #4434d4;
+  --navy: #061b31;
+  --navy-dark: #1c1e54;
+  --ink: #061b31;
+  --ink-body: #64748d;
+  --ink-label: #273951;
+  --surface: #ffffff;
+  --surface-alt: #f8f9fb;
+  --border: #e5edf5;
+  --border-active: #b9b9f9;
+  --shadow-card: rgba(50,50,93,0.25) 0px 30px 45px -30px, rgba(0,0,0,0.1) 0px 18px 36px -18px;
+  --shadow-sm: rgba(23,23,23,0.06) 0px 3px 6px;
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --max-width: 1080px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Source Sans 3', system-ui, sans-serif;
+  color: var(--ink);
+  background: var(--surface);
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Header ── */
+.site-header {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(255,255,255,0.88);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border);
+  padding: 0 24px;
+}
+.header-inner {
+  max-width: var(--max-width); margin: 0 auto;
+  display: flex; align-items: center; justify-content: space-between;
+  height: 62px;
+}
+.logo {
+  display: flex; align-items: center; gap: 8px;
+  text-decoration: none; font-weight: 600; font-size: 16px;
+  color: var(--navy); letter-spacing: -0.15px;
+}
+.logo-dot {
+  width: 10px; height: 10px; border-radius: 3px; background: var(--brand);
+}
+.nav-desktop { display: flex; gap: 4px; }
+.nav-desktop a {
+  text-decoration: none; color: var(--ink-label); font-size: 14px; font-weight: 400;
+  padding: 6px 12px; border-radius: var(--radius-md); transition: all 0.15s;
+  letter-spacing: -0.1px;
+}
+.nav-desktop a:hover { background: rgba(0,0,0,0.03); color: var(--ink); }
+.nav-cta {
+  background: var(--brand); color: white !important; font-weight: 500 !important;
+  border-radius: var(--radius-sm) !important;
+}
+.nav-cta:hover { background: var(--brand-hover) !important; }
+
+/* ── Hero ── */
+.hero {
+  max-width: var(--max-width); margin: 0 auto; padding: 90px 24px 72px;
+  text-align: center;
+}
+.hero-label {
+  display: inline-block; padding: 3px 12px; border-radius: 999px;
+  border: 1px solid var(--border-active); color: var(--brand);
+  font-size: 12px; font-weight: 600; letter-spacing: 0.4px;
+  margin-bottom: 24px; background: rgba(83,58,253,0.04);
+}
+.hero h1 {
+  font-size: 52px; font-weight: 300; line-height: 1.1; letter-spacing: -1.2px;
+  color: var(--navy); max-width: 660px; margin: 0 auto 18px;
+}
+.hero p {
+  font-size: 18px; font-weight: 300; color: var(--ink-body);
+  max-width: 520px; margin: 0 auto 36px; line-height: 1.55;
+}
+.hero-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+.btn-primary {
+  background: var(--brand); color: white; padding: 10px 20px;
+  border-radius: var(--radius-sm); font-size: 15px; font-weight: 500;
+  text-decoration: none; transition: background 0.15s; letter-spacing: -0.1px;
+}
+.btn-primary:hover { background: var(--brand-hover); }
+.btn-ghost {
+  background: transparent; color: var(--brand); padding: 10px 20px;
+  border-radius: var(--radius-sm); font-size: 15px; font-weight: 400;
+  text-decoration: none; border: 1px solid var(--border-active); transition: all 0.15s;
+}
+.btn-ghost:hover { background: rgba(83,58,253,0.03); }
+
+/* ── Stats bar ── */
+.stats-bar {
+  background: var(--surface-alt); border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border); margin-bottom: 60px;
+}
+.stats-inner {
+  max-width: var(--max-width); margin: 0 auto; padding: 16px 24px;
+  display: flex; gap: 32px; align-items: center;
+}
+.stat-item { font-size: 13px; color: var(--ink-body); font-weight: 400; }
+.stat-item strong { color: var(--ink); font-weight: 600; font-size: 18px; display: block; line-height: 1.2; }
+
+/* ── Section ── */
+.section {
+  max-width: var(--max-width); margin: 0 auto 80px; padding: 0 24px;
+}
+.section-header {
+  display: flex; align-items: baseline; justify-content: space-between;
+  margin-bottom: 28px; flex-wrap: wrap; gap: 8px;
+}
+.section-header h2 {
+  font-size: 28px; font-weight: 300; letter-spacing: -0.5px; color: var(--navy);
+}
+.section-header .count {
+  font-size: 13px; color: var(--ink-body); font-weight: 500;
+  border: 1px solid var(--border); padding: 5px 14px; border-radius: var(--radius-sm);
+}
+
+/* ── Region ── */
+.region-head {
+  margin: 28px 0 16px;
+  display: flex; align-items: center; gap: 12px;
+}
+.region-head::before {
+  content: ''; width: 4px; height: 24px; border-radius: 2px;
+}
+.region-head.local::before { background: var(--brand); }
+.region-head.wider::before { background: #f59e0b; }
+.region-head h3 {
+  font-size: 18px; font-weight: 400; color: var(--navy); letter-spacing: -0.2px;
+}
+
+/* ── Card Grid ── */
+.card-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  gap: 18px;
+}
+.card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius-md); overflow: hidden;
+  transition: all 0.2s; cursor: pointer;
+}
+.card:hover { box-shadow: var(--shadow-card); border-color: var(--border-active); }
+.card-top {
+  height: 160px; background-size: cover; background-position: center;
+  position: relative;
+}
+.card-top::after {
+  content: ''; position: absolute; bottom: 0; left: 0; right: 0;
+  height: 50px; background: linear-gradient(transparent, rgba(6,27,49,0.05));
+}
+.card-status {
+  position: absolute; top: 10px; left: 10px;
+  font-size: 10px; font-weight: 600; letter-spacing: 0.6px;
+  text-transform: uppercase; padding: 2px 10px;
+  border-radius: 3px; background: var(--surface); color: var(--ink-label);
+  border: 1px solid var(--border);
+}
+.card-status.featured { background: var(--brand); color: white; border-color: var(--brand); }
+.card-body { padding: 16px 18px 18px; }
+.card-label {
+  font-size: 11px; font-weight: 500; color: var(--ink-label);
+  text-transform: uppercase; letter-spacing: 0.6px; margin-bottom: 6px;
+  display: flex; align-items: center; gap: 8px;
+}
+.card-label .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--brand); }
+.card h4 { font-size: 18px; font-weight: 300; line-height: 1.15; color: var(--navy); margin-bottom: 4px; }
+.card-date { font-size: 13px; color: var(--ink-body); font-weight: 400; margin-bottom: 8px; }
+.card-meta {
+  display: flex; gap: 14px; margin-bottom: 8px;
+  font-size: 12px; color: var(--ink-body); font-weight: 500;
+  padding: 8px 12px; background: var(--surface-alt); border-radius: var(--radius-sm);
+}
+.card-meta span { display: flex; align-items: center; gap: 4px; }
+.card p { font-size: 14px; color: var(--ink-body); font-weight: 300; line-height: 1.5; }
+.card p.reco { font-weight: 500; color: var(--navy); margin-top: 6px; }
+.card-tags { display: flex; gap: 5px; margin-top: 12px; flex-wrap: wrap; }
+.tag {
+  font-size: 11px; font-weight: 500; padding: 3px 8px;
+  border-radius: 3px; border: 1px solid var(--border);
+  background: var(--surface); color: var(--ink-body);
+}
+.card-footer {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 12px 18px; border-top: 1px solid var(--border); gap: 8px;
+}
+.card-link {
+  font-size: 13px; font-weight: 500; color: var(--brand); text-decoration: none;
+  display: flex; align-items: center; gap: 4px;
+}
+.card-link:hover { color: var(--brand-hover); }
+.btn-compact {
+  padding: 6px 12px; border-radius: var(--radius-sm); font-size: 12px; font-weight: 500;
+  border: 1px solid var(--border); background: var(--surface);
+  font-family: inherit; cursor: pointer; color: var(--ink-label); transition: all 0.15s;
+}
+.btn-compact:hover { border-color: var(--border-active); background: var(--surface-alt); }
+.btn-compact.accent {
+  background: var(--brand); color: white; border-color: var(--brand);
+}
+.btn-compact.accent:hover { background: var(--brand-hover); }
+
+/* ── Footer accent ── */
+.footer-accent {
+  background: var(--navy-dark); color: white; padding: 48px 24px; margin-top: 20px;
+}
+.footer-inner {
+  max-width: var(--max-width); margin: 0 auto;
+  display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px;
+}
+.footer-inner h3 {
+  font-size: 22px; font-weight: 300; letter-spacing: -0.3px;
+  opacity: 0.9;
+}
+.footer-inner a {
+  color: white; text-decoration: none; border: 1px solid rgba(255,255,255,0.25);
+  padding: 10px 20px; border-radius: var(--radius-sm); font-size: 14px; font-weight: 400;
+  transition: all 0.15s;
+}
+.footer-inner a:hover { background: rgba(255,255,255,0.08); }
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .hero { padding: 56px 20px 44px; }
+  .hero h1 { font-size: 34px; letter-spacing: -0.7px; }
+  .nav-desktop { display: none; }
+  .section-header h2 { font-size: 24px; }
+  .card-grid { grid-template-columns: 1fr; }
+  .stats-inner { gap: 16px; flex-wrap: wrap; }
+}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="#" class="logo">
+      <span class="logo-dot"></span> Willesden Families
+    </a>
+    <nav class="nav-desktop">
+      <a href="#" class="nav-cta">This week</a>
+      <a href="#">Camps</a>
+      <a href="#">Childcare</a>
+      <a href="#">Cafés</a>
+      <a href="#">Indoor</a>
+      <a href="#">SEND</a>
+      <a href="#">Schools</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-label">NW London · July 2026</div>
+  <h1>Everything local parents actually need, in one place.</h1>
+  <p>Search childcare, school-holiday camps, cafés, rainy-day ideas, SEND support, and what's on this week. Save your favourites and export them to your calendar.</p>
+  <div class="hero-actions">
+    <a href="#" class="btn-primary">See this week</a>
+    <a href="#" class="btn-ghost">Browse camps</a>
+    <a href="#" class="btn-ghost">Find childcare</a>
+    <a href="#" class="btn-ghost">Open map</a>
+  </div>
+</section>
+
+<div class="stats-bar">
+  <div class="stats-inner">
+    <div class="stat-item"><strong>32</strong> places &amp; picks</div>
+    <div class="stat-item"><strong>18</strong> free / low cost</div>
+    <div class="stat-item"><strong>4</strong> in shortlist</div>
+    <div class="stat-item">Last refreshed <strong>4 Jul 2026</strong></div>
+  </div>
+</div>
+
+<section class="section">
+  <div class="section-header">
+    <h2>This week for families</h2>
+    <span class="count">10 events</span>
+  </div>
+
+  <div class="region-head local">
+    <h3>Close to home</h3>
+  </div>
+
+  <div class="card-grid">
+    <article class="card">
+      <div class="card-top" style="background-image:url(https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=450&fit=crop&auto=format)">
+        <span class="card-status featured">Featured</span>
+      </div>
+      <div class="card-body">
+        <div class="card-label"><span class="dot"></span> Willesden Green</div>
+        <h4>Malorees Sports Week</h4>
+        <div class="card-date">Mon 29 Jun – Fri 3 Jul · school hours</div>
+        <div class="card-meta">
+          <span>👶 4–11</span>
+          <span>💰 Free</span>
+          <span>📍 Willesden Green</span>
+        </div>
+        <p>Malorees Infants &amp; Junior School's annual Sports Week — daily sporting activities for all year groups culminating in sports days.</p>
+        <p class="reco">Essential for Malorees parents. Junior Sports Day Tue, Infants Sports Day Wed.</p>
+        <div class="card-tags">
+          <span class="tag">school</span>
+          <span class="tag">sports</span>
+          <span class="tag">Malorees</span>
+        </div>
+      </div>
+      <div class="card-footer">
+        <a href="#" class="card-link">School calendar →</a>
+        <div>
+          <button class="btn-compact">📍 Map</button>
+          <button class="btn-compact accent">📅 Export</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card-top" style="background-image:url(https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&h=450&fit=crop&auto=format)">
+        <span class="card-status featured">Featured</span>
+      </div>
+      <div class="card-body">
+        <div class="card-label"><span class="dot"></span> Willesden Green</div>
+        <h4>Brent Libraries Summer Fun Festival</h4>
+        <div class="card-date">Wed 1 Jul (launch) · drop-in</div>
+        <div class="card-meta">
+          <span>👶 all ages</span>
+          <span>💰 Free</span>
+          <span>📍 Willesden Green</span>
+        </div>
+        <p>Free summer programme at all Brent libraries including Willesden Green. Weekly themes, robotics, storytelling, arts &amp; crafts.</p>
+        <p class="reco">Fantastic free summer activity — just drop in through to September.</p>
+        <div class="card-tags">
+          <span class="tag">library</span>
+          <span class="tag">summer</span>
+          <span class="tag">reading</span>
+          <span class="tag">craft</span>
+        </div>
+      </div>
+      <div class="card-footer">
+        <a href="#" class="card-link">Summer in Brent →</a>
+        <div>
+          <button class="btn-compact">📍 Map</button>
+          <button class="btn-compact accent">📅 Export</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card-top" style="background-image:url(https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&h=450&fit=crop&auto=format)">
+        <span class="card-status">FREE</span>
+      </div>
+      <div class="card-body">
+        <div class="card-label"><span class="dot"></span> Harlesden</div>
+        <h4>Harlesden Walk of Music &amp; Reggae Exhibition</h4>
+        <div class="card-date">Wed 1 Jul · 2pm walk / 6pm exhibition</div>
+        <div class="card-meta">
+          <span>👶 all ages</span>
+          <span>💰 Free</span>
+          <span>📍 Harlesden</span>
+        </div>
+        <p>International Reggae Day celebrations: walking tour of Harlesden's musical heritage plus Reggae Album Covers Exhibition at Harlesden Library.</p>
+        <p class="reco">Unique free cultural event celebrating Harlesden's music history — fun for older kids too.</p>
+        <div class="card-tags">
+          <span class="tag">music</span>
+          <span class="tag">heritage</span>
+          <span class="tag">walk</span>
+          <span class="tag">exhibition</span>
+        </div>
+      </div>
+      <div class="card-footer">
+        <a href="#" class="card-link">Brent events →</a>
+        <div>
+          <button class="btn-compact">📍 Map</button>
+          <button class="btn-compact accent">📅 Export</button>
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <div class="region-head wider" style="margin-top:40px">
+    <h3>Worth the trip</h3>
+  </div>
+
+  <div class="card-grid">
+    <article class="card">
+      <div class="card-top" style="background-image:url(https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&h=450&fit=crop&auto=format)">
+        <span class="card-status">SPECIAL</span>
+      </div>
+      <div class="card-body">
+        <div class="card-label"><span class="dot" style="background:#f59e0b"></span> Acton</div>
+        <h4>Japan Festival London</h4>
+        <div class="card-date">Sat 11 Jul · 10:00–17:00</div>
+        <div class="card-meta">
+          <span>👶 all ages</span>
+          <span>💰 Free–£5</span>
+          <span>📍 Acton</span>
+        </div>
+        <p>A vibrant celebration of Japanese culture with food stalls, performances, workshops, and family activities in Acton.</p>
+        <p class="reco">Fantastic family day out — food, crafts, and performances for all ages.</p>
+        <div class="card-tags">
+          <span class="tag">festival</span>
+          <span class="tag">culture</span>
+          <span class="tag">food</span>
+          <span class="tag">family</span>
+        </div>
+      </div>
+      <div class="card-footer">
+        <a href="#" class="card-link">Festival details →</a>
+        <div>
+          <button class="btn-compact">📍 Map</button>
+          <button class="btn-compact accent">📅 Export</button>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<div class="footer-accent">
+  <div class="footer-inner">
+    <h3>Want more local family finds?</h3>
+    <a href="#">Browse all camps &amp; activities →</a>
+  </div>
+</div>
+
+</body>
+</html>
