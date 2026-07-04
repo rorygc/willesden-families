@@ -378,7 +378,7 @@ a, button, [role="button"], [role="link"], input, textarea, select {
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to bottom, oklch(from var(--color-bg) l c h / 0.25) 0%, oklch(from var(--color-bg) l c h / 0.75) 55%, oklch(from var(--color-bg) l c h / 0.98) 100%);
+  background: linear-gradient(to bottom, oklch(from var(--color-bg) l c h / 0.45) 0%, oklch(from var(--color-bg) l c h / 0.80) 45%, oklch(from var(--color-bg) l c h / 0.98) 100%);
   z-index: 1;
 }
 
@@ -407,19 +407,21 @@ a, button, [role="button"], [role="link"], input, textarea, select {
 .hero h1 {
   font-family: var(--font-display);
   font-size: var(--text-2xl);
-  font-weight: 500;
+  font-weight: 700;
   color: var(--color-text);
   max-width: 15ch;
   margin-bottom: var(--space-4);
   line-height: 1.12;
   letter-spacing: -1px;
+  text-shadow: 0 1px 4px oklch(from var(--color-bg) l c h / 0.6);
 }
 
 .hero p {
   font-size: var(--text-base);
-  color: var(--color-text-muted);
+  color: var(--color-text);
   max-width: 54ch;
-  font-weight: 400;
+  font-weight: 500;
+  text-shadow: 0 1px 3px oklch(from var(--color-bg) l c h / 0.5);
 }
 
 .hero-actions {
