@@ -366,10 +366,12 @@ a, button, [role="button"], [role="link"], input, textarea, select {
   z-index: 0;
 }
 
-.hero-image img {
+.hero-image img,
+.hero-image iframe {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border: none;
 }
 
 .hero-overlay {
