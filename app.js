@@ -994,7 +994,7 @@ const DATA = {
       eventTime: '8:30am–5pm',
       blurb: "Summer camp at Instituto Español on Portobello Road. Junior group (3–6) and Senior group (7–12) with weekly themes including Circus and Sports weeks. Trips to Holland Park, London Museum of Water, cinema, ice skating, zoo, mini golf, Queen's Park, and bouldering. £60/day or £250/week with sibling discount (£50/day). T-shirt required (£15). Both Junior and Senior flyers available below.",
       recommendation: 'Strong option for families near Ladbroke Grove / Notting Hill — daily booking available, wide age range, and packed trip schedule.',
-      tags: ['summer camp', 'holiday club', 'trips', 'daily booking', 'ladbroke grove', 'portobello'],
+      tags: ['summer camp', 'holiday club', 'multi-activity', 'trips', 'daily booking', 'ladbroke grove', 'portobello'],
       contact: './assets/Summer Camp Junior _ After School Dreams _ July 2026-compressed.pdf',
       linkLabel: 'Flyer: Junior (3–6) — tap for Senior too',
       lat: 51.5201525,
@@ -2407,7 +2407,7 @@ function campTypeForItem(item) {
   const text = [item.name, item.blurb, item.recommendation, ...(item.tags || [])].join(' ').toLowerCase();
   if (/tennis|racket|racquet/.test(text)) return 'tennis & racket sports';
   if (/multi-activity|multi activity|club excel|holiday hq|breezy club|apf|junior adventures group/.test(text)) return 'multi-activity';
-  if (/dance|movement|ballet|showcase/.test(text)) return 'dance & movement';
+  if (/dance|movement|ballet|showcase/.test(text) && !/performing arts/.test(text)) return 'dance & movement';
   if (/performing arts|theatre|theater|singing|music|drama|performance/.test(text) && !/multi-activity|multi activity|club excel|holiday hq|breezy club|apf|junior adventures group/.test(text)) return 'performing arts';
   if (/gymnastics|circus/.test(text)) return 'gymnastics & circus';
   if (/play scheme|early years|2½|2-|3–|3-/.test(text)) return 'early years play schemes';
