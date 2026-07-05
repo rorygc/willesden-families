@@ -2406,13 +2406,13 @@ function renderActivityGroups(items) {
 function campTypeForItem(item) {
   const text = [item.name, item.blurb, item.recommendation, ...(item.tags || [])].join(' ').toLowerCase();
   if (/tennis|racket|racquet/.test(text)) return 'tennis & racket sports';
+  if (/multi-activity|multi activity|club excel|holiday hq|breezy club|apf|junior adventures group/.test(text)) return 'multi-activity';
   if (/dance|movement|ballet|showcase/.test(text)) return 'dance & movement';
   if (/performing arts|theatre|theater|singing|music|drama|performance/.test(text) && !/multi-activity|multi activity|club excel|holiday hq|breezy club|apf|junior adventures group/.test(text)) return 'performing arts';
   if (/gymnastics|circus/.test(text)) return 'gymnastics & circus';
   if (/play scheme|early years|2½|2-|3–|3-/.test(text)) return 'early years play schemes';
   if (/stem|steam|science|experiment|science camp/.test(text)) return 'stem & science';
   if (/forest school|outdoors|outdoor|nature|mud|garden|dell|woodland/.test(text)) return 'forest school & outdoors';
-  if (/multi-activity|multi activity|club excel|holiday hq|breezy club|apf|junior adventures group/.test(text)) return 'multi-activity';
   if (/sports centre|sport|football|basketball|archery|active play|active childcare|athletic|games/.test(text)) return 'sports & active';
   if (/creative|arts and crafts|craft|making|art/.test(text)) return 'creative clubs';
   if (/haf|free|eligible|subsidi/.test(text)) return 'funded & free places';
