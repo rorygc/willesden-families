@@ -1,7 +1,7 @@
 window.WF_LIVE_UPDATES = {
   updatedAt: '2026-06-29',
   nextCheck: '2026-07-06',
-  headline: 'Brent Libraries Summer Fun Festival starts 1 July, free SEND sports club runs Saturdays, Preston Park Hub launches 2 July',
+  headline: 'Brent Libraries Summer Fun Festival starts 1 July, free SEND sports club runs Saturdays',
   items: [
     {
       title: 'Brent Libraries Summer Fun Festival: 1 July – 5 Sep',
@@ -12,8 +12,8 @@ window.WF_LIVE_UPDATES = {
       text: 'Disability Sports Coach runs a free inclusive movement club for disabled girls aged 11–17 (up to 25), Saturdays 4:15–5:15pm. Ongoing — just started 27 June. Book via Eventbrite. Great for SEND families.'
     },
     {
-      title: 'Preston Park Family Hub launch 2 July (Wembley); Roundwood Park funfair 10–19 July (Harlesden)',
-      text: 'Brent\'s Best Start Family Hub at Preston Park launches Thu 2 July, 11:30am–2:30pm — free, drop-in. Address: College Road, Wembley HA9 8RJ. St Raphael\'s Hub (NW10) now open Mon–Fri. Also: Roundwood Park funfair returns Fri 10–Sun 19 July, Irvin Leisure, Harlesden NW10.'
+      title: 'Roundwood Park funfair 10–19 July (Harlesden)',
+      text: 'Roundwood Park funfair returns Fri 10–Sun 19 July, Irvin Leisure, Harlesden NW10. Also: St Raphael\'s Hub (NW10) now open Mon–Fri for stay-and-play and family support.'
     }
   ]
 };
