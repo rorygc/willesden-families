@@ -228,6 +228,28 @@ const DATA = {
       isNew: true,
       region: 'local',
       cardTone: 'weekly'
+    },
+    {
+      id: 'event-lexi-cinema-toy-story',
+      section: 'this-week',
+      name: 'Toy Story 5 at The Lexi Cinema',
+      age: 'all ages',
+      cost: '£8',
+      area: 'Kensal Rise',
+      eventDate: 'Now playing',
+      eventTime: 'weekends & school hols',
+      blurb: 'Disney Pixar\'s Toy Story 5 — "Toy meets Tech" — now showing at The Lexi, London\'s only social enterprise cinema. A volunteer-run, two-screen indie on Chamberlayne Road. Family Fun screenings all tickets just £8 (Sat 11 Jul 14:15, Sun 12 Jul 14:40, Mon 13 Jul 15:00). Baby-Friendly screening Mon 11am with lowered volume and buggy parking.',
+      recommendation: 'The best kind of local gem — community-run, £8 all tickets, and a proper cinema experience without the multiplex chaos. The fibre-optic chandelier in Screen 1 is worth the trip alone.',
+      tags: ['cinema', 'family', 'indoor', 'affordable', 'toy story', 'baby-friendly'],
+      contact: 'https://thelexicinema.co.uk/',
+      linkLabel: 'Book tickets',
+      lat: 51.5375,
+      lng: -0.2181,
+      mapQuery: 'The Lexi Cinema, 194b Chamberlayne Road, London NW10 3JU',
+      featured: true,
+      isNew: true,
+      region: 'local',
+      cardTone: 'weekly'
     }
   ],
   childcare: [
@@ -1872,6 +1894,22 @@ const DATA = {
       lat: 51.535,
       lng: -0.205,
       mapQuery: "Queen's Park Wildlife Area, Harvist Road, London NW6 6SG"
+    },
+    {
+      id: 'act-lexi-cinema',
+      section: 'activities',
+      name: 'The Lexi Cinema — Kensal Rise',
+      age: 'all ages',
+      cost: 'low',
+      area: 'Kensal Rise',
+      blurb: "London's only social enterprise cinema — a volunteer-run, two-screen indie picture palace on Chamberlayne Road. 100% of profits go to charity. Family Fun screenings at £8 all tickets during school holidays. Baby-Friendly screenings every Monday 11am with lowered volume, buggy parking, and hot drinks from the bar. Screen 1 features a stunning Bruce Munro fibre-optic chandelier. Also runs Lexi Film School, community programmes, and a gallery space for local artists.",
+      recommendation: 'A genuine local treasure. £8 family tickets, community-run, and far more character than any multiplex. The baby-friendly Monday screenings are a lifesaver with little ones.',
+      tags: ['cinema', 'family', 'indoor', 'affordable', 'baby-friendly', 'community', 'kensal rise'],
+      contact: 'https://thelexicinema.co.uk/',
+      linkLabel: 'See what\'s on',
+      lat: 51.5375,
+      lng: -0.2181,
+      mapQuery: 'The Lexi Cinema, 194b Chamberlayne Road, London NW10 3JU'
     }
   ]
 };const SECTIONS = ['this-week', 'camps', 'childcare', 'cafes', 'indoor', 'send', 'activities'];
