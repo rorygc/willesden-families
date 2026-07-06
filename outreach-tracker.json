@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-03T12:00:00+01:00",
+  "lastUpdated": "2026-07-06T12:00:00+01:00",
   "totalContacted": 44,
-  "replied": 2,
+  "replied": 4,
   "contacts": [
     {
       "id": "fresh-arts-education",
@@ -138,9 +138,11 @@
       "id": "gladstone-park",
       "provider": "Gladstone Park Primary",
       "email": "admin@gladpark.anthemtrust.uk",
-      "status": "sent",
+      "status": "auto-replied",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "autoReplyReceived": "2026-07-03 12:47",
+      "autoReplyNote": "Auto-reply: passed to relevant person"
     },
     {
       "id": "john-keble",
@@ -170,9 +172,11 @@
       "id": "leopold",
       "provider": "Leopold Primary School",
       "email": "admin@leopold.brent.sch.uk",
-      "status": "sent",
+      "status": "auto-replied",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "autoReplyReceived": "2026-07-03 12:47",
+      "autoReplyNote": "Auto-reply: aims to respond within 2 working days"
     },
     {
       "id": "st-mary-magdalen",
@@ -368,5 +372,6 @@
       "firstContacted": "2026-07-03",
       "thankedSent": false
     }
-  ]
+  ],
+  "autoReplied": 2
 }
