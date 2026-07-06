@@ -25,7 +25,7 @@ const DATA = {
       lng: -0.128,
       mapQuery: 'Clitterhouse Farm, Claremont Road, London NW2',
       promoImage: 'https://images.unsplash.com/photo-1591857177580-dc82b9ac4e1e?w=800&h=450&fit=crop&auto=format',
-      featured: false,
+      featured: true,
       region: 'local',
       cardTone: 'weekly'
     },
@@ -47,22 +47,45 @@ const DATA = {
       lng: -0.128,
       mapQuery: 'Clitterhouse Farm, Claremont Road, London NW2',
       promoImage: 'https://images.unsplash.com/photo-1503454537195-1ec1e484bb38?w=800&h=450&fit=crop&auto=format',
-      featured: false,
+      featured: true,
+      region: 'local',
+      cardTone: 'weekly'
+    },
+    {
+      id: 'event-ouryard-little-chefs',
+      section: 'this-week',
+      name: 'Little Chefs Club at Our Yard',
+      age: '5–12',
+      cost: '£8 donation',
+      area: 'Brent Cross',
+      eventDate: 'Sun 12 Jul',
+      eventTime: '10:00',
+      blurb: 'Monthly kids\' cooking club at Our Yard, Clitterhouse Farm — runs every 2nd Sunday. Hands-on cooking in the community garden using fresh seasonal produce. £8 suggested donation.',
+      recommendation: 'A lovely Sunday morning activity — kids cook, parents relax in the farm café (open Thu–Sat).',
+      tags: ['cooking', 'food', 'outdoor', 'community', 'donation', 'sunday'],
+      contact: 'https://www.ouryard.org/events',
+      linkLabel: 'Our Yard events',
+      lat: 51.507,
+      lng: -0.128,
+      mapQuery: 'Clitterhouse Farm, Claremont Road, London NW2',
+      promoImage: 'https://images.unsplash.com/photo-1556911220-bff31c812dba?w=800&h=450&fit=crop&auto=format',
+      featured: true,
+      isNew: true,
       region: 'local',
       cardTone: 'weekly'
     },
     {
       id: 'event-brent-summer-fun-festival',
       section: 'this-week',
-      name: 'Brent Libraries Summer Fun Festival',
+      name: 'Brent Libraries Summer Fun Festival — Week 2',
       age: 'all ages',
       cost: 'free',
       area: 'Willesden Green',
-      eventDate: 'Wed 1 Jul (launch)',
+      eventDate: 'Now – 5 Sep (Week 2)',
       eventTime: 'drop-in',
-      blurb: 'Free summer programme at all Brent libraries including Willesden Green. Weekly themes (adventure, fantasy, STEM, sports), robotics, storytelling, arts & crafts. Read 6 books, earn rewards.',
-      recommendation: 'Fantastic free summer activity — just drop in from Wed 1 July through to Sep.',
-      tags: ['library', 'summer', 'reading', 'craft', 'free'],
+      blurb: 'Free summer programme at all Brent libraries. This week\'s theme: "X Marks the Spot" — kids create pirate treasure maps from recycled materials. Plus robotics, storytelling, and the reading challenge. Read 6 books, earn rewards.',
+      recommendation: 'Fantastic free summer activity — drop in any time. The reading challenge is brilliant for keeping kids engaged over the holidays.',
+      tags: ['library', 'summer', 'reading', 'craft', 'free', 'pirate'],
       contact: 'https://www.brent.gov.uk/summer-in-brent',
       linkLabel: 'Summer in Brent',
       lat: 51.5468236,
@@ -74,24 +97,25 @@ const DATA = {
       cardTone: 'weekly'
     },
     {
-      id: 'event-south-kilburn-carnivale',
+      id: 'event-roundwood-funfair',
       section: 'this-week',
-      name: 'Street Swap South Kilburn CarniVale',
+      name: 'Roundwood Park Funfair',
       age: 'all ages',
-      cost: 'free',
-      area: 'Kilburn',
-      eventDate: 'Sat 4 Jul',
-      eventTime: '13:00',
-      blurb: 'A community carnival in South Kilburn with street swapping, activities, music, and family fun at the Oxford Kilburn Youth Trust (OK Club).',
-      recommendation: 'Lively community event to round off the week — free, outdoor, and fun for all ages.',
-      tags: ['carnival', 'street festival', 'community', 'free', 'music'],
-      contact: 'https://www.okclub.org.uk',
-      linkLabel: 'OK Club events',
-      lat: 51.542,
-      lng: -0.2,
-      mapQuery: 'Oxford Kilburn Youth Trust, 38 Dane Road, London NW6',
-      promoImage: 'https://images.unsplash.com/photo-1533176952548-2c5b8c4e2f28?w=800&h=450&fit=crop&auto=format',
+      cost: 'varies',
+      area: 'Harlesden',
+      eventDate: 'Fri 10 – Sun 19 Jul',
+      eventTime: 'afternoon–evening',
+      blurb: 'Irvin Leisure funfair returns to Roundwood Park for 10 days of rides, games, candy floss, and family fun. A proper summer tradition in Harlesden NW10. Pay per ride — perfect for an after-school or weekend treat.',
+      recommendation: 'Go on Friday evening or early Saturday to beat the crowds. The waltzers are legendary.',
+      tags: ['funfair', 'rides', 'outdoor', 'family', 'harlesden', 'summer'],
+      contact: 'https://www.irvinleisure.co.uk/',
+      linkLabel: 'Irvin Leisure',
+      lat: 51.543,
+      lng: -0.245,
+      mapQuery: 'Roundwood Park, Harlesden Road, London NW10',
+      promoImage: 'https://images.unsplash.com/photo-1560713781-d00f6c18f388?w=800&h=450&fit=crop&auto=format',
       featured: true,
+      isNew: true,
       region: 'local',
       cardTone: 'weekly'
     },
@@ -113,7 +137,7 @@ const DATA = {
       lng: -0.1760019,
       mapQuery: 'Natural History Museum, Cromwell Road, London SW7 5BD',
       promoImage: 'https://images.unsplash.com/photo-1563299354-778ae17428d4?w=800&h=450&fit=crop&auto=format',
-      featured: false,
+      featured: true,
       region: 'wider',
       cardTone: 'weekly'
     },
@@ -135,7 +159,7 @@ const DATA = {
       lng: -0.128,
       mapQuery: 'Science Museum, Exhibition Road, London SW7 2DD',
       promoImage: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=450&fit=crop&auto=format',
-      featured: false,
+      featured: true,
       region: 'wider',
       cardTone: 'weekly'
     },
@@ -157,7 +181,7 @@ const DATA = {
       lng: -0.193,
       mapQuery: 'Diana Memorial Playground, Kensington Gardens, London W2 4RU',
       promoImage: 'https://images.unsplash.com/photo-1472162072942-37e9d7a13a2a?w=800&h=450&fit=crop&auto=format',
-      featured: false,
+      featured: true,
       region: 'wider',
       cardTone: 'weekly'
     },
@@ -179,7 +203,7 @@ const DATA = {
       lng: -0.1430045,
       mapQuery: 'Buckingham Palace, London SW1A 1AA',
       promoImage: 'https://images.unsplash.com/photo-1513635269970-05849352c775?w=800&h=450&fit=crop&auto=format',
-      featured: false,
+      featured: true,
       region: 'wider',
       cardTone: 'weekly'
     },
@@ -201,7 +225,7 @@ const DATA = {
       lng: -0.116787,
       mapQuery: 'Southbank Centre, Belvedere Road, London SE1 8XX',
       promoImage: 'https://images.unsplash.com/photo-1526129318477-4a2db4c77c36?w=800&h=450&fit=crop&auto=format',
-      featured: false,
+      featured: true,
       region: 'wider',
       cardTone: 'weekly'
     },
@@ -239,7 +263,7 @@ const DATA = {
       eventDate: 'Now playing',
       eventTime: 'weekends & school hols',
       blurb: 'Disney Pixar\'s Toy Story 5 — "Toy meets Tech" — now showing at The Lexi, London\'s only social enterprise cinema. A volunteer-run, two-screen indie on Chamberlayne Road. Family Fun screenings all tickets just £8 (Sat 11 Jul 14:15, Sun 12 Jul 14:40, Mon 13 Jul 15:00). Baby-Friendly screening Mon 11am with lowered volume and buggy parking.',
-      recommendation: 'The best kind of local gem — community-run, £8 all tickets, and a proper cinema experience without the multiplex chaos. The fibre-optic chandelier in Screen 1 is worth the trip alone.',
+      recommendation: 'The best kind of local gem — community-run, £8 all tickets, and a proper cinema experience without the multiplex chaos.',
       tags: ['cinema', 'family', 'indoor', 'affordable', 'toy story', 'baby-friendly'],
       contact: 'https://thelexicinema.co.uk/',
       linkLabel: 'Book tickets',
@@ -2604,10 +2628,13 @@ function renderSection(sectionId, items) {
   const count = document.getElementById(`count-${sectionId}`);
   if (!grid) return;
   if (sectionId === 'activities') {
+    grid.classList.add('is-grouped');
     grid.innerHTML = renderActivityGroups(items);
   } else if (sectionId === 'camps') {
+    grid.classList.add('is-grouped');
     grid.innerHTML = renderCampGroups(items);
   } else {
+    grid.classList.remove('is-grouped');
     grid.innerHTML = items.map(renderCard).join('');
   }
   if (count) count.textContent = items.length;

@@ -822,6 +822,13 @@ a, button, [role="button"], [role="link"], input, textarea, select {
   gap: var(--space-5);
 }
 
+/* Grouped sections (camps / activities) stack full-width so each group's
+   inner card grid can expand to multiple columns instead of being squeezed
+   into a single outer-grid column. */
+.parent-grid.is-grouped {
+  display: block;
+}
+
 .parent-card {
   background: var(--color-surface);
   border: 1px solid var(--color-border);
