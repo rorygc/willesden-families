@@ -1134,18 +1134,18 @@ const DATA = {
     {
       id: 'camp-qpr-community',
       section: 'camps',
-      name: 'QPR Community Trust — holiday courses',
+      name: 'QPR Community Trust — Summer Football Camps',
       age: '5–14',
       cost: 'low',
-      area: 'West London',
-      blurb: "QPR's community programme runs football holiday courses across West and North West London. Affordable, inclusive, and often free or heavily subsidised for local children. Check the Community Trust website for venues and dates.",
-      recommendation: "Often the cheapest football option — QPR's community work is genuinely excellent and inclusive.",
-      tags: ['football', 'qpr', 'community', 'affordable', 'inclusive'],
-      contact: 'https://www.qpr.co.uk/community',
-      linkLabel: 'QPR Community Trust',
-      lat: 51.507,
-      lng: -0.128,
-      mapQuery: 'QPR, Loftus Road, London'
+      area: "Shepherd's Bush",
+      blurb: "QPR's community programme runs inclusive football camps at Powerleague Shepherd's Bush (W12). Summer 2026: 20 July – 28 August, 10am–3pm with early drop-off from 9am. £30/day or £140/week. Qualified coaches, all abilities welcome.",
+      recommendation: "Often the cheapest football option — QPR's community work is genuinely excellent and inclusive. The Shepherd's Bush venue is easy to reach from NW London.",
+      tags: ['football', 'qpr', 'community', 'affordable', 'inclusive', 'summer-2026'],
+      contact: 'https://www.abler.io/shop/qpr_community_trust/kelloggs',
+      linkLabel: 'Book now',
+      lat: 51.511,
+      lng: -0.236,
+      mapQuery: "Powerleague Shepherd's Bush, Chaplin Road, London W12 7RW"
     },
     {
       id: 'camp-all-star-tennis',
