@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T12:00:00+01:00",
+  "lastUpdated": "2026-07-09T12:00:00+01:00",
   "totalContacted": 44,
   "replied": 4,
   "contacts": [
@@ -17,49 +17,55 @@
       "id": "salusbury-primary",
       "provider": "Salusbury Primary School",
       "email": "admin@salusbury.brent.sch.uk",
-      "status": "sent",
+      "status": "chased",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "malorees-primary",
       "provider": "Malorees Primary School",
       "email": "admin@maloreesprimaryschool.co.uk",
-      "status": "sent",
+      "status": "chased",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "mora-primary",
       "provider": "Mora Primary School",
       "email": "admin@mora.brent.sch.uk",
-      "status": "sent",
+      "status": "chased",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "qpcs",
       "provider": "Queens Park Community School",
       "email": "info@qpcs.brent.sch.uk",
-      "status": "sent",
+      "status": "chased",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "st-martin-porres",
       "provider": "St Martin of Porres",
       "email": "adminstmartins@stpm.org.uk",
-      "status": "sent",
+      "status": "chased",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "junior-adventures",
       "provider": "Junior Adventures Group",
       "email": "hello@junioradventuresgroup.co.uk",
-      "status": "sent",
+      "status": "chased",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "queens-park-folk",
@@ -74,205 +80,230 @@
       "id": "msport-active",
       "provider": "MSport Active",
       "email": "info@msportactive.co.uk",
-      "status": "sent",
+      "status": "chased",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "st-josephs",
       "provider": "St Joseph's RC Primary",
       "email": "admin@stjo.brent.sch.uk",
-      "status": "sent",
+      "status": "chased",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "olog-juniors",
       "provider": "Our Lady of Grace Junior",
       "email": "admin@ologjuniors.brent.sch.uk",
-      "status": "sent",
+      "status": "chased",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "olog-infants",
       "provider": "Our Lady of Grace Infant",
       "email": "admin@ologinfants.brent.sch.uk",
-      "status": "sent",
+      "status": "chased",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "convent-infants",
       "provider": "Convent of Jesus and Mary Infant",
       "email": "admin@conventinf.brent.sch.uk",
-      "status": "sent",
+      "status": "chased",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "st-agnes",
       "provider": "St Agnes Catholic Primary",
       "email": "office@st-agnes.towerhamlets.sch.uk",
-      "status": "sent",
+      "status": "chased",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "kingsgate",
       "provider": "Kingsgate Primary School",
       "email": "admin@kingsgate-pri.camden.sch.uk",
-      "status": "sent",
+      "status": "chased",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "st-eugene",
       "provider": "St Eugene de Mazenod Primary",
       "email": "admin@steugene.camden.sch.uk",
-      "status": "sent",
+      "status": "chased",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "gladstone-park",
       "provider": "Gladstone Park Primary",
       "email": "admin@gladpark.anthemtrust.uk",
-      "status": "auto-replied",
+      "status": "chased",
       "firstContacted": "2026-07-03",
       "thankedSent": false,
       "autoReplyReceived": "2026-07-03 12:47",
-      "autoReplyNote": "Auto-reply: passed to relevant person"
+      "autoReplyNote": "Auto-reply: passed to relevant person",
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "john-keble",
       "provider": "John Keble CofE Primary",
       "email": "admin@jkeble.brent.sch.uk",
-      "status": "sent",
+      "status": "chased",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "newfield",
       "provider": "Newfield Primary School",
       "email": "admin@newfield.brent.sch.uk",
-      "status": "sent",
+      "status": "chased",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "northview",
       "provider": "Northview Junior and Infant",
       "email": "admin@northview.brent.sch.uk",
-      "status": "sent",
+      "status": "chased",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "leopold",
       "provider": "Leopold Primary School",
       "email": "admin@leopold.brent.sch.uk",
-      "status": "auto-replied",
+      "status": "chased",
       "firstContacted": "2026-07-03",
       "thankedSent": false,
       "autoReplyReceived": "2026-07-03 12:47",
-      "autoReplyNote": "Auto-reply: aims to respond within 2 working days"
+      "autoReplyNote": "Auto-reply: aims to respond within 2 working days",
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "st-mary-magdalen",
       "provider": "St Mary Magdalen's Junior",
       "email": "admin@marymag.brent.sch.uk",
-      "status": "sent",
+      "status": "chased",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "st-marys-ce",
       "provider": "St Mary's CofE Primary",
       "email": "admin@stmarysce.brent.sch.uk",
-      "status": "sent",
+      "status": "chased",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "st-andrew-francis",
       "provider": "St Andrew and St Francis Primary",
       "email": "admin@sasf304.ldbsact.org",
-      "status": "sent",
+      "status": "chased",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "harlesden",
       "provider": "Harlesden Primary School",
       "email": "admin@harlesden.brent.sch.uk",
-      "status": "sent",
+      "status": "chased",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "brentfield",
       "provider": "Brentfield Primary School",
       "email": "admin@brentfield.brent.sch.uk",
-      "status": "sent",
+      "status": "chased",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "mitchell-brook",
       "provider": "Mitchell Brook Primary",
       "email": "admin@mbrook.brent.sch.uk",
-      "status": "sent",
+      "status": "chased",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "st-margaret-clitherow",
       "provider": "St Margaret Clitherow Primary",
       "email": "admin@clitherow.brent.sch.uk",
-      "status": "sent",
+      "status": "chased",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "nwljds",
       "provider": "NW London Jewish Day School",
       "email": "admin@nwljds.org.uk",
-      "status": "sent",
+      "status": "chased",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "emmanuel",
       "provider": "Emmanuel CofE Primary",
       "email": "admin@emmanuel.camden.sch.uk",
-      "status": "sent",
+      "status": "chased",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "anson",
       "provider": "Anson Primary School",
       "email": "admin@anson.brent.sch.uk",
-      "status": "sent",
+      "status": "chased",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "carlton-vale",
       "provider": "Carlton Vale Infant School",
       "email": "admin@carlton.brent.sch.uk",
-      "status": "sent",
+      "status": "chased",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "olol",
       "provider": "Our Lady of Lourdes Primary",
       "email": "admin@lourdes.brent.sch.uk",
-      "status": "sent",
+      "status": "chased",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "donnington",
@@ -287,49 +318,55 @@
       "id": "harris-lowe",
       "provider": "Harris Lowe Academy Willesden",
       "email": "info@harrislowewillesden.org.uk",
-      "status": "sent",
+      "status": "chased",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "newman-college",
       "provider": "Newman Catholic College",
       "email": "office@ncc.brent.sch.uk",
-      "status": "sent",
+      "status": "chased",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "north-brent",
       "provider": "North Brent School",
       "email": "reception@northbrentschool.co.uk",
-      "status": "sent",
+      "status": "chased",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "st-claudines",
       "provider": "St Claudine's College",
       "email": "office@stclaudines.co.uk",
-      "status": "sent",
+      "status": "chased",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "phoenix-arch",
       "provider": "Phoenix Arch School",
       "email": "admin@phoenixarch.brent.sch.uk",
-      "status": "sent",
+      "status": "chased",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "manor-school",
       "provider": "Manor School",
       "email": "enquiries@manor.brent.sch.uk",
-      "status": "sent",
+      "status": "chased",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "after-school-dreams",
@@ -344,34 +381,39 @@
       "id": "rocket-club",
       "provider": "The Rocket Club",
       "email": "rocketclubholidays@gmail.com",
-      "status": "sent",
+      "status": "chased",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "young-england",
       "provider": "Young England Kindergarten",
       "email": "polly@youngenglandkindergarten.co.uk",
-      "status": "sent",
+      "status": "chased",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "qp-tennis",
       "provider": "Queen's Park Tennis Club",
       "email": "unitedtennis@hotmail.co.uk",
-      "status": "sent",
+      "status": "chased",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "chaseSent": "2026-07-09"
     },
     {
       "id": "cygnets-swim",
       "provider": "Cygnets Swim School",
       "email": "office@cygnetsswimschool.com",
-      "status": "sent",
+      "status": "chased",
       "firstContacted": "2026-07-03",
-      "thankedSent": false
+      "thankedSent": false,
+      "chaseSent": "2026-07-09"
     }
   ],
-  "autoReplied": 2
+  "autoReplied": 2,
+  "chased": 41
 }
