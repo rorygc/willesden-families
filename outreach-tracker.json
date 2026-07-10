@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-09T12:00:00+01:00",
-  "totalContacted": 44,
+  "lastUpdated": "2026-07-09T14:00:00+01:00",
+  "totalContacted": 45,
   "replied": 4,
   "contacts": [
     {
@@ -125,10 +125,12 @@
       "id": "st-agnes",
       "provider": "St Agnes Catholic Primary",
       "email": "office@st-agnes.towerhamlets.sch.uk",
-      "status": "chased",
+      "status": "replied",
       "firstContacted": "2026-07-03",
-      "thankedSent": false,
-      "chaseSent": "2026-07-09"
+      "thankedSent": true,
+      "chaseSent": "2026-07-09",
+      "replyReceived": "2026-07-09 15:27",
+      "note": "Based in Bow (E3) \u2014 outside NW London coverage. Wrong area, removed from future outreach."
     },
     {
       "id": "kingsgate",
@@ -181,10 +183,11 @@
       "id": "northview",
       "provider": "Northview Junior and Infant",
       "email": "admin@northview.brent.sch.uk",
-      "status": "chased",
+      "status": "replied",
       "firstContacted": "2026-07-03",
-      "thankedSent": false,
-      "chaseSent": "2026-07-09"
+      "thankedSent": true,
+      "chaseSent": "2026-07-09",
+      "replyReceived": "2026-07-09 15:27"
     },
     {
       "id": "leopold",
@@ -412,6 +415,16 @@
       "firstContacted": "2026-07-03",
       "thankedSent": false,
       "chaseSent": "2026-07-09"
+    },
+    {
+      "id": "kidzplay-stonebridge",
+      "provider": "Kidzplay Afterschool (Stonebridge Primary)",
+      "email": "kidzplay.afterschool@gmail.com",
+      "status": "replied",
+      "firstContacted": "2026-07-09",
+      "replyReceived": "2026-07-09 22:40",
+      "thankedSent": true,
+      "note": "Referred by Northview. Runs summer camp at Stonebridge Primary NW10 8NG."
     }
   ],
   "autoReplied": 2,
