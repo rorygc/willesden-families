@@ -1646,7 +1646,9 @@ const DATA = {
       lat: 51.5552723,
       lng: -0.229117,
       mapQuery: 'Gladstone Park, Anson Road, London NW2 6BH',
-      featured: true
+      featured: true,
+      eventDate: 'New season starts September',
+      cardTone: 'weekly'
     },
     {
       id: 'act-queens-park-tennis',
