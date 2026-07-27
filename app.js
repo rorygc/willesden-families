@@ -1,6 +1,6 @@
 const LIVE_UPDATES = window.WF_LIVE_UPDATES || {
-  updatedAt: '2026-05-18',
-  nextCheck: '2026-05-25',
+  updatedAt: '2026-07-27',
+  nextCheck: '2026-08-03',
   headline: 'Fresh local picks for parents in Willesden Green and nearby NW London',
   items: []
 };
@@ -8,9 +8,9 @@ const LIVE_UPDATES = window.WF_LIVE_UPDATES || {
 const DATA = {
   thisWeek: [
     {
-      id: 'event-summer-fun-festival-2026',
+      id: 'event-brent-summer-fun-festival-2026',
       section: 'this-week',
-      name: 'Summer Fun Festival 2026',
+      name: 'Brent Summer Fun Festival 2026',
       age: '0–12',
       cost: 'free',
       area: 'Brent libraries',
@@ -26,74 +26,56 @@ const DATA = {
       cardTone: 'weekly'
     },
     {
-      id: 'event-kilburn-story-rhyme-time',
+      id: 'event-build-and-code-harlesden-2026',
       section: 'this-week',
-      name: 'Book Trust Story and Rhyme Time',
-      age: 'under 5s',
+      name: 'Build and Code: Robotics Workshops',
+      age: '8–11',
+      cost: 'free',
+      area: 'Harlesden',
+      eventDate: 'Wed 29 Jul',
+      eventTime: '14:30–16:30',
+      blurb: 'Free Brent Council robotics workshop for 8–11s at Harlesden Branch Library, run with PrepareRobo Ltd.',
+      recommendation: 'A strong pick for older siblings who like STEM, coding and hands-on making.',
+      tags: ['STEM', 'coding', 'robotics', 'workshop', 'free', 'kids'],
+      contact: 'https://www.brent.gov.uk/events-in-brent/2026/july/build-and-code---robotics-workshops-harlesden',
+      linkLabel: 'Event details',
+      mapQuery: 'Harlesden Branch Library, Craven Park Road, London NW10 8SE',
+      featured: true,
+      cardTone: 'weekly'
+    },
+    {
+      id: 'event-build-and-code-kilburn-2026',
+      section: 'this-week',
+      name: 'Build and Code: Robotics Workshops',
+      age: '8–11',
       cost: 'free',
       area: 'Kilburn',
-      eventDate: 'Tue 21 Jul',
-      eventTime: '11:00–11:30',
-      blurb: 'Short, friendly story-and-rhyme session at Kilburn Library for little ones.',
-      recommendation: 'Great if you want a calm mid-morning activity before lunch or nap time.',
-      tags: ['story', 'rhyme', 'under-5s', 'library', 'indoor'],
-      contact: 'https://www.brent.gov.uk/libraries-arts-and-heritage/libraries/library-events/under-5s-kil',
+      eventDate: 'Thu 30 Jul',
+      eventTime: '11:00–13:00',
+      blurb: 'Free Brent Council robotics workshop for 8–11s at Kilburn Library, with hands-on activities and coding fun.',
+      recommendation: 'Handy midweek indoor pick if your child enjoys puzzles, building and screen-free tech.',
+      tags: ['STEM', 'coding', 'robotics', 'workshop', 'free', 'kids'],
+      contact: 'https://www.brent.gov.uk/events-in-brent/2026/july/build-and-code---robotics-workshops-kilburn',
       linkLabel: 'Event details',
       mapQuery: 'Kilburn Library, 42 Salusbury Road, London NW6 6NN',
       featured: true,
       cardTone: 'weekly'
     },
     {
-      id: 'event-kensal-rise-caterpillar-music',
+      id: 'event-build-and-code-willesden-green-2026',
       section: 'this-week',
-      name: 'Toddler and Baby Caterpillar Music',
-      age: 'baby and toddler',
+      name: 'Build and Code: Robotics Workshops',
+      age: '8–11',
       cost: 'free',
-      area: 'Kensal Rise',
-      eventDate: 'Wed 22 Jul',
-      eventTime: '10:00',
-      blurb: 'Fun music-and-movement session for babies and toddlers at Kensal Rise Library.',
-      recommendation: 'A cheerful midweek option for little ones who love songs and moving around.',
-      tags: ['music', 'baby', 'toddler', 'library', 'indoor'],
-      contact: 'https://kensalriselibrary.org/whats-on/',
-      linkLabel: 'What’s on',
-      mapQuery: 'Kensal Rise Library, Bathurst Gardens, London NW10 5JA',
-      featured: true,
-      cardTone: 'weekly'
-    },
-    {
-      id: 'event-kensal-rise-chatty-cafe',
-      section: 'this-week',
-      name: 'Chatty Cafe',
-      age: 'all ages',
-      cost: 'free',
-      area: 'Kensal Rise',
-      eventDate: 'Thu 23 Jul',
-      eventTime: '14:30–16:00',
-      blurb: 'A relaxed cuppa-and-chat at Kensal Rise Library that welcomes adults and children.',
-      recommendation: 'Handy when you want an easy indoor stop with kids in tow.',
-      tags: ['café', 'community', 'indoor', 'families'],
-      contact: 'https://kensalriselibrary.org/whats-on/',
-      linkLabel: 'What’s on',
-      mapQuery: 'Kensal Rise Library, Bathurst Gardens, London NW10 5JA',
-      featured: true,
-      cardTone: 'weekly'
-    },
-    {
-      id: 'event-ouryard-little-critters',
-      section: 'this-week',
-      name: 'Little Critters Stay n Play',
-      age: '0–5',
-      cost: 'varies',
-      area: 'Brent Cross',
-      eventDate: 'Fri 24 Jul',
-      eventTime: 'drop-in',
-      blurb: 'Outdoor, child-led stay-and-play at Clitterhouse Farm with space for little ones to explore.',
-      recommendation: 'A simple Friday choice if your toddler needs fresh air and freedom to roam.',
-      tags: ['play', 'toddler', 'outdoor', 'community', 'friday'],
-      contact: 'https://www.ouryard.org/little-critters-stay-n-play',
-      linkLabel: 'Little Critters page',
-      mapQuery: 'Clitterhouse Farm, Claremont Road, London NW2',
+      area: 'Willesden Green',
+      eventDate: 'Fri 31 Jul',
+      eventTime: '14:30–16:30',
+      blurb: 'Free Brent Council robotics workshop for 8–11s at Willesden Green Library, with a practical introduction to robotics.',
+      recommendation: 'Nice end-of-week option for children who like making, problem-solving and tinkering.',
+      tags: ['STEM', 'coding', 'robotics', 'workshop', 'free', 'kids'],
+      contact: 'https://www.brent.gov.uk/events-in-brent/2026/july/build-and-code---robotics-workshops-willesden-green',
+      linkLabel: 'Event details',
+      mapQuery: 'Willesden Green Library, 95 High Road, London NW10 2SF',
       featured: true,
       cardTone: 'weekly'
     }
@@ -2449,7 +2431,7 @@ function renderCard(item) {
         <button class="card-action" data-action="export" data-id="${item.id}">${ICONS.calendar} Export</button>
       </div>
       <div class="card-footnote">
-        <span>${item.isNew ? '<span class="freshness-badge">New</span> ' : ''}${item.featured ? 'Featured this week' : (sourceLabel || 'Saved locally if you want it')}</span>
+        <span>${item.isNew ? '<span class="freshness-badge">New</span> ' : ''}${item.featured ? (item.section === 'this-week' ? 'Featured this week' : 'Featured') : (sourceLabel || 'Saved locally if you want it')}</span>
         <a class="text-button" href="#contact">Suggest edit</a>
         <button class="text-button" data-action="details" data-id="${item.id}">Open in shortlist</button>
       </div>
@@ -2516,12 +2498,19 @@ function getFilteredItems() {
 }
 
 function renderAll() {
-  const highlights = DATA.thisWeek.filter(item => item.featured);
+  const highlightSource = [
+    ...(DATA.thisWeek || []),
+    ...(DATA.activities || []),
+    ...(DATA.camps || []),
+    ...(DATA.childcare || [])
+  ];
+  const seenHighlights = new Set();
+  const highlights = highlightSource.filter(item => item.featured && !seenHighlights.has(item.id) && seenHighlights.add(item.id));
   const container = document.getElementById('hero-highlights');
   if (container) {
     container.innerHTML = highlights.map(item => `
-      <a href="#this-week" class="highlight-item" data-id="${item.id}">
-        <span class="highlight-date">${escapeHtml(item.eventDate)}</span>
+      <a href="#${escapeHtml(item.section || 'this-week')}" class="highlight-item" data-id="${item.id}">
+        <span class="highlight-date">${escapeHtml(item.eventDate || 'Featured')}</span>
         <span class="highlight-name">${escapeHtml(item.name)}</span>
         <span class="highlight-area">${escapeHtml(item.area)}</span>
         ${item.cost === 'free' ? '<span class="highlight-free">Free</span>' : ''}
