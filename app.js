@@ -1261,7 +1261,7 @@ const DATA = {
       lat: 51.5468236,
       lng: -0.2289918,
       mapQuery: 'The Library at Willesden Green, 95 High Road, NW10 2SF',
-      promoImage: 'https://images.unsplash.com/photo-1507842217343-583bb4565c69?w=800&h=450&fit=crop&auto=format'
+      promoImage: './assets/illustrations/library.svg'
     },
     {
       id: 'indoor-raf-museum',
@@ -1278,7 +1278,7 @@ const DATA = {
       lat: 51.507,
       lng: -0.128,
       mapQuery: 'RAF Museum London, Grahame Park Way, London NW9 5LL',
-      promoImage: 'https://images.unsplash.com/photo-1559060018-6153ad18ec53?w=800&h=450&fit=crop&auto=format'
+      promoImage: 'https://assets.rafmuseum.org.uk/app/uploads/2025/09/23231826/RAFM-London-2-scaled.jpg'
     },
     {
       id: 'indoor-science-museum',
@@ -1295,7 +1295,7 @@ const DATA = {
       lat: 51.507,
       lng: -0.128,
       mapQuery: 'Science Museum, Exhibition Road, London SW7 2DD',
-      promoImage: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=450&fit=crop&auto=format'
+      promoImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Science_Museum%2C_Exhibition_Road_%28cropped%29.jpg/330px-Science_Museum%2C_Exhibition_Road_%28cropped%29.jpg'
     },
     {
       id: 'indoor-natural-history',
@@ -1312,7 +1312,7 @@ const DATA = {
       lat: 51.4965109,
       lng: -0.1760019,
       mapQuery: 'Natural History Museum, Cromwell Road, London SW7 5BD',
-      promoImage: 'https://images.unsplash.com/photo-1569428034239-f9565e32e224?w=800&h=450&fit=crop&auto=format'
+      promoImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Natural_History_Museum_London_front_facade_2025_dllu.jpg/330px-Natural_History_Museum_London_front_facade_2025_dllu.jpg'
     },
     {
       id: 'indoor-clip-n-climb',
@@ -1329,7 +1329,7 @@ const DATA = {
       lat: 51.487,
       lng: -0.171,
       mapQuery: 'Clip n Climb Chelsea, 19 Michael Road, London SW6 2ER',
-      promoImage: 'https://images.unsplash.com/photo-1522163182402-834f871fd851?w=800&h=450&fit=crop&auto=format'
+      promoImage: 'https://www.clipnclimbchelsea.co.uk/images/assets/kidclimbing.png'
     },
     {
       id: 'indoor-soft-play-cricklewood',
@@ -1346,7 +1346,7 @@ const DATA = {
       lat: 51.555,
       lng: -0.218,
       mapQuery: 'Jump In Cricklewood, 158 Cricklewood Broadway, London NW2 3ED',
-      promoImage: 'https://images.unsplash.com/photo-1596895111956-bf1cf84b1e2b?w=800&h=450&fit=crop&auto=format'
+      promoImage: 'https://gojumpin.com/wp-content/uploads/sites/3/2025/09/Jumpin53-1024x683.jpg'
     },
     {
       id: 'indoor-london-transport',
@@ -1363,7 +1363,7 @@ const DATA = {
       lat: 51.5119839,
       lng: -0.1212265,
       mapQuery: 'London Transport Museum, Covent Garden Piazza, London WC2E 7BB',
-      promoImage: 'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&h=450&fit=crop&auto=format'
+      promoImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/London_Transport_Museum_%2842206944281%29.jpg/330px-London_Transport_Museum_%2842206944281%29.jpg'
     },
     {
       id: 'indoor-swiss-cottage-leisure',
@@ -1380,7 +1380,7 @@ const DATA = {
       lat: 51.5423568,
       lng: -0.1725073,
       mapQuery: 'Swiss Cottage Leisure Centre, Adelaide Road, London NW3 3NF',
-      promoImage: 'https://images.unsplash.com/photo-1576610616656-d3aa5d1f4534?w=800&h=450&fit=crop&auto=format'
+      promoImage: 'https://res-1.cloudinary.com/gll/image/upload/c_fit,f_auto,h_150,w_220/v1783072979/optvkenlrpb53jdzvhsn.jpg'
     },
     {
       id: 'indoor-cinema-kids-club',
@@ -1397,7 +1397,7 @@ const DATA = {
       lat: 51.5280256,
       lng: -0.1817063,
       mapQuery: 'Everyman Maida Vale, 215 Sutherland Avenue, London W9 1RU',
-      promoImage: 'https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800&h=450&fit=crop&auto=format'
+      promoImage: 'https://cms-assets.webediamovies.pro/cdn-cgi/image/dpr=1,fit=scale-down,gravity=auto,metadata=none,quality=85,width=2750,height=960/production/279/05eea4c64f02c24d773f94d75e0cf8a2.jpg'
     },
     {
       id: 'indoor-sheriff-centre',
@@ -1414,7 +1414,6 @@ const DATA = {
       lat: 51.547,
       lng: -0.193,
       mapQuery: 'The Sheriff Centre, Sheriff Road, West Hampstead, London NW6',
-      promoImage: 'https://images.unsplash.com/photo-1596464716127-f2a82984de30?w=800&h=450&fit=crop&auto=format'
     },
     {
       id: 'indoor-sammys-softplay',
@@ -1431,7 +1430,6 @@ const DATA = {
       lat: 51.535,
       lng: -0.205,
       mapQuery: "Sammy's Soft Play, Queen's Park, London NW6",
-      promoImage: 'https://images.unsplash.com/photo-1596464716127-f2a82984de30?w=800&h=450&fit=crop&auto=format'
     }
   ],
   send: [
@@ -1625,8 +1623,8 @@ const DATA = {
       tags: ['rugby', 'juniors', 'active', 'team sport', 'Gladstone Park'],
       contact: 'https://kilburncosmos.co.uk/kilburn-cosmos-juniors-rugby/',
       linkLabel: 'Juniors info',
-      promoImage: './assets/kilburn-cosmos-rugby-instagram.webp',
-      promoAlt: 'Kilburn Cosmos juniors rugby photo from Instagram',
+      promoImage: 'https://kilburncosmos.co.uk/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-31-at-15.30.32.jpeg',
+      promoAlt: 'Kilburn Cosmos rugby club photo',
       lat: 51.5552723,
       lng: -0.229117,
       mapQuery: 'Gladstone Park, Anson Road, London NW2 6BH',
@@ -2396,7 +2394,7 @@ function renderCard(item) {
   const tags = (item.tags || []).slice(0, 4).map(tag => `<span class="mini-pill">${tag}</span>`).join('');
 
   return `
-    <article class="parent-card ${item.cardTone || ''}" data-item="${item.id}" data-section="${item.section}" data-age="${item.age}" data-cost="${item.cost}" data-search="${escapeHtml([item.name, item.area, item.blurb, item.recommendation, item.age, item.cost, ...(item.tags || [])].join(' ')).toLowerCase()}"${item.section === 'activities' ? ` data-activity-type="${escapeAttr(activityTypeForItem(item))}"` : ''}${item.section === 'camps' ? ` data-camp-type="${escapeAttr(campType)}"` : ''}>
+    <article id="${item.id}" class="parent-card ${item.cardTone || ''}" data-item="${item.id}" data-section="${item.section}" data-age="${item.age}" data-cost="${item.cost}" data-search="${escapeHtml([item.name, item.area, item.blurb, item.recommendation, item.age, item.cost, ...(item.tags || [])].join(' ')).toLowerCase()}"${item.section === 'activities' ? ` data-activity-type="${escapeAttr(activityTypeForItem(item))}"` : ''}${item.section === 'camps' ? ` data-camp-type="${escapeAttr(campType)}"` : ''}>
       <div class="parent-card-media-wrap">
         ${hasLink ? `<a class="parent-card-promo" href="${escapeAttr(contactUrl)}" target="_blank" rel="noopener noreferrer" aria-label="${escapeAttr(item.promoAlt || item.name)}">` : '<div class="parent-card-promo" aria-hidden="true">'}
           <img src="${escapeAttr(cardImage)}" alt="${escapeAttr(item.promoAlt || item.name)}" loading="lazy" data-fallback-src="${escapeAttr(cardFallbackImageForItem(item))}" onerror="if(this.dataset.fallbackSrc && this.src !== this.dataset.fallbackSrc){this.src=this.dataset.fallbackSrc;return;}this.onerror=null;this.src='${ACTIVITY_DEFAULT_IMAGE}';">
@@ -2511,7 +2509,7 @@ function renderAll() {
   const container = document.getElementById('hero-highlights');
   if (container) {
     container.innerHTML = highlights.map(item => `
-      <a href="#${escapeHtml(item.section || 'this-week')}" class="highlight-item" data-id="${item.id}">
+      <a href="#${escapeHtml(item.id || item.section || 'this-week')}" class="highlight-item" data-id="${item.id}">
         <span class="highlight-date">${escapeHtml(item.eventDate || 'Featured')}</span>
         <span class="highlight-name">${escapeHtml(item.name)}</span>
         <span class="highlight-area">${escapeHtml(item.area)}</span>

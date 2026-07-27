@@ -1,7 +1,8 @@
 window.WF_CARD_IMAGES = {
   "act-roundwood": "https://upload.wikimedia.org/wikipedia/commons/3/32/Roundwood_Park.jpg",
   "act-gladstone": "https://gladstoneparkfriends.org/wp-content/uploads/2016/03/evening-light-on-trees.jpeg",
-  "act-mapesbury": "http://www.mapesbury-dell.org/s/cc_images/thumb_6487547.jpg"
+  "act-mapesbury": "http://www.mapesbury-dell.org/s/cc_images/thumb_6487547.jpg",
+  "indoor-willesden-library": "./assets/illustrations/library.svg"
 };
 
 window.WF_LOGOS = {
