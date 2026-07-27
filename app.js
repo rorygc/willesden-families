@@ -1625,6 +1625,8 @@ const DATA = {
       tags: ['rugby', 'juniors', 'active', 'team sport', 'Gladstone Park'],
       contact: 'https://kilburncosmos.co.uk/kilburn-cosmos-juniors-rugby/',
       linkLabel: 'Juniors info',
+      promoImage: './assets/kilburn-cosmos-rugby-instagram.webp',
+      promoAlt: 'Kilburn Cosmos juniors rugby photo from Instagram',
       lat: 51.5552723,
       lng: -0.229117,
       mapQuery: 'Gladstone Park, Anson Road, London NW2 6BH',
